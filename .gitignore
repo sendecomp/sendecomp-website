@@ -1,2 +1,8 @@
+# Ignore emacs temp files
+*~
+/#*
+.#*
+
+# Ignore Jekyll files
 _site/
 .sass-cache/
