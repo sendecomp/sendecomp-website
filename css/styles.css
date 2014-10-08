@@ -12,3 +12,11 @@ body {
   width: 100%;
   padding-bottom:10px;
 }
+
+.full-width-image {
+  background: url('../img/eebuilding.jpg') no-repeat center 35%;
+	background-size: 100%;
+	text-align: center;
+	padding: 75px 0;
+	height:500px;
+}
