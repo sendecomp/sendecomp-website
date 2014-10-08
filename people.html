@@ -1,0 +1,53 @@
+---
+layout: base
+title: People
+---
+
+<div class="row">
+  <div class="col-xs-12">
+    <h3>
+      Advisor(s)
+    </h3>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    {% for person in site.data.primary_investigators %}
+      {% include pi.html %}
+    {% endfor %}
+  </div>
+</div>
+<hr/>
+<div class="row">
+  <div class="col-xs-12">
+    <h3>
+      Member(s)
+    </h3>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <ul class="nav nav-pills nav-stacked col-md-2" style="margin-bottom:10px">
+      <li class="active"><a href="#active" data-toggle="pill">Active</a></li>
+      <li><a href="#alumni" data-toggle="pill">Alumni</a></li>
+    </ul>
+    <div class="tab-content col-md-10">
+      <div class="tab-pane active" id="active">
+        {% assign members = site.data.members | sort:"graduating"  %}
+        {% for person in members %}
+          {% if person.standing == "Active" %}
+            {% include member.html %}
+          {% endif %}
+        {% endfor %}
+      </div>
+      <div class="tab-pane" id="alumni">
+        {% assign membersDesc = site.data.members | sort:"descending" "graduating"  %}
+        {% for person in membersDesc %}
+          {% if person.standing == "Alumni" %}
+            {% include member.html %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
