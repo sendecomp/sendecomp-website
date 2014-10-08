@@ -1,0 +1,170 @@
+- name: "Quantitative Analysis of Cyber-Physical Systems: Reliability of the Smart Grid"
+  description: "The advanced electric power grid promises a self-healing infrastructure using distributed, coordinated, power electronics control. One promising power electronics device, the Flexible AC Transmission System (FACTS) device, can modify the power flow locally within a power grid. Embedded computers within the FACTS devices, along with the links connecting them, form a communication and control network that can dynamically change the advanced electric power grid to achieve higher dependability. The goal is to reroute power distribution in the event of transmission line failure. Such a system over a widespread area, is a cyber-physical system. The overall reliability of the advanced electric power grid is function of the respective reliabilities of its two major subsystems, namely, the FACTS network and the physical components that comprise the power grid.
+
+The objective of this project is to develop a quantitative model for the reliability of the advanced electric power grid, taking into account interdependencies among the cyber and physical components of the grid, while reflecting the effect of interdependent line failures."
+  area: "Critical Infrastructure"
+  status: "Active"
+  members:
+    - name: Mark Woodard
+      link:
+    - name: Koosha Marashi
+      link:
+    - name: Kamlesh Joshi
+      link:
+    - name: Andrea Miller
+      link:
+    - name: Dr. Ali Hurson
+      link:
+    - name: Dr. Bruce McMillin
+      link:
+    - name: Dr. Dale Fitch
+      link:
+  sponsors:
+    - name: Intelligent Systems Center
+      link:
+    - name: University Transportation Center
+      link:
+    - name: Department of Education
+      link:
+
+- name: "Agent-Based Analysis and Mitigation of Failure in Cyber-Physical Systems"
+  description: "Interdependencies among the cyber and physical components of a CPS significantly complicate the specification, modeling, and simulation of these systems, as it is difficult to represent both the cyber and the physical infrastructure in one integrated system. The interdependencies among the cyber and physical components and heterogeneity in the notion of “flow” invalidate and complicate traditional reliability models that assume components fail independently. We propose the use of agent-based modeling for qualitative representation of the operation of a CPS, as a precursor to quantitative modeling. Agent-based models can capture various facets of the operation of a CPS within a single agent, while reflecting the distributed nature of and interdependencies within the system through the use of multiple agents. Furthermore, such an abstraction facilitates failure mitigation through the use of software agents, which are autonomous and perceivably intelligent.
+
+The overarching objective of this project is to develop an understanding of failure propagation in CPSs, and to utilize the resulting insights to mitigate the effect of failures in cyber and/or physical components. Our focus is on critical infrastructure systems whose main function is the distribution of a tangible commodity, such as water or power. Physical components, e.g., valves, pipes, and reservoirs, of water distribution networks (WDNs), coupled with the hardware and software that support intelligent water allocation, comprise the model CPS that is used as a case study."
+  area: "Critical Infrastructure"
+  status: "Active"
+  members:
+    - name: Steve White
+      link:
+    - name: Dr. Ali Hurson
+      link:
+  sponsors:
+    - name: Intelligent Systems Center
+      link:
+    - name: University Transportation Center
+      link:
+    - name: Department of Education
+      link:
+
+- name: "The SmartBrick Wireless Sensor Platform for High-Resolution Structural Health Monitoring"
+  description: "This project encompasses the real-time monitoring, communications, and alerting capabilities of the Smart Brick, a low-cost, autonomous wireless device for structural health monitoring. It is a fully self-contained monitoring platform, requiring no additional on-site equipment to collect data and generate alerts. The Smart Brick has several sensors for monitoring temperature, water level, tilt, vibration, and acoustic emissions and can optionally be used with a digital camera, displacement sensors, load cells, strain gauges, or any number of other analog or digital sensors. It uses the widely-available GSM/GPRS network to send monitoring data and alerts to a number of users via FTP, SMS, and e-mail. Its rugged construction, completely wireless design, and extensive power-saving measures allow for a field life of 3-4 years powered only by alkaline batteries.
+
+This project is being currently developed into Standoff detection of IED emplacement using non-imaging wireless sensor networks. This project involves monitoring the environment for phenomena indicative of IED emplacement, using seismic, acoustic, magnetic, infrared, and RF sensors, among others. Expandable I/O and plug-and-play software support will allow for additional sensors to be integrated as needed. The advantage of these modalities over techniques based on imaging is their autonomy and significantly lower cost. Signal processing and data fusion will be employed for corroboration of data from multiple sensors, resulting in higher probability of detection. Communication capability allows for corroboration with offsite databases, and facilitates autonomous transmission of alerts.Hardware and software of the base system has been designed with the goal of ultra-low power consumption, which in conjunction with the harvesting of solar power, remote configuration and update, and physical robustness, allows long extended field life of the system."
+  area: "Critical Infrastructure"
+  status: "Active"
+  members:
+    - name: Arun Gunasekaran
+      link:
+    - name: Dr. Filippo Bastianini
+      link:
+  sponsors:
+    - name: US Army
+      link:
+    - name: US Department of Transportation
+      link:
+    - name: National University Transportation Center
+      link:
+    - name: Washington County Commission
+      link:
+    - name: EU FP7 program on Smart Monitoring of Historic Structures
+      link:
+
+- name: "Software-Based Analysis of the Immunity of Embedded Systems to ESD"
+  description: "Electrostatic discharge (ESD) can be a source of significant delay in the development of embedded systems, as ESD problems are typically discovered very late in the development cycle. Electromagnetic aspects of ESD are well-studied, and insight has been gained into the coupling paths and induced noise voltages. However, the reaction of a product to ESD is not fully characterized by noise voltages, and also requires that disruptions to the software behavior be captured. Combining knowledge of the electromagnetic effects of ESD with sound understanding of the behavior of embedded software will allow use of the software as an ESD analysis tool. The objective of this project is to investigate the role of software in analyzing and improving the electromagnetic immunity of embedded systems. The resulting insights can be used to issue guidelines to software developers, reducing the likelihood of future disruptions to the software by ESD. Our broader goal is to develop a science that will link the traditionally disparate fields of electromagnetic and software engineering, by leveraging the body of knowledge in each field."
+  area: "Critical Infrastructure"
+  status: "Active"
+  members:
+    - name: Pratik Maheshwari
+      link:
+    - name: Antonio Sabatini
+      link:
+    - name: Tianqi Li
+      link:
+    - name: Nathan Jarus
+      link:
+    - name: Dr. David Pommerenke
+      link:
+  sponsors:
+    - name: Samsung
+      link:
+    - name: NSF I/UCRC for Electromagnetic Compatibility
+      link:
+    - name: Electromagnetic Compatibility Laboratory
+      link:
+    - name: Intelligent Systems Center
+      link:
+
+- name: "Pervasive Cyberinfrastructure for Personalized eLearning and Instructional Support (PERCEPOLIS)"
+  description: "Advances in databases, distributed computing, computational intelligence, and especially pervasive computing, which allows non-intrusive and transparent “anytime, anywhere” access to information, provide fertile ground for radical changes in pedagogy. Recent studies of undergraduate engineering education have identified “linearity” of the dominant curricular model as fundamentally contradictory to the body of knowledge on how students learn. A networked model has been proposed, where the components form a cohesive and strongly interconnected whole, and learning in one area reinforces and supports learning in other areas. The objective of this project is to leverage technological advances, in particular in pervasive computing, to create a cyberinfrastructure that facilitates personalized learning in engineering education, while supporting a networked curricular model. We believe that such an infrastructure will accelerate the acquisition of knowledge and skills critical to professional engineering practice, while facilitating the study of how this acquisition comes about, yielding insights that may lead to significant changes in pedagogy."
+  area: "Personalized Education"
+  status: "Active"
+  members:
+    - name: Shaun Wagner
+      link:
+    - name: Dr. Ali Hurson
+      link:
+  sponsors:
+    - name: Intelligent Systems Center
+      link:
+
+- name: "Data Fusion For Spectroscopy-Based Detection"
+  description: "This project is aimed at implementing data fusion algorithms for detection in real-time systems. Raw data from chemo metric spectroscopy will be processed and analyzed and results will be fed to data fusion algorithms at various levels for final detection."
+  area: "Critical Infrastructure"
+  status: "Complete"
+  members:
+    - name: Pratik Shah
+      link:
+    - name: Abhijeet Singh
+      link:
+    - name: Dr. Sanjeev Agarwal
+      link:
+  sponsors:
+    - name: Alaka'i Consulting and Engineering, Inc.
+      link:
+
+- name: "A Network Infrastructure for Real-Time Monitoring of Campus Energy Consumption"
+  description: "The purpose of this project is to minimize the lighting energy consumption in the University of Missouri Rolla. The aim of the project is to devise and install a real-time monitoring system which will keep track of the amounts of energy being expended in our university buildings. A suitable network architecture is designed to interface the lighting energy monitoring system with the Building Automation system as well as the campus Ethernet Backbone network. This type of architecture provides a convenient method to the facility managers to regularly monitor the power related information
+
+The project facilitates a proper channel to estimate the correct amount of light energy savings that we will be having as part of the various lighting retrofits being done in the university buildings."
+  area: "CI"
+  status: "Complete"
+  members:
+    - name: Sandeep Kunchum
+      link:
+    - name: Mr. James Packard
+      link:
+    - name: Mr. Marvin Patton
+      link:
+  sponsors:
+    - name: Missouri S&T Physical Facilities Department
+      link:
+
+- name: "Embedded System Support for Canine Mine Detection"
+  description: "The objective of this project is the development of an embedded system for real-time tracking, recording and reporting of the location of mine detection dogs. The project is being carried out in collaboration with the US Geological Survey and the Engineer Canine Detachment of the Counter Explosive Hazard Center at Fort Leonard Wood. The research tasks include survey of related object tracking techniques, algorithm development for tracking the movements of the dog and its handler, and the design and development of an appropriate wireless network for communication of this data."
+  area: "Critical Infrastructure"
+  status: "Complete"
+  members:
+    - name: Tyler Harms
+      link:
+  students:
+    - name: Devin Simms
+      link:
+    - name: Josh Mueller
+      link:
+    - name: Heather Siscel
+      link:
+    - name: Bryan Shannon
+      link:
+
+- name: "A Hybrid Monitoring Network For Hydrological Environments"
+  description: "The objective of the project is to design and develop the next generation of research instrumentation for in situ hydrological monitoring of watersheds. More specifically, a system will be developed that autonomously measures various attributes of the watershed soil, including chemical composition, moisture, temperature, and resistivity. The measurements will be taken at several depths, and will be communicated to a processing server over the GSM cellular network."
+  area: "Critical Infrastructure"
+  status: "Complete"
+  members:
+    - name: Michael Wyatt
+      link:
+    - name: Dr. Estella Atekwana
+      link:
+  sponsors:
+    - name: University Transportation Center
+      link:
