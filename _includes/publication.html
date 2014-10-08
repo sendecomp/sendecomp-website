@@ -1,13 +1,16 @@
 <div class="media">
   <div class="media-body">
-    <h4 class="media-heading">{{ pub.citation }} </h4>
+    <h5 class="media-heading">
+      {{ pub.citation }}
+      {% if pub.fulltext %}
+          <a href="{{ pub.fulltext }}" target="_blank">Link</a>
+      {% endif %}
+    </h5>
     <p>
-        Year: {{ pub.year }} <br />
-        Status: {{ pub.status }} 
-        {% if pub.link %}
-            <br />
-            <a href="{{ pub.link }}" target="_blank">Link</a>
-        {% endif %}
+      <strong>Status:</strong> {{ pub.status }} <br>
+      {% if pub.awards %}
+          Awards: {{ pub.awards }} <br>
+      {% endif %}
     </p>
   </div>
 </div>
