@@ -1,0 +1,16 @@
+---
+layout: base
+title: Gallery
+---
+
+{% for i in (1..39) %}
+    {% if i-1 % 4 == 0 %}
+      <div class="row">
+    {% endif %}
+      <div class="col-sm-3" style="height:225px;">
+        <img class="img-responsive" src="{{ site.baseurl }}/img/pics/{{ i }}.JPG"></img>
+      </div>
+    {% if i-1 % 4 == 3 %}
+      </div>
+    {% endif %}
+{% endfor %}
