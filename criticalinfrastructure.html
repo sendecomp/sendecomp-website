@@ -1,0 +1,50 @@
+---
+layout: base
+title: Critical Infrastructure
+---
+
+<div class="row">
+  <div class="col-sm-10 col-xs-offset-1">
+    <ul class="nav nav-tabs nav-justified col-md-2" role="tablist" style="padding:0;">
+      <li class="active"><a href="#overview" data-toggle="pill">Overview</a></li>
+      <li><a href="#pubs" data-toggle="pill">Publications</a></li>
+      <li><a href="#projects" data-toggle="pill">Projects</a></li>
+      <li><a href="#labs" data-toggle="pill">Related Labs</a></li>
+      <li><a href="#venues" data-toggle="pill">Publication Venues</a></li>
+    </ul>
+    <div class="tab-content col-sm-12 well">
+      <div class="tab-pane active" id="overview">
+        <h3>Analysis, Modeling, and Assurance of Dependability for Critical Infrastructure Systems</h3>
+      </div>
+      <div class="tab-pane" id="pubs">
+        {% assign publications = site.data.publications | where:"area","Critical Infrastructure" %}
+        {% for pub in publications %}
+          {% include publication.html %}
+        {% endfor %}
+      </div>
+      <div class="tab-pane" id="projects">
+        <h3>Current Projects</h3>
+
+        {% for proj in site.data.projects | where:"area","Critical Infrastructure" %}
+          {% if proj.status == "Active" %}
+            {% include project.html %}
+          {% endif %}
+        {% endfor %}
+
+
+        <h3>Past Projects</h3>
+        {% for proj in site.data.projects | where:"area","Critical Infrastructure" %}
+          {% if proj.status == "Complete" %}
+            {% include project.html %}
+          {% endif %}
+        {% endfor %}
+      </div>
+      <div class="tab-pane" id="venues">
+
+      </div>
+      <div class="tab-pane" id="labs">
+
+      </div>
+    </div>
+  </div>
+</div>
