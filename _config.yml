@@ -2,8 +2,7 @@
 title: Missouri S&T SeNDeComp
 email: tjm6f4@mst.edu
 description: ""
-baseurl: "/~sendecomp"
-url: "http://web.mst.edu/~sendecomp"
+baseurl: ""
 encoding: ISO-8859-1
 
 # Build settings
