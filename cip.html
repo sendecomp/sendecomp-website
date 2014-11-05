@@ -16,12 +16,6 @@ title: Critical Infrastructure Protection
       <div class="tab-pane active" id="overview">
         <h3>Analysis, Modeling, and Assurance of Dependability for Critical Infrastructure Systems</h3>
       </div>
-      <div class="tab-pane" id="pubs">
-        {% assign publications = site.data.publications | where:"area","Critical Infrastructure" %}
-        {% for pub in publications %}
-          {% include publication.html %}
-        {% endfor %}
-      </div>
       <div class="tab-pane" id="projects">
         <h3>Current Projects</h3>
 
@@ -37,6 +31,12 @@ title: Critical Infrastructure Protection
           {% if proj.status == "Complete" %}
             {% include project.html %}
           {% endif %}
+        {% endfor %}
+      </div>
+      <div class="tab-pane" id="pubs">
+        {% assign publications = site.data.publications | where:"area","Critical Infrastructure" %}
+        {% for pub in publications %}
+          {% include publication.html %}
         {% endfor %}
       </div>
       <div class="tab-pane" id="venues">
