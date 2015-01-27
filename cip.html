@@ -14,35 +14,45 @@ title: Critical Infrastructure Protection
     </ul>
     <div class="tab-content col-sm-12 well">
       <div class="tab-pane active" id="overview">
-        <h3>Analysis, Modeling, and Assurance of Dependability for Critical Infrastructure Systems</h3>
+        <h3>Critical Infrastructure Protection</h3>
+        <small>Analysis, Modeling, and Assurance of Dependability for Critical Infrastructure Systems</small>
       </div>
+
       <div class="tab-pane" id="projects">
         <h3>Current Projects</h3>
-
-        {% for proj in site.data.projects | where:"area","Critical Infrastructure" %}
+        {% for proj in site.data.cip-projects %}
           {% if proj.status == "Active" %}
             {% include project.html %}
           {% endif %}
         {% endfor %}
 
         <h3>Past Projects</h3>
-        {% for proj in site.data.projects | where:"area","Critical Infrastructure" %}
+        {% for proj in site.data.cip-projects %}
           {% if proj.status == "Complete" %}
             {% include project.html %}
           {% endif %}
         {% endfor %}
       </div>
+
       <div class="tab-pane" id="pubs">
-        {% assign publications = site.data.publications | where:"area","Critical Infrastructure" %}
+        {% assign publications = site.data.cip-publications %}
         {% for pub in publications %}
           {% include publication.html %}
         {% endfor %}
       </div>
+
       <div class="tab-pane" id="venues">
-
+        {% assign venues = site.data.cip-venues %}
+        {% for venue in venues %}
+          {% include venue.html %}
+        {% endfor %}
       </div>
-      <div class="tab-pane" id="labs">
 
+      <div class="tab-pane" id="labs">
+        {% assign labs = site.data.cip-labs %}
+        {% for lab in labs %}
+          {% include lab.html %}
+        {% endfor %}
       </div>
     </div>
   </div>

@@ -1,0 +1,19 @@
+<div class="media">
+  <div class="media-body">
+    <h5 class="media-heading">
+      <a href="{{ venue.website }}" target="_blank">{{ venue.name }}</a>
+
+      <small>
+        {% if venue.type %}
+          {{ venue.type }}
+        {% endif %}
+        {% if venue.location %}
+          {% if venue.type %}
+            |
+          {% endif %}
+          {{ venue.location }}
+        {% endif %}
+      </small>
+    </h5>
+  </div>
+</div>

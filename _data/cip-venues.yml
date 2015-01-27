@@ -1,0 +1,9 @@
+- name: "International Workshop on Reliable Networks Design and Modeling (RNDM)"
+  website: "http://www.rndm.pl"
+  location: "Munich, Germany"
+  type: Conference
+
+- name: "International Symposium on Reliable Distributed Systems (IEEE SRDS)"
+  website: "http://srds2015.cs.mcgill.ca/"
+  location: "Montreal, Canada"
+  type: Conference

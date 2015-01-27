@@ -1,0 +1,9 @@
+- name: "IEEE International Conference on Pervasive Computing and Communications (PerCom)"
+  website: "http://www.percom.org"
+  location: "St. Louis, MO"
+  type: Conference
+
+- name: "IGI Global"
+  website: "http://www.igi-global.com"
+  location: 
+  type: Publisher
