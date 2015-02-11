@@ -1,3 +1,23 @@
+- name: "IEEE Transactions on Reliability"
+  website: "http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=24"
+  location:
+  type: Journal
+
+- name: "IEEE Transactions on Parallel and Distributed Systems"
+  website: "http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=71"
+  location:
+  type: Journal
+  
+- name: "Reliability Engineering & System Safety"
+  website: "http://www.journals.elsevier.com/reliability-engineering-and-system-safety/"
+  location:
+  type: Journal
+  
+- name: "International Journal on Critical Infrastructure Protection"
+  website: "http://www.journals.elsevier.com/international-journal-of-critical-infrastructure-protection/"
+  location:
+  type: Journal
+  
 - name: "International Workshop on Reliable Networks Design and Modeling (RNDM)"
   website: "http://www.rndm.pl"
   location: "Munich, Germany"
@@ -32,23 +52,3 @@
   website: "http://paris.utdallas.edu/qrs15/"
   location: "Vancouver, Canada"
   type: Conference
-
-- name: "IEEE Transactions on Reliability"
-  website: "http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=24"
-  location:
-  type: Journal
-
-- name: "IEEE Transactions on Parallel and Distributed Systems"
-  website: "http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=71"
-  location:
-  type: Journal
-  
-- name: "Reliability Engineering & System Safety"
-  website: "http://www.journals.elsevier.com/reliability-engineering-and-system-safety/"
-  location:
-  type: Journal
-  
-- name: "International Journal on Critical Infrastructure Protection"
-  website: "http://www.journals.elsevier.com/international-journal-of-critical-infrastructure-protection/"
-  location:
-  type: Journal
