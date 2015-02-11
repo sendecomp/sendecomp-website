@@ -7,3 +7,48 @@
   website: "http://srds2015.cs.mcgill.ca/"
   location: "Montreal, Canada"
   type: Conference
+
+- name: "International Computers, Software & Applications Conference (COMPSAC)"
+  website: "http://www.computer.org/web/compsac"
+  location: "Taichung, Taiwan"
+  type: Conference
+
+- name: "International Conference on Computer Safety, Reliability, and Security (SAFECOMP)"
+  website: "http://safecomp2015.tudelft.nl/"
+  location: "Delft, The Netherlands"
+  type: Conference
+
+- name: "International Symposium on High Assurance Systems Engineering  (HASE)"
+  website: "http://www.hase2015.org/"
+  location: "Daytona Beach, Florida, USA"
+  type: Conference
+
+- name: "CPS Week (Consists HSCC, ICCPS, IPSN, and RTAS)"
+  website: "http://www.cpsweek.org/2015/"
+  location: "Seattle, Whashington, USA"
+  type: Conference
+
+- name: "QRS (Combination of SERE and QSIC)"
+  website: "http://paris.utdallas.edu/qrs15/"
+  location: "Vancouver, Canada"
+  type: Conference
+
+- name: "IEEE Transactions on Reliability"
+  website: "http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=24"
+  location:
+  type: Journal
+
+- name: "IEEE Transactions on Parallel and Distributed Systems"
+  website: "http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=71"
+  location:
+  type: Journal
+  
+- name: "Reliability Engineering & System Safety"
+  website: "http://www.journals.elsevier.com/reliability-engineering-and-system-safety/"
+  location:
+  type: Journal
+  
+- name: "International Journal on Critical Infrastructure Protection"
+  website: "http://www.journals.elsevier.com/international-journal-of-critical-infrastructure-protection/"
+  location:
+  type: Journal
