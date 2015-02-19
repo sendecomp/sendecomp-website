@@ -1,0 +1,16 @@
+<div class="media">
+  <div class="media-body">
+    <h5 class="media-heading">
+      <strong>{{ award.name }}</strong>
+      {% if award.year %}
+      <small>{{ award.year }}</small>
+      {% endif %}
+    </h5>
+    <p>
+      <strong>Recipients: </strong> <br/>
+      {% for person in award.people %}
+        {{ person.name }} <br/>
+      {% endfor %}
+    </p>
+  </div>
+</div>

@@ -1,0 +1,41 @@
+---
+layout: base
+title: Awards
+---
+
+<div class="row">
+  <div class="col-xs-8 col-xs-offset-2">
+    <ul class="nav nav-tabs nav-justified col-md-2" role="tablist" style="padding:0;">
+      <li class="active"><a href="#graduate" data-toggle="pill">Graduate</a></li>
+      <li><a href="#undergrad" data-toggle="pill">Undergraduate</a></li>
+      <li><a href="#paper" data-toggle="pill">Best Papers</a></li>
+      <li><a href="#travel" data-toggle="pill">Travel</a></li>
+    </ul>
+    <div class="tab-content col-sm-12 well">
+      <div class="tab-pane active" id="graduate">
+        {% assign awardsDesc = site.data.awards-grad | sort:"descending" "year" %}
+        {% for award in awardsDesc %}
+          {% include award.html %}
+        {% endfor %}
+      </div>
+      <div class="tab-pane" id="undergrad">
+        {% assign awardsDesc = site.data.awards-undergrad | sort:"descending" "year" %}
+        {% for award in awardsDesc %}
+          {% include award.html %}
+        {% endfor %}
+      </div>
+      <div class="tab-pane" id="paper">
+        {% assign awardsDesc = site.data.awards-best-paper | sort:"descending" "year" %}
+        {% for award in awardsDesc %}
+          {% include award.html %}
+        {% endfor %}
+      </div>
+      <div class="tab-pane" id="travel">
+        {% assign awardsDesc = site.data.awards-travel | sort:"descending" "year" %}
+        {% for award in awardsDesc %}
+          {% include award.html %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
