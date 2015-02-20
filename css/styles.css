@@ -4,7 +4,7 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 60px;
+  margin-bottom: 100px;
 }
 .footer {
   position: absolute;
@@ -33,4 +33,10 @@ body {
 
 .media-left, .media>.pull-left {
     padding-right: 4px;
+}
+
+.galleria {
+  /*width: 700px;*/
+  height: 400px;
+  background: #000
 }
