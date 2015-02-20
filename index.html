@@ -26,9 +26,9 @@ title: Missouri S&amp;T SeNDeComp
 	</div>
 </div>
 </div>
-<div class="container" id="gallery">
+<div class="container">
   <div class="row hidden-xs">
-    <div class="col-sm-12">
+    <div class="col-sm-12" id="gallery" style="display: none;">
       <h4>Photos of our group</h4>
       <div class="galleria">
         {% assign picsDesc = site.data.gallery | sort:"descending" "year" %}
@@ -43,6 +43,7 @@ title: Missouri S&amp;T SeNDeComp
 </div>
 
 <script>
+$('#gallery').show();
   <!-- Initialize the gallery plugin -->
   Galleria.loadTheme('{{ site.basurl }}scripts/galleria/themes/classic/galleria.classic.min.js');
   Galleria.run('.galleria');
