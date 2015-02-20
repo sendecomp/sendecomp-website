@@ -13,7 +13,7 @@ title: Personalized Learning
     </ul>
     <div class="tab-content col-sm-12 well">
       <div class="tab-pane active" id="pubs">
-        {% assign publications = site.data.pe-publications %}
+        {% assign publications = site.data.per-publications %}
         {% for pub in publications %}
           {% include publication.html %}
         {% endfor %}
@@ -21,14 +21,14 @@ title: Personalized Learning
 
       <div class="tab-pane" id="projects">
         <h3>Current Projects</h3>
-        {% for proj in site.data.pe-projects %}
+        {% for proj in site.data.per-projects %}
           {% if proj.status == "Active" %}
             {% include project.html %}
           {% endif %}
         {% endfor %}
 
         <h3>Past Projects</h3>
-        {% for proj in site.data.pe-projects %}
+        {% for proj in site.data.per-projects %}
           {% if proj.status == "Complete" %}
             {% include project.html %}
           {% endif %}
@@ -36,14 +36,14 @@ title: Personalized Learning
       </div>
 
       <div class="tab-pane" id="labs">
-        {% assign labs = site.data.pe-labs %}
+        {% assign labs = site.data.per-labs %}
         {% for lab in labs %}
           {% include lab.html %}
         {% endfor %}
       </div>
 
       <div class="tab-pane" id="venues">
-        {% assign venues = site.data.pe-venues %}
+        {% assign venues = site.data.per-venues %}
         {% for venue in venues %}
           {% include venue.html %}
         {% endfor %}
