@@ -5,24 +5,24 @@ title: People
 
 <div class="row">
   <div class="col-xs-8 col-xs-offset-2">
-    <h3>
-      Advisor
-    </h3>
+    <h3>Advisor</h3>
   </div>
 </div>
 <div class="row">
-  <div class="col-xs-8 col-xs-offset-2">
-    {% for person in site.data.primary-investigators %}
-      {% include pi.html %}
-    {% endfor %}
+  <div class="col-xs-8 col-xs-offset-2 well">
+    <ul class="list-group">
+      {% for person in site.data.primary-investigators %}
+        <li class="list-group-item">
+          {% include pi.html %}
+        </li>
+      {% endfor %}
+    </ul>
   </div>
 </div>
 <div class="row">
   <div class="col-xs-8 col-xs-offset-2">
     <hr/>
-    <h3>
-      Members
-    </h3>
+    <h3>Members</h3>
   </div>
 </div>
 <div class="row" style="margin-bottom: 30px;">
@@ -33,20 +33,28 @@ title: People
     </ul>
     <div class="tab-content col-sm-12 well">
       <div class="tab-pane active" id="active">
-        {% assign members = site.data.members | sort:"graduating"  %}
-        {% for person in members %}
-          {% if person.standing == "Active" %}
-            {% include member.html %}
-          {% endif %}
-        {% endfor %}
+        {% assign membersDesc = site.data.members |  sort:"graduating" %}
+        <ul class="list-group">
+          {% for person in membersDesc %}
+            {% if person.standing == "Active" %}
+              <li class="list-group-item">
+                {% include member.html %}
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
       </div>
       <div class="tab-pane" id="alumni">
-        {% assign membersDesc = site.data.members | sort:"descending" "graduating"  %}
-        {% for person in membersDesc %}
-          {% if person.standing == "Alumni" %}
-            {% include member.html %}
-          {% endif %}
-        {% endfor %}
+        {% assign membersDesc = site.data.members | sort:"descending" "graduating" %}
+        <ul class="list-group">
+          {% for person in membersDesc %}
+            {% if person.standing == "Alumni" %}
+              <li class="list-group-item">
+                {% include member.html %}
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
       </div>
     </div>
   </div>
