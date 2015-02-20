@@ -2,14 +2,14 @@
   <div class="media-body">
     <h6 class="media-heading">
       {{ pub.citation }}
-      {% if pub.fulltext %}
-          <a class="btn btn-sm btn-success" href="{{ pub.fulltext }}" target="_blank" style="padding: 0px 10px">link</a>
-      {% endif %}
     </h6>
     <p>
-      <strong>Status:</strong> {{ pub.status }} <br>
+      <strong>Status:</strong> {{ pub.status }} <br/>
+      {% if pub.fulltext %}
+          <a class="" href="{{ pub.fulltext }}" target="_blank">Link</a> <br/>
+      {% endif %}
       {% if pub.awards %}
-          Awards: {{ pub.awards }} <br>
+          Awards: {{ pub.awards }} <br/>
       {% endif %}
     </p>
   </div>
