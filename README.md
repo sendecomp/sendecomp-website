@@ -5,7 +5,7 @@ This website uses (Jekyll)[http://jekyllrb.com/], which is a software tool for g
 Data files regarding research-specific information will begin with some acronym (usually three letters).
 Currently, there are two: CIP (Critical Infrastructure Protection) and PER (Pervasive Computing).
 
-Modifying the files can be done easily from Github (this website) by clicking on the file and then clicking the little pencil in the upper right-hand corner of the box displaying the file contents.
+Modifying the files can be done easily from GitHub (this website) by clicking on the file and then clicking the little pencil in the upper right-hand corner of the box displaying the file contents.
 
 #### Data File Content Information
 ###### *-labs.yml
@@ -43,6 +43,6 @@ Modifying the files can be done easily from Github (this website) by clicking on
 
 **Notes:**
   - Wrap all values in quotation marks
-  - Images can not be added from Github; it must be done locally and then synced with Github - ask if you need help
+  - Images can not be added from GitHub; it must be done locally and then synced with GitHub - ask if you need help
 
 \* CIP or PER
