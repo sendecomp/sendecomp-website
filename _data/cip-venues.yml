@@ -52,3 +52,20 @@
   website: "http://paris.utdallas.edu/qrs15/"
   location: "Vancouver, Canada"
   type: Conference
+
+- name: "IFIP International Symposium on Computer Performance, Modeling, Measurements and Evaluation"
+  website: "http://performance15.conference.nicta.com.au/"
+  type: Conference
+  
+- name: "IFIP International Conference on Network and Parallel Computing"
+  website: "http://npc15.cs.umass.edu/"
+  type: Conference
+  
+- name: "ACM SIGMETRICS"
+  website: "http://www.sigmetrics.org/"
+  type: Conference
+  
+- name: "CRITIS: International Conference on Critical Information Infrastructures Security"
+  website: "http://www.critis2015.org/"
+  type: Conference
+  
