@@ -1,11 +1,11 @@
 <div class="media">
   <div class="media-body">
-    <h5 class="media-heading">
+    <h6 class="media-heading">
       {{ pub.citation }}
       {% if pub.fulltext %}
-          <a href="{{ pub.fulltext }}" target="_blank">Link</a>
+          <a class="btn btn-sm btn-success" href="{{ pub.fulltext }}" target="_blank" style="padding: 0px 10px">link</a>
       {% endif %}
-    </h5>
+    </h6>
     <p>
       <strong>Status:</strong> {{ pub.status }} <br>
       {% if pub.awards %}

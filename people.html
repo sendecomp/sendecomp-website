@@ -4,12 +4,12 @@ title: People
 ---
 
 <div class="row">
-  <div class="col-xs-8 col-xs-offset-2">
-    <h3>Advisor</h3>
+  <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+    <h4>Advisor</h4>
   </div>
 </div>
 <div class="row">
-  <div class="col-xs-8 col-xs-offset-2 well">
+  <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 well">
     <ul class="list-group">
       {% for person in site.data.primary-investigators %}
         <li class="list-group-item">
@@ -20,18 +20,17 @@ title: People
   </div>
 </div>
 <div class="row">
-  <div class="col-xs-8 col-xs-offset-2">
-    <hr/>
-    <h3>Members</h3>
+  <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+    <h4>Members</h4>
   </div>
 </div>
 <div class="row" style="margin-bottom: 30px;">
-  <div class="col-xs-8 col-xs-offset-2">
+  <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
     <ul class="nav nav-tabs nav-justified col-md-2" role="tablist" style="padding:0;">
       <li class="active"><a href="#active" data-toggle="pill">Active</a></li>
       <li><a href="#alumni" data-toggle="pill">Alumni</a></li>
     </ul>
-    <div class="tab-content col-sm-12 well">
+    <div class="tab-content col-xs-12 well">
       <div class="tab-pane active" id="active">
         {% assign membersDesc = site.data.members |  sort:"graduating" %}
         <ul class="list-group">
