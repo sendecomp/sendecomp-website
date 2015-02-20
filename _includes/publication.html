@@ -4,12 +4,19 @@
       {{ pub.citation }}
     </h6>
     <p>
-      <strong>Status:</strong> {{ pub.status }} <br/>
-      {% if pub.fulltext %}
-          <a class="" href="{{ pub.fulltext }}" target="_blank">Link</a> <br/>
+      <strong>Status:</strong>
+      {% if pub.status == "Published" %}
+        {% if pub.fulltext %}
+          <a class="" href="{{ pub.fulltext }}" target="_blank">{{ pub.status }}</a>
+        {% else %}
+          {{ pub.status }}
+        {% endif %}
+      {% else %}
+        {{ pub.status }}
       {% endif %}
+      <br/>
       {% if pub.awards %}
-          Awards: {{ pub.awards }} <br/>
+        <strong>Awards:</strong> {{ pub.awards }} <br/>
       {% endif %}
     </p>
   </div>

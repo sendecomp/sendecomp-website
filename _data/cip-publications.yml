@@ -12,19 +12,19 @@
 
 - citation: "M. Woodard and S. Sedigh, Modeling of Autonomous Vehicle Operation in Intelligent Transportation Systems, In Proc. of the 5th Int'l Workshop on Software Engineering for Resilient Systems (SERENE '13), Oct. 2013, Kiev, Ukraine, pp. 133-140."
   year: 2013
-  status:
+  status: "Published"
   awards:
   fulltext: "http://link.springer.com/chapter/10.1007%2F978-3-642-40894-6_11"
 
 - citation: "A. Faza, S. Sedigh, and B. McMillin. An integrated cyber-physical reliability model for the smart grid. Reliability Engineering System Safety."
   year: 2012?
-  status: Submitted
+  status: "Submitted"
   awards:
   fulltext:
 
 - citation: "A. Faza, S. Sedigh, and B. McMillin. A Case Study in Quantitative Analysis of Cyber-Physical Systems: Reliability of the Smart Grid. Int'l. IEEE Transaction on Reliability."
   year: 2012?
-  status: Submitted
+  status: "Submitted"
   awards:
   fulltext:
 
@@ -36,96 +36,96 @@
 
 - citation: "J. Lin, S. Sedigh and A. Hurson, Ontologies and Decision Support for Failure Mitigation in  Intelligent Water Distribution Networks, Hawaii Int'l. Conf. on System Sciences (HICSS 2011),Grand Wailea, Maui, Hawaii, Jan. 2012."
   year: 2012
-  status:
+  status: "Published"
   awards:
   fulltext: "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6149031"
 
 - citation: "J. Lin, S. Sedigh, and A. Hurson, An Agent-Based Approach to Reconciling Data Heterogeneity in Cyber-Physical Systems, 20th International Heterogeneity in Computing Workshop in conjunction with 25th IEEE International Parallel & Distributed Processing Symposium, May 2011, Anchorage (Alaska), USA."
   year: 2011
-  status:
+  status: "Published"
   awards:
   fulltext: "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6008824"
 
 - citation: "E. Jean, S. Sedigh, A. R. Hurson, and B. Shirazi, Tools and techniques for interoperability and dynamic reconfiguration of pervasive systems. In M. Denko and M. S. Obaidat, editors, Pervasive Computing and Networking. John Wiley & Sons, 2011."
   year: 2011
-  status:
+  status: "Published"
   awards:
   fulltext: "http://onlinelibrary.wiley.com/doi/10.1002/9781119970422.ch2/summary"
 
 - citation: "E. Jean, I. Rauschert, R. Collins, S. Sedigh, A. Hurson, and C. Jiao. RISN: An efficient sensor network overlay with support for autonomous and distributed applications. International Journal of Communications, Network and System Sciences, Vol. 4, No. 1, pp. 1-16, Jan. 2011."
   year: 2011
-  status:
+  status: "Published"
   awards:
   fulltext: "http://www.scirp.org/Journal/PaperInformation.aspx?paperID=3690"
 
 - citation: "J. Lin, S. Sedigh, and A. Miller. Integrated cyber-physical simulation of intelligent water distribution networks. In Matlab. InTech, 2011."
   year: 2011
-  status:
+  status: "Published"
   awards:
   fulltext: "http://www.intechopen.com/books/scientific-and-engineering-applications-using-matlab/integrated-cyber-physical-simulation-of-intelligent-water-distribution-networks"
 
 - citation: "J. Lin and S. Sedigh, Reliability Modeling for Intelligent Water Distribution Networks, International Journal of Performability Engineering, Special issue on Performance and Dependability Modeling of Dynamic Systems, 2011."
   year: 2011
-  status:
+  status: "Published"
   awards:
   fulltext: "http://www.ijpe-online.com/september-2011-p6-reliability-modeling-for-intelligent-water-distribution-networks.html#axzz24xocCBre"
 
 - citation: "J. Lin, S. Sedigh, and A. Miller. A Game-Theoretic Approach to Decision Support for Intelligent Water Distribution, Hawaii Int'l. Conf. on System Sciences (HICSS 2011), Kauai, HI, Jan. 2011."
   year: 2011
-  status:
+  status: "Published"
   awards:
   fulltext: "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5718552"
 
 - citation: "J. Lin, S. Sedigh, and A. Miller. Semantic Agents in Cyber-physical Systems: A Case Study on Intelligent Water Distribution, In A. Elci, M. T. Kone, and M. A. Orgun, editors, Semantic Agent Systems: Foundations and Applications. Springer-Verlag."
   year: 2011?
-  status:
+  status: "Published"
   awards:
   fulltext:
 
 - citation: "A. Faza, S. Sedigh, and B. McMillin, Integrated Cyber-Physical Fault Injection for Reliability Analysis of the Smart Grid, In Proc. of the Int’l Conf. on Computer Safety, Reliability and Security (SAFECOMP ’10), Sept. 2010, Vienna, Austria, pp. 277-290."
   year: 2010
-  status:
+  status: "Published"
   awards:
   fulltext: "http://www.springerlink.com/content/591qu872307886x7/"
 
 - citation: "J. Lin, S. Sedigh, and A. Miller. Modeling Cyber-Physical Systems with Semantic Agents. The 5th IEEE Workshop on Engineering Semantic Agent Systems (ESAS 2010) in conjunction with Proc. of the 34th IEEE Int'l. Computer Software and Applications Conf. (COMPSAC '10), Seoul, South Korea, July 2010, page 13-18."
   year: 2010
-  status:
+  status: "Published"
   awards:
   fulltext: "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5614900"
 
 - citation: "J. Lin, S. Sedigh, and A. Miller. Towards Integrated Simulation of Cyber-physical Systems: A Case Study on Intelligent Water Distribution, In Proc. of the 8th IEEE Int'l. Conf. on Pervasive Intelligence and Computing (PICom '09), Chengdu, China, Dec. 2009, pp. 690-695."
   year: 2009
-  status:
+  status: "Published"
   awards:
   fulltext: "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5380619"
 
 - citation: "A. Faza, S. Sedigh, and B. McMillin. Reliability analysis for the advanced electric power grid: from cyber control and communication to physical manifestations of failure. In Proc. of the 28th Int'l. Conf. on Computer Safety, Reliability and Security (SAFECOMP '09), Sept. 2009, Hamburg, Germany, pp. 257-269. RECIPIENT OF BEST PAPER AWARD."
   year: 2009
-  status:
+  status: "Published"
   awards: Recipient of Best Paper Award
   fulltext: "http://www.springerlink.com/content/ujl434121u12j302/"
 
 - citation: "A. Faza, S. Sedigh, and B. McMillin, Reliability Modeling for the Advanced Electric Power Grid: A Proposal for Doctoral Research. In Proc. of the 33rd Int'l. Computer Software and Applications Conf. (COMPSAC09), July 2009, Seattle, WA, pp. 672-675"
   year: 2009
-  status:
+  status: "Published"
   awards:
   fulltext: "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5254186"
 
 - citation: "J. Lin, S. Sedigh, and A. Miller, A General Framework for Quantitative Modeling of Dependability in Cyber-Physical systems: A Proposal for Doctoral Research, In Proc. of the IEEE Int'l. Computer Software and Applications Conf. (COMPSAC 2009) ,Seattle, US, July 2009, page 668-671."
   year: 2009
-  status:
+  status: "Published"
   awards:
   fulltext: "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5254189"
 
 - citation: "A. Faza, S. Sedigh, and B. McMillin. The Advanced Electric Power Grid: Reliability Modeling and Complexity Reduction Techniques. In Proc. of the 27th Int'l. Conf. on Computer Safety, Reliability and Security (SAFECOMP '08), September 2008, Newcastle, UK, pp. 429-439."
   year: 2008
-  status:
+  status: "Published"
   awards:
   fulltext: "http://www.springerlink.com/content/36h96pnt31465613/"
 
 - citation: "A. Faza, S. Sedigh, and B. McMillin. Reliability modeling for the advanced electric power grid. In Proc. of the 26th Int'l. Conf. on Computer Safety, Reliability and Security (SAFECOMP '07), September 2007, Nuremberg, Germany, pp. 370-383."
   year: 2007
-  status:
+  status: "Published"
   awards:
   fulltext: "http://www.springerlink.com/content/65800v6703g37jkn/"
