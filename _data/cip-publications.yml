@@ -18,13 +18,13 @@
 
 - citation: "A. Faza, S. Sedigh, and B. McMillin. An integrated cyber-physical reliability model for the smart grid. Reliability Engineering System Safety."
   year: 2012?
-  status: "Submitted"
+  status: "Under Review"
   awards:
   fulltext:
 
 - citation: "A. Faza, S. Sedigh, and B. McMillin. A Case Study in Quantitative Analysis of Cyber-Physical Systems: Reliability of the Smart Grid. Int'l. IEEE Transaction on Reliability."
   year: 2012?
-  status: "Submitted"
+  status: "Under Review"
   awards:
   fulltext:
 
@@ -80,7 +80,7 @@
   year: 2011?
   status: "Published"
   awards:
-  fulltext:
+  fulltext: "http://dl.acm.org/citation.cfm?id=1909424"
 
 - citation: "A. Faza, S. Sedigh, and B. McMillin, Integrated Cyber-Physical Fault Injection for Reliability Analysis of the Smart Grid, In Proc. of the Int’l Conf. on Computer Safety, Reliability and Security (SAFECOMP ’10), Sept. 2010, Vienna, Austria, pp. 277-290."
   year: 2010
