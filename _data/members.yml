@@ -1,15 +1,15 @@
 - name: Mona Alluwaym
   degree: Computer Science (MS)
   standing: Active
-  graduating: 2015 Dec
-  focus: 
+  graduating: 2015 December
+  focus: Analysis and Modeling of Cyber-Physical Systems
   website: http://web.mst.edu/~man96/
   photo: 
   
 - name: Isam Alobaidi
   degree: Computer Science (MS)
   standing: Active
-  graduating: 2015 Dec
+  graduating: 2015 December
   focus: Analysis and Modeling of Cyber-Physical Systems
   website: http://web.mst.edu/~iaahgb/
   photo: /img/Alobaidi.jpg 
@@ -105,7 +105,7 @@
 - name: Arun Gunasekaran
   degree: Computer Engineering (MS)
   standing: Alumni
-  graduating: 2012 (December)
+  graduating: 2012 December
   focus:  Increasing Interoperability and Coverage of Automated Monitoring and Detection Systems
   website:
   photo: /img/Arun.jpg
@@ -183,7 +183,7 @@
   photo: /img/Ponzer.jpg
 
 - name: Tyler Harms
-  degree: Computer Engineering (MS) - Chancellor's Fellow
+  degree: "Computer Engineering (MS) - Chancellor's Fellow"
   standing: Alumni
   graduating: 2009 May
   focus: Wireless Sensor Networks for Structural Health Monitoring
@@ -203,7 +203,7 @@
   standing: Alumni
   graduating: 2007 December
   focus: Embedded System Support for Canine Mine Detection
-  website: http://web.mst.edu/~/
+  website: 
   photo: /img/Grither.jpg
 
 - name: Sandeep Kunchum
@@ -223,7 +223,7 @@
   photo: /img/Plessi.jpg
 
 - name: Thomas Freiberger
-  degree: Computer Engineering (MS) - Chancellor's Fellow
+  degree: "Computer Engineering (MS) - Chancellor's Fellow"
   standing: Alumni
   graduating: 2007 May
   focus: Hybrid Sensor Networks for Hydrological Monitoring
