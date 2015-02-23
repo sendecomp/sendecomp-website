@@ -3,10 +3,13 @@ layout: home
 title: Missouri S&amp;T SeNDeComp
 ---
 
-<div class="row" style="margin: 25px 0px;">
+<div class="row" style="margin: 25px 0px;" id="contacts">
   <div class="col-sm-4 col-md-3">
-    <h4>Primary Contact</h3>
-    <h6 class="">Dr. Sahra Sedigh <small><a href="mailto:sedighs@mst.edu">sedighs@mst.edu</a></small></h4>
+    <h4>Primary Contact</h4>
+    <h6>
+      Dr. Sahra Sedigh Sarvestani <br/>
+      <a href="mailto:sedighs@mst.edu">sedighs@mst.edu</a>
+    </h6>
     <p>
       135 Emerson Electric Co. Hall<br>
       301 W. 16<sup>th</sup> Street<br>
@@ -26,18 +29,16 @@ title: Missouri S&amp;T SeNDeComp
 	</div>
 </div>
 </div>
-<div class="container">
-  <div class="row hidden"> <!-- Change 'hidden' to 'hidden-xs' when we get new photos added. -->
-    <div class="col-sm-12" id="gallery" style="display: none;">
-      <h4>Photos of our group</h4>
-      <div class="galleria">
-        {% assign picsDesc = site.data.gallery | sort:"descending" "year" %}
-        {% for file in picsDesc %}
-          {% if file.name %}
-            <img src="{{site.basurl}}/img/pics/{{file.name}}">
-          {% endif %}
-        {% endfor %}
-      </div>
+<div class="row hidden"> <!-- Change 'hidden' to 'hidden-xs' when we get new photos added. -->
+  <div class="col-sm-12" id="gallery" style="display: none;">
+    <h4>Photos of our group</h4>
+    <div class="galleria">
+      {% assign picsDesc = site.data.gallery | sort:"descending" "year" %}
+      {% for file in picsDesc %}
+        {% if file.name %}
+          <img src="{{site.basurl}}/img/pics/{{file.name}}">
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
 </div>
