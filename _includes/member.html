@@ -27,15 +27,21 @@
       {% endif %}
     </h5>
     <p>
+      {% if person.focus %}
         <strong>Focus:</strong>
         {{ person.focus }}<br/>
-        {% if person.status == "Active" %}
-          <strong>Graduating:</strong>
-          {{ person.grad }}<br/>
-      	{% else %}
-          <strong>Graduated:</strong>
-          {{ person.grad }}<br/>
-        {% endif %}
+      {% endif %}
+      {% if person.status == "Active" %}
+        <strong>Graduating:</strong>
+        {{ person.grad }}<br/>
+    	{% else %}
+        <strong>Graduated:</strong>
+        {{ person.grad }}<br/>
+      {% endif %}
+      {% if person.emp %}
+        <strong>First Employed By:</strong>
+        {{ person.emp }}<br/>
+      {% endif %}
     </p>
   </div>
 </div>

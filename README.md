@@ -48,6 +48,7 @@ Modifying the files can be done easily from GitHub (this website) by clicking on
 -	standing `required`: `Active` or `Alumni`
 -	graduating `required`: year then month (fully spelled out), ex. `2015 December`
 -	focus `required`: research emphasis, ex. `"Analysis and Modeling of Cyber-Physical Systems"`
+-	emp `optional`: If known, add the employer to which the member was first hired after graduating (Alumni only), otherwise leave blank
 -	website `required`: full link to their personal website, ex. `http://web.mst.edu/~sedighs`
 -	photo `required`: name of file in `/img` directory for their photo, ex. `Sedigh.jpg` (please name profile pictures using the person's last name)
 

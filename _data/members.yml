@@ -1,24 +1,27 @@
 - name: Mona Alluwaym
   degree: Computer Science (MS)
   status: Active
-  grad: 2016 May
+  grad: "2016 May"
   focus: Analysis and Modeling of Cyber-Physical Systems
+  emp:
   website: http://web.mst.edu/~man96/
   photo: /img/Alluwaym.jpg
 
 - name: Isam Alobaidi
   degree: Computer Science (MS)
   status: Active
-  grad: 2015 December
+  grad: "2015 December"
   focus: Analysis and Modeling of Cyber-Physical Systems
+  emp:
   website: http://web.mst.edu/~iaahgb/
   photo: /img/Alobaidi.jpg
 
-- name: Ty Morrow
+- name: Tyler Morrow
   degree: Computer Science (PhD) - GAANN Fellow
   status: Active
-  grad: 2019 May
+  grad: "2019 May"
   focus: Cyberinfrastructure for Personalized Learning
+  emp:
   website: http://web.mst.edu/~tjm6f4/
   photo: /img/Morrow.png
 
@@ -27,6 +30,7 @@
   status: Active
   grad: 2019 May
   focus: Analysis and Modeling of Cyber-Physical Systems
+  emp:
   website: http://web.mst.edu/~mhaf35/
   photo: /img/Ataei.jpg
 
@@ -35,6 +39,7 @@
   status: Active
   grad: 2018 December
   focus: Analysis and Modeling of Cyber-Physical Systems
+  emp:
   website: http://web.mst.edu/~nmjxv3/
   photo: /img/Jarus.png
 
@@ -43,6 +48,7 @@
   status: Active
   grad: 2017 May
   focus: Analysis and Modeling of Cyber-Physical Systems
+  emp:
   website: http://web.mst.edu/~mjw6y7/
   photo: /img/Woodard.jpg
 
@@ -51,6 +57,7 @@
   status: Active
   grad: 2017 May
   focus: Traffic Prediction and Distributed Computing
+  emp:
   website: http://web.mst.edu/~mwwcp2/
   photo: /img/Wisely.jpg
 
@@ -59,6 +66,7 @@
   status: Active
   grad: 2017 May
   focus: Analysis and Modeling of Cyber-Physical Systems
+  emp:
   website: http://web.mst.edu/~km89f/
   photo: /img/Marashi.jpg
 
@@ -67,6 +75,7 @@
   status: Alumni
   grad: 2014 August
   focus: Software-Based Analysis and Improvement of Electromagnetic Immunity
+  emp: "Apple"
   website: http://web.mst.edu/~prm8c7/
   photo: /img/Maheshwari.jpg
 
@@ -75,6 +84,7 @@
   status: Alumni
   grad: 2014 May
   focus: Analysis and Modeling of Cyber-Physical Systems
+  emp:
   website:
   photo: /img/Albasrawi.jpg
 
@@ -83,6 +93,7 @@
   status: Alumni
   grad: 2014 May
   focus: Simulation of Intelligent Water Distribution Networks
+  emp: "Sandia National Laboratories"
   website:
   photo: /img/Miller.jpg
 
@@ -91,6 +102,7 @@
   status: Alumni
   grad: 2014 May
   focus: Software-Based Analysis and Improvement of Electromagnetic Immunity
+  emp: "Boeing"
   website:
   photo: /img/Sabatini.jpg
 
@@ -99,6 +111,7 @@
   status: Alumni
   grad: 2013 December
   focus: Analysis and Modeling of Resilience for Networked Systems
+  emp: "Black and Veatch"
   website:
   photo: /img/Joshi.jpg
 
@@ -107,6 +120,7 @@
   status: Alumni
   grad: 2012 December
   focus:  Increasing Interoperability and Coverage of Automated Monitoring and Detection Systems
+  emp:
   website:
   photo: /img/Arun.jpg
 
@@ -115,6 +129,7 @@
   status: Alumni
   grad: 2013 May
   focus: Wireless Sensor Networks for Structural Health Monitoring
+  emp:
   website:
   photo: /img/Patel.jpg
 
@@ -123,6 +138,7 @@
   status: Alumni
   grad: 2012 May
   focus: Wireless Sensor Networks for Structural Health Monitoring
+  emp:
   website:
   photo: /img/Cross.jpg
 
@@ -131,6 +147,7 @@
   status: Alumni
   grad: 2011 August
   focus: Agent-Based Analysis and Mitigation of Failure in Cyber-Physical Systems
+  emp: "Cisco Systems"
   website:
   photo: /img/Jing2.jpg
 
@@ -139,6 +156,7 @@
   status: Alumni
   grad: 2011 May
   focus: Wireless Sensor Networks for Structural Health Monitoring
+  emp:
   website:
   photo: /img/Chulick.jpg
 
@@ -147,6 +165,7 @@
   status: Alumni
   grad: 2010 December
   focus: Quantitative Analysis of Cyber-Physical Systems - Reliability of the Smart Grid
+  emp: "Princess Sumaya University of Technology"
   website:
   photo: /img/Ayman.jpg
 
@@ -155,6 +174,7 @@
   status: Alumni
   grad: 2010 December
   focus: Wireless Sensor Networks for Structural Health Monitoring
+  emp:
   website:
   photo: /img/Lambropoulos.jpg
 
@@ -163,6 +183,7 @@
   status: Alumni
   grad: 2009 May
   focus: Software-Based Analysis and Improvement of Electromagnetic Immunity; Wireless Sensor Networks for Structural Health Monitoring
+  emp:
   website:
   photo: /img/Bourque.jpg
 
@@ -171,6 +192,7 @@
   status: Alumni
   grad: 2010 December
   focus: Sensor Data Fusion and Detection
+  emp: "Harman Kardon"
   website:
   photo: /img/Shah.jpg
 
@@ -179,6 +201,7 @@
   status: Alumni
   grad: 2009 May
   focus: Development of an Embedded System for Wireless Monitoring of a Watershed
+  emp:
   website:
   photo: /img/Ponzer.jpg
 
@@ -187,6 +210,7 @@
   status: Alumni
   grad: 2009 May
   focus: Wireless Sensor Networks for Structural Health Monitoring
+  emp: "Garmin"
   website:
   photo: /img/Harms.jpg
 
@@ -195,6 +219,7 @@
   status: Alumni
   grad: 2007 May (BS), 2008 May (MS)
   focus: A Hybrid Sensor Network for Watershed Monitoring
+  emp: "US Navy"
   website:
   photo: /img/Koch.jpg
 
@@ -203,6 +228,7 @@
   status: Alumni
   grad: 2007 December
   focus: Embedded System Support for Canine Mine Detection
+  emp:
   website:
   photo: /img/Grither.jpg
 
@@ -211,6 +237,7 @@
   status: Alumni
   grad: 2007 December
   focus: A Network Infrastructure for Real-time Monitoring of Campus Energy Consumption
+  emp: "Sprint"
   website:
   photo: /img/Kunchum.jpg
 
@@ -219,6 +246,7 @@
   status: Alumni
   grad: 2006 December
   focus: An Autonomous Wireless Device for Flood Detection and Monitoring
+  emp: "Cisco Systems"
   website:
   photo: /img/Plessi.jpg
 
@@ -227,5 +255,78 @@
   status: Alumni
   grad: 2007 May
   focus: Hybrid Sensor Networks for Hydrological Monitoring
+  emp: "MYNAH Technologies"
   website:
   photo: /img/Freiberger.jpg
+
+- name: Arun Vijay
+  degree: "Computer Engineering (MS)"
+  status: Alumni
+  grad: "2012 December"
+  focus:
+  emp: "Tesla Motors"
+  website:
+  photo:
+
+- name: Shaun Wagner
+  degree: "Computer Science (PhD)"
+  status: Alumni
+  grad: "2014 December"
+  focus:
+  emp: "Medical University of South Carolina"
+  website:
+  photo:
+
+- name: Todd Acinelli
+  degree: "Computer Engineering (BS) - OURE Scholar"
+  status: Alumni
+  grad: "2006 December"
+  focus:
+  emp: "Garmin"
+  website:
+  photo:
+
+- name: Randall Bilbrey
+  degree: "Computer Engineering (BS) - OURE Scholar"
+  status: Alumni
+  grad: "2006 May"
+  focus:
+  emp:
+  website:
+  photo:
+
+- name: Michael Ellebrecht
+  degree: "Computer Engineering (BS); Electrical Engineering (BS) - OURE Scholar"
+  status: Alumni
+  grad: "2005 December"
+  focus:
+  emp: "Garmin"
+  website:
+  photo:
+
+- name: Matthew Gann
+  degree: "Computer Engineering (BS) - OURE Scholar"
+  status: Alumni
+  grad: "2005 December"
+  focus:
+  emp:
+  website:
+  photo:
+
+- name: David Lecko
+  degree: "Computer Engineering (BS) - OURE Scholar"
+  status: Alumni
+  grad: "2012 May"
+  focus:
+  emp: Accenture
+  website:
+  photo:
+
+- name: Michael Wyatt
+  degree: "Computer Engineering (BS) - OURE Scholar"
+  status: Alumni
+  grad: "2010 December"
+  focus:
+  emp:
+  website:
+  photo:
