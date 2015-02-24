@@ -84,9 +84,9 @@ Modifying the files can be done easily from GitHub (this website) by clicking on
 	-	name `required`: name of sponsor #1
 	-	link `optional`: full link to sponsor website
 
-### *-publications.yml
+### publications.yml
 
-*This file contains a list of publications relevant to the specific research area*.\*
+*This file contains a list of publications.
 
 -	citation `required`: full citation (entry won't show up if this is blank)
 -	year `required`: used for sorting purposes
@@ -95,6 +95,7 @@ Modifying the files can be done easily from GitHub (this website) by clicking on
 	-	"Under Review" (submitted but not yet published)
 	-	"Published" (Make sure to add link to final publication)
 -	awards `optional`: list any awards here separated by commas; leave blank if none
+-	area `required`: `per` or `cip` (lowercase)
 -	fulltext `optional`: full link to where the publication can be obtained; leave blank if none
 
 ### *-venues.yml

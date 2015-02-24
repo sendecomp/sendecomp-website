@@ -13,9 +13,11 @@ title: Pervasive Computing
     </ul>
     <div class="tab-content col-xs-12 well">
       <div class="tab-pane active" id="pubs">
-        {% assign publications = site.data.per-publications %}
+        {% assign publications = site.data.publications | sort:"descending" "year" %}
         {% for pub in publications %}
-          {% include publication.html %}
+          {% if pub.area == "per" %}
+            {% include publication.html %}
+          {% endif %}
         {% endfor %}
       </div>
 
