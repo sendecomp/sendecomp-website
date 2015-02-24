@@ -16,13 +16,13 @@
   awards:
   fulltext: "http://link.springer.com/chapter/10.1007%2F978-3-642-40894-6_11"
 
-- citation: "A. Faza, S. Sedigh, and B. McMillin (2010). Integrated cyber-physical fault injection for reliability analysis of the smart grid (pp. 277-290). Springer Berlin Heidelberg."
+- citation: "A. Faza, S. Sedigh, and B. McMillin. Integrated cyber-physical fault injection for reliability analysis of the smart grid (pp. 277-290). Springer Berlin Heidelberg, 2010."
   year: 2010
   status: "Published"
   awards:
   fulltext: "http://link.springer.com/chapter/10.1007/978-3-642-15651-9_21"
 
-- citation: "A. Faza, S. Sedigh, and B. McMillin. A Case Study in Quantitative Analysis of Cyber-Physical Systems: Reliability of the Smart Grid. Int'l. IEEE Transaction on Reliability."
+- citation: "A. Faza, S. Sedigh, and B. McMillin. A Case Study in Quantitative Analysis of Cyber-Physical Systems: Reliability of the Smart Grid. Int'l. IEEE Transaction on Reliability, 2010."
   year: 2010
   status: "Published"
   awards:
@@ -31,7 +31,7 @@
 - citation: "J. Lin, S. Sedigh, and A. R. Hurson. Knowledge management for fault-tolerant water distribution. In Albert Zomaya and Hamid Sarbazi-Azad, editors, Large Scale Network-Centric Computing Systems. John Wiley & Sons, 2012."
   year: 2012
   status: "Published"
-  awards: 
+  awards:
   fulltext: "http://onlinelibrary.wiley.com/doi/10.1002/9781118640708.ch26/summary"
 
 - citation: "J. Lin, S. Sedigh and A. Hurson, Ontologies and Decision Support for Failure Mitigation in  Intelligent Water Distribution Networks, Hawaii Int'l. Conf. on System Sciences (HICSS 2011),Grand Wailea, Maui, Hawaii, Jan. 2012."
