@@ -1,3 +1,16 @@
+# Status options
+#   - To Appear
+#   - Under Review
+#   - Published
+
+# TODO add a volume number when it is available
+- citation: "Wisely, Michael, Sahra Sedigh Sarvestani, and Ali Hurson. “Public Data Dissemination via Broadcasting.” Journal of Information Processing Special Issue – Applications and the Internet in Conjunction with Main Topics of COMPSAC 2014. 2014."
+  year: 2015
+  status: "Under Review"
+  awards:
+  area: "per"
+  fulltext:
+
 - citation: "T. Morrow, A. Hurson, and S. Sedigh Sarvestani, Cyberinfrastructure for Personalized Education, in Handbook of Applied Learning Theory and Design in Modern Education, E. Railean, G. Walker, L. Jackson, and A. Elci, Eds. IGI Global, 2015."
   year: 2015
   status: "Under Review"
