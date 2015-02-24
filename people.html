@@ -20,10 +20,10 @@ title: People
     </ul>
     <div class="tab-content col-xs-12 well">
       <div class="tab-pane active" id="active">
-        {% assign membersDesc = site.data.members |  sort:"graduating" %}
+        {% assign membersDesc = site.data.members |  sort:"grad" %}
         <ul class="list-group">
           {% for person in membersDesc %}
-            {% if person.standing == "Active" %}
+            {% if person.status == "Active" %}
               <li class="list-group-item">
                 {% include member.html %}
               </li>
@@ -32,10 +32,10 @@ title: People
         </ul>
       </div>
       <div class="tab-pane" id="alumni">
-        {% assign membersDesc = site.data.members | sort:"descending" "graduating" %}
+        {% assign membersDesc = site.data.members | sort:"descending" "grad" %}
         <ul class="list-group">
           {% for person in membersDesc %}
-            {% if person.standing == "Alumni" %}
+            {% if person.status == "Alumni" %}
               <li class="list-group-item">
                 {% include member.html %}
               </li>

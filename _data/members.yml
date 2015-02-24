@@ -1,231 +1,231 @@
 - name: Mona Alluwaym
   degree: Computer Science (MS)
-  standing: Active
-  graduating: 2016 May
+  status: Active
+  grad: 2016 May
   focus: Analysis and Modeling of Cyber-Physical Systems
   website: http://web.mst.edu/~man96/
   photo: /img/Alluwaym.jpg
-  
+
 - name: Isam Alobaidi
   degree: Computer Science (MS)
-  standing: Active
-  graduating: 2015 December
+  status: Active
+  grad: 2015 December
   focus: Analysis and Modeling of Cyber-Physical Systems
   website: http://web.mst.edu/~iaahgb/
-  photo: /img/Alobaidi.jpg 
+  photo: /img/Alobaidi.jpg
 
 - name: Ty Morrow
   degree: Computer Science (PhD) - GAANN Fellow
-  standing: Active
-  graduating: 2019 May
+  status: Active
+  grad: 2019 May
   focus: Cyberinfrastructure for Personalized Learning
   website: http://web.mst.edu/~tjm6f4/
   photo: /img/Morrow.png
 
 - name: Hadi Ataei
   degree: Computer Engineering (PhD) - GAANN Fellow
-  standing: Active
-  graduating: 2019 May
+  status: Active
+  grad: 2019 May
   focus: Analysis and Modeling of Cyber-Physical Systems
   website: http://web.mst.edu/~mhaf35/
   photo: /img/Ataei.jpg
 
 - name: Nathan Jarus
   degree: Computer Science (PhD) - GAANN Fellow
-  standing: Active
-  graduating: 2018 December
+  status: Active
+  grad: 2018 December
   focus: Analysis and Modeling of Cyber-Physical Systems
   website: http://web.mst.edu/~nmjxv3/
   photo: /img/Jarus.png
-  
+
 - name: Mark Woodard
   degree: Computer Engineering (PhD) - GAANN Fellow, CpE Department Fellow
-  standing: Active
-  graduating: 2017 May
+  status: Active
+  grad: 2017 May
   focus: Analysis and Modeling of Cyber-Physical Systems
   website: http://web.mst.edu/~mjw6y7/
   photo: /img/Woodard.jpg
 
 - name: Mike Wisely
   degree: "Computer Science (PhD) - GAANN Fellow, Chancellor's Fellow"
-  standing: Active
-  graduating: 2017 May
+  status: Active
+  grad: 2017 May
   focus: Traffic Prediction and Distributed Computing
   website: http://web.mst.edu/~mwwcp2/
   photo: /img/Wisely.jpg
-  
+
 - name: Koosha Marashi
   degree: Computer Engineering (PhD) - UTC Fellow
-  standing: Active
-  graduating: 2017 May
+  status: Active
+  grad: 2017 May
   focus: Analysis and Modeling of Cyber-Physical Systems
   website: http://web.mst.edu/~km89f/
   photo: /img/Marashi.jpg
 
 - name: Pratik Maheshwari
   degree: Computer Engineering (PhD)
-  standing: Alumni
-  graduating: 2014 August
+  status: Alumni
+  grad: 2014 August
   focus: Software-Based Analysis and Improvement of Electromagnetic Immunity
   website: http://web.mst.edu/~prm8c7/
   photo: /img/Maheshwari.jpg
 
 - name: Murtadha Albasrawi
   degree: Computer Engineering (MS) - Fellowship from the Government of Iraq
-  standing: Alumni
-  graduating: 2014 May
+  status: Alumni
+  grad: 2014 May
   focus: Analysis and Modeling of Cyber-Physical Systems
-  website: 
+  website:
   photo: /img/Albasrawi.jpg
 
 - name: Andrea Miller
   degree: Computer Engineering (BS)
-  standing: Alumni
-  graduating: 2014 May
+  status: Alumni
+  grad: 2014 May
   focus: Simulation of Intelligent Water Distribution Networks
-  website: 
+  website:
   photo: /img/Miller.jpg
 
 - name: Antonio Sabatini
   degree: Computer Engineering (MS)
-  standing: Alumni
-  graduating: 2014 May
+  status: Alumni
+  grad: 2014 May
   focus: Software-Based Analysis and Improvement of Electromagnetic Immunity
-  website: 
+  website:
   photo: /img/Sabatini.jpg
 
 - name: Kamlesh Joshi
   degree: Electrical Engineering (MS)
-  standing: Alumni
-  graduating: 2013 December
+  status: Alumni
+  grad: 2013 December
   focus: Analysis and Modeling of Resilience for Networked Systems
   website:
   photo: /img/Joshi.jpg
 
 - name: Arun Gunasekaran
   degree: Computer Engineering (MS)
-  standing: Alumni
-  graduating: 2012 December
+  status: Alumni
+  grad: 2012 December
   focus:  Increasing Interoperability and Coverage of Automated Monitoring and Detection Systems
   website:
   photo: /img/Arun.jpg
 
 - name: Neil Patel
   degree: Computer Engineering (BS); Computer Science (BS) - OURE Scholar
-  standing: Alumni
-  graduating: 2013 May
+  status: Alumni
+  grad: 2013 May
   focus: Wireless Sensor Networks for Structural Health Monitoring
   website:
   photo: /img/Patel.jpg
 
 - name: Shawn Cross
   degree: Computer Engineering (BS); Computer Science (BS)
-  standing: Alumni
-  graduating: 2012 May
+  status: Alumni
+  grad: 2012 May
   focus: Wireless Sensor Networks for Structural Health Monitoring
   website:
   photo: /img/Cross.jpg
 
 - name: Jing Lin
   degree: Computer Engineering (PhD)
-  standing: Alumni
-  graduating: 2011 August
+  status: Alumni
+  grad: 2011 August
   focus: Agent-Based Analysis and Mitigation of Failure in Cyber-Physical Systems
   website:
   photo: /img/Jing2.jpg
 
 - name: Peter Nicholas Chulick
   degree: Computer Engineering (BS)
-  standing: Alumni
-  graduating: 2011 May
+  status: Alumni
+  grad: 2011 May
   focus: Wireless Sensor Networks for Structural Health Monitoring
   website:
   photo: /img/Chulick.jpg
 
 - name: Ayman Faza
   degree: Computer Engineering (MS/PhD) - Fulbright Fellow; UTC Fellow
-  standing: Alumni
-  graduating: 2010 December
+  status: Alumni
+  grad: 2010 December
   focus: Quantitative Analysis of Cyber-Physical Systems - Reliability of the Smart Grid
   website:
   photo: /img/Ayman.jpg
 
 - name: Anthony Lambropoulos
   degree: Computer Engineering (BS)
-  standing: Alumni
-  graduating: 2010 December
+  status: Alumni
+  grad: 2010 December
   focus: Wireless Sensor Networks for Structural Health Monitoring
   website:
   photo: /img/Lambropoulos.jpg
 
 - name: Zac Bourque
   degree: Computer Engineering (BS) - OURE Scholar
-  standing: Alumni
-  graduating: 2009 May
+  status: Alumni
+  grad: 2009 May
   focus: Software-Based Analysis and Improvement of Electromagnetic Immunity; Wireless Sensor Networks for Structural Health Monitoring
   website:
   photo: /img/Bourque.jpg
 
 - name: Pratik Shah
   degree: Computer Engineering (MS); Electrical Engineering (MS)
-  standing: Alumni
-  graduating: 2010 December
+  status: Alumni
+  grad: 2010 December
   focus: Sensor Data Fusion and Detection
   website:
   photo: /img/Shah.jpg
 
 - name: Phillip Ponzer
   degree: Computer Engineering (BS) - OURE Scholar
-  standing: Alumni
-  graduating: 2009 May
+  status: Alumni
+  grad: 2009 May
   focus: Development of an Embedded System for Wireless Monitoring of a Watershed
   website:
   photo: /img/Ponzer.jpg
 
 - name: Tyler Harms
   degree: "Computer Engineering (MS) - Chancellor's Fellow"
-  standing: Alumni
-  graduating: 2009 May
+  status: Alumni
+  grad: 2009 May
   focus: Wireless Sensor Networks for Structural Health Monitoring
   website:
   photo: /img/Harms.jpg
 
 - name: John Koch
   degree: Computer Engineering (BS/MS); BS Computer Science (BS) - OURE Scholar; DoD SMART Fellow
-  standing: Alumni
-  graduating: 2007 May (BS), 2008 May (MS)
+  status: Alumni
+  grad: 2007 May (BS), 2008 May (MS)
   focus: A Hybrid Sensor Network for Watershed Monitoring
   website:
   photo: /img/Koch.jpg
 
 - name: Nicholas Grither
   degree: Computer Engineering (BS); Electical Engineering (BS) - OURE Fellow
-  standing: Alumni
-  graduating: 2007 December
+  status: Alumni
+  grad: 2007 December
   focus: Embedded System Support for Canine Mine Detection
-  website: 
+  website:
   photo: /img/Grither.jpg
 
 - name: Sandeep Kunchum
   degree: Computer Engineering (MS)
-  standing: Alumni
-  graduating: 2007 December
+  status: Alumni
+  grad: 2007 December
   focus: A Network Infrastructure for Real-time Monitoring of Campus Energy Consumption
   website:
   photo: /img/Kunchum.jpg
 
 - name: Valerio Plessi
   degree: Computer Engineering (MS) - UTC Fellow
-  standing: Alumni
-  graduating: 2006 December
+  status: Alumni
+  grad: 2006 December
   focus: An Autonomous Wireless Device for Flood Detection and Monitoring
   website:
   photo: /img/Plessi.jpg
 
 - name: Thomas Freiberger
   degree: "Computer Engineering (MS) - Chancellor's Fellow"
-  standing: Alumni
-  graduating: 2007 May
+  status: Alumni
+  grad: 2007 May
   focus: Hybrid Sensor Networks for Hydrological Monitoring
   website:
   photo: /img/Freiberger.jpg
