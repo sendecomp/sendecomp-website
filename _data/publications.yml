@@ -74,13 +74,34 @@
   area: "cip"
   fulltext: "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6149031"
 
+- citation: "F. Bastianini, S. Sedigh, and G. Pascale. Cost-effective dynamic structural health monitoring with a compact and autonomous wireless sensor system. In Proceedings of the In- ternational Symposium on Nondestructive Testing of Materials and Structures (NDTMS ’11), Istanbul, Turkey, May 2011."
+  year: 2011
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://link.springer.com/chapter/10.1007%2F978-94-007-0723-8_149"
+  
 - citation: "J. Lin, S. Sedigh, and A. Hurson, An Agent-Based Approach to Reconciling Data Heterogeneity in Cyber-Physical Systems, 20th International Heterogeneity in Computing Workshop in conjunction with 25th IEEE International Parallel & Distributed Processing Symposium, May 2011, Anchorage (Alaska), USA."
   year: 2011
   status: "Published"
   awards:
   area: "cip"
   fulltext: "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6008824"
+  
+- citation:"A. R. Hurson, S. Sedigh, L. Miller, and B. Shirazi. Enriching STEM Education through personalization and teaching collaboration. In Proceedings of the 7th IEEE International Workshop on PervasivE Learning, Life, and Leisure (PerEL ’11), pages 543 – 549, Seattle, USA, Mar. 2011, invited."
+  year: 2011
+  status: "Published"
+  awards:
+  area: "per"
+  fulltext: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=5766949&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D5766949"
 
+- citation:"A. Vijay, P. Chulick, and S. Sedigh. The SmartBrick wireless sensor node for high- resolution structural health monitoring. In Proceedings of the 18th International SPIE Symposium on Smart Structures and Materials and Nondestructive Evaluation and Health Monitoring, San Diego, USA, Mar. 2011."
+  year: 2011
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "https://www.researchgate.net/publication/228450332_SmartBrick_wireless_sensor_node_for_high-resolution_structural_health_monitoring"
+  
 - citation: "E. Jean, S. Sedigh, A. R. Hurson, and B. Shirazi, Tools and techniques for interoperability and dynamic reconfiguration of pervasive systems. In M. Denko and M. S. Obaidat, editors, Pervasive Computing and Networking. John Wiley & Sons, 2011."
   year: 2011
   status: "Published"
@@ -112,10 +133,24 @@
 - citation: "J. Lin, S. Sedigh, and A. Miller. A Game-Theoretic Approach to Decision Support for Intelligent Water Distribution, Hawaii Int'l. Conf. on System Sciences (HICSS 2011), Kauai, HI, Jan. 2011."
   year: 2011
   status: "Published"
-  awards:
+  awards: "best paper nominee"
   area: "cip"
   fulltext: "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5718552"
 
+- citation: "E. Jean, R. Collins, S. Sedigh, A. Hurson, and C. Jiao. RISN: An efficient, dynamically tasked and interoperable sensor network overlay. In Proceedings of the 8th IEEE Inter- national Conference on Embedded and Ubiquitous Computing (EUC-10), pages 224–231, Hong Kong, China, Dec. 2010."
+  year: 2010
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=5703520&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D5703520"
+  
+-citation: "S. Sedigh. High assurance systems: State of the art and practice (plenary panel). In Proceedings of the 12th IEEE International High Assurance Systems Engineering Symposium (HASE ’10), page xiv, San Jose, USA, Nov. 2010."
+  year: 2010
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: 
+  
 - citation: "J. Lin, S. Sedigh, and A. Miller. Semantic Agents in Cyber-physical Systems: A Case Study on Intelligent Water Distribution, In A. Elci, M. T. Kone, and M. A. Orgun, editors, Semantic Agent Systems: Foundations and Applications. Springer-Verlag."
   year: 2010
   status: "Published"
@@ -143,6 +178,13 @@
   awards:
   area: "per"
   fulltext: "http://www.scirp.org/Journal/PaperInformation.aspx?paperID=2964&JournalID=111#.VMfUD3DF9rk"
+  
+- citation: "S. Sedigh and T. Asami. Green IT - from devices to applications (panel). In Proceedings of the 34th IEEE International Computer Software and Applications Conference (COMPSAC ’10) and Proceedings of the 10th International Symposium on Applications and the Internet (SAINT ’10), page 24, Seoul, South Korea, July 2010."
+  year: 2010
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5676331"
 
 - citation: "J. Lin, S. Sedigh, and A. Miller. Towards Integrated Simulation of Cyber-physical Systems: A Case Study on Intelligent Water Distribution, In Proc. of the 8th IEEE Int'l. Conf. on Pervasive Intelligence and Computing (PICom 2009), Chengdu, China, Dec. 2009, pp. 690-695."
   year: 2009
