@@ -25,13 +25,27 @@
   area: "per"
   fulltext:
 
-- citation: "T. Morrow, A context-aware ontology for personalized learning: Pervasive computing for educational technology, in Proceedings of the 8th Annual Ph.D. Forum on Pervasive Computing and Communications, at the 13th IEEE International Conference on Pervasive Computing and Communications (PerCom 2015), St. Louis, MO, Mar. 2015."
+- citation: "Michael Wisely, A. R. Hurson, and S. Sedigh Sarvestani. Public data dissemination via broadcasting. Journal of Information Processing, 23(3), 2015, invited, to appear."
+  year: 2015
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext:
+
+  citation: "T. Morrow, A context-aware ontology for personalized learning: Pervasive computing for educational technology, in Proceedings of the 8th Annual Ph.D. Forum on Pervasive Computing and Communications, at the 13th IEEE International Conference on Pervasive Computing and Communications (PerCom 2015), St. Louis, MO, Mar. 2015."
   year: 2015
   status: "Under Review"
   awards:
   area: "per"
   fulltext:
-
+  
+  citation: "K. Marashi, M. Woodard, S. Sedigh, and A. Hurson. Quantitative reliability analysis for intelligent water distribution networks. Transactions of the American Nuclear Society, 2014."
+  year: 2014
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: 
+  
 - citation: "K. Marashi and S. Sedigh, Towards Comprehensive Modeling of Reliability for Smart Grids: Requirements and Challenges, In Proc. of the 15th IEEE Int'l Symposium on High- Assurance Systems Engineering (HASE '14), Miami, FL, Jan. 2014."
   year: 2014
   status: "Published"
@@ -46,6 +60,13 @@
   area: "cip"
   fulltext: "https://books.google.com/books?hl=en&lr=&id=6gR0AwAAQBAJ&oi=fnd&pg=PA1&dq=Comparison+of+security+models:+Attack+graphs+versus+Petri+nets&ots=fh9z98Gxsy&sig=evdtF08hgmAqveFaOZiyglNjn2I#v=onepage&q=Comparison%20of%20security%20models%3A%20Attack%20graphs%20versus%20Petri%20nets&f=false" 
 
+  citation: "C. Shaun Wagner, S. Sedigh Sarvestani, and A. R. Hurson. Algorithms and techniques for proactive search. Journal of Information Processing, 22(3):425{434, 2014, invited."
+  year: 2014
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "https://www.jstage.jst.go.jp/article/ipsjjip/22/3/22_425/_article"
+  
   citation: "J. Lin, S. Sedigh, and A. R. Hurson. Knowledge management for fault-tolerant water distribution. In Albert Zomaya and Hamid Sarbazi-Azad, editors, Large Scale Network- Centric Computing Systems, ch. 26. John Wiley & Sons, 2013."
   year: 2013
   status: "Published"
@@ -81,6 +102,13 @@
   area: "cip"
   fulltext: "http://link.springer.com/chapter/10.1007%2F978-3-642-40894-6_11"
 
+  citation: "V. Winter, B. Cukic, T. Khoshgoftaar, K. Mori, R. Paul, C. Perez-Leguzamo, S. Sedigh, J. Sloan, M. Vouk, and I. Yen. High consequence systems and semantic computing. International Journal of Semantic Computing, 7(3):291{324, Sept. 2013."
+  year: 2013
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://www.worldscientific.com/doi/abs/10.1142/S1793351X13500050"
+  
 - citation: "A. R. Hurson and S. Sedigh, editors. Dependable and Secure Systems Engineering, volume 84 of Advances in Computers. Elsevier, Inc., 2012."
   year: 2012
   status: "Published"
@@ -136,6 +164,13 @@
   awards:
   area: "cip"
   fulltext: "http://cdn.intechopen.com/pdfs/17563/intech-integrated_cyber_physical_simulation_of_intelligent_water_distribution_networks.pdf"
+  
+- citation: "J. Lin and S. Sedigh. Reliability modeling for intelligent water distribution networks. International Journal of Performability Engineering, Special issue on Performance and Dependability Modeling of Dynamic Systems, 7(5):467{478, Sept. 2011."
+  year: 2011
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://www.ijpe-online.com/september-2011-p6-reliability-modeling-for-intelligent-water-distribution-networks.html#axzz3T6WaKqJw"
   
   citation: "E. Jean, S. Sedigh, A. R. Hurson, and B. Shirazi. Tools and techniques for interoperability and dynamic reconguration of pervasive systems. In M. Denko and M. S. Obaidat, editors, Pervasive Computing and Networking, ch. 2. John Wiley & Sons, 2011."
   year: 2011
@@ -235,6 +270,13 @@
   area: "cip"
   fulltext: 
   
+  citation: "T. Harms, S. Sedigh, and F. Bastianini. Structural health monitoring of bridges using wireless sensor networks. IEEE Instrumentation and Measurement Magazine, 13(6):14{ 18, Dec. 2010."
+  year: 2010
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=5669608&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D5669608"
+  
 - citation: "A. Faza, S. Sedigh, and B. McMillin. Integrated cyber-physical fault injection for reliability analysis of the smart grid (pp. 277-290). Springer Berlin Heidelberg, 2010."
   year: 2010
   status: "Published"
@@ -298,13 +340,25 @@
   area: "per"
   fulltext: "http://www.scirp.org/Journal/PaperInformation.aspx?paperID=2964&JournalID=111#.VMfUD3DF9rk"
   
+  citation: "A. R. Hurson and S. Sedigh. PERCEPOLIS: Pervasive cyberinfrastructure for personalized learning and instructional support. Intelligent Information Management, 2(10):583{593, Oct. 2010."
+  year: 2010
+  status:  "Published"
+  awards:
+  area: "per"
+  fulltext: "http://file.scirp.org/Html/2-8701071_2964.htm"
+  
 - citation: "S. Sedigh and T. Asami. Green IT - from devices to applications (panel). In Proceedings of the 34th IEEE International Computer Software and Applications Conference (COMPSAC ’10) and Proceedings of the 10th International Symposium on Applications and the Internet (SAINT ’10), page 24, Seoul, South Korea, July 2010."
   year: 2010
   status: "Published"
   awards:
   area: "cip"
   fulltext: "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5676331"
-
+  year: 2010
+  status:  "Published"
+  awards:
+  area: "per"
+  fulltext: 
+  
 - citation: "J. Lin, S. Sedigh, and A. Miller. Towards Integrated Simulation of Cyber-physical Systems: A Case Study on Intelligent Water Distribution, In Proc. of the 8th IEEE Int'l. Conf. on Pervasive Intelligence and Computing (PICom 2009), Chengdu, China, Dec. 2009, pp. 690-695."
   year: 2009
   status: "Published"
@@ -395,6 +449,13 @@
   awards:
   area: "cip"
   fulltext: "http://spie.org/Publications/Proceedings/Paper/10.1117/12.817851"
+  
+  citation: "A. R. Hurson, B. Sun, J. Hannan, Y. Jiao, and S. Sedigh. Energy-ecient scheduling algorithms for data retrieval from indexed parallel broadcast channels. IEEE Transactions on Knowledge and Data Engineering, submitted in Aug. 2009, under revision."
+  year: 2009
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: 
   
 - citation: "A. Faza, S. Sedigh, and B. McMillin. The Advanced Electric Power Grid: Reliability Modeling and Complexity Reduction Techniques. In Proc. of the 27th Int'l. Conf. on Computer Safety, Reliability and Security (SAFECOMP 2008), September 2008, Newcastle, UK, pp. 429-439."
   year: 2008
@@ -529,12 +590,26 @@
   area: "cip"
   fulltext: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=1173130&url=http%3A%2F%2Fieeexplore.ieee.org%2Fiel5%2F8375%2F26364%2F01173130"
   
-- citation: ". Sedigh, A. Ghafoor, and R.A. Paul. Metrics-guided quality management for component-based software systems. In Proceedings of the 25th International Computer Software and Applications Conference (COMPSAC ’01), Chicago, USA, Oct. 2001."
+- citation: "S. Sedigh, A. Ghafoor, and R.A. Paul. Metrics-guided quality management for component-based software systems. In Proceedings of the 25th International Computer Software and Applications Conference (COMPSAC ’01), Chicago, USA, Oct. 2001."
   year: 2001
   status: "Published"
   awards:
   area: "cip"
   fulltext: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=960631&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D960631"
+  
+  citation: "S. Sedigh, A. Ghafoor, and R.A. Paul. Software engineering metrics for COTS-based systems. IEEE Computer, Special Issue on Software Engineering on Internet Time, 34(5), May 2001, cover feature."
+  year: 2001
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=920611&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D920611"
+  
+  citation: "H. Fahmi, M. Latif, S. Sedigh, A. Ghafoor, P. Liu, and L.H. Hsu. Proxy servers for scalable interactive video support. IEEE Computer, Special Issue on Continuous Media on Demand, 34(9), Sep. 2001, cover feature."
+  year: 2001
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://scholarsmine.mst.edu/cgi/viewcontent.cgi?article=1122&context=faculty_work&sei-redir=1&referer=https%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DProxy%2Bservers%2Bfor%2Bscalable%2Binteractive%2Bvideo%2Bsupport%26btnG%3D%26hl%3Den%26as_sdt%3D0%252C26#search=%22Proxy%20servers%20scalable%20interactive%20video%20support%22"
   
 - citation: "S. Ali, H. J. Siegel, M. Maheswaran, D. Hengsen, and S. Sedigh. Task execution time modeling for heterogeneous computing systems. In Proceedings of the 9th IEEE Het- erogeneous Computing Workshop (HCW ’00), Cancun, Mexico, May 2000."
   year: 2000
@@ -543,6 +618,13 @@
   area: "cip"
   fulltext: "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=843743&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D843743"
 
+  citation: "S. Ali, H. J. Siegel, M. Maheswaran, D. Hensgen, and S. Sedigh. Representing task and machine heterogeneities for heterogeneous computing systems. Tamkang Journal of Science and Engineering, Special 50th Anniversary Issue, 3(3), Nov. 2000."
+  year: 2000
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://www2.tku.edu.tw/~tkjse/3-3/3-3-9.pdf"
+  
 - citation: "A. Bashandy, R. Paul, S. Baqai, S. Sedigh, H. Fahmi, and A. Ghafoor. A protocol architecture for guaranteed quality of service in collaborated multimedia applications. In Proceedings of the IEEE Symposium on Application-Specific Systems and Software Engineering and Technology (ASSET ’99), Richardson, USA, Mar. 1999."
   year: 1999
   status: "Published"
