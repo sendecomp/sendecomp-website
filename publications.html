@@ -2,12 +2,13 @@
 layout: base
 title: Publications
 ---
-
+{% assign publications = site.data.publications | sort:"year" %}
 <div class="row">
-  <div class="col-xs-12 col-sm-10 col-sm-offset-1 well">
-    {% assign publications = site.data.publications | sort:"year" %}
+  <div class="col-xs-12 col-sm-10 col-sm-offset-1">
     {% for pub in publications reversed %}
       {% include publication.html %}
     {% endfor %}
+    <hr/>
+    <small><strong>Publication Count: </strong> {{ publications | size }}</small>
   </div>
 </div>
