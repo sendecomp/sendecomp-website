@@ -32,27 +32,6 @@
   area: "cip"
   fulltext: "http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6754594&tag=1"
 
-  citation: "A. Avritzer, L. Carnevali, L. Happe, B. R. Haverkort, A. Koziolek, D. Menasche, A. Remke, and S. Sedigh Sarvestani. Survivability evaluation of gas, water and electricity infrastructures. In Proceedings of the 7th International Workshop on Practical Applications of Stochastic Modelling (PASM '14), Newcastle upon Tyne, UK, May 2014."
-  year: 2014
-  status: "Published"
-  awards:
-  area: "cip"
-  fulltext: "http://www.sciencedirect.com/science/article/pii/S1571066114000942"
-  
-  citation: "M. Al-Basrawi, N. Jarus, K. Joshi, and S. Sedigh Sarvestani. Analysis of reliability and resilience for smart grids. In Proceedings of the 38th IEEE International Computers, Software and Applications Conference (COMPSAC '14), Vasteras, Sweden, Jul. 2014."
-  year: 2014
-  status: "Published"
-  awards:
-  area: "cip"
-  fulltext: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6899257&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6899257"
-  
-  citation: "K. Marashi and S. Sedigh. Towards comprehensive modeling of reliability for smart grids: Requirements and challenges. In Proceedings of the 15th IEEE International High Assurance Systems Engineering Symposium (HASE '14), Miami, USA, Jan. 2014."
-  year: 2014
-  status: "Published"
-  awards:
-  area: "cip"
-  fulltext: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6754594&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6754594"
-  
 - citation: "K. Marashi, M. Woodard, S. Sedigh and A. Hurson, Quantitative Reliability Analysis for Intelligent Water Distribution Networks, In Proceedings of the Embedded Topical Meeting on Risk Management for Complex Socio-Technical Systems (RM4CSS), Annual Meeting of the American Nuclear Society, Washington, D.C., Nov. 2013."
   year: 2013
   status: Published
@@ -67,61 +46,13 @@
   area: "cip"
   fulltext: "http://link.springer.com/chapter/10.1007%2F978-3-642-40894-6_11"
 
-  citation: "Christopher Shaun Wagner, Sahra Sedigh, and Ali R. Hurson. Accurate and ecient search prediction using fuzzy matching and outcome feedback. In Proceedings of the 6th International Conference on Similarity Search and Applications (SISAP '13), pages 219{232, A Coru~na, Spain, October 2013."
-  year: 2013
-  status: "Published"
-  awards:
-  area: "cip"
-  fulltext: "http://link.springer.com/chapter/10.1007/978-3-642-41062-8_23"
-  
-  citation: "Antonio Sabatini, Nathan Jarus, Pratik Maheshwari, and Sahra Sedigh. Software instrumentation for failure analysis of USB host controllers. In Proceedings of the 13th IEEE International Instrumentation and Measurement Technology Conference (I2MTC '13), Minneapolis, USA, May 2013."
-  year: 2013
-  status: "Published"
-  awards:
-  area: "cip"
-  fulltext: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6555586&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6555586"
-  
-  citation: "D. Fitch, S. Sedigh, B. McMillin, and R. Akella. CPS-CSH cyber-physical analysis and design. In Proceedings of the 7th International Conference on Critical Information Infrastructures Security (CRITIS '12), Lillehammer, Norway, Sept. 2012."
+
+- citation: "A. Faza, J. Lin, and S. Sedigh. Net-centric assurance for critical infrastructure systems. In Meeting of the NSF Net-Centric Software & Systems Industry/University Cooperative Research Center, Rolla, MO, Feb. 2012."
   year: 2012
   status: "Published"
   awards:
   area: "cip"
-  fulltext: "http://link.springer.com/chapter/10.1007/978-3-642-41485-5_9"
-  
-  citation: "A. Bahmani, S. Sedigh, and A. R. Hurson. Ontology-based recommendation algorithms for personalized education. In Proceedings of the 23rd International Conference on Database and Expert Systems Applications (DEXA '12), pages 111{120, Vienna, Austria, Sept. 2012."
-  year: 2012
-  status: "Published"
-  awards:
-  area: "cip"
-  fulltext: "http://link.springer.com/chapter/10.1007/978-3-642-32597-7_10"
-  
-  citation: "A. Vijay, N. Patel, S. Cross, and S. Sedigh. Towards a military-standard wireless sensor platform for the detection of improvised explosive devices. In Proceedings of the 7th SPIE Symposium on Defense, Security + Sensing, Baltimore, MD, Apr. 2012."
-  year: 2012
-  status: "Published"
-  awards:
-  area: "cip"
-  fulltext: 
-  
-  citation: "A. Vijay, N. Patel, S. Cross, and S. Sedigh. Recent enhancements to and applications of the SmartBrick structural health monitoring platform. In Proceedings of the 19th International SPIE Symposium on Smart Structures and Materials and Nondestructive Evaluation and Health Monitoring, San Diego, USA, Mar. 2012."
-  year: 2012
-  status: "Published"
-  awards:
-  area: "cip"
-  fulltext: "http://proceedings.spiedigitallibrary.org/proceeding.aspx?articleid=1313986"
-  
-  citation: "J. Lin, S. Sedigh, and A. R. Hurson. Ontologies and decision support for failure mitigation in intelligent water distribution networks. In Proceedings of the 45th Hawaii International Conference on System Sciences (HICSS-45), Maui, USA, Jan. 2012."
-  year: 2012
-  status: "Published"
-  awards:
-  area: "cip"
-  fulltext: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6149031&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6149031"
-  
-  citation: "P. Maheshwari, B. Seol, J. Lee, J. Lim, S. Sedigh, and D. Pommerenke. Software-based instrumentation for localization of faults caused by electrostatic discharge. In Proceed- ings of the 13th IEEE International High Assurance Systems Engineering Symposium (HASE '11), Boca Raton, USA, Nov. 2011, invited."
-  year: 2011
-  status: "Published"
-  awards:
-  area: "cip"
-  fulltext: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6113916&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6113916"
+  fulltext: ""
   
 - citation: "A. Faza, S. Sedigh, and B. McMillin. Integrated cyber-physical fault injection for reliability analysis of the smart grid (pp. 277-290). Springer Berlin Heidelberg, 2010."
   year: 2010
@@ -136,6 +67,13 @@
   awards:
   area: "cip"
   fulltext: "http://scholarsmine.mst.edu/doctoral_dissertations/1785/"
+  
+- citation: "A. R. Hurson and S. Sedigh. Transforming the instruction of introductory computing to engineering students. In Proceedings of the IEEE International Conference on Transforming Engineering Education - Creating Interdisciplinary Skills for Complex Global Environments, pages 1–19, Dublin, Ireland, Apr. 2010."
+  year: 2010
+  status: "Published"
+  awards:
+  area: "per"
+  fulltext: "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5508834" 
 
 - citation: "J. Lin, S. Sedigh, and A. R. Hurson. Knowledge management for fault-tolerant water distribution. In Albert Zomaya and Hamid Sarbazi-Azad, editors, Large Scale Network-Centric Computing Systems. John Wiley & Sons, 2012."
   year: 2012
@@ -269,7 +207,35 @@
   awards:
   area: "cip"
   fulltext: "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5380619"
+  
+- citation: "T. Harms, F. Bastianini, and S. Sedigh. Recent enhancements to the SmartBrick structural health monitoring platform. In Proceedings of the 12th International IEEE Conference on Intelligent Transportation Systems (ITSC ’09), pages 1–6, St. Louis, MO, Oct. 2009."
+  year: 2009
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=5309517&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D5309517"
+  
+- citation: "T. Harms, P. Shah, S. Sedigh, Z. Bourque, and F. Bastianini. Zigbee-enabled structural health monitoring with the SmartBrick network. In Proceedings of the 7th International Workshop on Structural Health Monitoring (IWSHM ’09), pages 909–917, Stanford, USA, Sept. 2009."
+  year: 2009
+  status: "Published"
+  awards:
+  area: "cip" 
+  fulltext: "https://www.researchgate.net/publication/215480994_Zigbee-Enabled_Structural_Health_Monitoring_with_the_SmartBrick_Network" 
+  
+- citation: "W. K. Al-Assadi, S. Gandla, and S. Sedigh. Design of a flood prediction system. In Proceedings of the 12th International IEEE Conference on Intelligent Transportation Systems (ITSC ’09), pages 352–357, St. Louis, USA, Oct. 2009."
+  year: 2009
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=5309516&url=http%3A%2F%2Fieeexplore.ieee.org%2Fiel5%2F5305882%2F5309513%2F05309516.pdf%3Farnumber%3D5309516"
 
+- citation: "A. R. Hurson and S. Sedigh. A pervasive computing platform for individualized higher education. In Proceedings of the International Conference on Computational Intelligence and Software Engineering (CiSE ’09), pages 1–4, Wuhan, China, Dec. 2009."
+  year: 2009
+  status: "Published"
+  awards:
+  area: "per"
+  fulltext: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=5363432&url=http%3A%2F%2Fieeexplore.ieee.org%2Fiel5%2F5362500%2F5362501%2F05363432.pdf%3Farnumber%3D5363432"
+  
 - citation: "A. Faza, S. Sedigh, and B. McMillin. Reliability analysis for the advanced electric power grid: from cyber control and communication to physical manifestations of failure. In Proc. of the 28th Int'l. Conf. on Computer Safety, Reliability and Security (SAFECOMP 2009), Sept. 2009, Hamburg, Germany, pp. 257-269. RECIPIENT OF BEST PAPER AWARD."
   year: 2009
   status: "Published"
@@ -290,17 +256,192 @@
   awards:
   area: "cip"
   fulltext: "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5254189"
+  
+- citation: "P. Shah, A. Singh, S. Agarwal, and S. Sedigh. Sensor data fusion for spectroscopy based detection of explosives. In Proceedings of the 4th SPIE Symposium on Defense, Security + Sensing, pages 730329 – 730329–12, Orlando, FL, Apr. 2009."
+  year: 2009
+  status: "Published"
+  awards:
+  area: "per"
+  fulltext: "http://spie.org/Publications/Proceedings/Paper/10.1117/12.819902"
 
+- citation: "E. Jean, R. T. Collins, A. R. Hurson, S. Sedigh, and Y. Jiao. Pushing sensor network computation to the edge. In Proceedings of the 5th International Conference on Wireless Communications, Networking and Mobile Computing (WiCOM ’09), pages 1–4, Beijing, China, Sept. 2009."
+  year: 2009
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=5302659&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D5302659"
+ 
+- citation: "S. Sedigh. Emerging pervasive systems - research challenges and proposed solutions (panel). In Proceedings of the 33rd IEEE International Computer Software and Applications Conference (COMPSAC ’09) and Proceedings of the 9th International Symposium on Applications and the Internet (SAINT ’09), pages xl–xli, Seattle, USA, July 2009."
+  year: 2009
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: ""
+  
+- citation: "T. Harms, B. Banks, S. Sedigh, and F. Bastianini. Design and testing of a low-power wireless sensor network for structural health monitoring of bridges. In Proceedings of the 16th International SPIE Symposium on Smart Structures and Materials and Non-destructive Evaluation and Health Monitoring, pages 7292, 72920U, San Diego, USA, Mar. 2009."
+  year: 2009
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://proceedings.spiedigitallibrary.org/proceeding.aspx?articleid=822527"
+  
+- citation: "B. Banks, T. Harms, F. Bastianini, and S. Sedigh. A low-cost wireless system for autonomous generation of road safety alerts. In Proceedings of the 16th International SPIE Symposium on Smart Structures and Materials and Nondestructive Evaluation and Health Monitoring, pages 7292, 72920E, San Diego, USA, Mar. 2009."
+  year: 2009
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://spie.org/Publications/Proceedings/Paper/10.1117/12.817851"
+  
 - citation: "A. Faza, S. Sedigh, and B. McMillin. The Advanced Electric Power Grid: Reliability Modeling and Complexity Reduction Techniques. In Proc. of the 27th Int'l. Conf. on Computer Safety, Reliability and Security (SAFECOMP 2008), September 2008, Newcastle, UK, pp. 429-439."
   year: 2008
   status: "Published"
   awards:
   area: "cip"
   fulltext: "http://www.springerlink.com/content/36h96pnt31465613/"
+  
+- citation: "T. Harms, B. Banks, F. Bastianini, and S. Sedigh. Enhancement of autonomous real time SHM with short-range wireless communication. In Proceedings of the 4th European Workshop on Structural Health Monitoring (EWSHM 2008), Cracow, Poland, July 2008."
+  year: 2008
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "https://www.researchgate.net/publication/215481016_Enhancement_of_autonomous_real-time_SHM_with_short-range_wireless_communication"
 
+- citation: "S Gosavi, S. Sedigh, W. Al-Assadi, and R. Rao. Design and FPGA prototyping of a flood prediction system. In Proceedings of the 2008 IEEE Region 5 Conference, pages 1–6, Kansas City, USA, Apr. 2008."
+  year: 2008
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=4562765&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D4562765"
+ 
+- citation: "T. Harms, F. Bastianini, and S. Sedigh. An embedded wireless system for remote monitoring of bridges. In Proceedings of the 15th International SPIE Symposium on Smart Structures and Materials and Nondestructive Evaluation and Health Monitoring, San Diego, USA, Mar. 2008."
+  year: 2008
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://proceedings.spiedigitallibrary.org/proceeding.aspx?articleid=833255"
+  
 - citation: "A. Faza, S. Sedigh, and B. McMillin. Reliability modeling for the advanced electric power grid. In Proc. of the 26th Int'l. Conf. on Computer Safety, Reliability and Security (SAFECOMP 2007), September 2007, Nuremberg, Germany, pp. 370-383."
   year: 2007
   status: "Published"
   awards:
   area: "cip"
   fulltext: "http://www.springerlink.com/content/65800v6703g37jkn/"
+
+- citation: "V. Plessi, F. Bastianini, S. Sedigh, N. Galati, and A. Nanni. An autonomous networked wireless device for structural health monitoring. In Proceedings of the 3rd International Conference on Structural Health Monitoring of Intelligent Infrastructure (SHMII-3), Vancouver, Canada, Nov. 2007."
+  year: 2007
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "https://www.researchgate.net/publication/215481061_An_autonomous_networked_wireless_device_for_structural_health_monitoring"
+
+- citation: "F. Bastianini, V. Plessi, S. Sedigh, N. Galati, and A. Nanni. A low-cost wireless system for real-time structural health monitoring. In Proceedings of the 6th International Workshop on Structural Health Monitoring (IWSHM ’07), pages 129–136, Stanford, USA, Sept. 2007."
+  year: 2007
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "https://www.researchgate.net/publication/215481053_A_low-cost_wireless_system_for_real-time_structural_health_monitoring"
+  
+- citation: "S. Sedigh. Ethics in computing (panel). In Proceedings of the 31st IEEE International Computer Software and Applications Conference (COMPSAC ’07), page 16, Beijing, China, July 2007."
+  year: 2007
+  status: "Published"
+  awards:
+  area: "per"
+  fulltext: "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=4290976"
+  
+- citation: "V. Plessi, F. Bastianini, and S. Sedigh. A wireless embedded system for real-time environmental and structural monitoring. In Proceedings of the 5th IFIP Workshop on Software Technologies for Future Embedded & Ubiquitous Systems (SEUS ’07), pages 456–465, Santorini Island, Greece, May 2007."
+  year: 2007
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://link.springer.com/chapter/10.1007%2F978-3-540-75664-4_48"
+
+- citation: "T. Freiberger, S. Sedigh, and E. Atekwana. Hydrological monitoring with hybrid sensor networks. In Proceedings of the International Conference on Sensor Technologies and Applications (SENSORCOMM 2007), pages 484–489, Valencia, Spain, Oct. 2007."
+  year: 2007
+  status: "Published"
+  awards: 
+  area: "cip"
+  fulltext: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=4394967&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D4394967"
+
+- citation: "A. Z. Faza and S. Sedigh. A general purpose framework for wireless sensor network applications. In Proceedings of the 30th International Computer Software and Applica- tions Conference (COMPSAC ’06), pages 356–358, Chicago, USA, Sept. 2006."
+  year: 2006
+  status: "Published"
+  awards: "winner of best student paper award"
+  area: "cip"
+  fulltext: "http://www.computer.org/csdl/proceedings/compsac/2006/2655/02/265510356.pdf"
+
+- citation: "V. Plessi, F. Bastianini, and S. Sedigh. An autonomous and adaptable wireless device for flood monitoring (short paper). In Proceedings of the 30th Annual International Computer Software and Applications Conference (COMPSAC ’06), Chicago, USA, Sept. 2006."
+  year: 2006
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=4020204&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D4020204"
+  
+- citation: "A. Masood, S. Sedigh, and A. Ghafoor. Efficiently managing security concerns in component-based system design. In Proceedings of the 29th International Computer Software and Applications Conference (COMPSAC ’05), selected for journal publication), pages 164 – 169, Edinburgh, UK, July 2005."
+  year: 2005
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=1510014&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D1510014"  
+  
+- citation: "S. Sedigh and A. Ghafoor. A graph-based model for component-based software development. In Proceedings of the 10th IEEE International Workshop on Object-oriented Real-time Dependable Systems (WORDS ’05), pages 254–262, Sedona, USA, Feb. 2005."
+  year: 2005
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=1544800"
+  
+- citation: "S. Sedigh, B. Shafiq, A. Masood, and A. Ghafoor. Research challenges in e-Enterprise security. In Proceedings of the IEEE International Workshop on Frontiers of Information Technology, Lahore, Pakistan, Dec. 2003."
+  year: 2003
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: ""
+  
+- citation: "S. Sedigh, A. Ghafoor, and R. A. Paul. Metrics and models for cost and quality of component-based software. In Proceedings of the 6th IEEE International Symposium on Object-Oriented Real-time Distributed Computing (ISORC ’03), pages 149–155, Hako- date, Japan, May 2003."
+  year: 2003
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=1199249&url=http%3A%2F%2Fieeexplore.ieee.org%2Fiel5%2F8540%2F26999%2F01199249"
+  
+- citation: "S. Sedigh, A. Ghafoor, and R.A. Paul. Temporal modeling of software test coverage. In Proceedings of the 26th International Computer Software and Applications Conference (COMPSAC ’02), Oxford, England, Aug. 2002."
+  year: 2002
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=1045109&url=http%3A%2F%2Fieeexplore.ieee.org%2Fiel5%2F8094%2F22390%2F01045109"
+
+- citation: "S. Sedigh, A. Ghafoor, and R.A. Paul. Metrics-based framework for decision making in COTS-based software systems (short paper). In Proceedings of the IEEE/IEICE International Symposium on High-Assurance Systems Engineering (HASE ’02), Tokyo, Japan, Oct. 2002."
+  year: 2002
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=1173130&url=http%3A%2F%2Fieeexplore.ieee.org%2Fiel5%2F8375%2F26364%2F01173130"
+  
+- citation: ". Sedigh, A. Ghafoor, and R.A. Paul. Metrics-guided quality management for component-based software systems. In Proceedings of the 25th International Computer Software and Applications Conference (COMPSAC ’01), Chicago, USA, Oct. 2001."
+  year: 2001
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=960631&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D960631"
+  
+- citation: "S. Ali, H. J. Siegel, M. Maheswaran, D. Hengsen, and S. Sedigh. Task execution time modeling for heterogeneous computing systems. In Proceedings of the 9th IEEE Het- erogeneous Computing Workshop (HCW ’00), Cancun, Mexico, May 2000."
+  year: 2000
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=843743&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D843743"
+
+- citation: "A. Bashandy, R. Paul, S. Baqai, S. Sedigh, H. Fahmi, and A. Ghafoor. A protocol architecture for guaranteed quality of service in collaborated multimedia applications. In Proceedings of the IEEE Symposium on Application-Specific Systems and Software Engineering and Technology (ASSET ’99), Richardson, USA, Mar. 1999."
+  year: 1999
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=756760"
+  
+- citation: "S. Sedigh, J. Joshi, A. Bashandy, and A. Ghafoor. Evaluation of filtering mechanisms for MPEG video communications. In Proceedings of the IEEE Symposium on Reliable Distributed Systems (SRDS ’98), West Lafayette, IN, Oct. 1998."
+  year: 1998
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=740539&punumber%3D5971%26sortType%3Dasc_p_Sequence%26filter%3DAND(p_IS_Number%3A15987)%26pageNumber%3D3"
