@@ -32,12 +32,26 @@
   area: "cip"
   fulltext: "http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6754594&tag=1"
 
-citation: "A. Avritzer, L. Carnevali, L. Happe, B. R. Haverkort, A. Koziolek, D. Menasche, A. Remke, and S. Sedigh Sarvestani. Survivability evaluation of gas, water and electricity infrastructures. In Proceedings of the 7th International Workshop on Practical Applications of Stochastic Modelling (PASM '14), Newcastle upon Tyne, UK, May 2014."
+  citation: "A. Avritzer, L. Carnevali, L. Happe, B. R. Haverkort, A. Koziolek, D. Menasche, A. Remke, and S. Sedigh Sarvestani. Survivability evaluation of gas, water and electricity infrastructures. In Proceedings of the 7th International Workshop on Practical Applications of Stochastic Modelling (PASM '14), Newcastle upon Tyne, UK, May 2014."
   year: 2014
   status: "Published"
   awards:
   area: "cip"
   fulltext: "http://www.sciencedirect.com/science/article/pii/S1571066114000942"
+  
+  citation: "M. Al-Basrawi, N. Jarus, K. Joshi, and S. Sedigh Sarvestani. Analysis of reliability and resilience for smart grids. In Proceedings of the 38th IEEE International Computers, Software and Applications Conference (COMPSAC '14), Vasteras, Sweden, Jul. 2014."
+  year: 2014
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6899257&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6899257"
+  
+  citation: "K. Marashi and S. Sedigh. Towards comprehensive modeling of reliability for smart grids: Requirements and challenges. In Proceedings of the 15th IEEE International High Assurance Systems Engineering Symposium (HASE '14), Miami, USA, Jan. 2014."
+  year: 2014
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6754594&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6754594"
   
 - citation: "K. Marashi, M. Woodard, S. Sedigh and A. Hurson, Quantitative Reliability Analysis for Intelligent Water Distribution Networks, In Proceedings of the Embedded Topical Meeting on Risk Management for Complex Socio-Technical Systems (RM4CSS), Annual Meeting of the American Nuclear Society, Washington, D.C., Nov. 2013."
   year: 2013
