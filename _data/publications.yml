@@ -95,6 +95,34 @@
   area: "cip"
   fulltext: "http://link.springer.com/chapter/10.1007/978-3-642-32597-7_10"
   
+  citation: "A. Vijay, N. Patel, S. Cross, and S. Sedigh. Towards a military-standard wireless sensor platform for the detection of improvised explosive devices. In Proceedings of the 7th SPIE Symposium on Defense, Security + Sensing, Baltimore, MD, Apr. 2012."
+  year: 2012
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: 
+  
+  citation: "A. Vijay, N. Patel, S. Cross, and S. Sedigh. Recent enhancements to and applications of the SmartBrick structural health monitoring platform. In Proceedings of the 19th International SPIE Symposium on Smart Structures and Materials and Nondestructive Evaluation and Health Monitoring, San Diego, USA, Mar. 2012."
+  year: 2012
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://proceedings.spiedigitallibrary.org/proceeding.aspx?articleid=1313986"
+  
+  citation: "J. Lin, S. Sedigh, and A. R. Hurson. Ontologies and decision support for failure mitigation in intelligent water distribution networks. In Proceedings of the 45th Hawaii International Conference on System Sciences (HICSS-45), Maui, USA, Jan. 2012."
+  year: 2012
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6149031&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6149031"
+  
+  citation: "P. Maheshwari, B. Seol, J. Lee, J. Lim, S. Sedigh, and D. Pommerenke. Software-based instrumentation for localization of faults caused by electrostatic discharge. In Proceed- ings of the 13th IEEE International High Assurance Systems Engineering Symposium (HASE '11), Boca Raton, USA, Nov. 2011, invited."
+  year: 2011
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6113916&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6113916"
+  
 - citation: "A. Faza, S. Sedigh, and B. McMillin. Integrated cyber-physical fault injection for reliability analysis of the smart grid (pp. 277-290). Springer Berlin Heidelberg, 2010."
   year: 2010
   status: "Published"
