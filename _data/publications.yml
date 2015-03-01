@@ -54,27 +54,6 @@
   area: "cip"
   fulltext: ""
   
-- citation: "A. Faza, S. Sedigh, and B. McMillin. Integrated cyber-physical fault injection for reliability analysis of the smart grid (pp. 277-290). Springer Berlin Heidelberg, 2010."
-  year: 2010
-  status: "Published"
-  awards:
-  area: "cip"
-  fulltext: "http://link.springer.com/chapter/10.1007/978-3-642-15651-9_21"
-
-- citation: "A. Faza, S. Sedigh, and B. McMillin. A Case Study in Quantitative Analysis of Cyber-Physical Systems: Reliability of the Smart Grid. Int'l. IEEE Transaction on Reliability, 2010."
-  year: 2010
-  status: "Published"
-  awards:
-  area: "cip"
-  fulltext: "http://scholarsmine.mst.edu/doctoral_dissertations/1785/"
-  
-- citation: "A. R. Hurson and S. Sedigh. Transforming the instruction of introductory computing to engineering students. In Proceedings of the IEEE International Conference on Transforming Engineering Education - Creating Interdisciplinary Skills for Complex Global Environments, pages 1–19, Dublin, Ireland, Apr. 2010."
-  year: 2010
-  status: "Published"
-  awards:
-  area: "per"
-  fulltext: "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5508834" 
-
 - citation: "J. Lin, S. Sedigh, and A. R. Hurson. Knowledge management for fault-tolerant water distribution. In Albert Zomaya and Hamid Sarbazi-Azad, editors, Large Scale Network-Centric Computing Systems. John Wiley & Sons, 2012."
   year: 2012
   status: "Published"
@@ -152,6 +131,62 @@
   area: "cip"
   fulltext: "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5718552"
 
+- citation: "A. Bahmani, S. Sedigh, and A. R. Hurson. Context-aware recommendation algorithms for the PERCEPOLIS personalized education platform. In Proceedings of the 41st IEEE Frontiers in Education Conference (FIE '11), pages F4E{1 { F4E{6, Rapid City, USA, Oct. 2011."
+  year: 2011
+  status: "Published"
+  awards: 
+  area: "cip"
+  fulltext: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6143102&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6143102"
+
+  citation: "F. Bastianini, G. Pascale, and S. Sedigh. Cost-eectiveness of structural health monitoring in low sensor count installations using a wireless autonomous SHM WASHM device. In Proceedings of the European Workshop on Cultural Heritage Preservation and Training (EWCHP '11), Berlin, Germany, Sept. 2011."
+  year: 2011
+  status: "Published"
+  awards: 
+  area: "cip"
+  fulltext: 
+  
+  citation: "A. Vijay, P. Chulick, S. Sedigh, and A. R. Hurson. Military-standard sensor nodes for the SmartBrick structural health monitoring platform. In Proceedings of the 8th International Workshop on Structural Health Monitoring (IWSHM '11), pages 2115{2122, Stanford, USA, Sept. 2011."
+  year: 2011
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: 
+  
+  citation: "P. Maheshwari, T. Li, J. Lee, B. Seol, S. Sedigh, and D. Pommerenke. Software-based analysis of the eects of electrostatic discharge on embedded systems. In Proceedings of the 35th IEEE International Computer Software and Applications Conference (COMP-SAC '11), pages 436{441, Munich, Germany, July 2011."
+  year: 2011
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6032376&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6032376"
+  
+  citation: "S. Sedigh. Smart technology - applications and infrastructure (panel). In Proceedings of the 35th IEEE International Computer Software and Applications Conference (COMP- SAC '11) and Proceedings of the 11th International Symposium on Applications and the Internet (SAINT '11), page 522, Munich, Germany, July 2011."
+  year: 2011
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: 
+  
+- citation: "A. Faza, S. Sedigh, and B. McMillin. Integrated cyber-physical fault injection for reliability analysis of the smart grid (pp. 277-290). Springer Berlin Heidelberg, 2010."
+  year: 2010
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://link.springer.com/chapter/10.1007/978-3-642-15651-9_21"
+
+- citation: "A. Faza, S. Sedigh, and B. McMillin. A Case Study in Quantitative Analysis of Cyber-Physical Systems: Reliability of the Smart Grid. Int'l. IEEE Transaction on Reliability, 2010."
+  year: 2010
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://scholarsmine.mst.edu/doctoral_dissertations/1785/"
+  
+- citation: "A. R. Hurson and S. Sedigh. Transforming the instruction of introductory computing to engineering students. In Proceedings of the IEEE International Conference on Transforming Engineering Education - Creating Interdisciplinary Skills for Complex Global Environments, pages 1–19, Dublin, Ireland, Apr. 2010."
+  year: 2010
+  status: "Published"
+  awards:
+  area: "per"
+  fulltext: "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5508834" 
+  
 - citation: "E. Jean, R. Collins, S. Sedigh, A. Hurson, and C. Jiao. RISN: An efficient, dynamically tasked and interoperable sensor network overlay. In Proceedings of the 8th IEEE Inter- national Conference on Embedded and Ubiquitous Computing (EUC-10), pages 224–231, Hong Kong, China, Dec. 2010."
   year: 2010
   status: "Published"
