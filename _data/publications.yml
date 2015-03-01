@@ -67,6 +67,34 @@
   area: "cip"
   fulltext: "http://link.springer.com/chapter/10.1007%2F978-3-642-40894-6_11"
 
+  citation: "Christopher Shaun Wagner, Sahra Sedigh, and Ali R. Hurson. Accurate and ecient search prediction using fuzzy matching and outcome feedback. In Proceedings of the 6th International Conference on Similarity Search and Applications (SISAP '13), pages 219{232, A Coru~na, Spain, October 2013."
+  year: 2013
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://link.springer.com/chapter/10.1007/978-3-642-41062-8_23"
+  
+  citation: "Antonio Sabatini, Nathan Jarus, Pratik Maheshwari, and Sahra Sedigh. Software instrumentation for failure analysis of USB host controllers. In Proceedings of the 13th IEEE International Instrumentation and Measurement Technology Conference (I2MTC '13), Minneapolis, USA, May 2013."
+  year: 2013
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6555586&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6555586"
+  
+  citation: "D. Fitch, S. Sedigh, B. McMillin, and R. Akella. CPS-CSH cyber-physical analysis and design. In Proceedings of the 7th International Conference on Critical Information Infrastructures Security (CRITIS '12), Lillehammer, Norway, Sept. 2012."
+  year: 2012
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://link.springer.com/chapter/10.1007/978-3-642-41485-5_9"
+  
+  citation: "A. Bahmani, S. Sedigh, and A. R. Hurson. Ontology-based recommendation algorithms for personalized education. In Proceedings of the 23rd International Conference on Database and Expert Systems Applications (DEXA '12), pages 111{120, Vienna, Austria, Sept. 2012."
+  year: 2012
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://link.springer.com/chapter/10.1007/978-3-642-32597-7_10"
+  
 - citation: "A. Faza, S. Sedigh, and B. McMillin. Integrated cyber-physical fault injection for reliability analysis of the smart grid (pp. 277-290). Springer Berlin Heidelberg, 2010."
   year: 2010
   status: "Published"
