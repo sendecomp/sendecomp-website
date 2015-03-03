@@ -123,14 +123,7 @@
   area: "cip"
   fulltext:
 
-- citation: "J. Lin, S. Sedigh, and A. R. Hurson. Knowledge management for fault-tolerant water distribution. In Albert Zomaya and Hamid Sarbazi-Azad, editors, Large Scale Network-Centric Computing Systems. John Wiley & Sons, 2012."
-  year: 2012
-  status: "Published"
-  awards:
-  area: "cip"
-  fulltext: "http://onlinelibrary.wiley.com/doi/10.1002/9781118640708.ch26/summary"
-
-- citation: "J. Lin, S. Sedigh and A. Hurson, Ontologies and Decision Support for Failure Mitigation in  Intelligent Water Distribution Networks, Hawaii Int'l. Conf. on System Sciences (HICSS 2011),Grand Wailea, Maui, Hawaii, Jan. 2012."
+- citation: "J. Lin, S. Sedigh and A. Hurson, Ontologies and Decision Support for Failure Mitigation in Intelligent Water Distribution Networks, Hawaii Int'l. Conf. on System Sciences (HICSS 2011),Grand Wailea, Maui, Hawaii, Jan. 2012."
   year: 2012
   status: "Published"
   awards:
@@ -164,13 +157,6 @@
   awards:
   area: "cip"
   fulltext: "http://cdn.intechopen.com/pdfs/17563/intech-integrated_cyber_physical_simulation_of_intelligent_water_distribution_networks.pdf"
-
-- citation: "J. Lin and S. Sedigh. Reliability modeling for intelligent water distribution networks. International Journal of Performability Engineering, Special issue on Performance and Dependability Modeling of Dynamic Systems, 7(5):467-478, Sept. 2011."
-  year: 2011
-  status: "Published"
-  awards:
-  area: "cip"
-  fulltext: "http://www.ijpe-online.com/september-2011-p6-reliability-modeling-for-intelligent-water-distribution-networks.html#axzz3T6WaKqJw"
 
 - citation: "E. Jean, S. Sedigh, A. R. Hurson, and B. Shirazi. Tools and techniques for interoperability and dynamic reconguration of pervasive systems. In M. Denko and M. S. Obaidat, editors, Pervasive Computing and Networking, ch. 2. John Wiley & Sons, 2011."
   year: 2011
@@ -213,13 +199,6 @@
   awards:
   area: "cip"
   fulltext: "http://www.scirp.org/Journal/PaperInformation.aspx?paperID=3690"
-
-- citation: "J. Lin, S. Sedigh, and A. Miller. Integrated cyber-physical simulation of intelligent water distribution networks. In Matlab. InTech, 2011."
-  year: 2011
-  status: "Published"
-  awards:
-  area: "cip"
-  fulltext: "http://www.intechopen.com/books/scientific-and-engineering-applications-using-matlab/integrated-cyber-physical-simulation-of-intelligent-water-distribution-networks"
 
 - citation: "J. Lin and S. Sedigh, Reliability Modeling for Intelligent Water Distribution Networks, International Journal of Performability Engineering, Special issue on Performance and Dependability Modeling of Dynamic Systems, 2011."
   year: 2011
@@ -319,26 +298,12 @@
   area: "cip"
   fulltext: "http://dl.acm.org/citation.cfm?id=1909424"
 
-- citation: "A. Faza, S. Sedigh, and B. McMillin, Integrated Cyber-Physical Fault Injection for Reliability Analysis of the Smart Grid, In Proc. of the Int'l Conf. on Computer Safety, Reliability and Security (SAFECOMP 2010), Sept. 2010, Vienna, Austria, pp. 277-290."
-  year: 2010
-  status: "Published"
-  awards:
-  area: "cip"
-  fulltext: "http://www.springerlink.com/content/591qu872307886x7/"
-
 - citation: "J. Lin, S. Sedigh, and A. Miller. Modeling Cyber-Physical Systems with Semantic Agents. The 5th IEEE Workshop on Engineering Semantic Agent Systems (ESAS 2010) in conjunction with Proc. of the 34th IEEE Int'l. Computer Software and Applications Conf. (COMPSAC 2010), Seoul, South Korea, July 2010, page 13-18."
   year: 2010
   status: "Published"
   awards:
   area: "cip"
   fulltext: "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5614900"
-
-- citation: "Hurson, A. R., & Sedigh, S. (2010). PERCEPOLIS - Pervasive Cyberinfrastructure for Personalized Learning and Instructional Support. Intelligent Information Management, 2(10), 586."
-  year: 2010
-  status:  "Published"
-  awards:
-  area: "per"
-  fulltext: "http://www.scirp.org/Journal/PaperInformation.aspx?paperID=2964&JournalID=111#.VMfUD3DF9rk"
 
 - citation: "A. R. Hurson and S. Sedigh. PERCEPOLIS: Pervasive cyberinfrastructure for personalized learning and instructional support. Intelligent Information Management, 2(10):583-593, Oct. 2010."
   year: 2010
