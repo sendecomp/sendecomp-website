@@ -1,3 +1,8 @@
+- name: "ACM Transactions on Knowledge Discovery from Data (TKDD)"
+  website: "http://tkdd.acm.org/"
+  location:
+  type: Journal
+  
 - name: "IEEE International Conference on Pervasive Computing and Communications (PerCom)"
   website: "http://www.percom.org"
   location: "St. Louis, MO"
