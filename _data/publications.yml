@@ -4,7 +4,35 @@
 #   - Published
 
 # TODO add a volume number when it is available
-- citation: "M. Woodard, S. Sedigh Sarvestani, and A. R. Hurson. Propagation of corrupted data in critical infrastructure cyber-physical systems: A research survey. Advances in Computers. Elsevier, 2015, to appear."
+- citation: "C.S. Wagner, S. Sedigh Sarvestani, and A.R. Hurson. Proactive search: Using outcomebased dynamic nearest-neighbor recommendation algorithms to increase search engine ecacy. ACM Transactions on Information Systems, under revision for resubmission."
+  year: 
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext:
+
+  citation: "P. Maheshwari, S. Sedigh Sarvestani, and D. Pommerenke. Software-based methodologies for root-cause analysis of embedded system failures resulting from electrostatic discharge. IEEE Transactions on Instrumentation and Measurement, submitted."
+  year: 
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext:
+  
+  citation: "A. Faza, S. Sedigh Sarvestani, and B. McMillin. An integrated cyber-physical reliability model for the smart grid. Reliability Engineering and System Safety, submitted."
+  year: 
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext:
+  
+  citation: "A. Faza, S. Sedigh Sarvestani, and B. McMillin. A case study in quantitative analysis of cyber-physical systems: reliability of the electric power grid. IEEE Transactions on Smart Grid, submitted."
+  year: 
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext:
+  
+  citation: "M. Woodard, S. Sedigh Sarvestani, and A. R. Hurson. Propagation of corrupted data in critical infrastructure cyber-physical systems: A research survey. Advances in Computers. Elsevier, 2015, to appear."
   year: 2015
   status: "Published"
   awards:
