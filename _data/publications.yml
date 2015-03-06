@@ -6,40 +6,40 @@
 # TODO add a volume number when it is available
 - citation: "C.S. Wagner, S. Sedigh Sarvestani, and A.R. Hurson. Proactive search: Using outcomebased dynamic nearest-neighbor recommendation algorithms to increase search engine eficacy. ACM Transactions on Information Systems, under revision for resubmission."
   year:
-  status: "Published"
+  status: "To Appear"
   awards:
   area: "cip"
   fulltext:
 
   citation: "P. Maheshwari, S. Sedigh Sarvestani, and D. Pommerenke. Software-based methodologies for root-cause analysis of embedded system failures resulting from electrostatic discharge. IEEE Transactions on Instrumentation and Measurement, submitted."
   year:
-  status: "Published"
+  status: "Under Review"
   awards:
   area: "cip"
   fulltext:
 
   citation: "A. Faza, S. Sedigh Sarvestani, and B. McMillin. An integrated cyber-physical reliability model for the smart grid. Reliability Engineering and System Safety, submitted."
   year:
-  status: "Published"
+  status: "Under Review"
   awards:
   area: "cip"
   fulltext:
 
   citation: "A. Faza, S. Sedigh Sarvestani, and B. McMillin. A case study in quantitative analysis of cyber-physical systems: reliability of the electric power grid. IEEE Transactions on Smart Grid, submitted."
   year:
-  status: "Published"
+  status: "Under Review"
   awards:
   area: "cip"
   fulltext:
 
   citation: "M. Woodard, S. Sedigh Sarvestani, and A. R. Hurson. Propagation of corrupted data in critical infrastructure cyber-physical systems: A research survey. Advances in Computers. Elsevier, 2015, to appear."
   year: 2015
-  status: "Published"
+  status: "To Appear"
   awards:
   area: "cip"
   fulltext:
 
-- citation: "Wisely, Michael, Sahra Sedigh Sarvestani, and Ali Hurson. Public Data Dissemination via Broadcasting. Journal of Information Processing Special Issue - Applications and the Internet in Conjunction with Main Topics of COMPSAC 2014. 2014."
+- citation: "Wisely, Michael, Sahra Sedigh Sarvestani, and Ali Hurson. \"Public Data Dissemination via Broadcasting.\" Journal of Information Processing Special Issue - Applications and the Internet in Conjunction with Main Topics of COMPSAC. 2015."
   year: 2015
   status: "Under Review"
   awards:
@@ -55,7 +55,7 @@
 
 - citation: "Michael Wisely, A. R. Hurson, and S. Sedigh Sarvestani. Public data dissemination via broadcasting. Journal of Information Processing, 23(3), 2015, invited, to appear."
   year: 2015
-  status: "Published"
+  status: "To Appear"
   awards:
   area: "cip"
   fulltext:
@@ -67,15 +67,15 @@
   area: "per"
   fulltext:
 
-- citation: "K. Marashi, M. Woodard, S. Sedigh, and A. Hurson. Quantitative reliability analysis for intelligent water distribution networks. Transactions of the American Nuclear Society."
+- citation: "K. Marashi, M. Woodard, S. Sedigh, and A. Hurson. Quantitative reliability analysis for intelligent water distribution networks. Transactions of the American Nuclear Society, 2014."
   year: 2014
   status: "Published"
   awards:
   area: "cip"
   fulltext:
 
-- citation: "K. Marashi and S. Sedigh, Towards Comprehensive Modeling of Reliability for Smart Grids: Requirements and Challenges, In Proc. of the 15th IEEE Int'l Symposium on High- Assurance Systems Engineering (HASE '14), Miami, FL."
-  year: January 2014
+- citation: "K. Marashi and S. Sedigh, Towards Comprehensive Modeling of Reliability for Smart Grids: Requirements and Challenges, In Proc. of the 15th IEEE Int'l Symposium on High- Assurance Systems Engineering (HASE '14), Miami, FL, Jan 2014."
+  year: 2014
   status: "Published"
   awards:
   area: "cip"
