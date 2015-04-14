@@ -277,7 +277,7 @@
   area: "cip"
   fulltext: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=5669608&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D5669608"
 
-- citation: "A. Faza, S. Sedigh, and B. McMillin. Integrated cyber-physical fault injection for reliability analysis of the smart grid (pp. 277-290). Springer Berlin Heidelberg, 2010."
+- citation: "A. Faza, S. Sedigh, and B. McMillin. Integrated cyber-physical fault injection for reliability analysis of the smart grid. . In Proc. of the 29th Int'l. Conf. on Computer Safety, Reliability and Security (SAFECOMP 2010), Vienna, Austria, pages 277-290, Sep. 2010,"
   year: 2010
   status: "Published"
   awards:
@@ -286,10 +286,10 @@
 
 - citation: "A. Faza, S. Sedigh, and B. McMillin. A Case Study in Quantitative Analysis of Cyber-Physical Systems: Reliability of the Smart Grid. Int'l. IEEE Transaction on Reliability, 2010."
   year: 2010
-  status: "Published"
+  status: "Under Review"
   awards:
   area: "cip"
-  fulltext: "http://scholarsmine.mst.edu/doctoral_dissertations/1785/"
+  fulltext:
 
 - citation: "A. R. Hurson and S. Sedigh. Transforming the instruction of introductory computing to engineering students. In Proceedings of the IEEE International Conference on Transforming Engineering Education - Creating Interdisciplinary Skills for Complex Global Environments, pages 1–19, Dublin, Ireland, Apr. 2010."
   year: 2010
