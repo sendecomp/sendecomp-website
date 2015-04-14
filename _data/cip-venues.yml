@@ -37,6 +37,11 @@
   website: "http://safecomp2015.tudelft.nl/"
   location: "Delft, The Netherlands"
   type: Conference
+  
+- name: "International Workshop on Reliability and Security Aspects for Critical Infrastructure Protection (ReSA4CI)"
+  website: "http://safecomp2015.tudelft.nl/resa4ci-2015"
+  location: "Delft, The Netherlands"
+  type: Conference
 
 - name: "International Symposium on High Assurance Systems Engineering  (HASE)"
   website: "http://www.hase2015.org/"
