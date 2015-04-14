@@ -74,3 +74,12 @@
   website: "http://www.critis2015.org/"
   type: Conference
   
+- name: "Workshop on Design, Modeling and Evaluation of Cyber Physical Systems (CyPhy)"
+  website: "http://www.cyphy.org/p/dates.html"
+  location: "Amsterdam, The Netherlands"
+  type: Conference
+
+- name: "International Symposium on Resilient Cyber Systems (ISRCS)"
+  website: "http://resilienceweek2015.inl.gov/CyberSystems/"
+  location: "Philadelphia, Pennsylvania, USA"
+  type: Conference
