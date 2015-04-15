@@ -256,7 +256,7 @@
   area: "cip"
   fulltext:
 
-- citation: "P. Maheshwari, T. Li, J. Lee, B. Seol, S. Sedigh, and D. Pommerenke. Software-based analysis of the eects of electrostatic discharge on embedded systems. In Proceedings of the 35th IEEE International Computer Software and Applications Conference (COMP-SAC '11), pages 436-441, Munich, Germany, July 2011."
+- citation: "P. Maheshwari, T. Li, J. Lee, B. Seol, S. Sedigh, and D. Pommerenke. Software-based analysis of the effects of electrostatic discharge on embedded systems. In Proceedings of the 35th IEEE International Computer Software and Applications Conference (COMP-SAC '11), pages 436-441, Munich, Germany, July 2011."
   year: 2011
   status: "Published"
   awards:
