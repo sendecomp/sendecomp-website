@@ -22,3 +22,8 @@
   website: "http://www.itsc2015.org/"
   location: " Canary Islands, Spain"
   type: Conference
+  
+- name: "International Journal of Intelligent Transportation Systems Research (ITSJ)"
+  website: "http://link.springer.com/journal/13177"
+  location: "Tokyo, Japan"
+  type: Journal
