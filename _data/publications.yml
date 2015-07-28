@@ -32,12 +32,12 @@
   area: "cip"
   fulltext:
 
-  citation: "M. Woodard, S. Sedigh Sarvestani, and A. R. Hurson. Propagation of corrupted data in critical infrastructure cyber-physical systems: A research survey. Advances in Computers. Elsevier, 2015, to appear."
+  citation: "Woodard, Mark, Sahra Sedigh Sarvestani, and Ali R. Hurson. A Survey of Research on Data Corruption in Cyber–Physical Critical Infrastructure Systems." Advances in Computers (2015).
   year: 2015
-  status: "To Appear"
+  status: "Published"
   awards:
   area: "cip"
-  fulltext:
+  fulltext: "http://www.sciencedirect.com/science/article/pii/S0065245815000285"
 
 - citation: "T. Morrow, A. Hurson, and S. Sedigh Sarvestani, Cyberinfrastructure for Personalized Education, in Handbook of Applied Learning Theory and Design in Modern Education, E. Railean, G. Walker, L. Jackson, and A. Elci, Eds. IGI Global, 2015."
   year: 2015
@@ -65,7 +65,7 @@
   status: "Published"
   awards:
   area: "cip"
-  fulltext:
+  fulltext: 
 
 - citation: "K. Marashi and S. Sedigh, Towards Comprehensive Modeling of Reliability for Smart Grids: Requirements and Challenges, In Proc. of the 15th IEEE Int'l Symposium on High- Assurance Systems Engineering (HASE '14), Miami, FL, Jan 2014."
   year: 2014
