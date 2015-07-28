@@ -4,6 +4,15 @@
 #   - Published
 
 # TODO add a volume number when it is available
+
+
+- citation: "L. Heendaliya, M. Wisely, D. Lin, S. S. Sarvestani, and A. Hurson. Influence-aware Predictive Density Queries Under Road-network Constraints. In 14th International Symposium on Spatial and Temporal Databases, Hong Kong, 2015."
+  year: 2015
+  status: "To Appear"
+  awards:
+  area: "per"
+  fulltext:
+
 - citation: "C.S. Wagner, S. Sedigh Sarvestani, and A.R. Hurson. Proactive search: Using outcomebased dynamic nearest-neighbor recommendation algorithms to increase search engine eficacy. ACM Transactions on Information Systems, under revision for resubmission."
   year:
   status: "To Appear"
