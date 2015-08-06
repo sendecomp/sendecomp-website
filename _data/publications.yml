@@ -55,12 +55,12 @@
   area: "per"
   fulltext:
 
-- citation: "Michael Wisely, A. R. Hurson, and S. Sedigh Sarvestani. Public data dissemination via broadcasting. Journal of Information Processing, 23(3), 2015, invited, to appear."
+- citation: "Michael Wisely, A. R. Hurson, and S. Sedigh Sarvestani. Public data dissemination via broadcasting. Journal of Information Processing, 23(4), 2015, invited."
   year: 2015
-  status: "To Appear"
+  status: "Published"
   awards:
-  area: "cip"
-  fulltext:
+  area: "per"
+  fulltext: "http://doi.org/10.2197/ipsjjip.23.382"
 
 - citation: "T. Morrow, A context-aware ontology for personalized learning: Pervasive computing for educational technology, in Proceedings of the 8th Annual Ph.D. Forum on Pervasive Computing and Communications, at the 13th IEEE International Conference on Pervasive Computing and Communications (PerCom 2015), St. Louis, MO, Mar. 2015."
   year: 2015
