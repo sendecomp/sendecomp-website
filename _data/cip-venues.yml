@@ -88,3 +88,14 @@
   website: "http://www.ipccc.org/"
   location: "Nanjing, China"
   type: Conference
+
+- name: " International Conference on Quantitative Evaluation of SysTems (QEST)"
+  website: "http://www.qest.org/"
+  location: "Madrid, Spain"
+  type: Conference
+
+- name: " Hawaii International Conference on System Sciences (HICSS)"
+  website: "http://www.hicss.org/"
+  location: "Kauai, Hawaii, USA"
+  type: Conference
+
