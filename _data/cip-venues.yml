@@ -99,3 +99,7 @@
   location: "Kauai, Hawaii, USA"
   type: Conference
 
+- name: " IEEE Power and Energy Conference at Illinois (PECI)"
+  website: "http://peci.ece.illinois.edu"
+  location: "Illinois, USA"
+  type: Conference
