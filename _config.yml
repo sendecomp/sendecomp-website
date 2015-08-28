@@ -2,9 +2,7 @@
 title: Missouri S&T SeNDeComp
 email: tjm6f4@mst.edu
 description: ""
-# Add "/~sendecomp" as basurl when deploying to web.mst.edu directory
-# Only push to GitHub with baseurl blank because a value will disrupt usage of GitHub pages (staging site)
-baseurl: 
+baseurl: "/~sendecomp"
 url: "http://web.mst.edu/~sendecomp"
 encoding: ISO-8859-1
 
