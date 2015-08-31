@@ -18,6 +18,16 @@
   location:
   type: Journal
   
+- name: "ACM Transactions on Modeling and Performance Evaluation of Computing Systems (TOMPECS)"
+  website: "http://tompecs.acm.org/"
+  location:
+  type: Journal
+  
+- name: "ACM Transactions on Cyber-Physical Systems (TCPS)"
+  website: "http://tcps.acm.org/"
+  location:
+  type: Journal
+  
 - name: "International Workshop on Reliable Networks Design and Modeling (RNDM)"
   website: "http://www.rndm.pl"
   location: "Munich, Germany"
@@ -84,22 +94,22 @@
   location: "Philadelphia, Pennsylvania, USA"
   type: Conference
   
-- name: " IEEE -- International Performance Computing and Communications Conference (IPCCC)"
+- name: "IEEE -- International Performance Computing and Communications Conference (IPCCC)"
   website: "http://www.ipccc.org/"
   location: "Nanjing, China"
   type: Conference
 
-- name: " International Conference on Quantitative Evaluation of SysTems (QEST)"
+- name: "International Conference on Quantitative Evaluation of SysTems (QEST)"
   website: "http://www.qest.org/"
   location: "Madrid, Spain"
   type: Conference
 
-- name: " Hawaii International Conference on System Sciences (HICSS)"
+- name: "Hawaii International Conference on System Sciences (HICSS)"
   website: "http://www.hicss.org/"
   location: "Kauai, Hawaii, USA"
   type: Conference
 
-- name: " IEEE Power and Energy Conference at Illinois (PECI)"
+- name: "IEEE Power and Energy Conference at Illinois (PECI)"
   website: "http://peci.ece.illinois.edu"
   location: "Illinois, USA"
   type: Conference
