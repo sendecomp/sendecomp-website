@@ -113,3 +113,8 @@
   website: "http://peci.ece.illinois.edu"
   location: "Illinois, USA"
   type: Conference
+
+- name: "International Conference on Engineering Failure Analysis (ICEFA)"
+  website: "http://www.icefaconference.com/"
+  location: "Leipzig, Germany"
+  type: Conference
