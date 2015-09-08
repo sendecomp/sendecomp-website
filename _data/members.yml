@@ -120,7 +120,7 @@
   status: Alumni
   grad: 2012 December
   focus:  Increasing Interoperability and Coverage of Automated Monitoring and Detection Systems
-  emp:
+  emp: "Tesla Motors"
   website:
   photo: /img/Arun.jpg
 
@@ -258,15 +258,6 @@
   emp: "MYNAH Technologies"
   website:
   photo: /img/Freiberger.jpg
-
-- name: Arun Vijay
-  degree: "Computer Engineering (MS)"
-  status: Alumni
-  grad: "2012 December"
-  focus:
-  emp: "Tesla Motors"
-  website:
-  photo:
 
 - name: Shaun Wagner
   degree: "Computer Science (PhD)"
