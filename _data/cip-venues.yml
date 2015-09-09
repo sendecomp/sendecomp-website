@@ -113,3 +113,8 @@
   website: "http://peci.ece.illinois.edu"
   location: "Illinois, USA"
   type: Conference
+
+- name: "Dependable and Adaptive Distributed Systems (DADS) track of the ACM Symposium on Applied Computing (SAC)"
+  website: "http://www.dedisys.org/sac16/"
+  location: "Pisa, Italy"
+  type: Conference
