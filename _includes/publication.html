@@ -1,8 +1,6 @@
 <div class="media">
   <div class="media-body">
-    <h6 class="media-heading">
-      {{ pub.citation }}
-    </h6>
+    <h6 class="media-heading">{{ pub.citation }}</h6>
     <p>
       <strong>Status:</strong>
       {% if pub.status == "Published" %}
@@ -17,6 +15,15 @@
       <br/>
       {% if pub.awards %}
         <strong>Awards:</strong> {{ pub.awards }} <br/>
+      {% endif %}
+      {% if pub.badge %}
+        {% if pub.badge-link %}
+          <a href="{{ pub.badge-link }}" target="_blank">
+	    <img src="{{ site.baseurl }}{{ pub.badge }}" height="100" />
+          </a>
+        {% else %}
+          <img src="{{ pub.badge }}" height="100" />
+        {% endif %}
       {% endif %}
     </p>
   </div>
