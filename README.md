@@ -3,7 +3,7 @@ SeNDeComp Website
 
 This website uses [Jekyll](http://jekyllrb.com/), which is a software tool for generating static websites from templates and plain text. We use this because most of us would prefer to not have to deal with HTML every time we need to update our website. Instead, we can just edit plain text files, and Jekyll will generate an updated website for us based on the templates and CSS someone else created a long time ago. Because most of the data displayed on the site comes from just text files, a lot of the website's content can be modified without the need for anyone to feel uncomfortable looking at HTML if they are unfamiliar with it. All of these plaintext files are located in one place, the `/_data` directory in the root of this repository.
 
-Regarding the Adding of Images
+Adding Images
 ------------------------------
 
 Adding images cannot be done via GitHub. The following process outlines how to perform this task:
@@ -108,6 +108,8 @@ Modifying the files can be done easily from GitHub (this website) by clicking on
 	-	*Please make sure that the links you enter are not ones that will likely change year-to-year.*
 -	type `required`: "Conference," "Publisher," "Journal," etc
 
-**Notes:** - Try to wrap all values in quotation marks - Images can not be added from GitHub; it must be done locally and then synced with GitHub - ask if you need help
+**Notes:** 
+- Try to wrap all values in quotation marks 
+- Images can not be added from GitHub; it must be done locally and then synced with GitHub - ask if you need help
 
 \* CIP or PER
