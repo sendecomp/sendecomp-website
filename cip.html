@@ -8,7 +8,7 @@ title: Critical Infrastructure Protection
     <ul class="nav nav-tabs nav-justified col-md-2" role="tablist" style="padding:0;">
       <li class="active"><a href="#pubs" data-toggle="pill">Publications</a></li>
       <li><a href="#projects" data-toggle="pill">Projects</a></li>
-      <li><a href="#labs" data-toggle="pill">Related Labs</a></li>
+      <li><a href="#resources" data-toggle="pill">Resources</a></li>
       <li><a href="#venues" data-toggle="pill">Publication Venues</a></li>
     </ul>
     <div class="tab-content col-xs-12 well">
@@ -37,10 +37,17 @@ title: Critical Infrastructure Protection
         {% endfor %}
       </div>
 
-      <div class="tab-pane" id="labs">
+      <div class="tab-pane" id="resources">
+        <h4>Related Labs</h4>
         {% assign labs = site.data.cip-labs %}
         {% for lab in labs %}
           {% include lab.html %}
+        {% endfor %}
+        
+        <h4>Useful Documents</h4>
+        {% assign docs = site.data.cip-docs %}
+        {% for doc in docs %}
+          {% include doc.html %}
         {% endfor %}
       </div>
 
