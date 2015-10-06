@@ -69,7 +69,15 @@ Modifying the files can be done easily from GitHub (this website) by clicking on
 
 -	name `required`: full name of lab with any shorthand in parenthesis
 -	website `required`: full link to the website of the lab
--	location `required`: city/state/country where lab is located
+-	location `optional`: city/state/country where lab is located
+
+### *-docs.yml
+
+*This file contains a list of usefull documents for the specific research area*.\*
+
+-	name `required`: full name of the document as apeared in the published version
+-	website `required`: full link to the document (preferably DOI link)
+-	author `optional`: Last Name, First inistials.; ...
 
 ### *-projects.yml
 
