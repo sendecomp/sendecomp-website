@@ -118,3 +118,8 @@
   website: "http://www.dedisys.org/sac16/"
   location: "Pisa, Italy"
   type: Conference
+
+- name: "International Conference on Ambient Systems, Networks and Technologies (ANT)"
+  website: "http://cs-conferences.acadiau.ca/ant-16/"
+  location: "Madrid, Spain"
+  type: Conference
