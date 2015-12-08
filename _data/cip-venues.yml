@@ -123,3 +123,8 @@
   website: "http://cs-conferences.acadiau.ca/ant-16/"
   location: "Madrid, Spain"
   type: Conference
+  
+- name: "International Workshop on Practical Applications of Stochastic Modelling (PASM)"
+  website: "http://homepages.cs.ncl.ac.uk/nigel.thomas/PASM16.htm"
+  location: "Munster, Germany"
+  type: Conference
