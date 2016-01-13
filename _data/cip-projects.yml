@@ -1,5 +1,5 @@
 - name: "Quantitative Analysis of Cyber-Physical Systems: Reliability of the Smart Grid"
-  desc: "The advanced electric power grid promises a self-healing infrastructure using distributed, coordinated, power electronics control. One promising power electronics device, the Flexible AC Transmission System (FACTS) device, can modify the power flow locally within a power grid. Embedded computers within the FACTS devices, along with the links connecting them, form a communication and control network that can dynamically change the advanced electric power grid to achieve higher dependability. The goal is to reroute power distribution in the event of transmission line failure. Such a system over a widespread area, is a cyber-physical system. The overall reliability of the advanced electric power grid is function of the respective reliabilities of its two major subsystems, namely, the FACTS network and the physical components that comprise the power grid.
+  desc: "The advanced electric power grid promises a self-healing infrastructure using distributed, coordinated, power electronics control. One promising power electronics device, the Flexible AC Transmission System (FACTS) device, can modify the power flow locally within a power grid. Embedded computers within the FACTS devices, along with the links connecting them, form a communication and control network that can dynamically change the advanced electric power grid to achieve higher dependability. The goal is to reroute power distribution in the event of transmission line failure. Such a system over a widespread area, is a cyber-physical system. The overall reliability of the advanced electric power grid is function of the respective reliabilities of its two major subsystems, namely, the FACTS network and the physical components that comprise the power grid. 
 
 The objective of this project is to develop a quantitative model for the reliability of the advanced electric power grid, taking into account interdependencies among the cyber and physical components of the grid, while reflecting the effect of interdependent line failures."
   status: "Active"
@@ -46,21 +46,14 @@ The overarching objective of this project is to develop an understanding of fail
       link:
 
 - name: "Cyber-Physical System Model Transformation"
-desc: "
-Generating models for every aspect of a system is a labor-intensive and error-prone process.
-My work focuses on defining transformations from one type of system model to a different type of model, allowing developers to derive models of various system aspects easily.
-Initially I will focus on transforming system architecture models to non-functional attribute models; for example, transforming an architectural model of a power grid into a reliability model. 
-Ultimately I will expand this work to arbitrary model transformations.
-Any model that can be deterministically transformed must be deterministically specified; these deterministic specifications can be converted into abstract mathematical models. 
-In this framework, transformations then become functions mapping one model to another. 
-Formalizing modeling in this fashion allows us to apply a wealth of research on transforming mathematical structures."
-	area: CI
-	status: "Active"
-	members:
-		- name: Nathan Jarus
-		  link: http://web.mst.edu/~nmjxv3/
-		- name: Dr. Sahra Sedigh Sarvestani
-			link: http://web.mst.edu/~sedighs/
+  desc: "Generating models for every aspect of a system is a labor-intensive and error-prone process. My work focuses on defining transformations from one type of system model to a different type of model, allowing developers to derive models of various system aspects easily. Initially I will focus on transforming system architecture models to non-functional attribute models; for example, transforming an architectural model of a power grid into a reliability model.  Ultimately I will expand this work to arbitrary model transformations.  Any model that can be deterministically transformed must be deterministically specified; these deterministic specifications can be converted into abstract mathematical models. In this framework, transformations then become functions mapping one model to another.  Formalizing modeling in this fashion allows us to apply a wealth of research on transforming mathematical structures."
+  area: CI
+  status: "Active"
+  members:
+    - name: Nathan Jarus
+      link: http://web.mst.edu/~nmjxv3/
+    - name: Dr. Sahra Sedigh Sarvestani
+      link: http://web.mst.edu/~sedighs/
 
 - name: "The SmartBrick Wireless Sensor Platform for High-Resolution Structural Health Monitoring"
   desc: "This project encompasses the real-time monitoring, communications, and alerting capabilities of the Smart Brick, a low-cost, autonomous wireless device for structural health monitoring. It is a fully self-contained monitoring platform, requiring no additional on-site equipment to collect data and generate alerts. The Smart Brick has several sensors for monitoring temperature, water level, tilt, vibration, and acoustic emissions and can optionally be used with a digital camera, displacement sensors, load cells, strain gauges, or any number of other analog or digital sensors. It uses the widely-available GSM/GPRS network to send monitoring data and alerts to a number of users via FTP, SMS, and e-mail. Its rugged construction, completely wireless design, and extensive power-saving measures allow for a field life of 3-4 years powered only by alkaline batteries.
