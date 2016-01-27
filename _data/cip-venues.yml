@@ -128,3 +128,9 @@
   website: "http://homepages.cs.ncl.ac.uk/nigel.thomas/PASM16.htm"
   location: "Munster, Germany"
   type: Conference
+
+- name: "International Conference on Dependable Systems and Networks (DSN)"
+  website: "http://www.dsn.org/"
+  location: "Toulouse, France"
+  type: Conference
+  
