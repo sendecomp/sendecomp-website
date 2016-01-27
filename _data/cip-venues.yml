@@ -82,6 +82,7 @@
   
 - name: "CRITIS: International Conference on Critical Information Infrastructures Security"
   website: "http://www.critis2015.org/"
+  location: "Berlin, Germany"
   type: Conference
   
 - name: "Workshop on Design, Modeling and Evaluation of Cyber Physical Systems (CyPhy)"
@@ -134,3 +135,7 @@
   location: "Toulouse, France"
   type: Conference
   
+- name: "European Dependable Computing Conference (EDCC 2016)"
+  website: "http://www.edcc2016.eu/"
+  location: "Gothenburg, Sweden"
+  type: Conference
