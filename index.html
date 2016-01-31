@@ -18,34 +18,13 @@ title: Missouri S&amp;T SeNDeComp
       <abbr title="Fax Number">F</abbr>: +1 (573) 341-4532
     </p>
   </div>
-	<div class="col-sm-4 col-md-3">
-	  <h4>Lab Location</h3>
+  <div class="col-sm-4 col-md-3">
+    <h4>Lab Location</h3>
     <h6>113 Engineering Research Lab (ERL)</h4>
     <p>
         500 W. 16<sup>th</sup> Street<br>
         Rolla, MO 65409<br>
         <abbr title="Phone Number">P</abbr>: +1 (573) 341-6841
     </p>
-	</div>
-</div>
-</div>
-<div class="row hidden"> <!-- Change 'hidden' to 'hidden-xs' when we get new photos added. -->
-  <div class="col-sm-12" id="gallery" style="display: none;">
-    <h4>Photos of our group</h4>
-    <div class="galleria">
-      {% assign picsDesc = site.data.gallery | sort:"descending" "year" %}
-      {% for file in picsDesc %}
-        {% if file.name %}
-          <img src="{{site.basurl}}/img/pics/{{file.name}}">
-        {% endif %}
-      {% endfor %}
-    </div>
   </div>
 </div>
-
-<script>
-$('#gallery').show();
-  <!-- Initialize the gallery plugin -->
-  Galleria.loadTheme('{{ site.basurl }}scripts/galleria/themes/classic/galleria.classic.min.js');
-  Galleria.run('.galleria');
-</script>
