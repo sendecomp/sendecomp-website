@@ -1,9 +1,9 @@
 ---
 layout: toc
-title: Editing the SeNDeComp Website
+title: Editing This Website
 ---
 
-# {{ page.title }}
+# Edit This Website
 
 ## Simple
 
