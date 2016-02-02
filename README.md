@@ -5,7 +5,7 @@ title: SeNDeComp Website
 
 # SeNDeComp Website
 
-Welcome to the SeNDeComp research group website repository.
+Welcome to the SeNDeComp website repository.
 
 Here you will find the source code for [http://web.mst.edu/~sendecomp/](http://web.mst.edu/~sendecomp/).
 
