@@ -41,7 +41,7 @@ The table below tries to direct you to the proper file.
 Once you know which you want to modify, click on its appropriate link above to go its Github page.
 Next, assuming you are logged in to Github, click on the pencil icon in the upper righthand corner of the text file content window.
 
-![Github Edit File Button Location](../img/edit-yml-figure-1.png){:.img-responsive .img-thumbnail width="600px"}
+![Github Edit File Button Location](edit-yml-figure-1.png){:.img-responsive .img-thumbnail width="600px"}
 
 This will take you to a page where you can edit the file's contents directly in the browser.
 
