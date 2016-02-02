@@ -44,22 +44,11 @@ Next, assuming you are logged in to Github, click on the pencil icon in the uppe
 ![Github Edit File Button Location]({{ site.baseurl }}/img/edit-yml-figure-1.png){:.img-responsive .img-thumbnail width="600px"}
 
 This will take you to a page where you can edit the file's contents directly in the browser.
-Once you are done, click on the green **commit changes** button at the bottom of the page.
+Once you are done making your changes, do the following:
 
-[1]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/publications.yml
-[2]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/members.yml
-[3]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/cip-docs.yml
-[4]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/cip-labs.yml
-[5]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/cip-projects.yml
-[6]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/cip-venues.yml
-[7]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/per-docs.yml
-[8]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/per-labs.yml
-[9]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/per-projects.yml
-[10]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/per-venues.yml
-[11]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/awards-best-paper.yml
-[12]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/awards-grad.yml
-[13]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/awards-travel.yml
-[14]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/awards-undergrad.yml
+- Scroll to the "commit changes" area at the bottom of the page
+- Provide a short description of your change(s) in one or both of the textboxes
+- Click on the green **commit changes** button to update the file
 
 ### Request Deployment
 
@@ -91,7 +80,7 @@ Once the website has been cloned from Github, you will need to build it.
 
 This website uses [Jekyll](http://jekyllrb.com/), which is a software tool for generating static websites from templates and plain text.
 Jekyll's templating makes it easier to maintain the website because there is less repeated code.
-Another benefit of this is that those without background knowledge of the website's innerworkings can make simply changes to the website, e.g., the data files.
+Another benefit of this is that those without background knowledge of the website's inner workings can make simply changes to the website, e.g., the data files.
 
 If you wish to build the website, you will need to follow the [installation instructions on Jekyll's website](http://jekyllrb.com/docs/installation/).
 
@@ -112,6 +101,21 @@ However, it requires that Missouri S&amp;T's IT department has given you permiss
 ### Make Modifications
 
 With the repository cloned to your local computer, you can make changes any changes you desire to the files within the repository.
-**It is recommended that you always pull the latest changes before making your changes.**
+**It is recommended that you always pull the latest changes before making your changes (`git pull` command).**
 Once you are done making changes, you will need to stage all of your changes (`git add` command) and then commit them (`git commit` command).
 Lastly, push your changes to Github (`git push` command) so that others can see your changes.
+
+[1]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/publications.yml
+[2]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/members.yml
+[3]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/cip-docs.yml
+[4]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/cip-labs.yml
+[5]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/cip-projects.yml
+[6]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/cip-venues.yml
+[7]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/per-docs.yml
+[8]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/per-labs.yml
+[9]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/per-projects.yml
+[10]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/per-venues.yml
+[11]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/awards-best-paper.yml
+[12]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/awards-grad.yml
+[13]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/awards-travel.yml
+[14]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/awards-undergrad.yml
