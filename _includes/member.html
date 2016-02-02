@@ -4,12 +4,12 @@
       <a href="{{ person.website }}" target="_blank">
         <img class="media-object pull-left img-rounded" width="80" height="80"
              style="margin-right:10px;"
-             src="{{ site.baseurl }}{{ person.photo }}" alt="No Photo">
+             src="{{ site.baseurl }}/img/members/{{ person.photo }}" alt="No Photo">
       </a>
     {% else %}
       <img class="media-object pull-left img-rounded" width="80" height="80"
            style="margin-right:10px"
-	   src="{{ site.baseurl }}{{ person.photo }}" alt="No Photo">
+           src="{{ site.baseurl }}/img/members/{{ person.photo }}" alt="No Photo">
     {% endif %}
   {% endif %}
   <div class="media-body">
@@ -18,12 +18,12 @@
         <a href="{{ person.website }}" target="_blank">{{ person.name }}</a>
         {% if person.degree %}
           <small>{{ person.degree }}</small>
-      	{% endif %}
+        {% endif %}
             {% else %}
-      	{{ person.name }}
-      	{% if person.degree %}
-      	  <small>{{ person.degree }}</small>
-      	{% endif %}
+        {{ person.name }}
+        {% if person.degree %}
+          <small>{{ person.degree }}</small>
+        {% endif %}
       {% endif %}
     </h5>
     <p>
@@ -34,7 +34,7 @@
       {% if person.status == "Active" %}
         <strong>Graduating:</strong>
         {{ person.grad }}<br/>
-    	{% else %}
+        {% else %}
         <strong>Graduated:</strong>
         {{ person.grad }}<br/>
       {% endif %}

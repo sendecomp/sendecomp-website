@@ -4,6 +4,7 @@ html {
 }
 body {
   /* Margin bottom by footer height */
+  margin-top: 85px;
   margin-bottom: 100px;
 }
 .footer {
@@ -75,9 +76,35 @@ body {
         }
 }
 
+@media print {
+    .no-print, .no-print * {
+        display: none !important;
+    }
+
+    .col-xs-12 {
+        float: none;
+    }
+
+    .break-before {
+        page-break-before: always;
+    }
+
+    .break-after {
+        page-break-after: always;
+    }
+
+    .page-header, .title, h1, body {
+        margin: 0;
+    }
+
+    a[href]:after {
+        content: none !important;
+    }
+}
+
 #toc-container {
     margin: 5px;
-    width: 50%;
+    width: 40%;
     #toc-title {
         text-align: center;
         margin-bottom: 20px;

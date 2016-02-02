@@ -5,7 +5,7 @@
   focus: Analysis and Modeling of Cyber-Physical Systems
   emp:
   website: http://web.mst.edu/~man96/
-  photo: /img/Alluwaym.jpg
+  photo: Alluwaym.jpg
 
 - name: Isam Alobaidi
   degree: Computer Science (MS)
@@ -14,7 +14,7 @@
   focus: Analysis and Modeling of Cyber-Physical Systems
   emp:
   website: http://web.mst.edu/~iaahgb/
-  photo: /img/Alobaidi.jpg
+  photo: Alobaidi.jpg
 
 - name: Tyler Morrow
   degree: Computer Science (MS) - GAANN Fellow
@@ -23,7 +23,7 @@
   focus: Cyberinfrastructure for Personalized Learning
   emp:
   website: http://web.mst.edu/~tjm6f4/
-  photo: /img/Morrow.png
+  photo: Morrow.png
 
 - name: Hadi Ataei
   degree: Computer Engineering (PhD) - GAANN Fellow
@@ -32,7 +32,7 @@
   focus: Analysis and Modeling of Cyber-Physical Systems
   emp:
   website: http://web.mst.edu/~mhaf35/
-  photo: /img/Ataei.jpg
+  photo: Ataei.jpg
 
 - name: Nathan Jarus
   degree: Computer Science (PhD) - GAANN Fellow
@@ -41,7 +41,7 @@
   focus: Analysis and Modeling of Cyber-Physical Systems
   emp:
   website: http://web.mst.edu/~nmjxv3/
-  photo: /img/Jarus.png
+  photo: Jarus.png
 
 - name: Mark Woodard
   degree: Computer Engineering (PhD) - GAANN Fellow, CpE Department Fellow
@@ -50,7 +50,7 @@
   focus: Analysis and Modeling of Cyber-Physical Systems
   emp:
   website: http://web.mst.edu/~mjw6y7/
-  photo: /img/Woodard.jpg
+  photo: Woodard.jpg
 
 - name: Mike Wisely
   degree: "Computer Science (PhD) - GAANN Fellow, Chancellor's Fellow"
@@ -59,7 +59,7 @@
   focus: Traffic Prediction and Distributed Computing
   emp:
   website: http://web.mst.edu/~mwwcp2/
-  photo: /img/Wisely.jpg
+  photo: Wisely.jpg
 
 - name: Koosha Marashi
   degree: Computer Engineering (PhD) - UTC Fellow
@@ -68,7 +68,7 @@
   focus: Analysis and Modeling of Cyber-Physical Systems
   emp:
   website: http://web.mst.edu/~km89f/
-  photo: /img/Marashi.jpg
+  photo: Marashi.jpg
 
 - name: Pratik Maheshwari
   degree: Computer Engineering (PhD)
@@ -77,7 +77,7 @@
   focus: Software-Based Analysis and Improvement of Electromagnetic Immunity
   emp: "Apple"
   website:
-  photo: /img/Maheshwari.jpg
+  photo: Maheshwari.jpg
 
 - name: Murtadha Albasrawi
   degree: Computer Engineering (MS) - Fellowship from the Government of Iraq
@@ -86,7 +86,7 @@
   focus: Analysis and Modeling of Cyber-Physical Systems
   emp:
   website:
-  photo: /img/Albasrawi.jpg
+  photo: Albasrawi.jpg
 
 - name: Andrea Miller
   degree: Computer Engineering (BS)
@@ -95,7 +95,7 @@
   focus: Simulation of Intelligent Water Distribution Networks
   emp: "Sandia National Laboratories"
   website:
-  photo: /img/Miller.jpg
+  photo: Miller.jpg
 
 - name: Antonio Sabatini
   degree: Computer Engineering (MS)
@@ -104,7 +104,7 @@
   focus: Software-Based Analysis and Improvement of Electromagnetic Immunity
   emp: "Boeing"
   website:
-  photo: /img/Sabatini.jpg
+  photo: Sabatini.jpg
 
 - name: Kamlesh Joshi
   degree: Electrical Engineering (MS)
@@ -113,7 +113,7 @@
   focus: Analysis and Modeling of Resilience for Networked Systems
   emp: "Black and Veatch"
   website:
-  photo: /img/Joshi.jpg
+  photo: Joshi.jpg
 
 - name: Arun Gunasekaran
   degree: Computer Engineering (MS)
@@ -122,7 +122,7 @@
   focus:  Increasing Interoperability and Coverage of Automated Monitoring and Detection Systems
   emp: "Tesla Motors"
   website:
-  photo: /img/Arun.jpg
+  photo: Arun.jpg
 
 - name: Neil Patel
   degree: Computer Engineering (BS); Computer Science (BS) - OURE Scholar
@@ -131,7 +131,7 @@
   focus: Wireless Sensor Networks for Structural Health Monitoring
   emp:
   website:
-  photo: /img/Patel.jpg
+  photo: Patel.jpg
 
 - name: Shawn Cross
   degree: Computer Engineering (BS); Computer Science (BS)
@@ -140,7 +140,7 @@
   focus: Wireless Sensor Networks for Structural Health Monitoring
   emp:
   website:
-  photo: /img/Cross.jpg
+  photo: Cross.jpg
 
 - name: Jing Lin
   degree: Computer Engineering (PhD)
@@ -149,7 +149,7 @@
   focus: Agent-Based Analysis and Mitigation of Failure in Cyber-Physical Systems
   emp: "Cisco Systems"
   website:
-  photo: /img/Jing2.jpg
+  photo: Jing2.jpg
 
 - name: Peter Nicholas Chulick
   degree: Computer Engineering (BS)
@@ -158,7 +158,7 @@
   focus: Wireless Sensor Networks for Structural Health Monitoring
   emp:
   website:
-  photo: /img/Chulick.jpg
+  photo: Chulick.jpg
 
 - name: Ayman Faza
   degree: Computer Engineering (MS/PhD) - Fulbright Fellow; UTC Fellow
@@ -167,7 +167,7 @@
   focus: Quantitative Analysis of Cyber-Physical Systems - Reliability of the Smart Grid
   emp: "Princess Sumaya University of Technology"
   website:
-  photo: /img/Ayman.jpg
+  photo: Ayman.jpg
 
 - name: Anthony Lambropoulos
   degree: Computer Engineering (BS)
@@ -176,7 +176,7 @@
   focus: Wireless Sensor Networks for Structural Health Monitoring
   emp:
   website:
-  photo: /img/Lambropoulos.jpg
+  photo: Lambropoulos.jpg
 
 - name: Zac Bourque
   degree: Computer Engineering (BS) - OURE Scholar
@@ -185,7 +185,7 @@
   focus: Software-Based Analysis and Improvement of Electromagnetic Immunity; Wireless Sensor Networks for Structural Health Monitoring
   emp:
   website:
-  photo: /img/Bourque.jpg
+  photo: Bourque.jpg
 
 - name: Pratik Shah
   degree: Computer Engineering (MS); Electrical Engineering (MS)
@@ -194,7 +194,7 @@
   focus: Sensor Data Fusion and Detection
   emp: "Harman Kardon"
   website:
-  photo: /img/Shah.jpg
+  photo: Shah.jpg
 
 - name: Phillip Ponzer
   degree: Computer Engineering (BS) - OURE Scholar
@@ -203,7 +203,7 @@
   focus: Development of an Embedded System for Wireless Monitoring of a Watershed
   emp:
   website:
-  photo: /img/Ponzer.jpg
+  photo: Ponzer.jpg
 
 - name: Tyler Harms
   degree: "Computer Engineering (MS) - Chancellor's Fellow"
@@ -212,7 +212,7 @@
   focus: Wireless Sensor Networks for Structural Health Monitoring
   emp: "Garmin"
   website:
-  photo: /img/Harms.jpg
+  photo: Harms.jpg
 
 - name: John Koch
   degree: Computer Engineering (BS/MS); BS Computer Science (BS) - OURE Scholar; DoD SMART Fellow
@@ -221,7 +221,7 @@
   focus: A Hybrid Sensor Network for Watershed Monitoring
   emp: "US Navy"
   website:
-  photo: /img/Koch.jpg
+  photo: Koch.jpg
 
 - name: Nicholas Grither
   degree: Computer Engineering (BS); Electical Engineering (BS) - OURE Fellow
@@ -230,7 +230,7 @@
   focus: Embedded System Support for Canine Mine Detection
   emp:
   website:
-  photo: /img/Grither.jpg
+  photo: Grither.jpg
 
 - name: Sandeep Kunchum
   degree: Computer Engineering (MS)
@@ -239,7 +239,7 @@
   focus: A Network Infrastructure for Real-time Monitoring of Campus Energy Consumption
   emp: "Sprint"
   website:
-  photo: /img/Kunchum.jpg
+  photo: Kunchum.jpg
 
 - name: Valerio Plessi
   degree: Computer Engineering (MS) - UTC Fellow
@@ -248,7 +248,7 @@
   focus: An Autonomous Wireless Device for Flood Detection and Monitoring
   emp: "Cisco Systems"
   website:
-  photo: /img/Plessi.jpg
+  photo: Plessi.jpg
 
 - name: Thomas Freiberger
   degree: "Computer Engineering (MS) - Chancellor's Fellow"
@@ -257,7 +257,7 @@
   focus: Hybrid Sensor Networks for Hydrological Monitoring
   emp: "MYNAH Technologies"
   website:
-  photo: /img/Freiberger.jpg
+  photo: Freiberger.jpg
 
 - name: Shaun Wagner
   degree: "Computer Science (PhD)"
