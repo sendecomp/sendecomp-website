@@ -1,6 +1,6 @@
 ---
 layout: toc
-title: Editing This Website
+title: Edit This Website
 ---
 
 # Edit This Website
