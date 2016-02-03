@@ -22,15 +22,16 @@ title: Pervasive Computing
       </div>
 
       <div class="tab-pane" id="projects">
+        {% assign projects = site.data.per-projects | sort:'name' %}
         <h4>Current Projects</h4>
-        {% for proj in site.data.per-projects %}
+        {% for proj in projects %}
           {% if proj.status == "Active" %}
             {% include project.html %}
           {% endif %}
         {% endfor %}
 
         <h4>Past Projects</h4>
-        {% for proj in site.data.per-projects %}
+        {% for proj in projects %}
           {% if proj.status == "Complete" %}
             {% include project.html %}
           {% endif %}
@@ -39,20 +40,20 @@ title: Pervasive Computing
 
       <div class="tab-pane" id="resources">
         <h4>Related Labs</h4>
-        {% assign labs = site.data.per-labs %}
+        {% assign labs = site.data.per-labs | sort:'name' %}
         {% for lab in labs %}
           {% include lab.html %}
         {% endfor %}
 
         <h4>Useful Documents</h4>
-        {% assign docs = site.data.per-docs %}
+        {% assign docs = site.data.per-docs | sort:'name' %}
         {% for doc in docs %}
           {% include doc.html %}
         {% endfor %}
       </div>
 
       <div class="tab-pane" id="venues">
-        {% assign venues = site.data.per-venues %}
+        {% assign venues = site.data.per-venues | sort:'name' %}
         {% for venue in venues %}
           {% include venue.html %}
         {% endfor %}

@@ -1,10 +1,26 @@
-<div class="media">
-  <div class="media-body">
-    <h6 class="media-heading">
-      {{ proj.name }}
-    </h6>
-    <p>
-      {{ proj.desc }} <br><br>
-    </p>
+<div class="list-group-item">
+  <h5>{{ proj.name }}</h5>
+  <div class="row">
+    {% if proj.members %}
+    <div class="col-sm-6">
+      <h6>Participant(s)</h6>
+      <ul>
+        {% for member in proj.members %}
+        <li>{{ member.name }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+    {% if proj.sponsors %}
+    <div class="col-sm-6">
+      <h6>Sponsor(s)</h6>
+      <ul>
+        {% for sponsor in proj.sponsors %}
+        <li>{{ sponsor.name }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
   </div>
+  <p>{{ proj.desc }}</p>
 </div>

@@ -22,40 +22,51 @@ title: Critical Infrastructure Protection
       </div>
 
       <div class="tab-pane" id="projects">
+        {% assign projects = site.data.cip-projects | sort:'name' %}
         <h4>Current Projects</h4>
-        {% for proj in site.data.cip-projects %}
+        <div class="list-group">
+        {% for proj in projects %}
           {% if proj.status == "Active" %}
             {% include project.html %}
           {% endif %}
         {% endfor %}
+        </div>
 
         <h4>Past Projects</h4>
-        {% for proj in site.data.cip-projects %}
+        <div class="list-group">
+        {% for proj in projects %}
           {% if proj.status == "Complete" %}
             {% include project.html %}
           {% endif %}
         {% endfor %}
+        </div>
       </div>
 
       <div class="tab-pane" id="resources">
         <h4>Related Labs</h4>
-        {% assign labs = site.data.cip-labs %}
+        {% assign labs = site.data.cip-labs | sort:'name' %}
+        <div class="list-group">
         {% for lab in labs %}
           {% include lab.html %}
         {% endfor %}
+        </div>
 
         <h4>Useful Documents</h4>
-        {% assign docs = site.data.cip-docs %}
+        {% assign docs = site.data.cip-docs | sort:'name' %}
+        <div class="list-group">
         {% for doc in docs %}
           {% include doc.html %}
         {% endfor %}
+        </div>
       </div>
 
       <div class="tab-pane" id="venues">
-        {% assign venues = site.data.cip-venues %}
+        {% assign venues = site.data.cip-venues | sort:'name' %}
+        <div class="list-group">
         {% for venue in venues %}
           {% include venue.html %}
         {% endfor %}
+        </div>
       </div>
     </div>
   </div>

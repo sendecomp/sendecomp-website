@@ -1,12 +1,11 @@
-<div class="media">
-  <div class="media-body">
-    <h6 class="media-heading">
-      <a href="{{ doc.website }}" target="_blank">{{ doc.name }}</a>
-      {% if doc.author %}
-      <small>
-        {{ doc.author }}
-      </small>
-      {% endif %}
-    </h6>
-  </div>
-</div>
+<a class="list-group-item" href="{{ doc.website }}" target="_blank">
+  <h6>
+    {{ doc.name }}
+    {% if doc.author %}
+    <small>
+      {{ doc.author }}
+    </small>
+    {% endif %}
+    <i class="fa fa-external-link pull-right"></i>
+  </h6>
+</a>
