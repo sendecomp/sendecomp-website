@@ -1,10 +1,24 @@
-# Status options
-#   - To Appear
-#   - Under Review
-#   - Published
-
-# TODO add a volume number when it is available
-
+# Publications Data File
+# Description 
+#     This file contains individual records for each publication published by members of the group.
+#     Feel free to use an existing record as a starting point for a new entry.
+#     Each individual record is denoted by ONLY ONE dash "-" on the first line.
+#     After that, a list of attributes can be seen.
+#     The name of the attribute is to the left of the colon; the value is to the right of the colon.
+#     The attributes available for each member record are as follows:
+#         citation    The full MLA citation*
+#         year        The year of publication*
+#         status      The current status of the publication*
+#                     Options: "To Appear" or "Under Review" or "Published"
+#         awards      Some text denoted an award received for this publication
+#         area        Specifying this will list the publication on the individual research area pages*
+#                     Options: "per" or "cip"
+#         fulltext    The full URL to where the publication can be obtained
+#         badge       The badge is an image that is displayed below the publication to denote something special
+#                     The value should just be the name of the image file (must exist in the /img/ directory)
+#         badge-link  The full URL of wherever the user should be taken when clicking on a badge image
+#     The value for each attribute may or may not be surrounded by quotes - it's optional.
+#     *Required in order for the website to display
 
 - citation: "L. Heendaliya, M. Wisely, D. Lin, S. Sedigh Sarvestani, and A. Hurson. Influence-aware Predictive Density Queries Under Road-network Constraints. In 14th International Symposium on Spatial and Temporal Databases, Hong Kong, 2015."
   year: 2015
@@ -112,7 +126,7 @@
   awards:
   area: "cip"
   fulltext: "http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6899257&tag=1"
-  badge: "/img/badge-sos.jpg"
+  badge: "/badge-sos.jpg"
   badge-link: "http://cps-vo.org/group/SoS"
 
 - citation: "J. Lin, S. Sedigh, and A. R. Hurson. Knowledge management for fault-tolerant water distribution. In Albert Zomaya and Hamid Sarbazi-Azad, editors, Large Scale Network- Centric Computing Systems, ch. 26. John Wiley & Sons, 2013."
