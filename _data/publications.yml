@@ -1,5 +1,5 @@
 # Publications Data File
-# Description 
+# Description
 #     This file contains individual records for each publication published by members of the group.
 #     Feel free to use an existing record as a starting point for a new entry.
 #     Each individual record is denoted by ONLY ONE dash "-" on the first line.
@@ -103,7 +103,7 @@
   awards:
   area: "cip"
   fulltext: "http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6754594&tag=1"
-  badge: "/img/badge-sos.jpg"
+  badge: "badge-sos.jpg"
   badge-link: "http://cps-vo.org/group/SoS"
 
 - citation: "Steven C. White and Sahra Sedigh Sarvestani. Comparison of security models: Attack graphs versus Petri nets. volume 94 of Advances in Computers, pages 1 - 24. Elsevier, 2014."
@@ -126,7 +126,7 @@
   awards:
   area: "cip"
   fulltext: "http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6899257&tag=1"
-  badge: "/badge-sos.jpg"
+  badge: "badge-sos.jpg"
   badge-link: "http://cps-vo.org/group/SoS"
 
 - citation: "J. Lin, S. Sedigh, and A. R. Hurson. Knowledge management for fault-tolerant water distribution. In Albert Zomaya and Hamid Sarbazi-Azad, editors, Large Scale Network- Centric Computing Systems, ch. 26. John Wiley & Sons, 2013."
