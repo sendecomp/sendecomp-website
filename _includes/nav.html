@@ -29,12 +29,21 @@
             </li>
           </ul>
         </li>
-        <li><a href="{{ site.baseurl }}/publications">Publications</a></li>
-        <li><a href="{{ site.baseurl }}/people">People</a></li>
-        <li><a href="{{ site.baseurl }}/student-awards">Student Awards</a></li>
-        <li><a href="{{ site.baseurl }}/resources">Resources</a></li>
-        <!--<li class="hidden-xs"><a href="{{ site.baseurl }}/#gallery">Gallery</a></li> Uncomment when we get new photos. -->
-        <li><a href="{{ site.baseurl }}/#contacts">Contacts</a></li>
+        <li class="{% if page.title == "Publications" %}active{% endif %}">
+          <a href="{{ site.baseurl }}/publications">Publications</a>
+        </li>
+        <li class="{% if page.title == "People" %}active{% endif %}">
+          <a href="{{ site.baseurl }}/people">People</a>
+        </li>
+        <li class="{% if page.title == "Student Awards" %}active{% endif %}">
+          <a href="{{ site.baseurl }}/student-awards">Student Awards</a>
+        </li>
+        <li class="{% if page.title == "Resources" %}active{% endif %}">
+          <a href="{{ site.baseurl }}/resources">Resources</a>
+        </li>
+        <li class="{% if page.title == "Contacts" %}active{% endif %}">
+          <a href="{{ site.baseurl }}/contacts">Contacts</a>
+        </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
