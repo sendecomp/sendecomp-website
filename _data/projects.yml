@@ -23,6 +23,7 @@
     interdependencies among the cyber and physical components of the grid,
     while reflecting the effect of interdependent line failures.
   status: Active
+  area: cip
   members:
     - name: Mark Woodard
     - name: Koosha Marashi
@@ -63,8 +64,8 @@
     distribution networks (WDNs), coupled with the hardware and software
     that support intelligent water allocation, comprise the model CPS that
     is used as a case study.
-  area: CI
   status: Active
+  area: cip
   members:
     - name: Steve White
     - name: Dr. Ali Hurson
@@ -91,8 +92,8 @@
     model to another.
     Formalizing modeling in this fashion allows us to apply a wealth of
     research on transforming mathematical structures.
-  area: CI
   status: Active
+  area: cip
   members:
     - name: Nathan Jarus
     - name: Dr. Sahra Sedigh Sarvestani
@@ -134,6 +135,7 @@
     of solar power, remote configuration and update, and physical
     robustness, allows long extended field life of the system.
   status: Active
+  area: cip
   members:
     - name: Arun Gunasekaran
     - name: Dr. Filippo Bastianini
@@ -166,8 +168,8 @@
     Our broader goal is to develop a science that will link the
     traditionally disparate fields of electromagnetic and software
     engineering, by leveraging the body of knowledge in each field.
-  area: CI
   status: Active
+  area: cip
   members:
     - name: Pratik Maheshwari
     - name: Antonio Sabatini
@@ -188,6 +190,7 @@
     and results will be fed to data fusion algorithms at various levels for
     final detection.
   status: Complete
+  area: cip
   members:
     - name: Pratik Shah
     - name: Abhijeet Singh
@@ -213,6 +216,7 @@
     of light energy savings that we will be having as part of the various
     lighting retrofits being done in the university buildings.
   status: Complete
+  area: cip
   members:
     - name: Sandeep Kunchum
     - name: Mr. James Packard
@@ -233,6 +237,7 @@
     handler, and the design and development of an appropriate wireless
     network for communication of this data.
   status: Complete
+  area: cip
   members:
     - name: Tyler Harms
     - name: Devin Simms
@@ -251,8 +256,22 @@
     The measurements will be taken at several depths, and will be
     communicated to a processing server over the GSM cellular network.
   status: Complete
+  area: cip
   members:
     - name: Michael Wyatt
     - name: Dr. Estella Atekwana
   sponsors:
     - name: University Transportation Center
+
+- name: "Pervasive Cyberinfrastructure for Personalized eLearning and Instructional Support (PERCEPOLIS)"
+  desc: "Advances in databases, distributed computing, computational intelligence, and especially pervasive computing, which allows non-intrusive and transparent \"anytime, anywhere\" access to information, provide fertile ground for radical changes in pedagogy. Recent studies of undergraduate engineering education have identified \"linearity\" of the dominant curricular model as fundamentally contradictory to the body of knowledge on how students learn. A networked model has been proposed, where the components form a cohesive and strongly interconnected whole, and learning in one area reinforces and supports learning in other areas. The objective of this project is to leverage technological advances, in particular in pervasive computing, to create a cyberinfrastructure that facilitates personalized learning in engineering education, while supporting a networked curricular model. We believe that such an infrastructure will accelerate the acquisition of knowledge and skills critical to professional engineering practice, while facilitating the study of how this acquisition comes about, yielding insights that may lead to significant changes in pedagogy."
+  status: "Active"
+  area: per
+  members:
+    - name: Shaun Wagner
+      link:
+    - name: Dr. Ali Hurson
+      link:
+  sponsors:
+    - name: Intelligent Systems Center
+      link:

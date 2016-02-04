@@ -1,16 +1,39 @@
+- name: "Educational Research at MIT"
+  website: "http://tll.mit.edu/help/education-research-mit"
+  location: "MIT"
+  area: per
+
+- name: "Research Laboratory for Digital Learning"
+  website: "http://dl.ehe.osu.edu/"
+  location: "Ohio State University"
+  area: per
+
+- name: "LINK Research Lab"
+  website: "https://linkresearchlab.org/"
+  location: "University of Texas - Arlington"
+  area: per
+
+- name: "Learning Technologies Media Lab"
+  website: "http://lt.umn.edu/"
+  location: "University of Minnesota"
+  area: per
+
 - name: "CHESS: Center for Hybrid and Embedded Software Systems"
   website: "http://cyberphysicalsystems.org/"
   location: "UC Berkeley, Berkeley, California"
-  
+  area: cip
+
 - name: "Cyber-Physical Systems Laboratory (CyPhyLab)"
   website: "http://www.cyphylab.ee.ucla.edu/"
   location: "UCLA, Los Angeles, California"
-  
+  area: cip
+
 - name: "Cyber Physical Systems Lab"
   website: "http://www.csee.wvu.edu/~yfallah/"
   location: "West Virginia University, Morgantown, West Virginia"
-  
+  area: cip
+
 - name: "Trustworthy Cyber Infrastructure for The Power Grid (TCIPG)"
   website: "http://tcipg.org/"
   location: "Urbana, Illinois"
-  
+  area: cip

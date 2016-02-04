@@ -2,7 +2,7 @@
 layout: base
 ---
 
-<div class="container" style="margin-top: 80px;">
+<div class="container">
   <div class="row">
     <div class="col-xs-12">
       <div class="media">
@@ -16,7 +16,11 @@ layout: base
     </div>
   </div>
 </div>
-
 <div class="container">
   {{ content }}
 </div>
+<script type="text/javascript">
+    $('body').scrollspy({
+        target: '.bs-docs-sidebar'
+    });
+</script>

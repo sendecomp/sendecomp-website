@@ -1,47 +1,55 @@
-<div class="media">
-  {% if person.photo %}
-    {% if person.website %}
-      <a href="{{ person.website }}" target="_blank">
-        <img class="media-object pull-left img-rounded" width="80" height="80"
-             style="margin-right:10px;"
-             src="{{ site.baseurl }}/img/members/{{ person.photo }}" alt="No Photo">
-      </a>
-    {% else %}
-      <img class="media-object pull-left img-rounded" width="80" height="80"
-           style="margin-right:10px"
-           src="{{ site.baseurl }}/img/members/{{ person.photo }}" alt="No Photo">
-    {% endif %}
-  {% endif %}
-  <div class="media-body">
-    <h5 class="media-heading">
+<li class="list-group-item">
+  <div class="media">
+    {% if person.photo %}
       {% if person.website %}
-        <a href="{{ person.website }}" target="_blank">{{ person.name }}</a>
-        {% if person.degree %}
-          <small>{{ person.degree }}</small>
-        {% endif %}
-            {% else %}
-        {{ person.name }}
-        {% if person.degree %}
-          <small>{{ person.degree }}</small>
-        {% endif %}
+        <a href="{{ person.website }}" target="_blank">
+          <img class="media-object pull-left img-rounded" width="80" height="80"
+               style="margin-right:10px;"
+               src="{{ site.baseurl }}/img/members/{{ person.photo }}" alt="No Photo">
+        </a>
+      {% else %}
+        <img class="media-object pull-left img-rounded" width="80" height="80"
+             style="margin-right:10px"
+             src="{{ site.baseurl }}/img/members/{{ person.photo }}" alt="No Photo">
       {% endif %}
-    </h5>
-    <p>
+    {% endif %}
+    <div class="media-body">
+      <h5 class="media-heading">
+        {% if person.website %}
+          <a href="{{ person.website }}" target="_blank">{{ person.name }}</a>
+          {% if person.degree %}
+            <small>{{ person.degree }}</small>
+          {% endif %}
+        {% else %}
+          {{ person.name }}
+          {% if person.degree %}
+            <small>{{ person.degree }}</small>
+          {% endif %}
+        {% endif %}
+      </h5>
       {% if person.focus %}
         <strong>Focus:</strong>
         {{ person.focus }}<br/>
       {% endif %}
-      {% if person.status == "Active" %}
-        <strong>Graduating:</strong>
-        {{ person.grad }}<br/>
+      {% if person.grad %}
+        {% if person.status == "Active" %}
+          <strong>Graduating:</strong>
+          {{ person.grad }}<br/>
         {% else %}
-        <strong>Graduated:</strong>
-        {{ person.grad }}<br/>
+          <strong>Graduated:</strong>
+          {{ person.grad }}<br/>
+        {% endif %}
       {% endif %}
       {% if person.emp %}
         <strong>First Employed By:</strong>
         {{ person.emp }}<br/>
       {% endif %}
-    </p>
+      {% if person.position && person.department %}
+        {{ person.position }} - {{ person.department }} <br/>
+      {% endif %}
+      {% if person.graduating %}
+        <strong>Graduating:</strong> {{ person.graduating }} <br/>
+      {% endif %}
+    </div>
   </div>
-</div>
+</li>

@@ -1,141 +1,182 @@
 - name: "IEEE Transactions on Reliability"
   website: "http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=24"
-  location:
+  area: cip
   type: Journal
 
 - name: "IEEE Transactions on Parallel and Distributed Systems"
   website: "http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=71"
-  location:
+  area: cip
   type: Journal
-  
+
 - name: "Reliability Engineering & System Safety"
   website: "http://www.journals.elsevier.com/reliability-engineering-and-system-safety/"
-  location:
+  area: cip
   type: Journal
-  
+
 - name: "International Journal on Critical Infrastructure Protection"
   website: "http://www.journals.elsevier.com/international-journal-of-critical-infrastructure-protection/"
-  location:
+  area: cip
   type: Journal
-  
+
 - name: "ACM Transactions on Modeling and Performance Evaluation of Computing Systems (TOMPECS)"
   website: "http://tompecs.acm.org/"
-  location:
+  area: cip
   type: Journal
-  
+
 - name: "ACM Transactions on Cyber-Physical Systems (TCPS)"
   website: "http://tcps.acm.org/"
-  location:
+  area: cip
   type: Journal
-  
+
 - name: "International Workshop on Reliable Networks Design and Modeling (RNDM)"
   website: "http://www.rndm.pl"
-  location: "Munich, Germany"
+  area: cip
   type: Conference
 
 - name: "International Symposium on Reliable Distributed Systems (IEEE SRDS)"
   website: "http://srds2015.cs.mcgill.ca/"
-  location: "Montreal, Canada"
+  area: cip
   type: Conference
 
 - name: "International Computers, Software & Applications Conference (COMPSAC)"
   website: "http://www.computer.org/web/compsac"
-  location: "Taichung, Taiwan"
+  area: cip
   type: Conference
 
 - name: "International Conference on Computer Safety, Reliability, and Security (SAFECOMP)"
   website: "http://safecomp2015.tudelft.nl/"
-  location: "Delft, The Netherlands"
+  area: cip
   type: Conference
-  
+
 - name: "International Workshop on Reliability and Security Aspects for Critical Infrastructure Protection (ReSA4CI)"
   website: "http://safecomp2015.tudelft.nl/resa4ci-2015"
-  location: "Delft, The Netherlands"
+  area: cip
   type: Conference
 
 - name: "International Symposium on High Assurance Systems Engineering  (HASE)"
   website: "http://www.hase2015.org/"
-  location: "Daytona Beach, Florida, USA"
+  area: cip
   type: Conference
 
 - name: "CPS Week (Consists HSCC, ICCPS, IPSN, and RTAS)"
   website: "http://www.cpsweek.org/2015/"
-  location: "Seattle, Whashington, USA"
+  area: cip
   type: Conference
 
 - name: "QRS (Combination of SERE and QSIC)"
   website: "http://paris.utdallas.edu/qrs15/"
-  location: "Vancouver, Canada"
+  area: cip
   type: Conference
 
 - name: "IFIP International Symposium on Computer Performance, Modeling, Measurements and Evaluation"
-  website: "http://performance15.conference.nicta.com.au/"
+  website: cip
   type: Conference
-  
+
 - name: "IFIP International Conference on Network and Parallel Computing"
-  website: "http://npc15.cs.umass.edu/"
+  website: cip
   type: Conference
-  
+
 - name: "ACM SIGMETRICS"
   website: "http://www.sigmetrics.org/"
+  area: cip
   type: Conference
-  
+
 - name: "CRITIS: International Conference on Critical Information Infrastructures Security"
   website: "http://www.critis2015.org/"
-  location: "Berlin, Germany"
+  area: cip
   type: Conference
-  
+
 - name: "Workshop on Design, Modeling and Evaluation of Cyber Physical Systems (CyPhy)"
   website: "http://www.cyphy.org/p/dates.html"
-  location: "Amsterdam, The Netherlands"
+  area: cip
   type: Conference
 
 - name: "International Symposium on Resilient Cyber Systems (ISRCS)"
   website: "http://resilienceweek2015.inl.gov/CyberSystems/"
-  location: "Philadelphia, Pennsylvania, USA"
+  area: cip
   type: Conference
-  
+
 - name: "IEEE -- International Performance Computing and Communications Conference (IPCCC)"
   website: "http://www.ipccc.org/"
-  location: "Nanjing, China"
+  area: cip
   type: Conference
 
 - name: "International Conference on Quantitative Evaluation of SysTems (QEST)"
   website: "http://www.qest.org/"
-  location: "Madrid, Spain"
+  area: cip
   type: Conference
 
 - name: "Hawaii International Conference on System Sciences (HICSS)"
   website: "http://www.hicss.org/"
-  location: "Kauai, Hawaii, USA"
+  area: cip
   type: Conference
 
 - name: "IEEE Power and Energy Conference at Illinois (PECI)"
   website: "http://peci.ece.illinois.edu"
-  location: "Illinois, USA"
+  area: cip
   type: Conference
 
 - name: "Dependable and Adaptive Distributed Systems (DADS) track of the ACM Symposium on Applied Computing (SAC)"
   website: "http://www.dedisys.org/sac16/"
-  location: "Pisa, Italy"
+  area: cip
   type: Conference
 
 - name: "International Conference on Ambient Systems, Networks and Technologies (ANT)"
   website: "http://cs-conferences.acadiau.ca/ant-16/"
-  location: "Madrid, Spain"
+  area: cip
   type: Conference
-  
+
 - name: "International Workshop on Practical Applications of Stochastic Modelling (PASM)"
   website: "http://homepages.cs.ncl.ac.uk/nigel.thomas/PASM16.htm"
-  location: "Munster, Germany"
+  area: cip
   type: Conference
 
 - name: "International Conference on Dependable Systems and Networks (DSN)"
   website: "http://www.dsn.org/"
-  location: "Toulouse, France"
+  area: cip
   type: Conference
-  
+
 - name: "European Dependable Computing Conference (EDCC)"
   website: "http://www.edcc2016.eu/"
-  location: "Gothenburg, Sweden"
+  area: cip
   type: Conference
+
+- name: International Conference on Frontiers in Education
+  website: "http://fie-conference.org/"
+  area: per
+  type: Conference
+
+- name: IEEE Transactions on Learning Technologies
+  website: "http://www.computer.org/web/tlt"
+  area: per
+  type: Journal
+
+- name: "ACM Transactions on Knowledge Discovery from Data (TKDD)"
+  website: "http://tkdd.acm.org/"
+  area: per
+  type: Journal
+
+- name: "IEEE International Conference on Pervasive Computing and Communications (PerCom)"
+  website: "http://www.percom.org"
+  area: per
+  type: Conference
+
+- name: "IGI Global"
+  website: "http://www.igi-global.com"
+  area: per
+  type: Publisher
+
+- name: "ACM International Conference on Distributed Event-Based Systems (DEBS)"
+  website: "http://www.debs2015.org/"
+  area: per
+  type: Conference
+
+- name: "IEEE International Conference on Intelligent Transportation Systems (ITSC)"
+  website: "http://www.itsc2015.org/"
+  area: per
+  type: Conference
+
+- name: "International Journal of Intelligent Transportation Systems Research (ITSJ)"
+  website: "http://link.springer.com/journal/13177"
+  area: per
+  type: Journal

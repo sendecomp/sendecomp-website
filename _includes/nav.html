@@ -1,4 +1,4 @@
-<div class="navbar navbar-default navbar-fixed-top">
+<div class="navbar navbar-default">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -12,22 +12,8 @@
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-            Research <b class="caret"></b>
-          </a>
-          <ul class="dropdown-menu">
-            <li>
-              <a href="{{ site.baseurl }}/cip">
-                Critical Infrastructure Protection
-              </a>
-            </li>
-            <li>
-              <a href="{{ site.baseurl }}/per">
-                Pervasive Computing
-              </a>
-            </li>
-          </ul>
+        <li class="{% if page.title == "Research Areas" %}active{% endif %}">
+          <a href="{{ site.baseurl }}/research-areas">Research Areas</a>
         </li>
         <li class="{% if page.title == "Publications" %}active{% endif %}">
           <a href="{{ site.baseurl }}/publications">Publications</a>

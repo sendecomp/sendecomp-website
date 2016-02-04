@@ -11,22 +11,20 @@
     {% endif %}
     <div class="media-body">
       <h6 class="media-heading">{{ pub.citation }}</h6>
-      <p>
-        <strong>Status:</strong>
-        {% if pub.status == "Published" %}
-          {% if pub.fulltext %}
-            <a class="" href="{{ pub.fulltext }}" target="_blank">{{ pub.status }}</a>
-          {% else %}
-            {{ pub.status }}
-          {% endif %}
+      <strong>Status:</strong>
+      {% if pub.status == "Published" %}
+        {% if pub.fulltext %}
+          <a class="" href="{{ pub.fulltext }}" target="_blank">{{ pub.status }}</a>
         {% else %}
           {{ pub.status }}
         {% endif %}
-        <br/>
-        {% if pub.awards %}
-          <strong>Awards:</strong> {{ pub.awards }} <br/>
-        {% endif %}
-      </p>
+      {% else %}
+        {{ pub.status }}
+      {% endif %}
+      <br/>
+      {% if pub.awards %}
+        <strong>Awards:</strong> {{ pub.awards }} <br/>
+      {% endif %}
     </div>
   </div>
 </div>
