@@ -48,7 +48,9 @@ Next, assuming you are logged in to Github, click on the pencil icon in the uppe
 This will take you to a page where you can edit the file's contents directly in the browser.
 
 **<i class="fa fa-exclamation-triangle"></i>
-Each text file in the table above has documentation at the top of it explaining its structure - you must follow the file's structure.**{:.alert .alert-success}
+Each text file in the table above has documentation at the top of it explaining its structure - you must follow the file's format.
+Each file's format is based on simple format called YAML.
+**{:.alert .alert-success}
 
 Once you are done making your changes, do the following:
 
