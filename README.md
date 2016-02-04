@@ -1,8 +1,3 @@
----
-layout: toc
-title: SeNDeComp Website
----
-
 # SeNDeComp Website
 
 Welcome to the SeNDeComp website repository.
