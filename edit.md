@@ -29,15 +29,15 @@ The next step is to actually make your desired changes.
 The type of change you want to make will determine the file you need to edit.
 The table below tries to direct you to the proper file.
 
-| What You Want to Modify | File Name Convention | Links |
-| :--- | :--- | :--- |
-| Publications | `publications.yml` | [publications.yml][1] |
-| Members      | `members.yml`      | [members.yml][2] |
-| Projects     | `projects.yml`     | [docs.yml][3] |
-| Related Labs | `labs.yml`         | [labs.yml][4] |
-| Documents    | `docs.yml`         | [docs.yml][5] |
-| Venues       | `venues.yml`       | [venues.yml][7] |
-| Awards       | `awards-*.yml`     | [awards-best-paper.yml][7] <br/> [awards-grad.yml][8] <br/> [awards-travel.yml][9] <br/> [awards-undergrad.yml][10] |
+| What You Want to Modify | File to Edit          |
+| :---------------------- | :-------------------- |
+| Publications            | [publications.yml][1] |
+| Members                 | [members.yml][2]      |
+| Projects                | [projects.yml][3]     |
+| Related Labs            | [labs.yml][4]         |
+| Documents               | [docs.yml][5]         |
+| Venues                  | [venues.yml][6]       |
+| Awards                  | [awards.yml][7]       |
 {:.table .table-condensed}
 
 Once you know which you want to modify, click on its appropriate link above to go its Github page.
@@ -119,14 +119,8 @@ Lastly, push your changes to Github (`git push` command) so that others can see 
 
 [1]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/publications.yml
 [2]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/members.yml
-[3]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/docs.yml
-[4]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/cip-labs.yml
-[5]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/cip-projects.yml
-[6]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/cip-venues.yml
-[8]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/per-labs.yml
-[9]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/per-projects.yml
-[10]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/per-venues.yml
-[11]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/awards-best-paper.yml
-[12]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/awards-grad.yml
-[13]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/awards-travel.yml
-[14]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/awards-undergrad.yml
+[3]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/projects.yml
+[4]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/labs.yml
+[5]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/docs.yml
+[6]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/venues.yml
+[7]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/awards.yml

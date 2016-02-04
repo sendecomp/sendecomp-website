@@ -1,3 +1,23 @@
+# Labs Data File
+# Description
+#     This file contains individual records for labs related to SeNDeComp.
+#     Feel free to use an existing record as a starting point for a new entry.
+#     Each individual record is denoted by ONLY ONE dash "-" on the first line.
+#     After that, a list of attributes can be seen.
+#     The name of the attribute is to the left of the colon; the value is to the
+#       right of the colon.
+#     The attributes available for each record are as follows:
+#         name        Whatever the name of the research lab is*
+#         website     The full URL of the research lab's website*
+#         location    The location of the research lab (college, country, etc.)*
+#         area        Specifying this will list the document in the appropriate
+#                       research area*
+#                     Options: "per" or "cip"
+#      * Required in order for the website to display
+#    Additional Notes:
+#      - Quotes around the values are optional.
+#      - Non-required attributes with blank values can be ommitted completely.
+
 - name: "Educational Research at MIT"
   website: "http://tll.mit.edu/help/education-research-mit"
   location: "MIT"
