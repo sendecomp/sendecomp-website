@@ -28,7 +28,7 @@
 #      - Quotes around the values are optional.
 #      - Non-required attributes with blank values can be ommitted completely.
 
-- citation: "L. Heendaliya, M. Wisely, D. Lin, S. Sedigh Sarvestani, and A. Hurson. Influence-aware Predictive Density Queries Under Road-network Constraints. In 14th International Symposium on Spatial and Temporal Databases, Hong Kong, 2015."
+- citation: "L. Heendaliya, M. Wisely, D. Lin, S. Sedigh Sarvestani, and A. Hurson. Influence-aware Predictive Density Queries Under Road-network Constraints. In 14th International Symposium on Spatial and Temporal Databases, Pages 80-97, Hong Kong, 2015."
   year: 2015
   status: "Published"
   awards:
@@ -70,33 +70,33 @@
   area: "cip"
   fulltext:
 
-- citation: "Mark Woodard, Sahra Sedigh Sarvestani, Ali R. Hurson, Chapter Two - A Survey of Research on Data Corruption in Cyber-Physical Critical Infrastructure Systems, Advances in Computers, Elsevier, 2015, Volume 98, Pages 59-87."
+- citation: "Mark Woodard, Sahra Sedigh Sarvestani, Ali R. Hurson, Chapter Two - A Survey of Research on Data Corruption in Cyber-Physical Critical Infrastructure Systems, Advances in Computers, Volume 98, Pages 59-87, 2015."
   year: 2015
   status: "Published"
   awards:
   area: "cip"
   fulltext: "http://www.sciencedirect.com/science/article/pii/S0065245815000285"
 
-- citation: "T. Morrow, A. Hurson, and S. Sedigh Sarvestani, Cyberinfrastructure for Personalized Education, in Handbook of Applied Learning Theory and Design in Modern Education, E. Railean, G. Walker, L. Jackson, and A. Elci, Eds. IGI Global, 2016."
+- citation: "T. Morrow, A. Hurson, and S. Sedigh Sarvestani, Pervasive Cyberinfrastructure for Personalized Education, in Handbook of Applied Learning Theory and Design in Modern Education, IGI Global, Pages 817-839, 2016."
   year: 2016
-  status: "To Appear"
+  status: "Published"
   awards:
   area: "per"
-  fulltext:
+  fulltext: "http://dx.doi.org/10.4018/978-1-4666-9634-1.ch040"
 
-- citation: "Michael Wisely, A. R. Hurson, and S. Sedigh Sarvestani. Public data dissemination via broadcasting. Journal of Information Processing, 23(4), 2015, invited."
+- citation: "Michael Wisely, A. R. Hurson, and S. Sedigh Sarvestani. Public data dissemination via broadcasting. Journal of Information Processing, Volum 23, No. 4, Pages 382-391, 2015, invited."
   year: 2015
   status: "Published"
   awards:
   area: "per"
   fulltext: "http://doi.org/10.2197/ipsjjip.23.382"
 
-- citation: "T. Morrow, A context-aware ontology for personalized learning: Pervasive computing for educational technology, in Proceedings of the 8th Annual Ph.D. Forum on Pervasive Computing and Communications, at the 13th IEEE International Conference on Pervasive Computing and Communications (PerCom 2015), St. Louis, MO, Mar. 2015."
+- citation: "T. Morrow, A context-aware ontology for personalized learning: Pervasive computing for educational technology, in Proceedings of the 8th Annual Ph.D. Forum on Pervasive Computing and Communications, at the 13th IEEE International Conference on Pervasive Computing and Communications (PerCom 2015), Pages 242-244, St. Louis, MO, Mar 2015."
   year: 2015
   status: "Published"
   awards:
   area: "per"
-  fulltext: "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7134036&queryText=tyler+morrow&newsearch=true&searchField=Search_All"
+  fulltext: "http://dx.doi.org/10.1109/PERCOMW.2015.7134036"
 
 - citation: "K. Marashi, M. Woodard, S. Sedigh, and A. Hurson. Quantitative reliability analysis for intelligent water distribution networks. Transactions of the American Nuclear Society, 2014."
   year: 2014
@@ -105,7 +105,7 @@
   area: "cip"
   fulltext: "http://dx.doi.org/10.13140/RG.2.1.1836.0081"
 
-- citation: "K. Marashi and S. Sedigh, Towards Comprehensive Modeling of Reliability for Smart Grids: Requirements and Challenges, In Proc. of the 15th IEEE Int'l Symposium on High- Assurance Systems Engineering (HASE '14), Miami, FL, Jan 2014."
+- citation: "K. Marashi and S. Sedigh, Towards Comprehensive Modeling of Reliability for Smart Grids: Requirements and Challenges, In Proc. of the 15th IEEE Int'l Symposium on High- Assurance Systems Engineering (HASE '14), Pages 105-112, Miami, FL, Jan 2014."
   year: 2014
   status: "Published"
   awards:
@@ -114,119 +114,119 @@
   badge: "badge-sos.jpg"
   badge-link: "http://cps-vo.org/group/SoS"
 
-- citation: "Steven C. White and Sahra Sedigh Sarvestani. Comparison of security models: Attack graphs versus Petri nets. volume 94 of Advances in Computers, pages 1 - 24. Elsevier, 2014."
+- citation: "Steven C. White and Sahra Sedigh Sarvestani. Comparison of security models: Attack graphs versus Petri nets. Advances in Computers, Volume 94, Pages 1-24, 2014."
   year: 2014
   status: "Published"
   awards:
   area: "cip"
-  fulltext: "https://books.google.com/books?hl=en&lr=&id=6gR0AwAAQBAJ&oi=fnd&pg=PA1&dq=Comparison+of+security+models:+Attack+graphs+versus+Petri+nets&ots=fh9z98Gxsy&sig=evdtF08hgmAqveFaOZiyglNjn2I#v=onepage&q=Comparison%20of%20security%20models%3A%20Attack%20graphs%20versus%20Petri%20nets&f=false"
+  fulltext: "https://books.google.com/books?id=6gR0AwAAQBAJ&lpg=PP1&pg=PA1#v=onepage&q&f=false"
 
-- citation: "C. Shaun Wagner, S. Sedigh Sarvestani, and A. R. Hurson. Algorithms and techniques for proactive search. Journal of Information Processing, 22(3):425-434, 2014, invited."
+- citation: "C. Shaun Wagner, S. Sedigh Sarvestani, and A. R. Hurson. Algorithms and techniques for proactive search. Journal of Information Processing, Volume 22, No. 3, Pages 425-434, 2014, invited."
   year: 2014
   status: "Published"
   awards:
   area: "cip"
   fulltext: "https://www.jstage.jst.go.jp/article/ipsjjip/22/3/22_425/_article"
 
-- citation: "Murtadha N. Albasrawi, Kamlesh A. Joshi, Nathan Jarus, Dr. Sahra Sedigh. Analysis of Reliability and Resilience for Smart Grids. In Proc. of the 38th Annual International Computers, Software & Applications Conference (COMPSAC '14)"
+- citation: "Murtadha N. Albasrawi, Kamlesh A. Joshi, Nathan Jarus, Dr. Sahra Sedigh. Analysis of Reliability and Resilience for Smart Grids. In Proc. of the 38th Annual International Computers, Software & Applications Conference (COMPSAC '14), Pages 529-534, Jul 2014."
   year: 2014
   status: "Published"
   awards:
   area: "cip"
-  fulltext: "http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6899257&tag=1"
+  fulltext: "http://dx.doi.org/10.1109/COMPSAC.2014.75"
   badge: "badge-sos.jpg"
   badge-link: "http://cps-vo.org/group/SoS"
 
-- citation: "J. Lin, S. Sedigh, and A. R. Hurson. Knowledge management for fault-tolerant water distribution. In Albert Zomaya and Hamid Sarbazi-Azad, editors, Large Scale Network- Centric Computing Systems, ch. 26. John Wiley & Sons, 2013."
+- citation: "J. Lin, S. Sedigh, and A. R. Hurson. Knowledge management for fault-tolerant water distribution. In Large Scale Network-Centric Computing Systems, John Wiley & Sons, Pages 649-677, 2013."
   year: 2013
   status: "Published"
   awards:
   area: "cip"
-  fulltext: "http://onlinelibrary.wiley.com/doi/10.1002/9781118640708.ch26/summary"
+  fulltext: "http://dx.doi.org/10.1002/9781118640708.ch26"
 
-- citation: "S. White, S. Sedigh, and A. R. Hurson. Security and privacy in cloud computing. In K. X. Yang and L. Liu, editors, Principles, Methodologies, and Service-Oriented Approaches for Cloud Computing, ch. 5. IGI Global, 2013."
+- citation: "S. White, S. Sedigh, and A. R. Hurson. Principles, Methodologies, and Service-Oriented Approaches for Cloud Computing, IGI Global, Pages 116-142, 2013."
   year: 2013
   status: "Published"
   awards:
   area: "cip"
-  fulltext: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6238281&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6238281"
+  fulltext: "http://dx.doi.org/10.4018/978-1-4666-2854-0.ch005"
 
-- citation: "C. S Wagner, S. Sedigh, A. R. Hurson, and B. Shirazi. A survey of techniques for improving search engine scalability through proling, prediction, and prefetching of query results. In S. U. Khan, L. Wang, and A. Y. Zomaya, editors, Scalable Computing and Communications Theory and Practice, ch. 23. John Wiley & Sons, 2013."
+- citation: "C. S Wagner, S. Sedigh, A. R. Hurson, and B. Shirazi. A survey of techniques for improving search engine scalability through proling, prediction, and prefetching of query results. In Scalable Computing and Communications Theory and Practice, John Wiley & Sons, 2013."
   year: 2013
   status: "Published"
   awards:
   area: "cip"
   fulltext:
 
-- citation: "K. Marashi, M. Woodard, S. Sedigh and A. Hurson, Quantitative Reliability Analysis for Intelligent Water Distribution Networks, In Proceedings of the Embedded Topical Meeting on Risk Management for Complex Socio-Technical Systems (RM4CSS), Annual Meeting of the American Nuclear Society, Washington, D.C., Nov. 2013."
+- citation: "K. Marashi, M. Woodard, S. Sedigh and A. Hurson, Quantitative Reliability Analysis for Intelligent Water Distribution Networks, In Proceedings of the Embedded Topical Meeting on Risk Management for Complex Socio-Technical Systems (RM4CSS), Annual Meeting of the American Nuclear Society, Washington, D.C., Nov 2013."
   year: 2013
   status: "Published"
   awards:
   area: "cip"
   fulltext: "http://dx.doi.org/10.13140/RG.2.1.1836.0081"
 
-- citation: "M. Woodard and S. Sedigh, Modeling of Autonomous Vehicle Operation in Intelligent Transportation Systems, In Proc. of the 5th Int'l Workshop on Software Engineering for Resilient Systems (SERENE '13), Oct. 2013, Kiev, Ukraine, pp. 133-140."
+- citation: "M. Woodard and S. Sedigh, Modeling of Autonomous Vehicle Operation in Intelligent Transportation Systems, In Proc. of the 5th Int'l Workshop on Software Engineering for Resilient Systems (SERENE '13), Pages 133-140, Kiev, Ukraine, Oct 2013."
   year: 2013
   status: "Published"
   awards:
   area: "cip"
   fulltext: "http://link.springer.com/chapter/10.1007%2F978-3-642-40894-6_11"
 
-- citation: "V. Winter, B. Cukic, T. Khoshgoftaar, K. Mori, R. Paul, C. Perez-Leguzamo, S. Sedigh, J. Sloan, M. Vouk, and I. Yen. High consequence systems and semantic computing. International Journal of Semantic Computing, 7(3):291-324, Sept. 2013."
+- citation: "V. Winter, B. Cukic, T. Khoshgoftaar, K. Mori, R. Paul, C. Perez-Leguzamo, S. Sedigh, J. Sloan, M. Vouk, and I. Yen. High consequence systems and semantic computing. International Journal of Semantic Computing, Volume 7, No. 3, Pages 291-324, Sept 2013."
   year: 2013
   status: "Published"
   awards:
   area: "cip"
   fulltext: "http://www.worldscientific.com/doi/abs/10.1142/S1793351X13500050"
 
-- citation: Sabatini, Antonio, Nathan Jarus, Pratik Maheshwari, and Sahra Sedigh. "Software instrumentation for failure analysis of USB host controllers." In Instrumentation and Measurement Technology Conference (I2MTC), 2013 IEEE International, pp. 1109-1114. IEEE, 2013.
+- citation: Sabatini, Antonio, Nathan Jarus, Pratik Maheshwari, and Sahra Sedigh. "Software instrumentation for failure analysis of USB host controllers." In IEEE International Instrumentation and Measurement Technology Conference (I2MTC), Pages 1109-1114, May 2013.
   year: 2013
   status: "Published"
   awards:
   area: "cip"
-  fulltext: "http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6555586&tag=1"
+  fulltext: "http://dx.doi.org/10.1109/I2MTC.2013.6555586"
 
-- citation: "A. R. Hurson and S. Sedigh, editors. Dependable and Secure Systems Engineering, volume 84 of Advances in Computers. Elsevier, Inc., 2012."
+- citation: "A. R. Hurson and S. Sedigh, editors. Dependable and Secure Systems Engineering, volume 84 of Advances in Computers, Academic Press, 2012."
+  year: 2012
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "https://books.google.com/books?id=4Q\_d8DW0aWMC"
+
+- citation: "A. Faza, J. Lin, and S. Sedigh. Net-centric assurance for critical infrastructure systems. In Meeting of the NSF Net-Centric Software & Systems Industry/University Cooperative Research Center, Rolla, MO, Feb 2012."
   year: 2012
   status: "Published"
   awards:
   area: "cip"
   fulltext:
 
-- citation: "A. Faza, J. Lin, and S. Sedigh. Net-centric assurance for critical infrastructure systems. In Meeting of the NSF Net-Centric Software & Systems Industry/University Cooperative Research Center, Rolla, MO, Feb. 2012."
+- citation: "J. Lin, S. Sedigh and A. Hurson, Ontologies and Decision Support for Failure Mitigation in Intelligent Water Distribution Networks, Hawaii Int'l. Conf. on System Sciences (HICSS 2011), Maui, Hawaii, Jan 2012."
+  year: 2012
+  status: "Published"
+  awards:
+  area: "cip"
+  fulltext: "http://dx.doi.org/10.1109/HICSS.2012.458"
+
+- citation: "S. Sedigh and A. R. Hurson. Introduction to green and sustainable computing. In Part I, volume 87 of Advances in Computers, Academic Press, Pages 1-6, 2012."
   year: 2012
   status: "Published"
   awards:
   area: "cip"
   fulltext:
 
-- citation: "J. Lin, S. Sedigh and A. Hurson, Ontologies and Decision Support for Failure Mitigation in Intelligent Water Distribution Networks, Hawaii Int'l. Conf. on System Sciences (HICSS 2011),Grand Wailea, Maui, Hawaii, Jan. 2012."
-  year: 2012
-  status: "Published"
-  awards:
-  area: "cip"
-  fulltext: "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6149031"
-
-- citation: "S. Sedigh and A. R. Hurson. Introduction to green and sustainable computing. In A. R. Hurson and A. Memon, editors, : Part I, volume 87 of Advances in Computers, pages 1-6. Elsevier, Inc., 2012."
-  year: 2012
-  status: "Published"
-  awards:
-  area: "cip"
-  fulltext:
-
-- citation: "F. Bastianini, S. Sedigh, and G. Pascale. Cost-effective dynamic structural health monitoring with a compact and autonomous wireless sensor system. In Proceedings of the In- ternational Symposium on Nondestructive Testing of Materials and Structures (NDTMS '11), Istanbul, Turkey, May 2011."
+- citation: "F. Bastianini, S. Sedigh, and G. Pascale. Cost-effective dynamic structural health monitoring with a compact and autonomous wireless sensor system. In Proceedings of the International Symposium on Nondestructive Testing of Materials and Structures (NDTMS '11), Istanbul, Turkey, May 2011."
   year: 2011
   status: "Published"
   awards:
   area: "cip"
   fulltext: "http://link.springer.com/chapter/10.1007%2F978-94-007-0723-8_149"
 
-- citation: "J. Lin, S. Sedigh, and A. Hurson, An Agent-Based Approach to Reconciling Data Heterogeneity in Cyber-Physical Systems, 20th International Heterogeneity in Computing Workshop in conjunction with 25th IEEE International Parallel & Distributed Processing Symposium, May 2011, Anchorage (Alaska), USA."
+- citation: "J. Lin, S. Sedigh, and A. Hurson, An Agent-Based Approach to Reconciling Data Heterogeneity in Cyber-Physical Systems, 20th International Heterogeneity in Computing Workshop in conjunction with 25th IEEE International Parallel & Distributed Processing Symposium, Anchorage, AK, May 2011."
   year: 2011
   status: "Published"
   awards:
   area: "cip"
-  fulltext: "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6008824"
+  fulltext: "http://dx.doi.org/10.1109/IPDPS.2011.130"
 
 - citation: "J. Lin, S. Sedigh, and A. Miller. Integrated cyber-physical simulation of intelligent water distribution networks. In Scientic and Engineering Applications Using MATLAB, ch. 7. InTech, 2011."
   year: 2011
