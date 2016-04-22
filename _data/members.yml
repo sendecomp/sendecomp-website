@@ -40,15 +40,6 @@
   photo: Sedigh.jpg
   role: Advisor
 
-- name: Mona Alluwaym
-  degree: Computer Science (MS)
-  status: Active
-  grad: "2016 May"
-  focus: Analysis and Modeling of Cyber-Physical Systems
-  emp:
-  website: http://web.mst.edu/~man96/
-  photo: Alluwaym.jpg
-
 - name: Isam Alobaidi
   degree: Computer Science (PhD)
   status: Active
