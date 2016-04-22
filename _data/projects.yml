@@ -50,6 +50,7 @@
   members:
     - name: Mark Woodard
     - name: Koosha Marashi
+    - name: Isam Alobaidi
     - name: Kamlesh Joshi
     - name: Andrea Miller
     - name: Dr. Ali Hurson
@@ -87,10 +88,11 @@
     distribution networks (WDNs), coupled with the hardware and software
     that support intelligent water allocation, comprise the model CPS that
     is used as a case study.
-  status: Active
+  status: Complete
   area: cip
   members:
     - name: Steve White
+    - name: Jing Lin
     - name: Dr. Ali Hurson
   sponsors:
     - name: Intelligent Systems Center
