@@ -200,3 +200,28 @@
   website: "http://link.springer.com/journal/13177"
   area: per
   type: Journal
+
+- name: "World Congress in Computer Science, Computer Engineering, & Applied Computing"
+  website: "http://worldcomp.org"
+  area: per
+  type: Conference
+
+- name: "International Conference on Education and New Learning Technologies (EDULEARN)"
+  website: "https://iated.org"
+  area: per
+  type: Conference
+
+- name: "International Conference on Computers in Education (ICCE)"
+  website: "http://www.wikicfp.com/cfp/program?id=1305"
+  area: per
+  type: Conference
+
+- name: "IEEE International Conference on Teaching and Learning in Education"
+  website: "https://www.ieee.org/conferences_events/conferences/conferencedetails/index.html?Conf_ID=36346"
+  area: per
+  type: Conference
+
+- name: "IEEE Global Engineering Education Conference (EDUCON)"
+  website: "http://www.educon-conference.org"
+  area: per
+  type: Conference
