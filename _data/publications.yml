@@ -28,6 +28,27 @@
 #      - Quotes around the values are optional.
 #      - Non-required attributes with blank values can be ommitted completely.
 
+- citation: "Nathan Jarus, Mark Woodard, Hadi Ataei, Koosha Marashi, Jing Lin, Ayman Faza, Pratik Maheshwari, and Sahra Sedigh Sarvestani. Survey on Cyber-Physical Systems."
+  year: 
+  status: "Under Review"
+  awards:
+  area: "cip"
+  fulltext: 
+
+- citation: "Mark Woodard, Michael Wisely, and Sahra Sedigh Sarvestani. A Survey of Data Cleansing Techniques for Cyber-Physical Critical Infrastructure Systems. Advances in Computers, Elsevier, 2016, Volume 102."
+  year: 
+  status: "To Appear"
+  awards:
+  area: "cip"
+  fulltext: 
+  
+  - citation: "Koosha Marashi, Mark Woodard, and Sahra Sedigh Sarvestani. Survivability Analysis for Complex Networked Systems: A Case Study on Smart Grids."
+  year: 
+  status: "Under Review"
+  awards:
+  area: "cip"
+  fulltext: 
+
 - citation: "L. Heendaliya, M. Wisely, D. Lin, S. Sedigh Sarvestani, and A. Hurson. Influence-aware Predictive Density Queries Under Road-network Constraints. In 14th International Symposium on Spatial and Temporal Databases, Pages 80-97, Hong Kong, 2015."
   year: 2015
   status: "Published"
@@ -70,7 +91,7 @@
   area: "cip"
   fulltext:
 
-- citation: "Mark Woodard, Sahra Sedigh Sarvestani, Ali R. Hurson, Chapter Two - A Survey of Research on Data Corruption in Cyber-Physical Critical Infrastructure Systems, Advances in Computers, Volume 98, Pages 59-87, 2015."
+- citation: "Mark Woodard, Sahra Sedigh Sarvestani, Ali R. Hurson, A Survey of Research on Data Corruption in Cyber-Physical Critical Infrastructure Systems, Advances in Computers, Volume 98, Pages 59-87, 2015."
   year: 2015
   status: "Published"
   awards:
