@@ -302,3 +302,15 @@
   sponsors:
     - name: Intelligent Systems Center
       link:
+
+- name: "Distributed Analysis and Prediction of Vehicular Traffic"
+  desc: ""
+  status: "Active"
+  area: per
+  members:
+    - name: Mike Wisely
+      link:
+    - name: Dr. Sahra Sedigh Sarvestani
+      link:
+    - name: Dr. Ali Hurson
+      link:
