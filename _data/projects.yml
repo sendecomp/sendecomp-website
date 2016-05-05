@@ -23,28 +23,25 @@
 
 - name: |
     Quantitative Analysis of Cyber-Physical Systems:
-    Reliability of the Smart Grid
+    Dependability of the Smart Grid
   desc: |
-    The advanced electric power grid promises a self-healing infrastructure
-    using distributed, coordinated, power electronics control.
-    One promising power electronics device, the Flexible AC Transmission
-    System (FACTS) device, can modify the power flow locally within a power
-    grid.
-    Embedded computers within the FACTS devices, along with the links
-    connecting them, form a communication and control network that can
-    dynamically change the advanced electric power grid to achieve higher
-    dependability.
-    The goal is to reroute power distribution in the event of transmission
-    line failure.
-    Such a system over a widespread area, is a cyber-physical system.
-    The overall reliability of the advanced electric power grid is function
-    of the respective reliabilities of its two major subsystems, namely,
-    the FACTS network and the physical components that comprise the power
-    grid.
-    The objective of this project is to develop a quantitative model for the
-    reliability of the advanced electric power grid, taking into account
-    interdependencies among the cyber and physical components of the grid,
-    while reflecting the effect of interdependent line failures.
+    Developed countries are entirely reliant on critical infrastructure,
+    hence the need for rigorous assessment of the trustworthiness of these
+    systems.
+    The advanced electric power grid, also known as smart grid, is an example
+    of a critical infrastructure that utilizes computation and communication
+    to improve the efficacy and dependability of power generation,
+    transmission, and distribution.
+    Reliance of almost every other critical infrastructure on electric power
+    and the interdependency between these infrastructure systems places smart
+    power grids among the most critical and complex CPSs.
+    The objective of this research is to develop and validate a comprehensive
+    dependability model for cyber-physical critical infrastructures, focusing
+    on smart power grids, and considering interdependencies among physical
+    processes and the cyber network providing intelligence to the system.
+    Such a model can help in guiding investments to eliminate or alleviate
+    vulnerabilities in and failure mitigation for such critical
+    infrastructures.
   status: Active
   area: cip
   members:
@@ -68,7 +65,7 @@
     these systems, as it is difficult to represent both the cyber and the
     physical infrastructure in one integrated system.
     The interdependencies among the cyber and physical components and
-    heterogeneity in the notion of \"flow\" invalidate and complicate
+    heterogeneity in the notion of "flow" invalidate and complicate
     traditional reliability models that assume components fail independently.
     We propose the use of agent-based modeling for qualitative
     representation of the operation of a CPS, as a precursor to quantitative
@@ -221,7 +218,7 @@
     - name: Abhijeet Singh
     - name: Dr. Sanjeev Agarwal
   sponsors:
-    - name: Alaka\'i Consulting and Engineering, Inc.
+    - name: Alaka'i Consulting and Engineering, Inc.
 
 - name: |
     A Network Infrastructure for Real-Time Monitoring of Campus Energy
@@ -288,9 +285,29 @@
   sponsors:
     - name: University Transportation Center
 
-- name: "Pervasive Cyberinfrastructure for Personalized eLearning and Instructional Support (PERCEPOLIS)"
-  desc: "Advances in databases, distributed computing, computational intelligence, and especially pervasive computing, which allows non-intrusive and transparent \"anytime, anywhere\" access to information, provide fertile ground for radical changes in pedagogy. Recent studies of undergraduate engineering education have identified \"linearity\" of the dominant curricular model as fundamentally contradictory to the body of knowledge on how students learn. A networked model has been proposed, where the components form a cohesive and strongly interconnected whole, and learning in one area reinforces and supports learning in other areas. The objective of this project is to leverage technological advances, in particular in pervasive computing, to create a cyberinfrastructure that facilitates personalized learning in engineering education, while supporting a networked curricular model. We believe that such an infrastructure will accelerate the acquisition of knowledge and skills critical to professional engineering practice, while facilitating the study of how this acquisition comes about, yielding insights that may lead to significant changes in pedagogy."
-  status: "Active"
+- name: |
+    Pervasive Cyberinfrastructure for Personalized eLearning and
+    Instructional Support (PERCEPOLIS)
+  desc: |
+    Advances in databases, distributed computing, computational intelligence,
+    and especially pervasive computing, which allows non-intrusive and
+    transparent "anytime, anywhere" access to information, provide fertile
+    ground for radical changes in pedagogy.
+    Recent studies of undergraduate engineering education have identified
+    "linearity" of the dominant curricular model as fundamentally
+    contradictory to the body of knowledge on how students learn.
+    A networked model has been proposed, where the components form a cohesive
+    and strongly interconnected whole, and learning in one area reinforces
+    and supports learning in other areas.
+    The objective of this project is to leverage technological advances, in
+    particular in pervasive computing, to create a cyberinfrastructure that
+    facilitates personalized learning in engineering education, while
+    supporting a networked curricular model.
+    We believe that such an infrastructure will accelerate the acquisition
+    of knowledge and skills critical to professional engineering practice,
+    while facilitating the study of how this acquisition comes about,
+    yielding insights that may lead to significant changes in pedagogy.
+  status: Active
   area: per
   members:
     - name: Tyler Morrow
@@ -303,9 +320,9 @@
     - name: Intelligent Systems Center
       link:
 
-- name: "Distributed Analysis and Prediction of Vehicular Traffic"
-  desc: ""
-  status: "Active"
+- name: Distributed Analysis and Prediction of Vehicular Traffic
+  desc: 
+  status: Active
   area: per
   members:
     - name: Mike Wisely

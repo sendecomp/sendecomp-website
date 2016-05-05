@@ -2,8 +2,8 @@
 layout: page
 title: Research Areas
 ---
-{% assign publications = site.data.publications | sort: 'year' %}
 {% assign projects = site.data.projects | sort: 'name' %}
+{% assign publications = site.data.publications | sort: 'year' %}
 {% assign labs = site.data.labs | sort: 'name' %}
 {% assign docs = site.data.docs | sort: 'name' %}
 {% assign venues = site.data.venues | sort: 'name' %}
@@ -11,16 +11,16 @@ title: Research Areas
 {% assign activeProjects = projects | where: 'status', 'Active' %}
 {% assign pastProjects = projects | where: 'status', 'Complete' %}
 
-{% assign cipPubs = publications | where: 'area', 'cip' %}
 {% assign cipActiveProjects = activeProjects | where: 'area', 'cip' %}
 {% assign cipPastProjects = pastProjects | where: 'area', 'cip' %}
+{% assign cipPubs = publications | where: 'area', 'cip' %}
 {% assign cipLabs = labs | where: 'area', 'cip' %}
 {% assign cipDocs = docs | where: 'area', 'cip' %}
 {% assign cipVenues = venues | where: 'area', 'cip' %}
 
-{% assign perPubs = publications | where: 'area', 'per' %}
 {% assign perActiveProjects = activeProjects | where: 'area', 'per' %}
 {% assign perPastProjects = pastProjects | where: 'area', 'per' %}
+{% assign perPubs = publications | where: 'area', 'per' %}
 {% assign perLabs = labs | where: 'area', 'per' %}
 {% assign perDocs = docs | where: 'area', 'per' %}
 {% assign perVenues = venues | where: 'area', 'per' %}
@@ -31,8 +31,8 @@ title: Research Areas
       <li>
         <a href="#cip">Critical Infrastructure Protection</a>
         <ul class="nav nav-stacked">
-          <li><a href="#cip-pubs">Publications</a></li>
           <li><a href="#cip-projects">Projects</a></li>
+		  <li><a href="#cip-pubs">Publications</a></li>
           <li><a href="#cip-docs">Useful Documents</a></li>
           <li><a href="#cip-labs">Related Labs</a></li>
           <li><a href="#cip-venues">Publication Venues</a></li>
@@ -41,8 +41,8 @@ title: Research Areas
           <li>
             <a href="#per">Pervasive Computing</a>
             <ul class="nav nav-stacked">
-              <li><a href="#per-pubs">Publications</a></li>
               <li><a href="#per-projects">Projects</a></li>
+			  <li><a href="#per-pubs">Publications</a></li>
               <li><a href="#per-docs">Documents</a></li>
               <li><a href="#per-labs">Related Labs</a></li>
               <li><a href="#per-venues">Publication Venues</a></li>
@@ -52,15 +52,7 @@ title: Research Areas
   </nav>
   <div class="col-sm-9">
     <h3 id="cip">Critical Infrastructure Protection</h3>
-    <h4 id="cip-pubs">Publications</h4>
-    <div class="list-group">
-    {% for pub in cipPubs reversed %}
-      {% include publication.html %}
-    {% endfor %}
-    </div>
-    <hr>
-
-    <h4 id="cip-projects">Active Projects</h4>
+	<h4 id="cip-projects">Active Projects</h4>
     <div class="list-group">
     {% for proj in cipActiveProjects %}
       {% include project.html %}
@@ -71,6 +63,14 @@ title: Research Areas
     <div class="list-group">
     {% for proj in cipPastProjects %}
       {% include project.html %}
+    {% endfor %}
+    </div>
+    <hr>
+	
+    <h4 id="cip-pubs">Publications</h4>
+    <div class="list-group">
+    {% for pub in cipPubs reversed %}
+      {% include publication.html %}
     {% endfor %}
     </div>
     <hr>
@@ -100,14 +100,6 @@ title: Research Areas
     <hr>
 
     <h3 id="per">Pervasive Computing</h3>
-    <h4 id="per-pubs">Publications</h4>
-    <div class="list-group">
-    {% for pub in perPubs reversed %}
-      {% include publication.html %}
-    {% endfor %}
-    </div>
-    <hr>
-
     <h4 id="per-projects">Active Projects</h4>
     <div class="list-group">
     {% for proj in perActiveProjects %}
@@ -123,7 +115,15 @@ title: Research Areas
     </div>
     <hr>
 
-    <h4 id="per-docs">Useful Documents</h4>
+    <h4 id="per-pubs">Publications</h4>
+    <div class="list-group">
+    {% for pub in perPubs reversed %}
+      {% include publication.html %}
+    {% endfor %}
+    </div>
+    <hr>
+	
+	<h4 id="per-docs">Useful Documents</h4>
     <div class="list-group">
     {% for doc in perDocs %}
       {% include doc.html %}
