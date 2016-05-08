@@ -1,4 +1,4 @@
-<div class="list-group-item">
+<div class="list-group-item pub">
   <div class="media">
     {% if pub.badge  %}
     <div class="media-left pull-right">
@@ -10,7 +10,7 @@
     </div>
     {% endif %}
     <div class="media-body">
-      <h6 class="media-heading">{{ pub.citation }}</h6>
+      <h6 id="title" class="media-heading">{{ pub.citation }}</h6>
       <strong>Status:</strong>
       {% if pub.status == "Published" %}
         {% if pub.fulltext %}
