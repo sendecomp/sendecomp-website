@@ -28,7 +28,7 @@
 #      - Quotes around the values are optional.
 #      - Non-required attributes with blank values can be ommitted completely.
 
-- citation: "Tyler Morrow, Sahra Sedigh Sarvestani, Ali R. Hurson. \"Algorithmic Decision Support for Personalized Education,\" 2016 IEEE International Conference on Information Reuse and Integration (IRI), Pittsburgh, PA, 2016, Invited."
+- citation: "Tyler Morrow, Sahra Sedigh Sarvestani, Ali R. Hurson, \"Algorithmic Decision Support for Personalized Education,\" in 2016 IEEE International Conference on Information Reuse and Integration (IRI), Pittsburgh, PA, July 2016, invited."
   year: 2016
   status: "To Appear"
   awards:
@@ -126,7 +126,7 @@
   area: "per"
   fulltext: "http://doi.org/10.2197/ipsjjip.23.382"
 
-- citation: "T. Morrow, \"A Context-aware Ontology for Personalized Learning: Pervasive Computing for Educational Technology,\" Pervasive Computing and Communication Workshops (PerCom Workshops), 2015 IEEE International Conference on Pervise Computing, St. Louis, MO, 2015, pp. 242-244."
+- citation: "T. Morrow, \"A Context-aware Ontology for Personalized Learning: Pervasive Computing for Educational Technology,\" in IEEE International Conference on Pervasive Computing and Communications (PerCom), St. Louis, MO, 2015, pp. 242-244."
   year: 2015
   status: "Published"
   awards:
