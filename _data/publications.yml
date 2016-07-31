@@ -28,33 +28,40 @@
 #      - Quotes around the values are optional.
 #      - Non-required attributes with blank values can be ommitted completely.
 
+- citation: "Tyler Morrow, Sahra Sedigh Sarvestani, Ali R. Hurson. \"Algorithmic Decision Support for Personalized Education,\" 2016 IEEE International Conference on Information Reuse and Integration (IRI), Pittsburgh, PA, 2016, Invited."
+  year: 2016
+  status: "To Appear"
+  awards:
+  area: "per"
+  fulltext:
+
 - citation: "Nathan Jarus, Mark Woodard, Hadi Ataei, Koosha Marashi, Jing Lin, Ayman Faza, Pratik Maheshwari, and Sahra Sedigh Sarvestani. Survey on Cyber-Physical Systems."
-  year: 
+  year:
   status: "Under Review"
   awards:
   area: "cip"
-  fulltext: 
+  fulltext:
 
-- citation: "Koosha Marashi, Sahra Sedigh Sarvestani, and Ali R. Hurson. Quantification and Analysis of Interdependency in Cyber-Physical Systems. The 3rd International Workshop on Reliability and Security Aspects for Critical Infrastructure Protection (ReSA4CI '16)"
+- citation: "Koosha Marashi, Sahra Sedigh Sarvestani, and Ali R. Hurson. Quantification and Analysis of Interdependency in Cyber-Physical Systems. The 3rd International Workshop on Reliability and Security Aspects for Critical Infrastructure Protection (ReSA4CI 2016)"
   year: 2016
   status: "To Appear"
   awards:
   area: "cip"
-  fulltext: 
+  fulltext:
 
 - citation: "Mark Woodard, Michael Wisely, and Sahra Sedigh Sarvestani. A Survey of Data Cleansing Techniques for Cyber-Physical Critical Infrastructure Systems. Advances in Computers, Elsevier, 2016, Volume 102."
-  year: 
+  year:
   status: "To Appear"
   awards:
   area: "cip"
-  fulltext: 
-  
+  fulltext:
+
   - citation: "Koosha Marashi, Mark Woodard, and Sahra Sedigh Sarvestani. Survivability Analysis for Complex Networked Systems: A Case Study on Smart Grids."
-  year: 
+  year:
   status: "Under Review"
   awards:
   area: "cip"
-  fulltext: 
+  fulltext:
 
 - citation: "L. Heendaliya, M. Wisely, D. Lin, S. Sedigh Sarvestani, and A. Hurson. Influence-aware Predictive Density Queries Under Road-network Constraints. In 14th International Symposium on Spatial and Temporal Databases, Pages 80-97, Hong Kong, 2015."
   year: 2015
@@ -63,7 +70,7 @@
   area: "per"
   fulltext: "http://link.springer.com/chapter/10.1007/978-3-319-22363-6_5"
 
-- citation: 'M. Wisely, A. Hurson, and S. Sedigh Sarvestani. "An Extensible Simulation Framework for Evaluating Centralized Traffic Prediction Algorithms," in 2015 Int. Conf. on Connected Vehicles and Expo (ICCVE), Shenzhen, China.'
+- citation: "M. Wisely, A. Hurson, and S. Sedigh Sarvestani. \"An Extensible Simulation Framework for Evaluating Centralized Traffic Prediction Algorithms,\" in 2015 Int. Conf. on Connected Vehicles and Expo (ICCVE), Shenzhen, China."
   year: 2015
   status: "To Appear"
   awards:
@@ -119,7 +126,7 @@
   area: "per"
   fulltext: "http://doi.org/10.2197/ipsjjip.23.382"
 
-- citation: "Tyler Morrow. \"A context-aware ontology for personalized learning: Pervasive computing for educational technology.\" Pervasive Computing and Communication Workshops (PerCom Workshops), 2015 IEEE International Conference on. IEEE, 2015."
+- citation: "T. Morrow, \"A Context-aware Ontology for Personalized Learning: Pervasive Computing for Educational Technology,\" Pervasive Computing and Communication Workshops (PerCom Workshops), 2015 IEEE International Conference on Pervise Computing, St. Louis, MO, 2015, pp. 242-244."
   year: 2015
   status: "Published"
   awards:
@@ -133,7 +140,7 @@
   area: "cip"
   fulltext: "http://dx.doi.org/10.13140/RG.2.1.1836.0081"
 
-- citation: "K. Marashi and S. Sedigh, Towards Comprehensive Modeling of Reliability for Smart Grids: Requirements and Challenges, In Proc. of the 15th IEEE Int'l Symposium on High- Assurance Systems Engineering (HASE '14), Pages 105-112, Miami, FL, Jan 2014."
+- citation: "K. Marashi and S. Sedigh, Towards Comprehensive Modeling of Reliability for Smart Grids: Requirements and Challenges, In Proc. of the 15th IEEE International Symposium on High- Assurance Systems Engineering (HASE 2014), Pages 105-112, Miami, FL, Jan 2014."
   year: 2014
   status: "Published"
   awards:
