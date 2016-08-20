@@ -105,6 +105,13 @@
   area: "cip"
   fulltext:
 
+- citation: "Nathan Jarus, Sahra Sedigh Sarvestani, Ali Hurson. Models, Metamodels, and Model Transformation for Cyber-Physical Systems. In 7th IEEE International Green and Sustainable Computing Conference (IGSC)"
+  year: 2016
+  status: "Under Review"
+  awards:
+  area: "cip"
+  fulltext:
+
 - citation: "Mark Woodard, Sahra Sedigh Sarvestani, Ali R. Hurson, A Survey of Research on Data Corruption in Cyber-Physical Critical Infrastructure Systems, Advances in Computers, Volume 98, Pages 59-87, 2015."
   year: 2015
   status: "Published"
@@ -214,7 +221,7 @@
   area: "cip"
   fulltext: "http://www.worldscientific.com/doi/abs/10.1142/S1793351X13500050"
 
-- citation: Sabatini, Antonio, Nathan Jarus, Pratik Maheshwari, and Sahra Sedigh. "Software instrumentation for failure analysis of USB host controllers." In IEEE International Instrumentation and Measurement Technology Conference (I2MTC), Pages 1109-1114, May 2013.
+- citation: "Sabatini, Antonio, Nathan Jarus, Pratik Maheshwari, and Sahra Sedigh. Software instrumentation for failure analysis of USB host controllers. In IEEE International Instrumentation and Measurement Technology Conference (I2MTC), Pages 1109-1114, May 2013."
   year: 2013
   status: "Published"
   awards:
