@@ -28,11 +28,12 @@
 #      - Quotes around the values are optional.
 #      - Non-required attributes with blank values can be ommitted completely.
 
-- citation: "Tyler Morrow, Sahra Sedigh Sarvestani, Ali R. Hurson, \"Algorithmic Decision Support for Personalized Education,\" in 2016 IEEE International Conference on Information Reuse and Integration (IRI), Pittsburgh, PA, July 2016, invited."
+
+- citation: "I. Alobaidi, S. Sedigh Sarvestani, and A. R. Hurson, \"Survivability analysis and recovery support for smart grids,\" In Proceedings of the 4th International Symposium on Resilient Cyber Systems (co-sponsored by Idaho National Laboratory), Chicago, USA, Aug. 2016, winner of best paper award"
   year: 2016
-  status: "To Appear"
+  status: "Published"
   awards:
-  area: "per"
+  area: "cip"
   fulltext:
 
 - citation: "Nathan Jarus, Mark Woodard, Hadi Ataei, Koosha Marashi, Jing Lin, Ayman Faza, Pratik Maheshwari, and Sahra Sedigh Sarvestani. Survey on Cyber-Physical Systems."
