@@ -35,14 +35,14 @@
   awards: "Recipient of Best Paper Award"
   area: "cip"
   fulltext:
-  
+
 - citation: "Tyler Morrow, Sahra Sedigh Sarvestani, Ali R. Hurson, \"Algorithmic Decision Support for Personalized Education,\" in 2016 IEEE International Conference on Information Reuse and Integration (IRI), Pittsburgh, PA, July 2016, invited."
   year: 2016
-  status: "Under Review"
+  status: "To Appear"
   awards:
   area: "per"
   fulltext:
-  
+
 - citation: "Nathan Jarus, Mark Woodard, Hadi Ataei, Koosha Marashi, Jing Lin, Ayman Faza, Pratik Maheshwari, and Sahra Sedigh Sarvestani. Survey on Cyber-Physical Systems."
   year:
   status: "Under Review"
