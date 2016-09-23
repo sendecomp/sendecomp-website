@@ -29,13 +29,20 @@
 #      - Non-required attributes with blank values can be ommitted completely.
 
 
-- citation: "I. Alobaidi, S. Sedigh Sarvestani, and A. R. Hurson, \"Survivability analysis and recovery support for smart grids,\" In Proceedings of the 4th International Symposium on Resilient Cyber Systems (co-sponsored by Idaho National Laboratory), Chicago, USA, Aug. 2016, winner of best paper award"
+- citation: "I. Alobaidi, S. Sedigh Sarvestani, and A. R. Hurson, \"Survivability analysis and recovery support for smart grids,\" In Proceedings of the 4th International Symposium on Resilient Cyber Systems (co-sponsored by Idaho National Laboratory), Chicago, USA, Aug. 2016"
   year: 2016
   status: "Published"
-  awards:
+  awards: "Recipient of Best Paper Award"
   area: "cip"
   fulltext:
-
+  
+- citation: "Tyler Morrow, Sahra Sedigh Sarvestani, Ali R. Hurson, \"Algorithmic Decision Support for Personalized Education,\" in 2016 IEEE International Conference on Information Reuse and Integration (IRI), Pittsburgh, PA, July 2016, invited."
+  year: 2016
+  status: "Under Review"
+  awards:
+  area: "per"
+  fulltext:
+  
 - citation: "Nathan Jarus, Mark Woodard, Hadi Ataei, Koosha Marashi, Jing Lin, Ayman Faza, Pratik Maheshwari, and Sahra Sedigh Sarvestani. Survey on Cyber-Physical Systems."
   year:
   status: "Under Review"
