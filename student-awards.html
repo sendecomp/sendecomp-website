@@ -8,7 +8,7 @@ title: Student Awards
 {% assign uniqueTags = '' | split: ',' %}
 
 {% assign awardTags =  site.data.awards | map: 'type' | join: ',' | join: ',' | split: ',' %}
-{% for tag in awardTags '%}
+{% for tag in awardTags %}
   {% assign tags = tags | push: tag %}
 {% endfor %}
 
