@@ -28,6 +28,12 @@
 #      - Quotes around the values are optional.
 #      - Non-required attributes with blank values can be ommitted completely.
 
+- citation: "Mark Woodard, Sahra Sedigh Sarvestani and Ali R. Hurson. A Petri-Net Model for Propagation of Corrupted Data in a Networked System."
+  year: 
+  status: "Under Review"
+  awards:
+  area: "cip"
+  fulltext: 
 
 - citation: "I. Alobaidi, S. Sedigh Sarvestani, and A. R. Hurson, \"Survivability analysis and recovery support for smart grids,\" In Proceedings of the 4th International Symposium on Resilient Cyber Systems (co-sponsored by Idaho National Laboratory), Chicago, USA, Aug. 2016"
   year: 2016
@@ -57,12 +63,12 @@
   area: "cip"
   fulltext:
 
-- citation: "Mark Woodard, Michael Wisely, and Sahra Sedigh Sarvestani. A Survey of Data Cleansing Techniques for Cyber-Physical Critical Infrastructure Systems. Advances in Computers, Elsevier, 2016, Volume 102."
-  year:
-  status: "To Appear"
+- citation: "Mark Woodard, Michael Wisely, and Sahra Sedigh Sarvestani. A Survey of Data Cleansing Techniques for Cyber-Physical Critical Infrastructure Systems. Advances in Computers, Elsevier, 2016, Pages 63 - 110, Volume 102."
+  year: 2016
+  status: "Published"
   awards:
   area: "cip"
-  fulltext:
+  fulltext: "http://www.sciencedirect.com/science/article/pii/S0065245816300304"
 
   - citation: "Koosha Marashi, Mark Woodard, and Sahra Sedigh Sarvestani. Survivability Analysis for Complex Networked Systems: A Case Study on Smart Grids."
   year:
