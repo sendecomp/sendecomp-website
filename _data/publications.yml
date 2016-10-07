@@ -28,6 +28,13 @@
 #      - Quotes around the values are optional.
 #      - Non-required attributes with blank values can be ommitted completely.
 
+- citation: "Koosha Marashi and Sahra Sedigh Sarvestani. Quantitative Reliability Modeling of Smart Grids with Consideration of Cyber-Physical Interdependencies. IEEE Transactions on Smart Grid"
+  year: 
+  status: "Under Review"
+  awards:
+  area: "cip"
+  fulltext: 
+
 - citation: "Mark Woodard, Sahra Sedigh Sarvestani and Ali R. Hurson. A Petri-Net Model for Propagation of Corrupted Data in a Networked System."
   year: 
   status: "Under Review"
@@ -70,7 +77,7 @@
   area: "cip"
   fulltext: "http://www.sciencedirect.com/science/article/pii/S0065245816300304"
 
-  - citation: "Mark Woodard, Koosha Marashi, and Sahra Sedigh Sarvestani. Survivability Analysis for Complex Networked Systems: A Case Study on Smart Grids."
+- citation: "Mark Woodard, Koosha Marashi, and Sahra Sedigh Sarvestani. Survivability Analysis for Complex Networked Systems: A Case Study on Smart Grids."
   year:
   status: "Under Review"
   awards:
