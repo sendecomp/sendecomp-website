@@ -40,6 +40,15 @@
   photo: Sedigh.jpg
   role: Advisor
 
+- name: Erik Burgdorf
+  degree: Computer Science (PhD)
+  status: Active
+  grad: 2020 May
+  focus: Analysis and Modeling of Cyber-Physical Systems
+  emp:
+  website: 
+  photo: Burgdorf.jpg
+
 - name: Isam Alobaidi
   degree: Computer Science (PhD)
   status: Active
