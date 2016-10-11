@@ -8,7 +8,7 @@
 #       right of the colon.
 #     The attributes available for STUDENT MEMBER records are as follows:
 #         name        The full name of the member
-#         degree      The name of their major with BS, MS, or PhD in parantheses*
+#         degree      The name of their major with BS, MS, or PhD in parentheses*
 #         status      Enter "Active" or "Alumni" only*
 #         grad        The year and month the member graduates*
 #                     Format: full year followed by the full month,
@@ -29,7 +29,7 @@
 #      * Required in order for the website to display
 #    Additional Notes:
 #      - Quotes around the values are optional.
-#      - Non-required attributes with blank values can be ommitted completely.
+#      - Non-required attributes with blank values can be omitted completely.
 
 
 - name: Dr. Sahra Sedigh Sarvestani
@@ -41,10 +41,10 @@
   role: Advisor
 
 - name: Erik Burgdorf
-  degree: Computer Science (PhD)
+  degree: Computer Engineering (MS)
   status: Active
-  grad: 2020 May
-  focus: Analysis and Modeling of Cyber-Physical Systems
+  grad: 2018 December
+  focus: Computing Techniques for Personalized Medicine
   emp:
   website: 
   photo: Burgdorf.jpg
@@ -53,7 +53,7 @@
   degree: Computer Science (PhD)
   status: Active
   grad: 2019 December
-  focus: Analysis and Modeling of Cyber-Physical Systems
+  focus: Computing Techniques for Personalized Medicine
   emp:
   website: http://web.mst.edu/~iaahgb/
   photo: Alobaidi.jpg
@@ -71,7 +71,7 @@
   degree: Computer Science (PhD) - GAANN Fellow
   status: Active
   grad: 2018 December
-  focus: Analysis and Modeling of Cyber-Physical Systems
+  focus: Model Transformation for Cyber-Physical Systems
   emp:
   website: http://web.mst.edu/~nmjxv3/
   photo: Jarus.png
@@ -98,7 +98,7 @@
   degree: Computer Engineering (PhD) - UTC Fellow
   status: Active
   grad: 2017 May
-  focus: Analysis and Modeling of Cyber-Physical Systems
+  focus: Stochastic Modeling and Analysis of Dependability for Critical Infrastructures
   emp:
   website: http://web.mst.edu/~km89f/
   photo: Marashi.jpg
