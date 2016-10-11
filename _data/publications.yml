@@ -29,18 +29,18 @@
 #      - Non-required attributes with blank values can be ommitted completely.
 
 - citation: "Koosha Marashi and Sahra Sedigh Sarvestani. Quantitative Reliability Modeling of Smart Grids with Consideration of Cyber-Physical Interdependencies. IEEE Transactions on Smart Grid"
-  year: 
+  year:
   status: "Under Review"
   awards:
   area: "cip"
-  fulltext: 
+  fulltext:
 
 - citation: "Mark Woodard, Sahra Sedigh Sarvestani and Ali R. Hurson. A Petri-Net Model for Propagation of Corrupted Data in a Networked System."
-  year: 
+  year:
   status: "Under Review"
   awards:
   area: "cip"
-  fulltext: 
+  fulltext:
 
 - citation: "I. Alobaidi, S. Sedigh Sarvestani, and A. R. Hurson, \"Survivability analysis and recovery support for smart grids,\" In Proceedings of the 4th International Symposium on Resilient Cyber Systems (co-sponsored by Idaho National Laboratory), Chicago, USA, Aug. 2016"
   year: 2016
@@ -61,6 +61,20 @@
   status: "Under Review"
   awards:
   area: "cip"
+  fulltext:
+
+- citation: "M. Wisely, S. Sedigh Sarvestani, and A. Hurson, \"Energy Consumption of Algorithms for Data Retrieval from Indexed Parallel Broadcast Channels,\" in 2016 Seventh International Green and Sustainable Computing Conference (IGSC), Hangzhou, China, 2016."
+  year: 2016
+  status: "To Appear"
+  awards:
+  area: "per"
+  fulltext:
+
+- citation: "A. R. Hurson, S. S. Sarvestani, and M. Wisely, \"Energy-efficient algorithms for data retrieval from indexed parallel broadcast channels,\" Sustainable Computing: Informatics and Systems, vol. 10, pp. 20-35, 2016."
+  year: 2016
+  status: "Published"
+  awards:
+  area: "per"
   fulltext:
 
 - citation: "Koosha Marashi, Sahra Sedigh Sarvestani, and Ali R. Hurson. Quantification and Analysis of Interdependency in Cyber-Physical Systems. The 3rd International Workshop on Reliability and Security Aspects for Critical Infrastructure Protection (ReSA4CI 2016)"
