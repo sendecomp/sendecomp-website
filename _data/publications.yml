@@ -145,7 +145,7 @@
   status: "To Appear"
   awards:
   area: "cip"
-  fulltext:
+  fulltext: "http://web.mst.edu/~nmjxv3/publications/2016%20-%20Models,%20Metamodels,%20and%20Model%20Transformation%20for%20Cyber-Physical%20Systems.pdf"
 
 - citation: "Mark Woodard, Sahra Sedigh Sarvestani, Ali R. Hurson, A Survey of Research on Data Corruption in Cyber-Physical Critical Infrastructure Systems, Advances in Computers, Volume 98, Pages 59-87, 2015."
   year: 2015
