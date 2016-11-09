@@ -28,14 +28,14 @@
 #      - Quotes around the values are optional.
 #      - Non-required attributes with blank values can be ommitted completely.
 
-- citation: "Koosha Marashi and Sahra Sedigh Sarvestani. Quantitative Reliability Modeling of Smart Grids with Consideration of Cyber-Physical Interdependencies. IEEE Transactions on Smart Grid"
+- citation: "Koosha Marashi, Sahra Sedigh Sarvestani, and Ali R. Hurson. Consideration of Cyber-Physical Interdependencies in Reliability Modeling of Smart Grids. IEEE Transactions on Sustainable Computing -- Special Issue on Sustainable Cyber-Physical Systems"
   year:
   status: "Under Review"
   awards:
   area: "cip"
   fulltext:
 
-- citation: "Mark Woodard, Sahra Sedigh Sarvestani and Ali R. Hurson. A Petri-Net Model for Propagation of Corrupted Data in a Networked System."
+- citation: "Mark Woodard, Sahra Sedigh Sarvestani, and Ali R. Hurson. A Petri-Net Model for Propagation of Corrupted Data in a Networked System."
   year:
   status: "Under Review"
   awards:
