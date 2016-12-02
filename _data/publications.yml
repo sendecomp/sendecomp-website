@@ -77,12 +77,12 @@
   area: "per"
   fulltext:
 
-- citation: "Koosha Marashi, Sahra Sedigh Sarvestani, and Ali R. Hurson. Quantification and Analysis of Interdependency in Cyber-Physical Systems. The 3rd International Workshop on Reliability and Security Aspects for Critical Infrastructure Protection (ReSA4CI 2016)"
+- citation: "Koosha Marashi, Sahra Sedigh Sarvestani, and Ali R. Hurson. Quantification and Analysis of Interdependency in Cyber-Physical Systems. In 3rd International Workshop on Reliability and Security Aspects for Critical Infrastructure (ReSA4CI 2016), in conjunction with the 46th IEEE/IFIP International Conference on Dependable Systems and Networks (DSN 2016), Pages 149 - 154."
   year: 2016
   status: "Published"
   awards:
   area: "cip"
-  fulltext:
+  fulltext: "http://dx.doi.org/10.1109/DSN-W.2016.47"
 
 - citation: "Mark Woodard, Michael Wisely, and Sahra Sedigh Sarvestani. A Survey of Data Cleansing Techniques for Cyber-Physical Critical Infrastructure Systems. Advances in Computers, Elsevier, 2016, Pages 63 - 110, Volume 102."
   year: 2016
