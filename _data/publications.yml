@@ -47,14 +47,14 @@
   status: "Published"
   awards: "Recipient of Best Paper Award"
   area: "cip"
-  fulltext:
+  fulltext: "http://ieeexplore.ieee.org/abstract/document/7573303/"
 
-- citation: "Tyler Morrow, Sahra Sedigh Sarvestani, Ali R. Hurson, \"Algorithmic Decision Support for Personalized Education,\" in 2016 IEEE International Conference on Information Reuse and Integration (IRI), Pittsburgh, PA, July 2016, invited."
+- citation: "T. Morrow, S. S. Sarvestani, A. R. Hurson. \"Algorithmic Decision Support for Personalized Education (Invited Paper),\" 2016 IEEE 17th International Conference on Information Reuse and Integration (IRI), Pittsburgh, PA, 2016, pp. 188-197."
   year: 2016
-  status: "To Appear"
+  status: "Published"
   awards:
   area: "per"
-  fulltext:
+  fulltext: "http://ieeexplore.ieee.org/abstract/document/7785741/"
 
 - citation: "Nathan Jarus, Mark Woodard, Hadi Ataei, Koosha Marashi, Jing Lin, Ayman Faza, Pratik Maheshwari, and Sahra Sedigh Sarvestani. Survey on Cyber-Physical Systems."
   year:
@@ -75,7 +75,7 @@
   status: "Published"
   awards:
   area: "per"
-  fulltext:
+  fulltext: "http://www.sciencedirect.com/science/article/pii/S2210537915300032"
 
 - citation: "Koosha Marashi, Sahra Sedigh Sarvestani, and Ali R. Hurson. Quantification and Analysis of Interdependency in Cyber-Physical Systems. In 3rd International Workshop on Reliability and Security Aspects for Critical Infrastructure (ReSA4CI 2016), in conjunction with the 46th IEEE/IFIP International Conference on Dependable Systems and Networks (DSN 2016), Pages 149 - 154."
   year: 2016
@@ -107,12 +107,12 @@
 
 - citation: "M. Wisely, A. Hurson, and S. Sedigh Sarvestani. \"An Extensible Simulation Framework for Evaluating Centralized Traffic Prediction Algorithms,\" in 2015 Int. Conf. on Connected Vehicles and Expo (ICCVE), Shenzhen, China."
   year: 2015
-  status: "To Appear"
+  status: "Published"
   awards:
   area: "per"
-  fulltext:
+  fulltext: "http://ieeexplore.ieee.org/abstract/document/7447637/"
 
-- citation: "C.S. Wagner, S. Sedigh Sarvestani, and A.R. Hurson. Proactive search: Using outcomebased dynamic nearest-neighbor recommendation algorithms to increase search engine eficacy. ACM Transactions on Information Systems, under revision for resubmission."
+- citation: "C.S. Wagner, S. Sedigh Sarvestani, and A.R. Hurson. Proactive Search: Using Outcome-Based Dynamic Nearest-Neighbor Recommendation Slgorithms to Increase Search Engine Efficacy. ACM Transactions on Information Systems, under revision for resubmission."
   year:
   status: "To Appear"
   awards:
@@ -228,12 +228,12 @@
   area: "cip"
   fulltext: "http://dx.doi.org/10.4018/978-1-4666-2854-0.ch005"
 
-- citation: "C. S Wagner, S. Sedigh, A. R. Hurson, and B. Shirazi. A survey of techniques for improving search engine scalability through proling, prediction, and prefetching of query results. In Scalable Computing and Communications Theory and Practice, John Wiley & Sons, 2013."
+- citation: "C. S Wagner, S. Sedigh, A. R. Hurson, and B. Shirazi. A Survey of Techniques for Improving Search Engine Scalability through Profiling, Prediction, and Prefetching of Query Results . In Scalable Computing and Communications Theory and Practice, John Wiley & Sons, 2013."
   year: 2013
   status: "Published"
   awards:
   area: "cip"
-  fulltext:
+  fulltext: "http://www.wiley.com/WileyCDA/WileyTitle/productCd-111816265X.html"
 
 - citation: "K. Marashi, M. Woodard, S. Sedigh and A. Hurson, Quantitative Reliability Analysis for Intelligent Water Distribution Networks, In Proceedings of the Embedded Topical Meeting on Risk Management for Complex Socio-Technical Systems (RM4CSS), Annual Meeting of the American Nuclear Society, Washington, D.C., Nov 2013."
   year: 2013
