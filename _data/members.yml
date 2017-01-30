@@ -40,6 +40,15 @@
   photo: Sedigh.jpg
   role: Advisor
 
+- name: Gabriel Krukowski
+  degree: Computer Engineering (BS)
+  status: Active
+  grad: 2017 December
+  focus: 
+  emp:
+  website: https://sites.google.com/mst.edu/gjk7v3/home
+  photo: Krukowski.jpg
+
 - name: Erik Burgdorf
   degree: Computer Engineering (MS)
   status: Active
