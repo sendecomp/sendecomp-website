@@ -14,7 +14,7 @@ This website uses a static website generator called Jekyll.
 2. Just select your platform and read/do the *Requirements* section.  The simplest and most comprehensive guide for this is probably Github's [here][1].
 3. Use Bundler to install all of the necessary Ruby gems on which the website depends.  Do the following:
   1. `bundle config build.nokogiri --use-system-libraries`
-  2. `sudo bundle install`
+  2. `bundle install`
 4. Build and serve the website locally to view it in the browser: `bundle exec jekyll serve`.
 
 To update the actual SeNDeComp website, run the `_deploy.rb` script in the root of the repository using `ruby _deploy.rb`.
