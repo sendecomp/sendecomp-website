@@ -13,7 +13,7 @@
 #                     Options: "Active" or "Complete"
 #         area        Specifying this will list the document in the appropriate
 #                       research area*
-#                     Options: "per" or "cip"
+#                     Options: "per", "cpci", or "emb"
 #         members     A list of members each of which only has a name attribute
 #         sponsors    A list of sponsors each of which only has a name attribute
 #      * Required in order for the website to display
@@ -43,16 +43,13 @@
     vulnerabilities in and failure mitigation for such critical
     infrastructures.
   status: Active
-  area: cip
+  area: cpci
   members:
     - name: Mark Woodard
     - name: Koosha Marashi
     - name: Isam Alobaidi
-    - name: Kamlesh Joshi
-    - name: Andrea Miller
     - name: Dr. Ali Hurson
-    - name: Dr. Bruce McMillin
-    - name: Dr. Dale Fitch
+    - name: Dr. Sahra Sedigh Sarvestani
   sponsors:
     - name: Intelligent Systems Center
     - name: University Transportation Center
@@ -86,11 +83,12 @@
     that support intelligent water allocation, comprise the model CPS that
     is used as a case study.
   status: Complete
-  area: cip
+  area: cpci
   members:
     - name: Steve White
     - name: Jing Lin
     - name: Dr. Ali Hurson
+    - name: Dr. Sahra Sedigh Sarvestani
   sponsors:
     - name: Intelligent Systems Center
     - name: University Transportation Center
@@ -115,7 +113,7 @@
     Formalizing modeling in this fashion allows us to apply a wealth of
     research on transforming mathematical structures.
   status: Active
-  area: cip
+  area: cpci
   members:
     - name: Nathan Jarus
     - name: Dr. Sahra Sedigh Sarvestani
@@ -156,11 +154,16 @@
     of ultra-low power consumption, which in conjunction with the harvesting
     of solar power, remote configuration and update, and physical
     robustness, allows long extended field life of the system.
-  status: Active
-  area: cip
+  status: Complete
+  area: emb
   members:
     - name: Arun Gunasekaran
+    - name: Tyler Harms
+    - name: Valerio Plessi
+    - name: Nicholas Grither
+    - name: Phillip Ponzer
     - name: Dr. Filippo Bastianini
+    - name: Dr. Sahra Sedigh Sarvestani
   sponsors:
     - name: US Army
     - name: US Department of Transportation
@@ -190,14 +193,15 @@
     Our broader goal is to develop a science that will link the
     traditionally disparate fields of electromagnetic and software
     engineering, by leveraging the body of knowledge in each field.
-  status: Active
-  area: cip
+  status: Complete
+  area: emb
   members:
     - name: Pratik Maheshwari
     - name: Antonio Sabatini
     - name: Tianqi Li
     - name: Nathan Jarus
     - name: Dr. David Pommerenke
+    - name: Dr. Sahra Sedigh Sarvestani
   sponsors:
     - name: Samsung
     - name: NSF I/UCRC for Electromagnetic Compatibility
@@ -212,11 +216,12 @@
     and results will be fed to data fusion algorithms at various levels for
     final detection.
   status: Complete
-  area: cip
+  area: emb
   members:
     - name: Pratik Shah
     - name: Abhijeet Singh
     - name: Dr. Sanjeev Agarwal
+    - name: Dr. Sahra Sedigh Sarvestani
   sponsors:
     - name: Alaka'i Consulting and Engineering, Inc.
 
@@ -238,11 +243,12 @@
     of light energy savings that we will be having as part of the various
     lighting retrofits being done in the university buildings.
   status: Complete
-  area: cip
+  area: emb
   members:
     - name: Sandeep Kunchum
     - name: Mr. James Packard
     - name: Mr. Marvin Patton
+    - name: Dr. Sahra Sedigh Sarvestani
   sponsors:
     - name: Missouri S&T Physical Facilities Department
 
@@ -259,13 +265,14 @@
     handler, and the design and development of an appropriate wireless
     network for communication of this data.
   status: Complete
-  area: cip
+  area: emb
   members:
     - name: Tyler Harms
     - name: Devin Simms
     - name: Josh Mueller
     - name: Heather Siscel
     - name: Bryan Shannon
+    - name: Dr. Sahra Sedigh Sarvestani
 
 - name: A Hybrid Monitoring Network For Hydrological Environments
   desc: |
@@ -278,10 +285,11 @@
     The measurements will be taken at several depths, and will be
     communicated to a processing server over the GSM cellular network.
   status: Complete
-  area: cip
+  area: emb
   members:
     - name: Michael Wyatt
     - name: Dr. Estella Atekwana
+    - name: Dr. Sahra Sedigh Sarvestani
   sponsors:
     - name: University Transportation Center
 
@@ -311,23 +319,17 @@
   area: per
   members:
     - name: Tyler Morrow
-      link:
     - name: Shaun Wagner
-      link:
     - name: Dr. Ali Hurson
-      link:
+    - name: Dr. Sahra Sedigh Sarvestani
   sponsors:
     - name: Intelligent Systems Center
-      link:
 
 - name: Distributed Analysis and Prediction of Vehicular Traffic
-  desc: 
+  desc:
   status: Active
   area: per
   members:
     - name: Mike Wisely
-      link:
-    - name: Dr. Sahra Sedigh Sarvestani
-      link:
     - name: Dr. Ali Hurson
-      link:
+    - name: Dr. Sahra Sedigh Sarvestani

@@ -12,18 +12,30 @@
              style="margin-right:10px"
              src="{{ site.baseurl }}/img/members/{{ person.photo }}" alt="No Photo">
       {% endif %}
+    {% else %}
+      {% if person.website %}
+        <a href="{{ person.website }}" target="_blank">
+          <img class="media-object pull-left img-rounded" width="80" height="80"
+               style="margin-right:10px;"
+               src="{{ site.baseurl }}/img/user-icon.png" alt="No Photo">
+        </a>
+      {% else %}
+        <img class="media-object pull-left img-rounded" width="80" height="80"
+             style="margin-right:10px"
+             src="{{ site.baseurl }}/img/user-icon.png" alt="No Photo">
+      {% endif %}
     {% endif %}
     <div class="media-body">
       <h5 class="media-heading">
         {% if person.website %}
           <a href="{{ person.website }}" target="_blank">{{ person.name }}</a>
-          {% if person.degree %}
-            <small>{{ person.degree }}</small>
+          {% if person.major %}
+            <small>{{ person.major }}</small>
           {% endif %}
         {% else %}
           {{ person.name }}
-          {% if person.degree %}
-            <small>{{ person.degree }}</small>
+          {% if person.major %}
+            <small>{{ person.major }}</small>
           {% endif %}
         {% endif %}
       </h5>
@@ -34,7 +46,7 @@
       {% if person.grad %}
         {% if person.status == "Active" %}
           <strong>Graduating:</strong>
-          {{ person.grad }}<br/>
+          {{ person.grad | date: "%B %Y"}}<br/>
         {% else %}
           <strong>Graduated:</strong>
           {{ person.grad }}<br/>
@@ -44,7 +56,7 @@
         <strong>First Employed By:</strong>
         {{ person.emp }}<br/>
       {% endif %}
-      {% if person.position && person.department %}
+      {% if person.position and person.department %}
         {{ person.position }} - {{ person.department }} <br/>
       {% endif %}
     </div>

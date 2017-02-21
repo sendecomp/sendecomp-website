@@ -3,7 +3,6 @@ layout: page
 title: Research Areas
 ---
 {% assign projects = site.data.projects | sort: 'name' %}
-{% assign publications = site.data.publications | sort: 'year' %}
 {% assign labs = site.data.labs | sort: 'name' %}
 {% assign docs = site.data.docs | sort: 'name' %}
 {% assign venues = site.data.venues | sort: 'name' %}
@@ -11,139 +10,223 @@ title: Research Areas
 {% assign activeProjects = projects | where: 'status', 'Active' %}
 {% assign pastProjects = projects | where: 'status', 'Complete' %}
 
-{% assign cipActiveProjects = activeProjects | where: 'area', 'cip' %}
-{% assign cipPastProjects = pastProjects | where: 'area', 'cip' %}
-{% assign cipPubs = publications | where: 'area', 'cip' %}
-{% assign cipLabs = labs | where: 'area', 'cip' %}
-{% assign cipDocs = docs | where: 'area', 'cip' %}
-{% assign cipVenues = venues | where: 'area', 'cip' %}
+{% assign cpciActiveProjects = activeProjects | where: 'area', 'cpci' %}
+{% assign cpciPastProjects = pastProjects | where: 'area', 'cpci' %}
+{% assign cpciDocs = docs | where: 'area', 'cpci' %}
+{% assign cpciLabs = labs | where: 'area', 'cpci' %}
+{% assign cpciVenues = venues | where: 'area', 'cpci' %}
 
 {% assign perActiveProjects = activeProjects | where: 'area', 'per' %}
 {% assign perPastProjects = pastProjects | where: 'area', 'per' %}
-{% assign perPubs = publications | where: 'area', 'per' %}
-{% assign perLabs = labs | where: 'area', 'per' %}
 {% assign perDocs = docs | where: 'area', 'per' %}
+{% assign perLabs = labs | where: 'area', 'per' %}
 {% assign perVenues = venues | where: 'area', 'per' %}
+
+{% assign embActiveProjects = activeProjects | where: 'area', 'emb' %}
+{% assign embPastProjects = pastProjects | where: 'area', 'emb' %}
+{% assign embDocs = docs | where: 'area', 'emb' %}
+{% assign embLabs = labs | where: 'area', 'emb' %}
+{% assign embVenues = venues | where: 'area', 'emb' %}
 
 <div class="row">
   <nav class="col-sm-3 bs-docs-sidebar hidden-xs no-print">
     <ul id="sidebar" class="nav nav-stacked fixed">
-      <li>
-        <a href="#cip">Critical Infrastructure Protection</a>
+      <li class="col-sm-6 col-md-8" style="margin-left: -15px;">
+        <a href="#cpci">Modeling and Analysis of Cyber-Physical Critical Infrastructures</a>
         <ul class="nav nav-stacked">
-          <li><a href="#cip-projects">Projects</a></li>
-		  <li><a href="#cip-pubs">Publications</a></li>
-          <li><a href="#cip-docs">Useful Documents</a></li>
-          <li><a href="#cip-labs">Related Labs</a></li>
-          <li><a href="#cip-venues">Publication Venues</a></li>
+          <li><a href="#cpci-projects">Projects</a></li>
+          {% if cpciDocs.size > 0 %}
+            <li><a href="#cpci-docs">Useful Documents</a></li>
+          {% endif %}
+          {% if cpciLabs.size > 0 %}
+            <li><a href="#cpci-labs">Related Labs</a></li>
+          {% endif %}
+          {% if cpciVenues.size > 0 %}
+            <li><a href="#cpci-venues">Publication Venues</a></li>
+          {% endif %}
         </ul>
       </li>
-          <li>
-            <a href="#per">Pervasive Computing</a>
-            <ul class="nav nav-stacked">
-              <li><a href="#per-projects">Projects</a></li>
-			  <li><a href="#per-pubs">Publications</a></li>
-              <li><a href="#per-docs">Documents</a></li>
-              <li><a href="#per-labs">Related Labs</a></li>
-              <li><a href="#per-venues">Publication Venues</a></li>
-            </ul>
-          </li>
+      <li class="col-sm-6 col-md-8" style="margin-left: -15px;">
+        <a href="#per">Pervasive Computing</a>
+        <ul class="nav nav-stacked">
+          <li><a href="#per-projects">Projects</a></li>
+          {% if perDocs.size > 0 %}
+            <li><a href="#per-docs">Useful Documents</a></li>
+          {% endif %}
+          {% if perLabs.size > 0 %}
+            <li><a href="#per-labs">Related Labs</a></li>
+          {% endif %}
+          {% if perVenues.size > 0 %}
+            <li><a href="#per-venues">Publication Venues</a></li>
+          {% endif %}
+        </ul>
+      </li>
+      <li class="col-sm-6 col-md-8" style="margin-left: -15px;">
+        <a href="#emb">Assurance and Development of Embedded Systems</a>
+        <ul class="nav nav-stacked">
+          <li><a href="#emb-projects">Projects</a></li>
+          {% if embDocs.size > 0 %}
+            <li><a href="#emb-docs">Useful Documents</a></li>
+          {% endif %}
+          {% if embLabs.size > 0 %}
+            <li><a href="#emb-labs">Related Labs</a></li>
+          {% endif %}
+          {% if embVenues.size > 0 %}
+            <li><a href="#emb-venues">Publication Venues</a></li>
+          {% endif %}
+        </ul>
+      </li>
     </ul>
   </nav>
   <div class="col-sm-9">
-    <h3 id="cip">Critical Infrastructure Protection</h3>
-	<h4 id="cip-projects">Active Projects</h4>
-    <div class="list-group">
-    {% for proj in cipActiveProjects %}
-      {% include project.html %}
-    {% endfor %}
-    </div>
+    <h3 id="cpci">Modeling and Analysis of Cyber-Physical Critical Infrastructures</h3>
+    {% if cpciActiveProjects.size > 0 %}
+      <h4 id="cpci-projects">Active Projects</h4>
+      <div class="list-group">
+        {% for proj in cpciActiveProjects %}
+          {% include project.html %}
+        {% endfor %}
+      </div>
+    {% endif %}
 
-    <h4>Past Projects</h4>
-    <div class="list-group">
-    {% for proj in cipPastProjects %}
-      {% include project.html %}
-    {% endfor %}
-    </div>
-    <hr>
-	
-    <h4 id="cip-pubs">Publications</h4>
-    <div class="list-group">
-    {% for pub in cipPubs reversed %}
-      {% include publication.html %}
-    {% endfor %}
-    </div>
+    {% if cpciPastProjects.size > 0 %}
+      <h4 id="cpci-projects">Past Projects</h4>
+      <div class="list-group">
+        {% for proj in cpciPastProjects %}
+          {% include project.html %}
+        {% endfor %}
+      </div>
+    {% endif %}
     <hr>
 
-    <h4 id="cip-docs">Useful Documents</h4>
-    <div class="list-group">
-    {% for doc in cipDocs %}
-      {% include doc.html %}
-    {% endfor %}
-    </div>
-    <hr>
+    {% if cpciDocs.size > 0 %}
+      <h4 id="cpci-docs">Useful Documents</h4>
+      <div class="list-group">
+        {% for doc in cpciDocs %}
+          {% include doc.html %}
+        {% endfor %}
+      </div>
+      <hr>
+    {% endif %}
 
-    <h4 id="cip-labs">Related Labs</h4>
-    <div class="list-group">
-    {% for lab in cipLabs %}
-      {% include lab.html %}
-    {% endfor %}
-    </div>
-    <hr>
+    {% if cpciLabs.size > 0 %}
+      <h4 id="cpci-labs">Related Labs</h4>
+      <div class="list-group">
+        {% for lab in cpciLabs %}
+          {% include lab.html %}
+        {% endfor %}
+      </div>
+      <hr>
+    {% endif %}
 
-    <h4 id="cip-venues">Publication Venues</h4>
-    <div class="list-group">
-    {% for venue in cipVenues %}
-      {% include venue.html %}
-    {% endfor %}
-    </div>
-    <hr>
+    {% if cpciVenues.size > 0 %}
+      <h4 id="cpci-venues">Publication Venues</h4>
+      <div class="list-group">
+        {% for venue in cpciVenues %}
+          {% include venue.html %}
+        {% endfor %}
+      </div>
+      <hr>
+    {% endif %}
 
     <h3 id="per">Pervasive Computing</h3>
-    <h4 id="per-projects">Active Projects</h4>
-    <div class="list-group">
-    {% for proj in perActiveProjects %}
-      {% include project.html %}
-    {% endfor %}
-    </div>
+    {% if perActiveProjects.size > 0 %}
+      <h4 id="per-projects">Active Projects</h4>
+      <div class="list-group">
+        {% for proj in perActiveProjects %}
+          {% include project.html %}
+        {% endfor %}
+      </div>
+    {% endif %}
 
-    <h4>Past Projects</h4>
-    <div class="list-group">
-    {% for proj in perPastProjects %}
-      {% include project.html %}
-    {% endfor %}
-    </div>
+    {% if perPastProjects.size > 0 %}
+      <h4 id="per-projects">Past Projects</h4>
+      <div class="list-group">
+        {% for proj in perPastProjects %}
+          {% include project.html %}
+        {% endfor %}
+      </div>
+    {% endif %}
     <hr>
 
-    <h4 id="per-pubs">Publications</h4>
-    <div class="list-group">
-    {% for pub in perPubs reversed %}
-      {% include publication.html %}
-    {% endfor %}
-    </div>
-    <hr>
-	
-	<h4 id="per-docs">Useful Documents</h4>
-    <div class="list-group">
-    {% for doc in perDocs %}
-      {% include doc.html %}
-    {% endfor %}
-    </div>
+    {% if perDocs.size > 0 %}
+  	  <h4 id="per-docs">Useful Documents</h4>
+      <div class="list-group">
+        {% for doc in perDocs %}
+          {% include doc.html %}
+        {% endfor %}
+      </div>
+      <hr>
+    {% endif %}
+
+    {% if perLabs.size > 0 %}
+      <h4 id="per-labs">Related Labs</h4>
+      <div class="list-group">
+        {% for lab in perLabs %}
+          {% include lab.html %}
+        {% endfor %}
+      </div>
+      <hr>
+    {% endif %}
+
+    {% if perVenues.size > 0 %}
+      <h4 id="per-venues">Publication Venues</h4>
+      <div class="list-group">
+        {% for venue in perVenues %}
+          {% include venue.html %}
+        {% endfor %}
+      </div>
+      <hr>
+    {% endif %}
+
+    <h3 id="emb">Assurance and Development of Embedded Systems</h3>
+    {% if embActiveProjects.size > 0 %}
+      <h4 id="emb-projects">Active Projects</h4>
+      <div class="list-group">
+        {% for proj in embActiveProjects %}
+          {% include project.html %}
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    {% if embPastProjects.size > 0 %}
+      <h4 id="emb-projects">Past Projects</h4>
+      <div class="list-group">
+        {% for proj in embPastProjects %}
+          {% include project.html %}
+        {% endfor %}
+      </div>
+    {% endif %}
     <hr>
 
-    <h4 id="per-labs">Related Labs</h4>
-    <div class="list-group">
-    {% for lab in perLabs %}
-      {% include lab.html %}
-    {% endfor %}
-    </div>
-    <hr>
+    {% if embDocs.size > 0 %}
+  	  <h4 id="emb-docs">Useful Documents</h4>
+      <div class="list-group">
+        {% for doc in embDocs %}
+          {% include doc.html %}
+        {% endfor %}
+      </div>
+      <hr>
+    {% endif %}
 
-    <h4 id="per-venues">Publication Venues</h4>
-    <div class="list-group">
-    {% for venue in perVenues %}
-      {% include venue.html %}
-    {% endfor %}
-    </div>
+    {% if embLabs.size > 0 %}
+      <h4 id="emb-labs">Related Labs</h4>
+      <div class="list-group">
+        {% for lab in embLabs %}
+          {% include lab.html %}
+        {% endfor %}
+      </div>
+      <hr>
+    {% endif %}
+
+    {% if embVenues.size > 0 %}
+      <h4 id="emb-venues">Publication Venues</h4>
+      <div class="list-group">
+        {% for venue in embVenues %}
+          {% include venue.html %}
+        {% endfor %}
+      </div>
+      <hr>
+    {% endif %}
   </div>
 </div>

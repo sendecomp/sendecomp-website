@@ -8,7 +8,8 @@
 #       right of the colon.
 #     The attributes available for STUDENT MEMBER records are as follows:
 #         name        The full name of the member
-#         degree      The name of their major with BS, MS, or PhD in parentheses*
+#         degree      BS, MS, or PhD*
+#         major       The name of their major*
 #         status      Enter "Active" or "Alumni" only*
 #         grad        The year and month the member graduates*
 #                     Format: full year followed by the full month,
@@ -41,324 +42,381 @@
   role: Advisor
 
 - name: Gabriel Krukowski
-  degree: Computer Engineering (BS)
+  major: Computer Engineering
+  degree: BS
   status: Active
-  grad: 2017 December
-  focus: 
+  grad: December 2017
+  focus:
   emp:
   website: https://sites.google.com/mst.edu/gjk7v3/home
   photo: Krukowski.jpg
 
 - name: Erik Burgdorf
-  degree: Computer Engineering (MS)
+  major: Computer Engineering
+  degree: MS
   status: Active
-  grad: 2017 December
+  grad: December 2017
   focus: Computing Techniques for Personalized Medicine
   emp:
   website: https://sites.google.com/a/mst.edu/eburgdorf/home
   photo: Burgdorf.jpg
 
 - name: Isam Alobaidi
-  degree: Computer Science (PhD)
+  major: Computer Science
+  degree: PhD
   status: Active
-  grad: 2019 December
+  grad: December 2019
   focus: Computing Techniques for Personalized Medicine
   emp:
   website: http://web.mst.edu/~iaahgb/
   photo: Alobaidi.jpg
 
 - name: Tyler Morrow
-  degree: Computer Science (MS) - GAANN Fellow
+  major: Computer Science - GAANN Fellow
+  degree: MS
   status: Active
-  grad: "2017 May"
+  grad: May 2017
   focus: PERCEPOLIS
   emp:
   website: http://web.mst.edu/~tjm6f4/
   photo: Morrow.png
 
 - name: Nathan Jarus
-  degree: Computer Science (PhD) - GAANN Fellow
+  major: Computer Science - GAANN Fellow
+  degree: PhD
   status: Active
-  grad: 2018 December
+  grad: December 2018
   focus: Model Transformation for Cyber-Physical Systems
   emp:
   website: http://web.mst.edu/~nmjxv3/
   photo: Jarus.png
 
 - name: Mark Woodard
-  degree: Computer Engineering (PhD) - GAANN Fellow, CpE Department Fellow
+  major: Computer Engineering - GAANN Fellow, CpE Department Fellow
+  degree: PhD
   status: Active
-  grad: 2017 May
+  grad: May 2017
   focus: Analysis and Modeling of Cyber-Physical Systems
   emp:
   website: http://web.mst.edu/~mjw6y7/
   photo: Woodard.jpg
 
 - name: Mike Wisely
-  degree: "Computer Science (PhD) - GAANN Fellow, Chancellor's Fellow"
+  major: "Computer Science - GAANN Fellow, Chancellor's Fellow"
+  degree: PhD
   status: Active
-  grad: 2017 December
+  grad: December 2017
   focus: Distributed Analysis and Prediction of Vehicular Traffic
   emp:
   website: http://web.mst.edu/~mwwcp2/
   photo: Wisely.jpg
 
 - name: Koosha Marashi
-  degree: Computer Engineering (PhD) - UTC Fellow
+  major: Computer Engineering - UTC Fellow
+  degree: PhD
   status: Active
-  grad: 2017 May
+  grad: May 2017
   focus: Stochastic Modeling and Analysis of Dependability for Critical Infrastructures
   emp:
   website: http://web.mst.edu/~km89f/
   photo: Marashi.jpg
 
 - name: Pratik Maheshwari
-  degree: Computer Engineering (PhD)
+  major: Computer Engineering
+  degree: PhD
   status: Alumni
-  grad: 2014 August
+  grad: August 2014
   focus: Software-Based Analysis and Improvement of Electromagnetic Immunity
   emp: "Apple"
   website:
   photo: Maheshwari.jpg
 
 - name: Murtadha Albasrawi
-  degree: Computer Engineering (MS) - Fellowship from the Government of Iraq
+  major: Computer Engineering - Fellowship from the Government of Iraq
+  degree: MS
   status: Alumni
-  grad: 2014 May
+  grad: May 2014
   focus: Analysis and Modeling of Cyber-Physical Systems
   emp:
   website:
   photo: Albasrawi.jpg
 
 - name: Andrea Miller
-  degree: Computer Engineering (BS)
+  major: Computer Engineering
+  degree: BS
   status: Alumni
-  grad: 2014 May
+  grad: May 2014
   focus: Simulation of Intelligent Water Distribution Networks
   emp: "Sandia National Laboratories"
   website:
   photo: Miller.jpg
 
 - name: Antonio Sabatini
-  degree: Computer Engineering (MS)
+  major: Computer Engineering
+  degree: MS
   status: Alumni
-  grad: 2014 May
+  grad: May 2014
   focus: Software-Based Analysis and Improvement of Electromagnetic Immunity
   emp: "Boeing"
   website:
   photo: Sabatini.jpg
 
 - name: Kamlesh Joshi
-  degree: Electrical Engineering (MS)
+  major: Electrical Engineering
+  degree: MS
   status: Alumni
-  grad: 2013 December
+  grad: December 2013
   focus: Analysis and Modeling of Resilience for Networked Systems
   emp: "Black and Veatch"
   website:
   photo: Joshi.jpg
 
 - name: Arun Gunasekaran
-  degree: Computer Engineering (MS)
+  major: Computer Engineering
+  degree: MS
   status: Alumni
-  grad: 2012 December
+  grad: December 2012
   focus:  Increasing Interoperability and Coverage of Automated Monitoring and Detection Systems
   emp: "Tesla Motors"
   website:
   photo: Arun.jpg
 
 - name: Neil Patel
-  degree: Computer Engineering (BS); Computer Science (BS) - OURE Scholar
+  major: Computer Engineering/Computer Science - OURE Scholar
+  degree: BS
   status: Alumni
-  grad: 2013 May
+  grad: May 2013
   focus: Wireless Sensor Networks for Structural Health Monitoring
   emp:
   website:
   photo: Patel.jpg
 
 - name: Shawn Cross
-  degree: Computer Engineering (BS); Computer Science (BS)
+  major: Computer Engineering/Computer Science
+  degree: BS
   status: Alumni
-  grad: 2012 May
+  grad: May 2012
   focus: Wireless Sensor Networks for Structural Health Monitoring
   emp:
   website:
   photo: Cross.jpg
 
 - name: Jing Lin
-  degree: Computer Engineering (PhD)
+  major: Computer Engineering
+  degree: PhD
   status: Alumni
-  grad: 2011 August
+  grad: August 2011
   focus: Agent-Based Analysis and Mitigation of Failure in Cyber-Physical Systems
   emp: "Cisco Systems"
   website:
   photo: Jing2.jpg
 
 - name: Peter Nicholas Chulick
-  degree: Computer Engineering (BS)
+  major: Computer Engineering
+  degree: BS
   status: Alumni
-  grad: 2011 May
+  grad: May 2011
   focus: Wireless Sensor Networks for Structural Health Monitoring
   emp:
   website:
   photo: Chulick.jpg
 
 - name: Ayman Faza
-  degree: Computer Engineering (MS/PhD) - Fulbright Fellow; UTC Fellow
+  major: Computer Engineering - Fulbright Fellow, UTC Fellow
+  degree: MS
   status: Alumni
-  grad: 2010 December
+  grad: December 2007
   focus: Quantitative Analysis of Cyber-Physical Systems - Reliability of the Smart Grid
   emp: "Princess Sumaya University of Technology"
   website:
   photo: Ayman.jpg
 
-- name: Anthony Lambropoulos
-  degree: Computer Engineering (BS)
+- name: Ayman Faza
+  major: Computer Engineering - Fulbright Fellow, UTC Fellow
+  degree: PhD
   status: Alumni
-  grad: 2010 December
+  grad: December 2010
+  focus: Quantitative Analysis of Cyber-Physical Systems - Reliability of the Smart Grid
+  emp: "Princess Sumaya University of Technology"
+  website:
+  photo: Ayman.jpg
+
+
+- name: Anthony Lambropoulos
+  major: Computer Engineering
+  degree: BS
+  status: Alumni
+  grad: December 2010
   focus: Wireless Sensor Networks for Structural Health Monitoring
   emp:
   website:
   photo: Lambropoulos.jpg
 
 - name: Zac Bourque
-  degree: Computer Engineering (BS) - OURE Scholar
+  major: Computer Engineering - OURE Scholar
+  degree: BS
   status: Alumni
-  grad: 2009 May
+  grad: May 2009
   focus: Software-Based Analysis and Improvement of Electromagnetic Immunity; Wireless Sensor Networks for Structural Health Monitoring
   emp:
   website:
   photo: Bourque.jpg
 
 - name: Pratik Shah
-  degree: Computer Engineering (MS); Electrical Engineering (MS)
+  major: Computer Engineering/Electrical Engineering
+  degree: MS
   status: Alumni
-  grad: 2010 December
+  grad: December 2010
   focus: Sensor Data Fusion and Detection
   emp: "Harman Kardon"
   website:
   photo: Shah.jpg
 
 - name: Phillip Ponzer
-  degree: Computer Engineering (BS) - OURE Scholar
+  major: Computer Engineering - OURE Scholar
+  degree: BS
   status: Alumni
-  grad: 2009 May
+  grad: May 2009
   focus: Development of an Embedded System for Wireless Monitoring of a Watershed
   emp:
   website:
   photo: Ponzer.jpg
 
 - name: Tyler Harms
-  degree: "Computer Engineering (MS) - Chancellor's Fellow"
+  major: "Computer Engineering - Chancellor's Fellow"
+  degree: MS
   status: Alumni
-  grad: 2009 May
+  grad: May 2009
   focus: Wireless Sensor Networks for Structural Health Monitoring
   emp: "Garmin"
   website:
   photo: Harms.jpg
 
 - name: John Koch
-  degree: Computer Engineering (BS/MS); BS Computer Science (BS) - OURE Scholar; DoD SMART Fellow
+  major: Computer Engineering/Computer Science - OURE Scholar
+  degree: BS
   status: Alumni
-  grad: 2007 May (BS), 2008 May (MS)
+  grad: May 2007
+  focus: A Hybrid Sensor Network for Watershed Monitoring
+  emp: "US Navy"
+  website:
+  photo: Koch.jpg
+
+- name: John Koch
+  major: Computer Engineering - DoD SMART Fellow
+  degree: MS
+  status: Alumni
+  grad: May 2008
   focus: A Hybrid Sensor Network for Watershed Monitoring
   emp: "US Navy"
   website:
   photo: Koch.jpg
 
 - name: Nicholas Grither
-  degree: Computer Engineering (BS); Electical Engineering (BS) - OURE Fellow
+  major: Computer Engineering/Electical Engineering - OURE Fellow
+  degree: BS
   status: Alumni
-  grad: 2007 December
+  grad: December 2007
   focus: Embedded System Support for Canine Mine Detection
   emp:
   website:
   photo: Grither.jpg
 
 - name: Sandeep Kunchum
-  degree: Computer Engineering (MS)
+  major: Computer Engineering
+  degree: MS
   status: Alumni
-  grad: 2007 December
+  grad: December 2007
   focus: A Network Infrastructure for Real-time Monitoring of Campus Energy Consumption
   emp: "Sprint"
   website:
   photo: Kunchum.jpg
 
 - name: Valerio Plessi
-  degree: Computer Engineering (MS) - UTC Fellow
+  major: Computer Engineering - UTC Fellow
+  degree: MS
   status: Alumni
-  grad: 2006 December
+  grad: December 2006
   focus: An Autonomous Wireless Device for Flood Detection and Monitoring
   emp: "Cisco Systems"
   website:
   photo: Plessi.jpg
 
 - name: Thomas Freiberger
-  degree: "Computer Engineering (MS) - Chancellor's Fellow"
+  major: "Computer Engineering - Chancellor's Fellow"
+  degree: MS
   status: Alumni
-  grad: 2007 May
+  grad: May 2007
   focus: Hybrid Sensor Networks for Hydrological Monitoring
   emp: "MYNAH Technologies"
   website:
   photo: Freiberger.jpg
 
 - name: Shaun Wagner
-  degree: "Computer Science (PhD)"
+  major: Computer Science
+  degree: PhD
   status: Alumni
-  grad: "2014 December"
+  grad: December 2014
   focus:
   emp: "Medical University of South Carolina"
   website:
   photo:
 
 - name: Todd Acinelli
-  degree: "Computer Engineering (BS) - OURE Scholar"
+  major: Computer Engineering - OURE Scholar
+  degree: BS
   status: Alumni
-  grad: "2006 December"
+  grad: December 2006
   focus:
   emp: "Garmin"
   website:
   photo:
 
 - name: Randall Bilbrey
-  degree: "Computer Engineering (BS) - OURE Scholar"
+  major: Computer Engineering - OURE Scholar
+  degree: BS
   status: Alumni
-  grad: "2006 May"
+  grad: May 2006
   focus:
   emp:
   website:
   photo:
 
 - name: Michael Ellebrecht
-  degree: "Computer Engineering (BS); Electrical Engineering (BS) - OURE Scholar"
+  major: Computer Engineering/Electrical Engineering - OURE Scholar
+  degree: BS
   status: Alumni
-  grad: "2005 December"
+  grad: December 2005
   focus:
   emp: "Garmin"
   website:
   photo:
 
 - name: Matthew Gann
-  degree: "Computer Engineering (BS) - OURE Scholar"
+  major: Computer Engineering - OURE Scholar
+  degree: BS
   status: Alumni
-  grad: "2005 December"
+  grad: December 2005
   focus:
   emp:
   website:
   photo:
 
 - name: David Lecko
-  degree: "Computer Engineering (BS) - OURE Scholar"
+  major: Computer Engineering - OURE Scholar
+  degree: BS
   status: Alumni
-  grad: "2012 May"
+  grad: May 2012
   focus:
   emp: Accenture
   website:
   photo:
 
 - name: Michael Wyatt
-  degree: "Computer Engineering (BS) - OURE Scholar"
+  major: Computer Engineering - OURE Scholar
+  degree: BS
   status: Alumni
-  grad: "2010 December"
+  grad: December 2010
   focus:
   emp:
   website:

@@ -14,14 +14,14 @@
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
+        <li class="{% if page.title == "People" %}active{% endif %}">
+          <a href="{{ site.baseurl }}/people">People</a>
+        </li>
         <li class="{% if page.title == "Research Areas" %}active{% endif %}">
           <a href="{{ site.baseurl }}/research-areas">Research Areas</a>
         </li>
         <li class="{% if page.title == "Publications" %}active{% endif %}">
           <a href="{{ site.baseurl }}/publications">Publications</a>
-        </li>
-        <li class="{% if page.title == "People" %}active{% endif %}">
-          <a href="{{ site.baseurl }}/people">People</a>
         </li>
         <li class="{% if page.title == "Student Awards" %}active{% endif %}">
           <a href="{{ site.baseurl }}/student-awards">Student Awards</a>
@@ -39,7 +39,6 @@
             <i class="fa fa-github fa-lg"></i>
           </a>
         </li>
-        <li><a href="http://web.mst.edu/~ia-gaann">IA-GAANN</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
             Departments <b class="caret"></b>

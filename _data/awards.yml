@@ -22,13 +22,13 @@
     DoD Science, Mathematics And Research for Transformation (SMART) Scholarship
     for Service
   year:
-  type: Graduate
+  type: Graduate Fellowships
   people:
     - name: J. Koch (First Missouri S&T student to achieve the honor)
 
-- name: GAANN, Information and System Assurance for Critical Infrastructure
+- name: Graduate Assistantships in Areas of National Need(GAANN) Doctoral Fellowship, US Department of Education
   year:
-  type: Graduate
+  type: Graduate Fellowships
   people:
     - name: M. Woodard
     - name: T. Morrow
@@ -38,7 +38,7 @@
 
 - name: Fulbright Foreign Student Program Fellowship, US Department of State
   year:
-  type: Graduate
+  type: Graduate Fellowships
   people:
     - name: A. Faza
 
@@ -46,7 +46,7 @@
     National University Transportation Center (NUTC) Fellowship,
     US Department of Transportation
   year:
-  type: Graduate
+  type: Graduate Fellowships
   people:
     - name: K. Marashi
     - name: J. Lin (WLI)
@@ -54,7 +54,7 @@
 
 - name: "Chancellor's Fellowship"
   year:
-  type: Graduate
+  type: Graduate Fellowships
   people:
     - name: B. Banks
     - name: T. Freiberger
@@ -63,17 +63,16 @@
     - name: N. Mentesana
     - name: M. Wisely
 
-- name: "OURE Fellowship"
+- name: "Opportunities for Undergraduate Research Experiences (OURE) Fellowship"
   year:
-  type: Undergraduate
+  type: Undergraduate Scholarships and Fellowships
   people:
     - name: "N. Mentesana"
 
-- name: "OURE Scholarship"
+- name: "Opportunities for Undergraduate Research Experiences (OURE) Scholarship"
   year:
-  type: Undergraduate
+  type: Undergraduate Scholarships and Fellowships
   people:
-    - name: "A. Miller"
     - name: "N. Patel"
     - name: "D. Lecko"
     - name: "M. Wyatt"
@@ -87,57 +86,58 @@
     - name: "M. Gann"
     - name: "N. Jarus"
 
-- name: "Curator's Scholarship"
+- name: "Missouri S&T ECE Academy Scholarship"
   year:
-  type: Undergraduate
+  type: Undergraduate Scholarships and Fellowships
+  people:
+    - name: P. Ponzer
+
+- name: "University of Missouri Curators' Scholarship"
+  year:
+  type: Undergraduate Scholarships and Fellowships
   people:
     - name: "N. Jarus"
 
 - name: "Excellence Scholarship"
   year:
-  type: Undergraduate
+  type: Undergraduate Scholarships and Fellowships
   people:
     - name: "N. Jarus"
 
 - name: >
-    Best Paper Nomination, HICSS-44 - A Game-Theoretic Approach to Decision
-    Support for Intelligent Water Distribution
-  year: 2011
-  type: Best Paper
-  people:
-    - name: J. Lin
-    - name: S. Sedigh
-    - name: A. Miller
-
-- name: >
-    Best Paper Award, SAFECOMP. - Reliability analysis for the advanced electric
+    Best Paper Award, SAFECOMP - Reliability analysis for the advanced electric
     power grid: from cyber control and communication to physical manifestations
     of failure
   year: 2009
-  type: Best Paper
+  type: Best Papers
   people:
     - name: A. Faza
-    - name: S. Sedigh
-    - name: B. McMillin
 
 - name: >
     Best Paper Award, COMPSAC - A general purpose framework for wireless sensor
     network applications
   year: 2006
-  type: Best Paper
+  type: Best Papers
   people:
     - name: A. Faza
-    - name: S. Sedigh
+
+- name: >
+    Best Paper Nomination, HICSS-44 - A Game-Theoretic Approach to Decision
+    Support for Intelligent Water Distribution
+  year: 2011
+  type: Best Papers
+  people:
+    - name: J. Lin
 
 - name: "PerCom 2015 NSF Travel Grant"
   year: 2015
-  type: Travel Grant
+  type: Travel Grants
   people:
     - name: "T. Morrow"
 
 - name: "PerCom 2015 IEEE Student Travel Grant"
   year: 2015
-  type: Travel Grant
+  type: Travel Grants
   people:
     - name: "N. Jarus"
     - name: "M. Wisely"
@@ -145,33 +145,33 @@
 
 - name: "TCIPG Summer School Scholarship"
   year: 2013
-  type: Travel Grant
+  type: Travel Grants
   people:
     - name: "K. Marashi"
 
 - name: "IEEE International Conference on Intelligent Transportation Systems (ITSC)"
   year: 2009
-  type: Travel Grant
+  type: Travel Grants
   people:
     - name: "B. Banks"
     - name: "D. Lecko"
 
 - name: "Georgia Institute of Technology Summer School on Cyber-Physical Systems"
   year: 2009
-  type: Travel Grant
+  type: Travel Grants
   people:
     - name: "J. Lin"
 
 - name: "IEEE International Computer Software and Applications Conference (COMPSAC)"
   year: 2009
-  type: Travel Grant
+  type: Travel Grants
   people:
     - name: "A. Faza"
     - name: "J. Lin"
 
 - name: "IEEE International Computer Software and Applications Conference (COMPSAC)"
   year: 2006
-  type: Travel Grant
+  type: Travel Grants
   people:
     - name: "A. Faza"
     - name: "T. Freiberger"

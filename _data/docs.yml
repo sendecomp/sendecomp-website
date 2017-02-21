@@ -12,7 +12,7 @@
 #         author      The full name of the document's author*
 #         area        Specifying this will list the document in the appropriate
 #                       research area*
-#                     Options: "per" or "cip"
+#                     Options: "per", "cpci", or "emb"
 #      * Required in order for the website to display
 #    Additional Notes:
 #      - Quotes around the values are optional.
@@ -21,4 +21,4 @@
 - name: "Trends in the history of large blackouts in the United States"
   website: "http://dx.doi.org/10.1109/PES.2008.4596715"
   author: "Hines, P.; Apt, J.; Talukdar, S."
-  area: cip
+  area: cpci

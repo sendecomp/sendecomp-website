@@ -20,145 +20,145 @@
 
 - name: "IEEE Transactions on Reliability"
   website: "http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=24"
-  area: cip
+  area: cpci
   type: Journal
 
 - name: "IEEE Transactions on Parallel and Distributed Systems"
   website: "http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=71"
-  area: cip
+  area: cpci
   type: Journal
 
 - name: "Reliability Engineering & System Safety"
   website: "http://www.journals.elsevier.com/reliability-engineering-and-system-safety/"
-  area: cip
+  area: cpci
   type: Journal
 
 - name: "International Journal on Critical Infrastructure Protection"
   website: "http://www.journals.elsevier.com/international-journal-of-critical-infrastructure-protection/"
-  area: cip
+  area: cpci
   type: Journal
 
 - name: "ACM Transactions on Modeling and Performance Evaluation of Computing Systems (TOMPECS)"
   website: "http://tompecs.acm.org/"
-  area: cip
+  area: cpci
   type: Journal
 
 - name: "ACM Transactions on Cyber-Physical Systems (TCPS)"
   website: "http://tcps.acm.org/"
-  area: cip
+  area: cpci
   type: Journal
 
 - name: "International Workshop on Reliable Networks Design and Modeling (RNDM)"
   website: "http://www.rndm.pl"
-  area: cip
+  area: cpci
   type: Conference
 
 - name: "International Symposium on Reliable Distributed Systems (IEEE SRDS)"
   website: "http://srds2015.cs.mcgill.ca/"
-  area: cip
+  area: cpci
   type: Conference
 
 - name: "International Computers, Software & Applications Conference (COMPSAC)"
   website: "http://www.computer.org/web/compsac"
-  area: cip
+  area: cpci
   type: Conference
 
 - name: "International Conference on Computer Safety, Reliability, and Security (SAFECOMP)"
   website: "http://safecomp2015.tudelft.nl/"
-  area: cip
+  area: cpci
   type: Conference
 
 - name: "International Workshop on Reliability and Security Aspects for Critical Infrastructure Protection (ReSA4CI)"
   website: "http://safecomp2015.tudelft.nl/resa4ci-2015"
-  area: cip
+  area: cpci
   type: Conference
 
 - name: "International Symposium on High Assurance Systems Engineering  (HASE)"
   website: "http://www.hase2015.org/"
-  area: cip
+  area: cpci
   type: Conference
 
 - name: "CPS Week (Consists HSCC, ICCPS, IPSN, and RTAS)"
   website: "http://www.cpsweek.org/2015/"
-  area: cip
+  area: cpci
   type: Conference
 
 - name: "QRS (Combination of SERE and QSIC)"
   website: "http://paris.utdallas.edu/qrs15/"
-  area: cip
+  area: cpci
   type: Conference
 
 - name: "IFIP International Symposium on Computer Performance, Modeling, Measurements and Evaluation"
-  website: cip
+  website: cpci
   type: Conference
 
 - name: "IFIP International Conference on Network and Parallel Computing"
-  website: cip
+  website: cpci
   type: Conference
 
 - name: "ACM SIGMETRICS"
   website: "http://www.sigmetrics.org/"
-  area: cip
+  area: cpci
   type: Conference
 
 - name: "CRITIS: International Conference on Critical Information Infrastructures Security"
   website: "http://www.critis2015.org/"
-  area: cip
+  area: cpci
   type: Conference
 
 - name: "Workshop on Design, Modeling and Evaluation of Cyber Physical Systems (CyPhy)"
   website: "http://www.cyphy.org/p/dates.html"
-  area: cip
+  area: cpci
   type: Conference
 
 - name: "International Symposium on Resilient Cyber Systems (ISRCS)"
   website: "http://resilienceweek2015.inl.gov/CyberSystems/"
-  area: cip
+  area: cpci
   type: Conference
 
 - name: "IEEE -- International Performance Computing and Communications Conference (IPCCC)"
   website: "http://www.ipccc.org/"
-  area: cip
+  area: cpci
   type: Conference
 
 - name: "International Conference on Quantitative Evaluation of SysTems (QEST)"
   website: "http://www.qest.org/"
-  area: cip
+  area: cpci
   type: Conference
 
 - name: "Hawaii International Conference on System Sciences (HICSS)"
   website: "http://www.hicss.org/"
-  area: cip
+  area: cpci
   type: Conference
 
 - name: "IEEE Power and Energy Conference at Illinois (PECI)"
   website: "http://peci.ece.illinois.edu"
-  area: cip
+  area: cpci
   type: Conference
 
 - name: "Dependable and Adaptive Distributed Systems (DADS) track of the ACM Symposium on Applied Computing (SAC)"
   website: "http://www.dedisys.org/sac16/"
-  area: cip
+  area: cpci
   type: Conference
 
 - name: "International Conference on Ambient Systems, Networks and Technologies (ANT)"
   website: "http://cs-conferences.acadiau.ca/ant-16/"
-  area: cip
+  area: cpci
   type: Conference
 
 - name: "International Workshop on Practical Applications of Stochastic Modelling (PASM)"
   website: "http://homepages.cs.ncl.ac.uk/nigel.thomas/PASM16.htm"
-  area: cip
+  area: cpci
   type: Conference
 
 - name: "International Conference on Dependable Systems and Networks (DSN)"
   website: "http://www.dsn.org/"
-  area: cip
+  area: cpci
   type: Conference
 
 - name: "European Dependable Computing Conference (EDCC)"
   website: "http://www.edcc2016.eu/"
-  area: cip
+  area: cpci
   type: Conference
 
 - name: International Conference on Frontiers in Education
@@ -224,4 +224,9 @@
 - name: "IEEE Global Engineering Education Conference (EDUCON)"
   website: "http://www.educon-conference.org"
   area: per
+  type: Conference
+
+- name: "IEEE International Instrumentation and Measurement Technology Conference (I2MTC)"
+  website: "http://2017.imtc.ieee-ims.org/"
+  area: emb
   type: Conference

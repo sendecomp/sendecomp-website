@@ -12,7 +12,7 @@
 #         location    The location of the research lab (college, country, etc.)*
 #         area        Specifying this will list the document in the appropriate
 #                       research area*
-#                     Options: "per" or "cip"
+#                     Options: "per", "cpci", or "emb"
 #      * Required in order for the website to display
 #    Additional Notes:
 #      - Quotes around the values are optional.
@@ -41,19 +41,19 @@
 - name: "CHESS: Center for Hybrid and Embedded Software Systems"
   website: "http://cyberphysicalsystems.org/"
   location: "UC Berkeley, Berkeley, California"
-  area: cip
+  area: cpci
 
 - name: "Cyber-Physical Systems Laboratory (CyPhyLab)"
   website: "http://www.cyphylab.ee.ucla.edu/"
   location: "UCLA, Los Angeles, California"
-  area: cip
+  area: cpci
 
 - name: "Cyber Physical Systems Lab"
   website: "http://www.csee.wvu.edu/~yfallah/"
   location: "West Virginia University, Morgantown, West Virginia"
-  area: cip
+  area: cpci
 
 - name: "Trustworthy Cyber Infrastructure for The Power Grid (TCIPG)"
   website: "http://tcipg.org/"
   location: "Urbana, Illinois"
-  area: cip
+  area: cpci
