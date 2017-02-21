@@ -19,7 +19,7 @@
 #      - Non-required attributes with blank values can be ommitted completely.
 
 - name: >
-    DoD Science, Mathematics And Research for Transformation (SMART) Scholarship
+    DoD Science, Mathematics and Research for Transformation (SMART) Scholarship
     for Service
   year:
   type: Graduate Fellowships
@@ -122,8 +122,8 @@
     - name: A. Faza
 
 - name: >
-    Best Paper Nomination, HICSS-44 - A Game-Theoretic Approach to Decision
-    Support for Intelligent Water Distribution
+    Best Paper Nomination, HICSS - A game-theoretic approach to decision
+    support for intelligent water distribution
   year: 2011
   type: Best Papers
   people:
