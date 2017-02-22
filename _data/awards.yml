@@ -128,6 +128,14 @@
   type: Best Papers
   people:
     - name: J. Lin
+    
+ - name: >
+    Best Paper Award, ISRCS - Survivability analysis and recovery support 
+    for smart grids
+  year: 2016
+  type: Best Papers
+  people:
+    - name: I. Alobaidi
 
 - name: "PerCom 2015 NSF Travel Grant"
   year: 2015
