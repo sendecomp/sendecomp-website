@@ -41,7 +41,8 @@
       </h5>
       {% if person.focus %}
         <strong>Focus:</strong>
-        {{ person.focus }}<br/>
+        <a href="{{ site.baseurl }}/research-areas/#{{ person.focus | slugify }}">
+          {{ person.focus }}</a><br/>
       {% endif %}
       {% if person.grad %}
         {% if person.status == "Active" %}

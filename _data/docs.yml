@@ -18,7 +18,7 @@
 #      - Quotes around the values are optional.
 #      - Non-required attributes with blank values can be ommitted completely.
 
-- name: "Trends in the history of large blackouts in the United States"
-  website: "http://dx.doi.org/10.1109/PES.2008.4596715"
-  author: "Hines, P.; Apt, J.; Talukdar, S."
-  area: cpci
+#- name: "Trends in the history of large blackouts in the United States"
+#  website: "http://dx.doi.org/10.1109/PES.2008.4596715"
+#  author: "Hines, P.; Apt, J.; Talukdar, S."
+#  area: cpci

@@ -47,7 +47,7 @@
   status: Active
   grad: December 2017
   focus:
-  emp:
+  project:
   website: https://sites.google.com/mst.edu/gjk7v3/home
   photo: Krukowski.jpg
 
@@ -57,7 +57,6 @@
   status: Active
   grad: December 2017
   focus: Computing Techniques for Personalized Medicine
-  emp:
   website: https://sites.google.com/a/mst.edu/eburgdorf/home
   photo: Burgdorf.jpg
 
@@ -67,7 +66,6 @@
   status: Active
   grad: December 2019
   focus: Computing Techniques for Personalized Medicine
-  emp:
   website: http://web.mst.edu/~iaahgb/
   photo: Alobaidi.jpg
 
@@ -76,8 +74,9 @@
   degree: MS
   status: Active
   grad: May 2017
-  focus: PERCEPOLIS
-  emp:
+  focus: |
+    Pervasive Cyberinfrastructure for Personalized eLearning and Instructional
+    Support (PERCEPOLIS)
   website: http://web.mst.edu/~tjm6f4/
   photo: Morrow.png
 
@@ -86,8 +85,7 @@
   degree: PhD
   status: Active
   grad: December 2018
-  focus: Model Transformation for Cyber-Physical Systems
-  emp:
+  focus: Cyber-Physical System Model Transformation
   website: http://web.mst.edu/~nmjxv3/
   photo: Jarus.png
 
@@ -96,8 +94,7 @@
   degree: PhD
   status: Active
   grad: May 2017
-  focus: Analysis and Modeling of Cyber-Physical Systems
-  emp:
+  focus: "Quantitative Analysis of Cyber-Physical Systems: Dependability of the Smart Grid"
   website: http://web.mst.edu/~mjw6y7/
   photo: Woodard.jpg
 
@@ -107,7 +104,6 @@
   status: Active
   grad: December 2017
   focus: Distributed Analysis and Prediction of Vehicular Traffic
-  emp:
   website: http://web.mst.edu/~mwwcp2/
   photo: Wisely.jpg
 
@@ -116,8 +112,7 @@
   degree: PhD
   status: Active
   grad: May 2017
-  focus: Stochastic Modeling and Analysis of Dependability for Critical Infrastructures
-  emp:
+  focus: "Quantitative Analysis of Cyber-Physical Systems: Dependability of the Smart Grid"
   website: http://web.mst.edu/~km89f/
   photo: Marashi.jpg
 

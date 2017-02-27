@@ -30,7 +30,7 @@ title: Student Awards
     <ul id="sidebar" class="nav nav-stacked fixed">
       {% for tag in uniqueTags %}
         <li class="col-sm-8 col-md-9" style="margin-left: -15px;">
-          <a href="#{{ tag | replace: ' ', '-' }}">{{ tag }}</a>
+          <a href="#{{ tag | slugify }}">{{ tag }}</a>
         </li>
       {% endfor %}
     </ul>
@@ -39,7 +39,7 @@ title: Student Awards
     {% for tag in uniqueTags %}
       {% assign awards = site.data.awards | where: 'type', tag | sort: 'year' %}
 
-      <h3 id="{{ tag | replace: ' ', '-' }}">{{ tag }}</h3>
+      <h3 id="{{ tag | slugify }}">{{ tag }}</h3>
       {% for award in awards reversed %}
         {% include award.html %}
       {% endfor %}

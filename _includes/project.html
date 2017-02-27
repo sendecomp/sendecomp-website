@@ -1,5 +1,5 @@
 <div class="list-group-item">
-  <h5>{{ proj.name }}</h5>
+  <h5 id="{{ proj.name | slugify }}">{{ proj.name }}</h5>
   <div class="row">
     {% if proj.members %}
     <div class="col-sm-6">

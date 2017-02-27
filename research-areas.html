@@ -2,10 +2,10 @@
 layout: page
 title: Research Areas
 ---
-{% assign projects = site.data.projects | sort: 'name' %}
-{% assign labs = site.data.labs | sort: 'name' %}
-{% assign docs = site.data.docs | sort: 'name' %}
-{% assign venues = site.data.venues | sort: 'name' %}
+{% assign projects = site.data.projects %}
+{% assign labs = site.data.labs %}
+{% assign docs = site.data.docs %}
+{% assign venues = site.data.venues %}
 
 {% assign activeProjects = projects | where: 'status', 'Active' %}
 {% assign pastProjects = projects | where: 'status', 'Complete' %}
