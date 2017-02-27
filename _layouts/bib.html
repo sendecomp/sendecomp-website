@@ -1,0 +1,33 @@
+<div class="list-group-item pub">
+  <div class="media">
+    <div class="media-body">
+      <h6 id="citation" class="media-heading">{{ reference }}</h6>
+      <strong>Status:</strong>
+      {% if entry.year contains "submitted" or entry.year contains "under" or entry.year contains "to appear" %}
+        {{ entry.year | split: ', ' | last }}
+      {% else %}
+        {% if entry.doi %}
+          {% if entry.doi contains 'dx.doi.org' %}
+            <a class="" href="{{ entry.doi }}" target="_blank">Published</a>
+          {% else %}
+            <a class="" href="{{ entry.doi | prepend: 'http://dx.doi.org/' }}" target="_blank">Published</a>
+          {% endif %}
+        {% elsif entry.url %}
+          <a class="" href="{{ entry.url }}" target="_blank">Published</a>
+        {% else %}
+          Published
+        {% endif %}
+      {% endif %}
+      {% if entry.awards %}
+        <br/>
+        <strong>Awards:</strong> {{ entry.awards }} <br/>
+      {% endif %}
+      <div class="pull-right">
+        <a href="" class="hidden-xs" data-toggle="modal"
+        data-target="{{ entry.key | prepend: '#export-' }}">Export BibTeX</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include bibtex-export.html %}

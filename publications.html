@@ -2,10 +2,6 @@
 layout: page
 title: Publications
 ---
-{% assign publications = site.data.publications %}
-{% assign cpciPubs = publications | where: "area", "cpci" | sort:"year" %}
-{% assign perPubs = publications | where: "area", "per" | sort:"year" %}
-{% assign embPubs = publications | where: "area", "emb" | sort:"year" %}
 
 <div class="row">
   <div class="col-xs-12">
@@ -26,32 +22,26 @@ title: Publications
       <li class="col-sm-6 col-md-8" style="margin-left: -15px;">
         <a href="#emb">Assurance and Development of Embedded Systems</a>
       </li>
+      <li class="col-sm-6 col-md-8" style="margin-left: -15px;">
+        <a href="#old">Older Publications on Modeling</a>
+      </li>
     </ul>
   </nav>
   <div class="col-sm-9">
-    {% if cpciPubs.size > 0 %}
-      <h5 id="cpci">Modeling and Analysis of Cyber-Physical Critical Infrastructures</h5>
-      {% for pub in cpciPubs reversed %}
-        {% include publication.html %}
-      {% endfor %}
-    {% endif %}
+    <h4 id="cpci">Modeling and Analysis of Cyber-Physical Critical Infrastructures</h4>
+    {% bibliography --query @*[groups=Cyber-Physical Critical Infrastructures] %}
 
-    {% if perPubs.size > 0 %}
-      <h5 id="per">Pervasive Computing</h5>
-      {% for pub in perPubs reversed %}
-        {% include publication.html %}
-      {% endfor %}
-    {% endif %}
+    <h4 id="per">Pervasive Computing</h4>
+    {% bibliography --query @*[groups=Pervasive Computing] %}
 
-    {% if embPubs.size > 0 %}
-      <h5 id="emb">Assurance and Development of Embedded Systems</h5>
-      {% for pub in embPubs reversed %}
-        {% include publication.html %}
-      {% endfor %}
-    {% endif %}
+    <h4 id="emb">Assurance and Development of Embedded Systems</h4>
+    {% bibliography --query @*[groups=Embedded Systems] %}
+
+    <h4 id="old">Older Publications on Modeling</h4>
+    {% bibliography --query @*[groups=Older Pubs on Modeling] %}
 
     <br/>
-    <strong>Publications Count: </strong> {{ publications | size }}
+    <strong>Publications Count: </strong> XX
   </div>
 </div>
 
