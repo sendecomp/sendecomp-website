@@ -25,6 +25,7 @@
   desc: |
   status: Active
   area: cpci
+  photo:
   members:
     - name: Isam Alobaidi
     - name: Dr. Ali Hurson
@@ -33,8 +34,7 @@
     - name: Intelligent Systems Center
 
 - name: |
-    Quantitative Analysis of Cyber-Physical Systems:
-    Dependability of the Smart Grid
+    Quantitative Dependability Analysis of Cyber-Physical Systems
   desc: |
     Developed countries are entirely reliant on critical infrastructure,
     hence the need for rigorous assessment of the trustworthiness of these
@@ -55,6 +55,7 @@
     infrastructures.
   status: Active
   area: cpci
+  photo: dependability.jpg
   members:
     - name: Mark Woodard
     - name: Koosha Marashi
@@ -86,6 +87,7 @@
     research on transforming mathematical structures.
   status: Active
   area: cpci
+  photo: model-trans.jpg
   members:
     - name: Nathan Jarus
     - name: Dr. Sahra Sedigh Sarvestani
@@ -114,6 +116,7 @@
     yielding insights that may lead to significant changes in pedagogy.
   status: Active
   area: per
+  photo:
   members:
     - name: Tyler Morrow
     - name: Shaun Wagner
@@ -126,6 +129,7 @@
   desc:
   status: Active
   area: per
+  photo:
   members:
     - name: Mike Wisely
     - name: Dr. Ali Hurson
@@ -160,6 +164,7 @@
     is used as a case study.
   status: Complete
   area: cpci
+  photo:
   members:
     - name: Steve White
     - name: Jing Lin
@@ -208,6 +213,7 @@
     robustness, allows long extended field life of the system.
   status: Complete
   area: emb
+  photo:
   members:
     - name: Arun Gunasekaran
     - name: Tyler Harms
@@ -247,6 +253,7 @@
     engineering, by leveraging the body of knowledge in each field.
   status: Complete
   area: emb
+  photo: esd.svg
   members:
     - name: Pratik Maheshwari
     - name: Antonio Sabatini
@@ -269,6 +276,7 @@
     final detection.
   status: Complete
   area: emb
+  photo:
   members:
     - name: Pratik Shah
     - name: Abhijeet Singh
@@ -296,6 +304,7 @@
     lighting retrofits being done in the university buildings.
   status: Complete
   area: emb
+  photo:
   members:
     - name: Sandeep Kunchum
     - name: Mr. James Packard
@@ -318,6 +327,7 @@
     network for communication of this data.
   status: Complete
   area: emb
+  photo:
   members:
     - name: Tyler Harms
     - name: Devin Simms
@@ -338,6 +348,7 @@
     communicated to a processing server over the GSM cellular network.
   status: Complete
   area: emb
+  photo:
   members:
     - name: Michael Wyatt
     - name: Dr. Estella Atekwana

@@ -2,8 +2,8 @@
 layout: page
 title: People
 ---
-{% assign members = site.data.members | sort:'grad' %}
-{% assign advisors = members | where: 'role', 'Advisor' | where:'status', 'Active' %}
+{% assign members = site.data.members | sort: 'grad' %}
+{% assign advisors = members | where: 'role', 'Advisor' | where: 'status', 'Active' %}
 {% assign actives = members | where: 'status', 'Active' %}
 {% assign alumni = members | where: 'status', 'Alumni' %}
 

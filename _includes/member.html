@@ -39,10 +39,14 @@
           {% endif %}
         {% endif %}
       </h5>
-      {% if person.focus %}
-        <strong>Focus:</strong>
-        <a href="{{ site.baseurl }}/research-areas/#{{ person.focus | slugify }}">
-          {{ person.focus }}</a><br/>
+      {% if person.project %}
+        {% assign projects = person.project | split: "; " %}
+        <strong>Project{% if projects.size > 1 %}s{% endif %}:</strong>
+        {% for project in projects %}
+          <a href="{{ site.baseurl }}/research-areas/#{{ project | slugify }}">
+            {{ project }}
+          </a><br/>
+        {% endfor %}
       {% endif %}
       {% if person.grad %}
         {% if person.status == "Active" %}
@@ -50,7 +54,7 @@
           {{ person.grad | date: "%B %Y"}}<br/>
         {% else %}
           <strong>Graduated:</strong>
-          {{ person.grad }}<br/>
+          {{ person.grad | date: "%B %Y" }}<br/>
         {% endif %}
       {% endif %}
       {% if person.emp %}

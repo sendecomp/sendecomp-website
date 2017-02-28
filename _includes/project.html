@@ -3,7 +3,7 @@
   <div class="row">
     {% if proj.members %}
     <div class="col-sm-6">
-      <h6>Participant(s)</h6>
+      <h6>Participant{% if proj.members.size > 1 %}s{% endif %}</h6>
       <ul>
         {% for member in proj.members %}
         <li>{{ member.name }}</li>
@@ -13,7 +13,7 @@
     {% endif %}
     {% if proj.sponsors %}
     <div class="col-sm-6">
-      <h6>Sponsor(s)</h6>
+      <h6>Sponsor{% if proj.sponsors.size > 1 %}s{% endif %}</h6>
       <ul>
         {% for sponsor in proj.sponsors %}
         <li>{{ sponsor.name }}</li>
@@ -22,5 +22,19 @@
     </div>
     {% endif %}
   </div>
-  <p>{{ proj.desc }}</p>
+  <div class="row">
+    {% if proj.photo %}
+      <div class="col-sm-6">
+        <p>{{ proj.desc }}</p>
+      </div>
+      <div class="col-sm-6">
+        <img class="media-object" width="100%"
+             src="{{ site.baseurl }}/img/projects/{{ proj.photo }}" alt="No Photo">
+      </div>
+    {% else %}
+      <div class="col-sm-12">
+        <p>{{ proj.desc }}</p>
+      </div>
+    {% endif %}
+  </div>
 </div>

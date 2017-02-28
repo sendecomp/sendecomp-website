@@ -5,7 +5,7 @@
   {% endif %}
 </h5>
 <p>
-  <strong>Recipient(s) </strong> <br/>
+  <strong>Recipient{% if award.people.size > 1 %}s{% endif %} </strong> <br/>
   <ul>
     {% for person in award.people %}
       <li>
