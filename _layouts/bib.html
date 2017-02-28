@@ -3,19 +3,19 @@
     <div class="media-body">
       <h6 id="citation" class="media-heading">{{ reference }}</h6>
       <strong>Status:</strong>
-      {% if entry.year contains "submitted" or entry.year contains "under" or entry.year contains "to appear" %}
-        {{ entry.year | split: ', ' | last }}
+      {% if entry.status %}
+        {{ entry.status }}
       {% else %}
         {% if entry.doi %}
           {% if entry.doi contains 'dx.doi.org' %}
-            <a class="" href="{{ entry.doi }}" target="_blank">Published</a>
+            <a class="" href="{{ entry.doi }}" target="_blank">published</a>
           {% else %}
-            <a class="" href="{{ entry.doi | prepend: 'http://dx.doi.org/' }}" target="_blank">Published</a>
+            <a class="" href="{{ entry.doi | prepend: 'http://dx.doi.org/' }}" target="_blank">published</a>
           {% endif %}
         {% elsif entry.url %}
-          <a class="" href="{{ entry.url }}" target="_blank">Published</a>
+          <a class="" href="{{ entry.url }}" target="_blank">published</a>
         {% else %}
-          Published
+          published
         {% endif %}
       {% endif %}
       {% if entry.awards %}
@@ -24,10 +24,10 @@
       {% endif %}
       <div class="pull-right">
         <a href="" class="hidden-xs" data-toggle="modal"
-        data-target="{{ entry.key | prepend: '#export-' }}">Export BibTeX</a>
+        data-target="{{ entry.key | prepend: '#export-' }}">Export to BibTeX</a>
       </div>
     </div>
   </div>
 </div>
 
-{% include bibtex-export.html %}
+{% include bibtex-modal.html %}
