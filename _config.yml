@@ -28,6 +28,7 @@ scholar:
   locale: en
   sort_by: year
   order: descending
-  group_by: none
-  bibtex_skip_fields: [abstract,keywords,groups,awards]
+  group_order: ascending
+  type_order: [article,incollection,inproceedings,book,thesis,techreport,unpublished,misc]
+  bibtex_skip_fields: [abstract,keywords,groups,awards,status]
   bibliography_group_tag: h6,h6,h6,h6
