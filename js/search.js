@@ -13,8 +13,8 @@
     } else {
       for(var i = 0; i < publications.length; i++) {
         var pub = publications[i];
-        var title = pub.querySelector('#title').textContent.toLowerCase();
-        if(title.indexOf(query) > -1) {
+        var citation = pub.querySelector('#citation').textContent.toLowerCase();
+        if(citation.indexOf(query) > -1) {
           pub.className = "list-group-item pub";
         } else {
           pub.className = "list-group-item pub hide";

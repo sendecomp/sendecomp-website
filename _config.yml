@@ -1,11 +1,34 @@
 # Site settings
 title: Missouri S&T SeNDeComp
 email: sedighs@mst.edu
-description: ""
+description: "Missouri S&T - Sensor Networks and Dependable Computing Lab"
 baseurl: "/~sendecomp"
 url: "http://web.mst.edu/~sendecomp"
-encoding: ISO-8859-1
+encoding: utf-8
+github_username: sendecomp
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+gems:
+  - jekyll/scholar
+
+# Jekyll-Scholar Settings
+scholar:
+  source: ./_data
+  bibliography: publications.bib
+  style: _csl/ieee.csl
+  bibliography_template: bib
+  bibliography_list_tag: 'ul
+                          style="list-style-type: none;
+                          list-style-position:inside;
+                          margin:0;
+                          padding:0;"'
+  locale: en
+  sort_by: year
+  order: descending
+  group_order: ascending
+  type_order: [article,incollection,inproceedings,book,thesis,techreport,unpublished,misc]
+  bibtex_skip_fields: [abstract,keywords,groups,awards,status]
+  bibliography_group_tag: h6,h6,h6,h6
