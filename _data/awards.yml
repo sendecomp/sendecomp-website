@@ -122,15 +122,22 @@
     - name: A. Faza
 
 - name: >
+    Best Paper Award, HICSS - Investigating the application of game theory to resource allocation in cyber physical systems
+  year: 2011
+  type: Best Papers
+  people:
+    - name: J. Lin
+
+- name: >
     Best Paper Nomination, HICSS - A game-theoretic approach to decision
     support for intelligent water distribution
   year: 2011
   type: Best Papers
   people:
     - name: J. Lin
-    
+
 - name: >
-    Best Paper Award, ISRCS - Survivability analysis and recovery support 
+    Best Paper Award, ISRCS - Survivability analysis and recovery support
     for smart grids
   year: 2016
   type: Best Papers
