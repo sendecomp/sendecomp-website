@@ -30,5 +30,5 @@ scholar:
   order: descending
   group_order: ascending
   type_order: [article,incollection,inproceedings,book,thesis,techreport,unpublished,misc]
-  bibtex_skip_fields: [abstract,keywords,groups,awards,status]
+  bibtex_skip_fields: [abstract,keywords,groups,awards,status,month_numeric,badge,badgelink]
   bibliography_group_tag: h6,h6,h6,h6

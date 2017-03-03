@@ -1,7 +1,18 @@
 <div class="list-group-item pub">
   <div class="media">
     <div class="media-body">
-      <h6 id="citation" class="media-heading">{{ reference }}</h6>
+      {% if entry.badge  %}
+        <div class="media-right pull-right">
+          {% if entry.badgelink %}
+            <a href="{{ entry.badgelink }}" target="_blank">
+              <img src="{{ site.baseurl }}/img/badges/{{ entry.badge }}" height="60" />
+            </a>
+          {% else %}
+            <img src="{{ site.baseurl }}/img/badges/{{ entry.badge }}" height="60" />
+          {% endif %}
+        </div>
+      {% endif %}
+      <h6 id="citation" class="media-heading">{{ reference | replace: '“', '"' | replace: '”', '"' | replace: '–', '-' | replace '’', ''' }}</h6>
       <strong>Status:</strong>
       {% if entry.status %}
         {{ entry.status | capitalize }}
@@ -18,7 +29,7 @@
           Published
         {% endif %}
       {% endif %}
-      <div class="pull-right">
+      <div class="media-right pull-right">
         <a href="" class="hidden-xs" data-toggle="modal"
         data-target="{{ entry.key | prepend: '#export-' }}">Export to BibTeX</a>
       </div>
