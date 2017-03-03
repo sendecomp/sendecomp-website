@@ -112,6 +112,7 @@
   type: Best Papers
   people:
     - name: A. Faza
+  bibkey: FaS09
 
 - name: >
     Best Paper Award, COMPSAC - A general purpose framework for wireless sensor
@@ -120,13 +121,7 @@
   type: Best Papers
   people:
     - name: A. Faza
-
-- name: >
-    Best Paper Award, HICSS - Investigating the application of game theory to resource allocation in cyber physical systems
-  year: 2011
-  type: Best Papers
-  people:
-    - name: J. Lin
+  bibkey: FaS06
 
 - name: >
     Best Paper Nomination, HICSS - A game-theoretic approach to decision
@@ -135,6 +130,7 @@
   type: Best Papers
   people:
     - name: J. Lin
+  bibkey: LiS11a
 
 - name: >
     Best Paper Award, ISRCS - Survivability analysis and recovery support
@@ -143,6 +139,7 @@
   type: Best Papers
   people:
     - name: I. Alobaidi
+  bibkey: AlS16
 
 - name: "PerCom 2015 NSF Travel Grant"
   year: 2015

@@ -1,5 +1,11 @@
 <h5>
-  {{ award.name }}
+  {% if award.bibkey %}
+    <a href="{{ site.baseurl }}/publications/{{ award.bibkey | prepend: '#' }}">
+      {{ award.name }}
+    </a>
+  {% else %}
+    {{ award.name }}
+  {% endif %}
   {% if award.year %}
   <small>{{ award.year }}</small>
   {% endif %}
