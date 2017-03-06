@@ -7,16 +7,26 @@
 #     The name of the attribute is to the left of the colon; the value is to the
 #       right of the colon.
 #     The attributes available for each record are as follows:
-#         name        Whatever the name of the award is*
-#         desc        The year this award was most recently awarded to a member
+#         name        Title of the award;*
+#                       try to keep them consistent within each type
+#         year        The year this award was most recently awarded to a member
 #         type        The type specifies a group under which to place this
 #                       record - enter an existing value or make a new one
 #         people      A list of members who received this award;
 #                       each entry only has a name attribute
+#         bibkey      Bibkey of the corresponding paper in "publications.bib";
+#                       applicable if the type is "Best Papers"
 #      * Required in order for the website to display
 #    Additional Notes:
-#      - Quotes around the values are optional.
-#      - Non-required attributes with blank values can be ommitted completely.
+#      - Quotes around the values are optional, unless there exist a colon (:)
+#           in the entry
+#      - Non-required attributes with blank values can be ommitted completely
+#      - For long entries, it is advised to use a block style: in front of the
+#           key, add a ">" character, followed by as many indented lines as
+#           needed,
+#           e.g., - name: >
+#                     This is a very very long entry that doesn't fit in a
+#                     single line.
 
 - name: >
     DoD Science, Mathematics and Research for Transformation (SMART) Scholarship
@@ -26,7 +36,9 @@
   people:
     - name: J. Koch (First Missouri S&T student to achieve the honor)
 
-- name: Graduate Assistantships in Areas of National Need(GAANN) Doctoral Fellowship, US Department of Education
+- name: >
+    Graduate Assistantships in Areas of National Need(GAANN) Doctoral Fellowship,
+    US Department of Education
   year:
   type: Graduate Fellowships
   people:

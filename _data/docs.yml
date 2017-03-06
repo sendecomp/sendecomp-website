@@ -7,9 +7,9 @@
 #     The name of the attribute is to the left of the colon; the value is to the
 #       right of the colon.
 #     The attributes available for each record are as follows:
-#         name        Whatever the name of the document is*
+#         name        The name of the document*
 #         website     The full URL to the document*
-#         author      The full name of the document's author*
+#         author      The full name of the document's author
 #         area        Specifying this will list the document in the appropriate
 #                       research area*
 #                     Options: "per", "cpci", or "emb"
@@ -18,7 +18,7 @@
 #      - Quotes around the values are optional.
 #      - Non-required attributes with blank values can be ommitted completely.
 
-#- name: "Trends in the history of large blackouts in the United States"
-#  website: "http://dx.doi.org/10.1109/PES.2008.4596715"
-#  author: "Hines, P.; Apt, J.; Talukdar, S."
-#  area: cpci
+- name: "Trends in the history of large blackouts in the United States"
+  website: "http://dx.doi.org/10.1109/PES.2008.4596715"
+  author: "Hines, P.; Apt, J.; Talukdar, S."
+  area: cpci

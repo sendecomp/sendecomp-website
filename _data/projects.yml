@@ -7,22 +7,29 @@
 #     The name of the attribute is to the left of the colon; the value is to the
 #       right of the colon.
 #     The attributes available for each record are as follows:
-#         name        Whatever the name of the project is*
+#         name        The name of the project*
 #         desc        A description of the project
 #         status      The current status of the project*
-#                     Options: "Active" or "Complete"
+#                         Enter "Active" or "Complete" only
 #         area        Specifying this will list the document in the appropriate
 #                       research area*
-#                     Options: "per", "cpci", or "emb"
+#                         Options: "per", "cpci", or "emb"
 #         members     A list of members each of which only has a name attribute
 #         sponsors    A list of sponsors each of which only has a name attribute
 #      * Required in order for the website to display
 #    Additional Notes:
-#      - Quotes around the values are optional.
-#      - Non-required attributes with blank values can be ommitted completely.
+#      - Quotes around the values are optional, unless there exist a colon (:)
+#           in the entry
+#      - Non-required attributes with blank values can be ommitted completely
+#      - For long entries, it is advised to use a block style: in front of the
+#           key, add a ">" character, followed by as many indented lines as
+#           needed,
+#           e.g., - name: >
+#                     This is a very very long entry that doesn't fit in a
+#                     single line.
 
 - name: Computing Techniques for Personalized Medicine
-  desc: |
+  desc: >
   status: Active
   area: cpci
   photo:
@@ -33,9 +40,9 @@
   sponsors:
     - name: Intelligent Systems Center
 
-- name: |
+- name: >
     Quantitative Dependability Analysis of Cyber-Physical Systems
-  desc: |
+  desc: >
     Developed countries are entirely reliant on critical infrastructure,
     hence the need for rigorous assessment of the trustworthiness of these
     systems.
@@ -68,7 +75,7 @@
     - name: Department of Education
 
 - name: Cyber-Physical System Model Transformation
-  desc: |
+  desc: >
     Generating models for every aspect of a system is a labor-intensive and
     error-prone process.
     My work focuses on defining transformations from one type of system
@@ -92,10 +99,10 @@
     - name: Nathan Jarus
     - name: Dr. Sahra Sedigh Sarvestani
 
-- name: |
+- name: >
     Pervasive Cyberinfrastructure for Personalized eLearning and
     Instructional Support (PERCEPOLIS)
-  desc: |
+  desc: >
     Advances in databases, distributed computing, computational intelligence,
     and especially pervasive computing, which allows non-intrusive and
     transparent "anytime, anywhere" access to information, provide fertile
@@ -136,7 +143,7 @@
     - name: Dr. Sahra Sedigh Sarvestani
 
 - name: Agent-Based Analysis and Mitigation of Failure in Cyber-Physical Systems
-  desc: |
+  desc: >
     Interdependencies among the cyber and physical components of a CPS
     significantly complicate the specification, modeling, and simulation of
     these systems, as it is difficult to represent both the cyber and the
@@ -175,10 +182,10 @@
     - name: University Transportation Center
     - name: Department of Education
 
-- name: |
+- name: >
     The SmartBrick Wireless Sensor Platform for High-Resolution Structural
     Health Monitoring
-  desc: |
+  desc: >
     This project encompasses the real-time monitoring, communications, and
     alerting capabilities of the Smart Brick, a low-cost, autonomous
     wireless device for structural health monitoring.
@@ -230,7 +237,7 @@
     - name: EU FP7 program on Smart Monitoring of Historic Structures
 
 - name: Software-Based Analysis of the Immunity of Embedded Systems to ESD
-  desc: |
+  desc: >
     Electrostatic discharge (ESD) can be a source of significant delay in
     the development of embedded systems, as ESD problems are typically
     discovered very late in the development cycle.
@@ -268,7 +275,7 @@
     - name: Intelligent Systems Center
 
 - name: Data Fusion For Spectroscopy-Based Detection
-  desc: |
+  desc: >
     This project is aimed at implementing data fusion algorithms for
     detection in real-time systems.
     Raw data from chemo metric spectroscopy will be processed and analyzed
@@ -285,10 +292,10 @@
   sponsors:
     - name: Alaka'i Consulting and Engineering, Inc.
 
-- name: |
+- name: >
     A Network Infrastructure for Real-Time Monitoring of Campus Energy
     Consumption
-  desc: |
+  desc: >
     The purpose of this project is to minimize the lighting energy
     consumption in the University of Missouri - Rolla.
     The aim of the project is to devise and install a real-time monitoring
@@ -314,7 +321,7 @@
     - name: Missouri S&T Physical Facilities Department
 
 - name: Embedded System Support for Canine Mine Detection
-  desc: |
+  desc: >
     The objective of this project is the development of an embedded system
     for real-time tracking, recording and reporting of the location of mine
     detection dogs.
@@ -337,7 +344,7 @@
     - name: Dr. Sahra Sedigh Sarvestani
 
 - name: A Hybrid Monitoring Network For Hydrological Environments
-  desc: |
+  desc: >
     The objective of the project is to design and develop the next
     generation of research instrumentation for in situ hydrological
     monitoring of watersheds.

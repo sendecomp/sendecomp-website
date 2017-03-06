@@ -8,45 +8,48 @@
 #       right of the colon.
 #     The attributes available for STUDENT MEMBER records are as follows:
 #         name        The full name of the member
-#         degree      BS, MS, or PhD*
-#         major       The name of their major*
+#         major       The name of their major,
+#                         e.g., Computer Engineerin
+#         degree      Enter "BS", "MS", or "PhD" only*
 #         status      Enter "Active" or "Alumni" only*
-#         grad        The year and month the member graduates*
-#                     Format: full year followed by the full month,
-#                             e.g. 20## <Month>
-#         focus       The research area in which the member works
-#         emp         The group members employer (usually only applies to alumni)
+#         grad        The year and month the member graduates
+#                         Format: full year followed by the full month,
+#                         i.e., 20## <Month>
+#         project     The research project in which the member works;
+#                         must be one of the existing project names in
+#                         "projects.yml"
+#         emp         The group member employer (usually only applies to alumni)
 #         website     The full URL to the member's professional website
-#         photo       Just the name of the image file for the member
-#                     (must exist in the /img/members/ directory)
+#         photo       Just the name of the image file for the member;
+#                         must exist in the "/img/members/" directory
 #     The attributes available for PRIMARY INVESTIGATOR MEMBERS are as follows:
 #         name        The full name of the member*
-#         role        PI ONLY: The PI's role within the group*
-#         department  PI ONLY: The department with which the PI is affiliated*
-#         position    PI ONLY: The PI's job title*
+#         role        The PI's role within the group*
+#         department  The department with which the PI is affiliated
+#         position    The PI's job title
 #         website     The full URL to the member's professional website
 #         photo       Just the name of the image file for the member
-#                     (must exist in the /img/members/ directory)
+#                         must exist in the "/img/members/" directory
 #      * Required in order for the website to display
 #    Additional Notes:
-#      - Quotes around the values are optional.
+#      - Quotes around the values are optional, unless there exist a colon (:)
+#           in the entry
 #      - Non-required attributes with blank values can be omitted completely.
 
 
 - name: Dr. Sahra Sedigh Sarvestani
+  role: Advisor
   status: Active
   department: Electrical & Computer Engineering
   position: Associate Professor
   website: http://web.mst.edu/~sedighs/
   photo: Sedigh.jpg
-  role: Advisor
 
 - name: Gabriel Krukowski
   major: Computer Engineering
   degree: BS
   status: Active
   grad: 2017 December
-  project:
   project:
   website: https://sites.google.com/mst.edu/gjk7v3/home
   photo: Krukowski.jpg

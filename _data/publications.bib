@@ -1,32 +1,32 @@
+@comment{
 # Publications Data File
 # Description
 #     This file contains individual records for each publication published by
-#       members of the group.
+#     members of the group.in BibTeX format
 #     Feel free to use an existing record as a starting point for a new entry.
-#     Each individual record is denoted by ONLY ONE dash "-" on the first line.
-#     After that, a list of attributes can be seen.
-#     The name of the attribute is to the left of the colon; the value is to the
-#       right of the colon.
-#     The attributes available for each record are as follows:
-#         citation    The full MLA citation*
-#         year        The year of publication*
-#         status      The current status of the publication*
-#                     Options: "To Appear" or "Under Review" or "Published"
-#         awards      Some text denoted an award received for this publication
-#         area        Specifying this will list the document in the appropriate
+#     In addition to the standard BibTeX fields, the following attributes are
+#     available for each record:
+#         groups      Specifying this will list the document in the appropriate
 #                       research area*
+#         status      The current status of the publication if it has not yet
+#                         been published
+#         awards      Title of the award the publication has won, if applicable
 #                     Options: "per" or "cip"
-#         fulltext    The full URL to where the publication can be obtained
 #         badge       The badge is an image that is displayed below the
 #                       publication to denote something special
 #                     The value should just be the name of the image file
-#                       (must exist in the /img/badges/ directory)
-#         badge-link  The full URL of wherever the user should be taken when
+#                       (must exist in the "/img/badges/" directory)
+#         badgelink   The full URL of wherever the user should be taken when
 #                       clicking on a badge image
 #      * Required in order for the website to display
-#    Additional Notes:
-#      - Quotes around the values are optional.
-#      - Non-required attributes with blank values can be omitted completely.
+#    IMPORTANT NOTES:
+#      - "year" entry should NOT contain any text. Use "status" field instead if
+#        needed.
+#      - Bib keys should be unique. Search for duplicates before adding new
+#        entries.
+#      - "month" entry should be a three-letter abbreviation without a dot, and
+#            not inside braces, e.g., month = apr
+}
 ---
 ---
 References
@@ -39,7 +39,7 @@ References
   author = {Wagner, C. Shaun and Sedigh Sarvestani, Sahra and Hurson, A. R.},
   year = {2014},
   pages = {425--434},
-  groups = {Pervasive Computing},
+  groups = {per},
   title = {Algorithms and Techniques for Proactive Search},
   doi = {10.2197/ipsjjip.22.425}
 }
@@ -49,9 +49,9 @@ References
   author = {Lin, J. and Sedigh Sarvestani, Sahra and Miller, A.},
   editor = {Elci, A. and Kone, M. T. and Orgun, M. A.},
   year = {2011},
-  groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures},
+  groups = {cpci},
   title = {A semantic agent framework for cyber-physical systems},
-  doi = {10.1007/978-3-642-18308-9_9}
+  doi = {10.1007/978-3-642-18308-9\_9}
 }
 
 @incollection{WaS13b,
@@ -61,7 +61,7 @@ References
   month = jan,
   year = {2013},
   pages = {467--506},
-  groups = {Pervasive Computing},
+  groups = {per},
   title = {A Survey of Techniques for Improving Search Engine Scalability through Profiling, Prediction, and Prefetching of Query Results},
   booktitle = {Scalable Computing and Communications: Theory and Practice},
   publisher = {Wiley-IEEE Computer Society Press},
@@ -73,7 +73,7 @@ References
   author = {Hurson, A. R. and Sun, B. and Hannan, J. and Jiao, Y. and Sedigh Sarvestani, Sahra},
   year = {2009},
   status = {Under revision},
-  groups = {Pervasive Computing},
+  groups = {per},
   title = {Energy-Efficient Scheduling Algorithms for Data Retrieval from Indexed Parallel Broadcast Channels},
   notes = {What is the status? Still under revision?}
 }
@@ -84,7 +84,7 @@ References
   month = mar,
   year = {2011},
   pages = {543 -- 549},
-  groups = {Pervasive Computing},
+  groups = {per},
   title = {Enriching {STEM} Education through Personalization and Teaching Collaboration},
   booktitle = {Proceedings of the 7th IEEE International Workshop on PervasivE Learning, Life, and Leisure (PerEL '11)},
   doi = {10.1109/PERCOMW.2011.5766949}
@@ -95,7 +95,7 @@ References
   author = {Woodard, M. and Sedigh Sarvestani, Sahra and Hurson, A. R.},
   year = {2015},
   status = {To appear},
-  groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures},
+  groups = {cpci},
   title = {Propagation of Corrupted Data in Critical Infrastructure Cyber-Physical Systems: A Research Survey},
   publisher = {Elsevier}
 }
@@ -118,7 +118,7 @@ References
   journal = {Journal of Information Processing},
   author = {Wisely, Michael and Hurson, A. R. and Sedigh Sarvestani, Sahra},
   year = {2015},
-  groups = {Pervasive Computing},
+  groups = {per},
   title = {Public Data Dissemination via Broadcasting},
   doi = {10.2197/ipsjjip.23.382}
 }
@@ -128,7 +128,7 @@ References
   author = {Marashi, K. and Woodard, M. and Sedigh Sarvestani, Sahra and Hurson, A. R.},
   month = nov,
   year = {2013},
-  groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures},
+  groups = {cpci},
   title = {Quantitative Reliability Analysis for Intelligent Water Distribution Networks},
   booktitle = {Proc. Embedded Topical Meeting on Risk Management for Complex Socio-Technical Systems (RM4CSS), Annual Meeting of the American Nuclear Society},
   doi = {10.13140/RG.2.1.1836.0081}
@@ -142,7 +142,7 @@ References
   month = jan,
   year = {2011},
   pages = {1--16},
-  groups = {Assurance and Development of Embedded Systems},
+  groups = {emb},
   title = {{RISN}: An Efficient Sensor Network Overlay with Support for Autonomous and Distributed Applications},
   doi = {10.4236/ijcns.2011.41001}
 }
@@ -154,7 +154,7 @@ References
   groups = {Older Publications on Modeling},
   title = {Security Management for an e-Enterprise},
   booktitle = {Enterprise Information Systems Assurance and System Security: Managerial and Technical Issues},
-  url = {https://books.google.com/books?hl=en&lr=&id=b6D_x-BgfvYC&oi=fnd&pg=PA95&dq=Security+management+for+an+e-enterprise&ots=uFtDBOLlK1&sig=Ot71aCgt2f63z_4jT6TeZH5v4nQ#v=onepage&q=Security%20management%20for%20an%20e-enterprise&f=false}
+  url = {https://books.google.com/books?hl=en&lr=&id=b6D\_x-BgfvYC&oi=fnd&pg=PA95&dq=Security+management+for+an+e-enterprise&ots=uFtDBOLlK1&sig=Ot71aCgt2f63z\_4jT6TeZH5v4nQ#v=onepage&q=Security%20management%20for%20an%20e-enterprise&f=false}
 }
 
 @inproceedings{ShS09a,
@@ -162,7 +162,7 @@ References
   author = {Shah, P. and Singh, A. and Agarwal, S. and Sedigh Sarvestani, Sahra},
   month = apr,
   year = {2009},
-  groups = {Assurance and Development of Embedded Systems},
+  groups = {emb},
   title = {Sensor data fusion for spectroscopy-based detection of explosives},
   booktitle = {Proc. 4th SPIE Symp. on Defense, Security + Sensing},
   doi = {10.1117/12.819902}
@@ -173,7 +173,7 @@ References
   month = jul,
   year = {2011},
   pages = {436 -- 441},
-  groups = {Assurance and Development of Embedded Systems},
+  groups = {emb},
   title = {Software-Based Analysis of the Effects of Electrostatic Discharge on Embedded Systems},
   booktitle = {IEEE Computer Software and Applications Conference (COMPSAC)},
   doi = {10.1109/COMPSAC.2011.64}
@@ -184,10 +184,10 @@ References
   author = {Gunasekaran, A. and Chulick, P. and Sedigh Sarvestani, Sahra},
   month = mar,
   year = {2011},
-  groups = {Assurance and Development of Embedded Systems},
+  groups = {emb},
   title = {The {SmartBrick} wireless sensor node for high-resolution structural health monitoring},
   booktitle = {Proceedings of the 18th International SPIE Symposium on Smart Structures and Materials and Nondestructive Evaluation and Health Monitoring},
-  url = {https://www.researchgate.net/publication/228450332_SmartBrick_wireless_sensor_node_for_high-resolution_structural_health_monitoring}
+  url = {https://www.researchgate.net/publication/228450332\_SmartBrick\_wireless\_sensor\_node\_for\_high-resolution\_structural\_health\_monitoring}
 }
 
 @inproceedings{MaS14,
@@ -195,7 +195,7 @@ References
   author = {Marashi, K. and Sedigh Sarvestani, Sahra},
   month = jan,
   year = {2014},
-  groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures},
+  groups = {cpci},
   title = {Towards Comprehensive Modeling of Reliability for Smart Grids: Requirements and Challenges},
   booktitle = {Proc. 15th IEEE Int'l. High Assurance Systems Engineering Symp. (HASE)},
   doi = {10.1109/HASE.2014.23},
@@ -207,7 +207,7 @@ References
   journal = {IEEE Trans. Rel.},
   author = {Faza, A. Z. and Sedigh Sarvestani, Sahra and McMillin, B. M.},
   year = {2013},
-  groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures},
+  groups = {cpci},
   title = {A case study in quantitative analysis of cyber-physical systems: reliability of the electric power grid},
   status = {Under review},
   notes = {What is the status? Still under revision?}
@@ -220,7 +220,7 @@ References
   editor = {Brisaboa, Nieves and Pedreira, Oscar and Zezula, Pavel},
   year = {2013},
   pages = {219--232},
-  groups = {Pervasive Computing},
+  groups = {per},
   title = {Accurate and Efficient Search Prediction Using Fuzzy Matching and Outcome Feedback},
   booktitle = {Proc. 6th Int'l. Conf. on Similarity Search and Applications (SISAP)},
   publisher = {Springer Berlin Heidelberg}
@@ -237,7 +237,7 @@ References
   title = {A Metrics-Guided Framework for Cost and Quality Management of Component-Based Software},
   booktitle = {Component-Based Software Quality: Methods and Techniques},
   publisher = {Springer-Verlag},
-  doi = {10.1007/978-3-540-45064-1_17}
+  doi = {10.1007/978-3-540-45064-1\_17}
 }
 
 @inproceedings{PlB06,
@@ -245,7 +245,7 @@ References
   author = {Plessi, V. and Bastianini, F. and Sedigh Sarvestani, Sahra},
   month = sep,
   year = {2006},
-  groups = {Assurance and Development of Embedded Systems},
+  groups = {emb},
   title = {An Autonomous and Adaptable Wireless Device for Flood Monitoring},
   booktitle = {Proceedings of the 30th Annual International Computer Software and Applications Conference (COMPSAC '06)},
   doi = {10.1109/COMPSAC.2006.110}
@@ -267,7 +267,7 @@ References
   author = {Faza, A. Z. and Sedigh Sarvestani, Sahra and McMillin, B. M.},
   year = {2013},
   status = {Under review},
-  groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures},
+  groups = {cpci},
   title = {An integrated cyber-physical reliability model for the Smart Grid},
   notes = {What is the status? Still under revision?}
 }
@@ -278,7 +278,7 @@ References
   month = dec,
   year = {2009},
   pages = {1--4},
-  groups = {Pervasive Computing},
+  groups = {per},
   title = {A pervasive computing platform for individualized higher education},
   booktitle = {Proceedings of the International Conference on Computational Intelligence and Software Engineering (CiSE '09)},
   doi = {10.1109/CISE.2009.5363432}
@@ -291,7 +291,7 @@ References
   editor = {Hurson, A. R.},
   year = {2014},
   pages = {1 -- 24},
-  groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures},
+  groups = {cpci},
   title = {Comparison of Security Models: Attack Graphs Versus Petri Nets},
   publisher = {Elsevier},
   url = {https://books.google.com/books?id=6gR0AwAAQBAJ&lpg=PP1&pg=PA1#v=onepage&q&f=false}
@@ -305,7 +305,7 @@ References
   month = sep,
   year = {2013},
   pages = {291--324},
-  groups = {Assurance and Development of Embedded Systems},
+  groups = {emb},
   title = {High Consequence Systems and Semantic Computing},
   doi = {10.1142/S1793351X13500050}
 }
@@ -315,17 +315,17 @@ References
   author = {Faza, A. Z. and Sedigh Sarvestani, Sahra and McMillin, B. M.},
   year = {2010},
   pages = {277--290},
-  groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures},
+  groups = {cpci},
   title = {Integrated Cyber-Physical Fault Injection for Reliability Analysis of the Smart Grid},
   booktitle = {Proc. 29th Int'l. Conf. Computer Safety, Reliability and Security (SAFECOMP)},
-  doi = {10.1007/978-3-642-15651-9_21}
+  doi = {10.1007/978-3-642-15651-9\_21}
 }
 
 @article{LiS11c,
   journal = {Scientific and Engineering Applications Using MATLAB},
   author = {Lin, J. and Sedigh Sarvestani, Sahra and Miller, A.},
   year = {2011},
-  groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures},
+  groups = {cpci},
   title = {Integrated Cyber-physical Simulation of Intelligent Water Distribution Networks},
   doi = {10.5772/21451},
 }
@@ -349,11 +349,11 @@ References
   month = oct,
   year = {2013},
   pages = {133--140},
-  groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures},
+  groups = {cpci},
   title = {Modeling of autonomous vehicle operation in intelligent transportation systems},
   booktitle = {Software Engineering for Resilient Systems},
   publisher = {Springer Berlin Heidelberg},
-  doi = {10.1007/978-3-642-40894-6_11}
+  doi = {10.1007/978-3-642-40894-6\_11}
 }
 
 @inproceedings{FaS12,
@@ -361,19 +361,19 @@ References
   author = {Faza, A. and Lin, J. and Sedigh Sarvestani, Sahra},
   month = feb,
   year = {2012},
-  groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures},
+  groups = {cpci},
   title = {Net-Centric Assurance for Critical Infrastructure Systems},
   booktitle = {Meeting of the NSF Net-Centric Software \& Systems Industry/University Cooperative Research Center}
 }
 
 @inproceedings{BaS12,
   address = {Vienna, Austria},
-  doi = {10.1007/978-3-642-32597-7_10},
+  doi = {10.1007/978-3-642-32597-7\_10},
   author = {Bahmani, A. and Sedigh Sarvestani, Sahra and Hurson, A. R.},
   month = sep,
   year = {2012},
   pages = {111--120},
-  groups = {Pervasive Computing},
+  groups = {per},
   title = {Ontology-Based Recommendation Algorithms for Personalized Education},
   booktitle = {Proceedings of the 23rd International Conference on Database and Expert Systems Applications (DEXA '12)}
 }
@@ -384,7 +384,7 @@ References
   editor = {Railean, E. and Walker, G. and Jackson, L. and Elci, A.},
   year = {2015},
   status = {To appear},
-  groups = {Pervasive Computing},
+  groups = {per},
   title = {PERCEPOLIS: Cyberinfrastructure for Personalized Education}
 }
 
@@ -393,7 +393,7 @@ References
   author = {Wagner, C. S. and Sedigh Sarvestani, Sahra and Hurson, A. R.},
   year = {2014},
   status = {Under revision for resubmission},
-  groups = {Pervasive Computing},
+  groups = {per},
   title = {Proactive Search: Using Outcome-Based Dynamic Nearest-Neighbor Recommendation Algorithms to Increase Search Engine Efficacy}
 }
 
@@ -402,7 +402,7 @@ References
   author = {Gunasekaran, A. and Patel, N. and Cross, S. and Sedigh Sarvestani, Sahra},
   month = mar,
   year = {2012},
-  groups = {Assurance and Development of Embedded Systems},
+  groups = {emb},
   title = {Recent enhancements to and applications of the {SmartBrick} structural health monitoring platform},
   booktitle = {Proceedings of the 19th International SPIE Symposium on Smart Structures and Materials and Nondestructive Evaluation and Health Monitoring}
 }
@@ -415,7 +415,7 @@ References
   month = sep,
   year = {2011},
   pages = {467--478},
-  groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures},
+  groups = {cpci},
   title = {Reliability Modeling for Intelligent Water Distribution Networks},
   url = {http://www.ijpe-online.com/september-2011-p6-reliability-modeling-for-intelligent-water-distribution-networks.html#axzz24xocCBre}
 }
@@ -426,7 +426,7 @@ References
   editor = {Yang, K. X. and Liu, L.},
   pages = {116--142},
   year = {2013},
-  groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures},
+  groups = {cpci},
   title = {Security Concepts for Cloud Computing},
   doi = {10.4018/978-1-4666-2854-0.ch005}
 }
@@ -436,7 +436,7 @@ References
   author = {Maheshwari, P. and Sedigh Sarvestani, Sahra and Pommerenke, D.},
   year = {2014},
   status = {Submitted},
-  groups = {Assurance and Development of Embedded Systems},
+  groups = {emb},
   title = {Software-Based Methodologies for Root-Cause Analysis of Embedded System Failures Resulting from Electrostatic Discharge}
 }
 
@@ -458,7 +458,7 @@ References
   month = may,
   year = {2013},
   pages = {1109--1114},
-  groups = {Assurance and Development of Embedded Systems},
+  groups = {emb},
   title = {Software instrumentation for failure analysis of {USB} host controllers},
   booktitle = {IEEE International Instrumentation and Measurement Technology Conference (I2MTC)},
   doi = {10.1109/I2MTC.2013.6555586}
@@ -472,7 +472,7 @@ References
   month = dec,
   year = {2010},
   pages = {14--18},
-  groups = {Assurance and Development of Embedded Systems},
+  groups = {emb},
   title = {Structural health monitoring of bridges using wireless sensor networks},
   doi = {10.1109/MIM.2010.5669608}
 }
@@ -482,7 +482,7 @@ References
   author = {Jean, E. and Sedigh Sarvestani, Sahra and Hurson, A. R. and Shirazi, B.},
   editor = {Denko, M. and Obaidat, M. S.},
   year = {2011},
-  groups = {Pervasive Computing},
+  groups = {per},
   title = {Tools and techniques for interoperability and dynamic reconfiguration of pervasive systems},
   doi = {10.1002/9781119970422.ch2}
 }
@@ -492,7 +492,7 @@ References
   author = {Gunasekaran, A. and Patel, N. and Cross, S. and Sedigh Sarvestani, Sahra},
   month = apr,
   year = {2012},
-  groups = {Assurance and Development of Embedded Systems},
+  groups = {emb},
   title = {Towards a military-standard wireless sensor platform for the detection of improvised explosive devices},
   booktitle = {Proceedings of the 7th SPIE Symposium on Defense, Security + Sensing}
 }
@@ -503,10 +503,10 @@ References
   month = sep,
   year = {2009},
   pages = {909--917},
-  groups = {Assurance and Development of Embedded Systems},
+  groups = {emb},
   title = {Zigbee-enabled structural health monitoring with the {SmartBrick} network},
   booktitle = {Proceedings of the 7th International Workshop on Structural Health Monitoring (IWSHM '09)},
-  url = {https://www.researchgate.net/publication/215480994_Zigbee-Enabled_Structural_Health_Monitoring_with_the_SmartBrick_Network}
+  url = {https://www.researchgate.net/publication/215480994\_Zigbee-Enabled\_Structural\_Health\_Monitoring\_with\_the\_SmartBrick\_Network}
 }
 
 @incollection{HeW15,
@@ -517,11 +517,11 @@ References
   month = aug,
   year = {2015},
   pages = {80--97},
-  groups = {Pervasive Computing},
+  groups = {per},
   title = {Influence-Aware Predictive Density Queries under Road-Network Constraints},
   booktitle = {Advances in Spatial and Temporal Databases},
   publisher = {Springer International Publishing},
-  doi = {10.1007/978-3-319-22363-6_5},
+  doi = {10.1007/978-3-319-22363-6\_5},
   notes = {Is this paper counted as SeNDeComp work?}
 }
 
@@ -532,11 +532,11 @@ References
   editor = {Hameurlain, Abdelkader and K{\"u}ng, Josef and Wagner, Roland and Decker, Hendrik and Lhotska, Lenka and Link, Sebastian},
   year = {2015},
   pages = {80--114},
-  groups = {Pervasive Computing},
+  groups = {per},
   title = {Continuous Predictive Line Queries for On-the-Go Traffic Estimation},
   booktitle = {Transactions on Large-Scale Data- and Knowledge-Centered Systems XVIII},
   publisher = {Springer Berlin Heidelberg},
-  doi = {10.1007/978-3-662-46485-4_4},
+  doi = {10.1007/978-3-662-46485-4\_4},
   notes = {Is this paper counted as SeNDeComp work?}
 }
 
@@ -555,7 +555,7 @@ References
   author = {Morrow, Tyler and Sedigh Sarvestani, Sahra and Hurson, Ali R.},
   month = jul,
   year = {2016},
-  groups = {Pervasive Computing},
+  groups = {per},
   title = {Decision Support for Personalized Education}
 }
 
@@ -566,7 +566,7 @@ References
   editor = {Hurson, Ali R. and Goudarzi, Maziar},
   year = {2016},
   pages = {63--110},
-  groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures},
+  groups = {cpci},
   title = {A Survey of Data Cleansing Techniques for Cyber-Physical Critical Infrastructure Systems},
   publisher = {Elsevier},
   doi = {10.1016/bs.adcom.2016.05.002}
@@ -579,7 +579,7 @@ References
   editor = {Hurson, Ali R.},
   year = {2015},
   pages = {59--87},
-  groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures},
+  groups = {cpci},
   title = {A Survey of Research on Data Corruption in Cyber\textendash{}Physical Critical Infrastructure Systems},
   publisher = {Elsevier}
 }
@@ -590,7 +590,7 @@ References
   author = {Alobaidi, Isam A. and Sedigh Sarvestani, Sahra and Hurson, Ali R.},
   month = aug,
   year = {2016},
-  groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures},
+  groups = {cpci},
   title = {Survivability analysis and recovery support for smart grids},
   booktitle = {In Proceedings of the 4th International Symposium on Resilient Cyber Systems},
   doi = {10.1109/RWEEK.2016.7573303}
@@ -601,7 +601,7 @@ References
   author = {Woodard, Mark and Marashi, Koosha and Sedigh Sarvestani, Sahra},
   year = {2017},
   status = {Submitted},
-  groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures},
+  groups = {cpci},
   title = {Survivability Evaluation and Importance Analysis for Complex Networked Systems}
 }
 
@@ -610,9 +610,9 @@ References
   author = {Marashi, K. and Sedigh Sarvestani, Sahra and Hurson, Ali R.},
   month = jun,
   year = {2016},
-  groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures},
+  groups = {cpci},
   title = {Quantification and Analysis of Interdependency in Cyber-Physical Systems},
-  booktitle = {Proc. of the 3rd Int'l. Workshop on Reliability and Security Aspects for Critical Infrastructure (ReSA4CI 2016), in conjunction with the 46th IEEE/IFIP Int'l. Conf. on Dependable Systems and Networks (DSN 2016)},
+  booktitle = {Proc. of the 3rd Int'l. Workshop on Reliability and Security Aspects for Critical Infrastructure (ReSA4CI '16), in conjunction with the 46th IEEE/IFIP Int'l. Conf. on Dependable Systems and Networks (DSN '16)},
   doi = {10.1109/DSN-W.2016.47}
 }
 
@@ -621,7 +621,7 @@ References
   author = {Marashi, K. and Sedigh Sarvestani, Sahra},
   year = {2017},
   status = {Under review},
-  groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures},
+  groups = {cpci},
   title = {Consideration of Cyber-Physical Interdependencies in Reliability Modeling of Smart Grids}
 }
 
@@ -630,7 +630,7 @@ References
   author = {Lin, J. and Sedigh Sarvestani, Sahra and Miller, A.},
   month = jan,
   year = {2011},
-  groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures},
+  groups = {cpci},
   title = {A Game-Theoretic Approach to Decision Support for Intelligent Water Distribution},
   booktitle = {Proceedings of the Hawaii International Conference on System Sciences (HICSS '11)},
   doi = {10.1109/HICSS.2011.13},
@@ -643,7 +643,7 @@ References
   author = {Lin, Jing and Sedigh Sarvestani, Sahra and Miller, A.},
   year = {2009},
   pages = {668 --671},
-  groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures},
+  groups = {cpci},
   title = {A General Framework for Quantitative Modeling of Dependability in Cyber-Physical Systems: A Proposal for Doctoral Research},
   booktitle = {Proceedings of the 33rd Annual IEEE International Computer Software and Applications Conference (COMPSAC '09)}
 }
@@ -654,7 +654,7 @@ References
   month = may,
   year = {2011},
   pages = {93--103},
-  groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures},
+  groups = {cpci},
   title = {An Agent-Based Approach to Reconciling Data Heterogeneity in Cyber-Physical Systems},
   booktitle = {Proceedings of the 20th IEEE International Heterogeneity in Computing Workshop (HCW '11)},
   doi = {10.1109/IPDPS.2011.130}
@@ -665,7 +665,7 @@ References
   month = jul,
   year = {2014},
   pages = {529--534},
-  groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures},
+  groups = {cpci},
   title = {Analysis of Reliability and Resilience for Smart Grids},
   booktitle = {Proceedings of the 38th Annual IEEE Computer Software and Applications Conference (COMPSAC)},
   doi = {10.1109/COMPSAC.2014.75},
@@ -677,7 +677,7 @@ References
   author = {Bahmani, Amir and Sedigh Sarvestani, Sahra and Hurson, Ali R},
   year = {2011},
   pages = {1--6},
-  groups = {Pervasive Computing},
+  groups = {per},
   title = {Context-aware recommendation algorithms for the PERCEPOLIS personalized education platform},
   booktitle = {Frontiers in Education Conference (FIE)},
   publisher = {IEEE},
@@ -689,7 +689,7 @@ References
   author = {Lin, J. and Sedigh Sarvestani, Sahra and Miller, A.},
   month = jul,
   year = {2010},
-  groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures},
+  groups = {cpci},
   title = {Modeling Cyber-Physical Systems with Semantic Agents},
   booktitle = {Proceedings of the 34th IEEE International Computer Software and Applications Conference (COMPSAC '10)},
   doi = {10.1109/COMPSACW.2010.13}
@@ -700,7 +700,7 @@ References
   author = {Lin, J. and Sedigh Sarvestani, Sahra and Hurson, A. R.},
   month = jan,
   year = {2012},
-  groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures},
+  groups = {cpci},
   title = {Ontologies and Decision Support for Failure Mitigation in Intelligent Water Distribution Networks},
   booktitle = {Proc. 45th Hawaii Int'l. Conf. on System Sciences (HICSS)},
   doi = {10.1109/HICSS.2012.458}
@@ -708,12 +708,12 @@ References
 
 @inproceedings{FaS09,
   volume = {5775},
-  doi = {10.1007/978-3-642-04468-7_21},
+  doi = {10.1007/978-3-642-04468-7\_21},
   author = {Faza, A. Z. and Sedigh Sarvestani, Sahra and McMillin, B. M.},
   month = sep,
   year = {2009},
   pages = {257--269},
-  groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures},
+  groups = {cpci},
   title = {Reliability Analysis for the Advanced Electric Power Grid: From Cyber Control and Communication to Physical Manifestations of Failure},
   booktitle = {Proc. 28th Int'l. Conf. Computer Safety, Reliability and Security (SAFECOMP)},
   awards = {Recipient of Best Paper Award}
@@ -725,36 +725,27 @@ References
   month = sep,
   year = {2007},
   pages = {370--383},
-  groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures},
+  groups = {cpci},
   title = {Reliability Modeling for the Advanced Electric Power Grid},
   booktitle = {Proc. 26th Int'l. Conf. Computer Safety, Reliability and Security (SAFECOMP)},
-  doi = {10.1007/978-3-540-75101-4_35}
-}
-
-@incollection{LiS10a,
-  author = {Lin, J. and Sedigh Sarvestani, Sahra and Miller, A.},
-  editor = {Elci, A. and Kone, M. T. and Orgun, M. A.},
-  year = {2010},
-  groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures},
-  title = {Semantic Agent Systems: Foundations and Applications},
-  publisher = {Springer-Verlag}
+  doi = {10.1007/978-3-540-75101-4\_35}
 }
 
 @inproceedings{FaS08,
   author = {Faza, Ayman Z. and Sedigh Sarvestani, Sahra and McMillin, Bruce M.},
   year = {2008},
   pages = {429--439},
-  groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures},
+  groups = {cpci},
   title = {The Advanced Electric Power Grid: Complexity Reduction Techniques for Reliability Modeling},
   booktitle = {Proceedings of the 27th international conference on Computer Safety, Reliability, and Security (SAFECOMP '08)},
-  doi = {10.1007/978-3-540-87698-4_35}
+  doi = {10.1007/978-3-540-87698-4\_35}
 }
 
 @inproceedings{LiS09,
   author = {Lin, Jing and Sedigh Sarvestani, Sahra and Miller, A.},
   year = {2009},
   pages = {690--695},
-  groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures},
+  groups = {cpci},
   title = {Towards Integrated Simulation of Cyber-Physical Systems: A Case Study on Intelligent Water Distribution},
   booktitle = {Eighth IEEE International Conference on Dependable, Autonomic and Secure Computing (DASC '09)},
   doi = {10.1109/DASC.2009.140}
@@ -765,7 +756,7 @@ References
   editor = {Sarbazi-Azad, Hamid and Zomaya, Albert Y.},
   year = {2013},
   pages = {649--677},
-  groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures},
+  groups = {cpci},
   title = {Knowledge Management For Fault-Tolerant Water Distribution},
   booktitle = {Large Scale Network-Centric Distributed Systems},
   publisher = {John Wiley \& Sons, Inc.},
@@ -776,7 +767,7 @@ References
   author = {Morrow, Tyler},
   year = {2015},
   pages = {242--244},
-  groups = {Pervasive Computing},
+  groups = {per},
   title = {A Context-aware Ontology for Personalized Learning: Pervasive Computing for Educational Technology},
   booktitle = {IEEE International Conference on Pervasive Computing and Communication Workshops (PerCom Workshops)},
   doi = {10.1109/PERCOMW.2015.7134036}
@@ -788,7 +779,7 @@ References
   author = {Morrow, Tyler and Sedigh Sarvestani, Sahra and Hurson, Ali R.},
   year = {2016},
   pages = {817--839},
-  groups = {Pervasive Computing},
+  groups = {per},
   title = {Pervasive Cyberinfrastructure for Personalized Education},
   booktitle = {Handbook of Research on Applied Learning Theory and Design in Modern Education},
   publisher = {IGI Global},
@@ -801,7 +792,7 @@ References
   month = jul,
   year = {2016},
   pages = {188--197},
-  groups = {Pervasive Computing},
+  groups = {per},
   title = {Algorithmic Decision Support for Personalized Education},
   booktitle = {2016 IEEE 17th International Conference on Information Reuse and Integration (IRI)}
 }
@@ -814,7 +805,7 @@ References
   month = oct,
   year = {2010},
   pages = {583--593},
-  groups = {Pervasive Computing},
+  groups = {per},
   title = {PERCEPOLIS: Pervasive Cyberinfrastructure for Personalized Learning and Instructional Support},
   doi = {10.4236/iim.2010.210067}
 }
@@ -824,7 +815,7 @@ References
   author = {Marashi, K. and Woodard, M. and Sedigh Sarvestani, Sahra and Hurson, A. R.},
   month = feb,
   year = {2014},
-  groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures},
+  groups = {cpci},
   title = {Quantitative Reliability Analysis for Intelligent Water Distribution Networks},
   doi = {10.13140/RG.2.1.1836.0081}
 }
@@ -834,7 +825,7 @@ References
   author = {Mark Woodard and Sedigh Sarvestani, Sahra and Ali R. Hurson},
   status = {Under review},
   year = {2017},
-  groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures},
+  groups = {cpci},
   notes = {Any updates?}
 }
 
@@ -843,7 +834,7 @@ References
   author = {Nathan Jarus and Mark Woodard and Koosha Marashi and Sedigh Sarvestani, Sahra and Jing Lin and Ayman Faza and Pratik Maheshwari},
   status = {Submitted},
   year = {2017},
-  groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures},
+  groups = {cpci},
   notes = {Where is this going to be submitted?}
 }
 
@@ -854,7 +845,7 @@ References
   year = {2016},
   address = {Hangzhou, China},
   booktitle = {Proceedings of 2016 Seventh International Green and Sustainable Computing Conference (IGSC)},
-  groups = {Pervasive Computing},
+  groups = {per},
   notes = {Is it still to appear?}
 }
 
@@ -866,7 +857,7 @@ year={2015},
 pages={391-396},
 doi={10.1109/ICCVE.2015.86},
 month=oct,
-groups = {Pervasive Computing}
+groups = {per}
 }
 
 @inproceedings{JaS16,
@@ -875,7 +866,7 @@ groups = {Pervasive Computing}
   booktitle = {7th IEEE International Green and Sustainable Computing Conference (IGSC)},
   month = nov,
   year = {2016},
-  groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures},
+  groups = {cpci},
   url = {http://web.mst.edu/~nmjxv3/publications/2016%20-%20Models,%20Metamodels,%20and%20Model%20Transformation%20for%20Cyber-Physical%20Systems.pdf}
 
 }
@@ -890,7 +881,7 @@ pages = "59 - 87",
 series = "Advances in Computers ",
 doi = "10.1016/bs.adcom.2015.03.002",
 author = "Mark Woodard and Sedigh Sarvestani, Sahra and Ali R. Hurson",
-groups = "Modeling and Analysis of Cyber-Physical Critical Infrastructures"
+groups = {"}Modeling and Analysis of Cyber-Physical Critical Infrastructures}
 }
 
 @book{HuS12,
@@ -901,7 +892,7 @@ groups = "Modeling and Analysis of Cyber-Physical Critical Infrastructures"
   url={https://books.google.com/books?id=4Q\_d8DW0aWMC},
   year={2012},
   publisher={Elsevier},
-  groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures}
+  groups = {cpci}
 }
 
 @article{SeH12,
@@ -912,7 +903,7 @@ groups = "Modeling and Analysis of Cyber-Physical Critical Infrastructures"
   publisher = {Academic Press},
   year = {2012},
   pages = {1-6},
-  groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures}
+  groups = {cpci}
 }
 
 @incollection{BaS13,
@@ -922,8 +913,8 @@ booktitle="Nondestructive Testing of Materials and Structures",
 year="2013",
 publisher="Springer Netherlands",
 pages="1065--1070",
-doi="10.1007/978-94-007-0723-8_149",
-groups = {Assurance and Development of Embedded Systems}
+doi="10.1007/978-94-007-0723-8\_149",
+groups = {emb}
 }
 
 
@@ -934,7 +925,7 @@ groups = {Assurance and Development of Embedded Systems}
   publisher = {John Wiley \& Sons},
   month = jun,
   year = {2011},
-  groups = {Pervasive Computing},
+  groups = {per},
   pages = {09--26},
   doi = {10.1002/9781119970422.ch2}
 }
@@ -945,8 +936,8 @@ groups = {Assurance and Development of Embedded Systems}
   month = jan,
   booktitle = {European Workshop on Cultural Heritage Preservation and Training Day (EWCHP '11)},
   year = {2011},
-  groups = {Assurance and Development of Embedded Systems},
-  url = {https://www.researchgate.net/publication/215481147_Cost_Effectiveness_of_Structural_Health_Monitoring_in_Low_Sensor_Count_Installations_using_a_Wireless_Autonomous_SHM_WASHM_Device}
+  groups = {emb},
+  url = {https://www.researchgate.net/publication/215481147\_Cost\_Effectiveness\_of\_Structural\_Health\_Monitoring\_in\_Low\_Sensor\_Count\_Installations\_using\_a\_Wireless\_Autonomous\_SHM\_WASHM\_Device}
 }
 
 @inproceedings{GuC11,
@@ -957,7 +948,7 @@ groups = {Assurance and Development of Embedded Systems}
   booktitle = {Proceedings of the 8th International Workshop on Structural Health Monitoring (IWSHM '11)},
   pages = {2115--2122},
   address = {Stanford, USA},
-  groups = {Assurance and Development of Embedded Systems}
+  groups = {emb}
 }
 
 @INPROCEEDINGS{Se11,
@@ -968,7 +959,7 @@ year={2011},
 pages={522--522},
 doi={10.1109/COMPSAC.2011.114},
 month=jul,
-groups = {Assurance and Development of Embedded Systems}
+groups = {emb}
 }
 
 @INPROCEEDINGS{HuS10b,
@@ -979,7 +970,7 @@ year={2010},
 pages={1--19},
 doi={10.1109/TEE.2010.5508834},
 month=apr,
-groups = {Pervasive Computing}
+groups = {per}
 }
 
 @INPROCEEDINGS{JeC10,
@@ -990,7 +981,7 @@ year={2010},
 pages={224--231},
 doi={10.1109/EUC.2010.40},
 month=dec,
-groups = {Assurance and Development of Embedded Systems}
+groups = {emb}
 }
 
 @inproceedings{Se10,
@@ -998,7 +989,7 @@ groups = {Assurance and Development of Embedded Systems}
   author = {Sedigh Sarvestani, Sahra},
   year = {2010},
   booktitle = {Proceedings of the 12th IEEE International High Assurance Systems Engineering Symposium (HASE '10)},
-  groups = {Assurance and Development of Embedded Systems},
+  groups = {emb},
   month = nov,
   address = {San Jose, USA},
   pages = {xiv}
@@ -1012,7 +1003,7 @@ groups = {Assurance and Development of Embedded Systems}
  pages = {13--18},
  doi = {10.1109/COMPSACW.2010.13},
  address = {Washington, DC, USA},
- groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures}
+ groups = {cpci}
 }
 
 @INPROCEEDINGS{AsS10,
@@ -1023,7 +1014,7 @@ year={2010},
 pages={24-24},
 doi={10.1109/COMPSAC.2010.85},
 month=jul,
-groups = {Assurance and Development of Embedded Systems}
+groups = {emb}
 }
 
 @INPROCEEDINGS{HaB09,
@@ -1034,7 +1025,7 @@ year={2009},
 pages={1-6},
 doi={10.1109/ITSC.2009.5309517},
 month=oct,
-groups = {Assurance and Development of Embedded Systems}
+groups = {emb}
 }
 
 @INPROCEEDINGS{AlG09,
@@ -1045,7 +1036,7 @@ year={2009},
 pages={1-6},
 doi={10.1109/ITSC.2009.5309516},
 month=oct,
-groups = {Assurance and Development of Embedded Systems}
+groups = {emb}
 }
 
 @INPROCEEDINGS{FaS09,
@@ -1058,7 +1049,7 @@ pages={672--675},
 doi={10.1109/COMPSAC.2009.104},
 ISSN={0730-3157},
 month=jul,
-groups = {Modeling and Analysis of Cyber-Physical Critical Infrastructures}
+groups = {cpci}
 }
 
 @INPROCEEDINGS{JeC09,
@@ -1069,7 +1060,7 @@ year={2009},
 pages={1--4},
 doi={10.1109/WICOM.2009.5302659},
 month=sep,
-groups = {Assurance and Development of Embedded Systems}
+groups = {emb}
 }
 
 @INPROCEEDINGS{Se09,
@@ -1081,7 +1072,7 @@ pages={xx-xxi},
 doi={10.1109/SAINT.2009.78},
 month=jul,
 address = {Seattle, USA},
-groups = {Pervasive Computing}
+groups = {per}
 }
 
 @inproceedings{HaB09,
@@ -1090,7 +1081,7 @@ author={Harms, T and Banks, B and Sedigh Sarvestani, Sahra and Bastianini, Filip
 booktitle={Proceedings of the 16th International SPIE Symposium on Smart Structures and Materials and Non-destructive Evaluation and Health Monitoring},
 year={2009},
 doi = {10.1117/12.815923},
-groups = {Assurance and Development of Embedded Systems}
+groups = {emb}
 }
 
 @inproceedings{BaH09,
@@ -1099,7 +1090,7 @@ groups = {Assurance and Development of Embedded Systems}
   booktitle={Sensors and Smart Structures Technologies for Civil, Mechanical, and Aerospace Systems},
   year={2009},
   doi = {10.1117/12.817851},
-  groups = {Assurance and Development of Embedded Systems}
+  groups = {emb}
 }
 
 @inproceedings{HaB08a,
@@ -1107,8 +1098,8 @@ groups = {Assurance and Development of Embedded Systems}
   author={Harms, T and Banks, B and Bastianini, F and Sedigh Sarvestani, Sahra},
   booktitle={The 4th European Workshop on Structural Health Monitoring (EWSHM 2008)},
   year={2008},
-  groups = {Assurance and Development of Embedded Systems},
-  url = {https://www.researchgate.net/publication/215481016_Enhancement_of_autonomous_real-time_SHM_with_short-range_wireless_communication}
+  groups = {emb},
+  url = {https://www.researchgate.net/publication/215481016\_Enhancement\_of\_autonomous\_real-time\_SHM\_with\_short-range\_wireless\_communication}
 }
 
 @INPROCEEDINGS{GaA08,
@@ -1119,7 +1110,7 @@ year={2008},
 pages={1-6},
 doi={10.1109/TPSD.2008.4562765},
 month=apr,
-groups = {Assurance and Development of Embedded Systems},
+groups = {emb},
 }
 
 @inproceedings{HaB08b,
@@ -1127,7 +1118,7 @@ groups = {Assurance and Development of Embedded Systems},
   author={Harms, T and Bastianini, Filippo and Sedigh Sarvestani, Sahra},
   booktitle={The 15th International Symposium on Smart Structures and Materials \& Nondestructive Evaluation and Health Monitoring},
   year={2008},
-  groups = {Assurance and Development of Embedded Systems},
+  groups = {emb},
   doi = {10.1117/12.780421}
 }
 
@@ -1136,9 +1127,9 @@ groups = {Assurance and Development of Embedded Systems},
   author={Bastianini, Filippo and Sedigh Sarvestani, Sahra and Nanni, A and Plessi, V and Galati, N},
   booktitle={Proceedings of the 3rd International Conference on Structural Health Monitoring of Intelligent Infrastructure},
   address = {Vancouver, Canada},
-  url = {https://www.researchgate.net/publication/215481061_An_autonomous_networked_wireless_device_for_structural_health_monitoring},
+  url = {https://www.researchgate.net/publication/215481061\_An\_autonomous\_networked\_wireless\_device\_for\_structural\_health\_monitoring},
   year={2007},
-  groups = {Assurance and Development of Embedded Systems}
+  groups = {emb}
 }
 
 @inproceedings{BaS07b,
@@ -1149,8 +1140,8 @@ groups = {Assurance and Development of Embedded Systems},
   address = {Stanford, USA},
   pages = {129--136},
   year={2007},
-  groups = {Assurance and Development of Embedded Systems},
-  url = {https://www.researchgate.net/publication/215481053_A_low-cost_wireless_system_for_real-time_structural_health_monitoring}
+  groups = {emb},
+  url = {https://www.researchgate.net/publication/215481053\_A\_low-cost\_wireless\_system\_for\_real-time\_structural\_health\_monitoring}
 }
 
 @INPROCEEDINGS{Se07,
@@ -1162,7 +1153,7 @@ volume={1},
 pages={16-16},
 doi={10.1109/COMPSAC.2007.111},
 month=jul,
-groups = {Pervasive Computing}
+groups = {per}
 }
 
 @incollection{PlB07,
@@ -1173,8 +1164,8 @@ address = "Santorini Island, Greece",
 year="2007",
 publisher="Springer Berlin Heidelberg",
 pages="456--465",
-doi="10.1007/978-3-540-75664-4_48",
-groups = {Assurance and Development of Embedded Systems}
+doi="10.1007/978-3-540-75664-4\_48",
+groups = {emb}
 }
 
 @INPROCEEDINGS{FrS07,
@@ -1186,7 +1177,7 @@ pages={484-489},
 address = {Valencia, Spain},
 doi={10.1109/SENSORCOMM.2007.4394967},
 month=oct,
-groups = {Assurance and Development of Embedded Systems}
+groups = {emb}
 }
 
 @INPROCEEDINGS{FaS06,
@@ -1196,7 +1187,7 @@ title={A General Purpose Framework for Wireless Sensor Network Applications}, ye
 volume={2},
 pages={356-358},
 doi={10.1109/COMPSAC.2006.97}, month=sep,
-groups = {Assurance and Development of Embedded Systems},
+groups = {emb},
 awards = {Recipient of Best Student Paper Award}
 }
 

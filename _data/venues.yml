@@ -7,15 +7,16 @@
 #     The name of the attribute is to the left of the colon; the value is to the
 #       right of the colon.
 #     The attributes available for each record are as follows:
-#         name        Whatever the name of the venue is*
+#         name        The name of the venue*
 #         website     The full URL to the venue's website*
 #         area        Specifying this will list the venue in the appropriate
 #                       research area*
-#                     Options: "per" or "cip"
-#         type        The type of publication (Journal, Conference, etc.)*
+#                     Options: "per", "cpci", or "emb"
+#         type        The type of publication (Journal, Conference, etc.)
 #      * Required in order for the website to display
 #    Additional Notes:
-#      - Quotes around the values are optional.
+#      - Quotes around the values are optional, unless there exist a colon (:)
+#           in the entry
 #      - Non-required attributes with blank values can be ommitted completely.
 
 - name: "IEEE Transactions on Reliability"
