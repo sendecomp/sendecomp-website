@@ -12,7 +12,9 @@
           {% endif %}
         </div>
       {% endif %}
-      <h6 id="citation" class="media-heading">{{ reference | replace: '“', '"' | replace: '”', '"' | replace: '–', '-' | replace '’', ''' }}</h6>
+      <h6 id="citation" class="media-heading">
+        {{ reference | replace: '“', '"' | replace: '”', '"' | replace: '–', '-' | replace: "’", "'" }}
+      </h6>
       <strong>Status:</strong>
       {% if entry.status %}
         {{ entry.status | capitalize }}
