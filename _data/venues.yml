@@ -231,3 +231,23 @@
   website: "http://2017.imtc.ieee-ims.org/"
   area: emb
   type: Conference
+
+- name: "International Symposium on Engineering Secure Software and Systems"
+  website: "https://distrinet.cs.kuleuven.be/events/essos/2017/calls-papers.html"
+  area: emb
+  type: conference
+
+- name: "Design, Automation, and Test In Europe (DATE)"
+  website: "https://www.date-conference.com/"
+  area: emb
+  type: conference
+
+- name: "Hardware and Architectural Support for Security and Privacy (HASP)"
+  website: "http://caslab.csl.yale.edu/workshops/hasp2017/"
+  area: emb
+  type: conference
+
+- name: "The ACM Conference on Computer and Communications Security (CCS)"
+  website: "http://www.sigsac.org/ccs/CCS2017/"
+  area: emb
+  type: conference
