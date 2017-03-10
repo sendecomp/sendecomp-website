@@ -1,17 +1,17 @@
 <div class="list-group-item pub">
   <div class="media">
-    <div class="media-body">
-      {% if entry.badge  %}
-        <div class="media-right pull-right">
-          {% if entry.badgelink %}
-            <a href="{{ entry.badgelink }}" target="_blank">
-              <img src="{{ site.baseurl }}/img/badges/{{ entry.badge }}" height="60" />
-            </a>
-          {% else %}
-            <img src="{{ site.baseurl }}/img/badges/{{ entry.badge }}" height="60" />
-          {% endif %}
-        </div>
+    {% if entry.badge  %}
+    <div class="media-left" style="padding-right: 15px !important">
+      {% if entry.badgelink %}
+      <a href="{{ entry.badgelink }}" target="_blank">
+        <img src="{{ site.baseurl }}/img/badges/{{ entry.badge }}" height="60" />
+      </a>
+      {% else %}
+      <img src="{{ site.baseurl }}/img/badges/{{ entry.badge }}" height="60" />
       {% endif %}
+      </div>
+    {% endif %}
+    <div class="media-body">
       <h6 id="citation" class="media-heading">
         {{ reference | replace: '“', '"' | replace: '”', '"' | replace: '–', '-' | replace: "’", "'" }}
       </h6>
@@ -32,8 +32,10 @@
         {% endif %}
       {% endif %}
       <div class="media-right pull-right">
-        <a href="" class="hidden-xs" data-toggle="modal"
-        data-target="{{ entry.key | prepend: '#export-' }}">Export to BibTeX</a>
+        <a href="" class="hidden-xs btn btn-sm btn-success" data-toggle="modal"
+           data-target="{{ entry.key | prepend: '#export-' }}">
+          Export to BibTeX
+        </a>
       </div>
       {% if entry.awards %}
         <br/>
