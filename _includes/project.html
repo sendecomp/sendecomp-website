@@ -23,18 +23,16 @@
     {% endif %}
   </div>
   <div class="row">
-    {% if proj.photo %}
-      <div class="col-sm-6">
-        <p>{{ proj.desc }}</p>
-      </div>
-      <div class="col-sm-6">
-        <img class="media-object" width="100%"
-             src="{{ site.baseurl }}/img/projects/{{ proj.photo }}" alt="No Photo">
-      </div>
-    {% else %}
-      <div class="col-sm-12">
-        <p>{{ proj.desc }}</p>
-      </div>
-    {% endif %}
+    <div class="col-xs-12">
+      <p>{{ proj.desc }}</p>
+    </div>
   </div>
+  {% if proj.photo %}
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <img class="media-object" width="100%"
+           src="{{ site.baseurl }}/img/projects/{{ proj.photo }}" alt="No Photo">
+    </div>
+  </div>
+  {% endif %}
 </div>
