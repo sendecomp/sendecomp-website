@@ -1,0 +1,86 @@
+<svg width="1000px" height="1000px" preserveAspectRatio="xMaxYMin meet" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+        <linearGradient id="grad_cps_emb" x1="0" y1="0" x2="1" y2="1.5">
+      <stop offset="0%" stop-color="#BFE5FE"/>
+      <stop offset="65%" stop-color="#FFF5AD"/>
+    </linearGradient>
+    <linearGradient id="grad_cps_per" x1="0" y1="1" x2="1" y2="-1">
+      <stop offset="0%" stop-color="#FFADAD"/>
+      <stop offset="65%" stop-color="#BFE5FE"/>
+    </linearGradient>
+    <linearGradient id="grad_per_emb" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFADAD"/>
+      <stop offset="65%" stop-color="#FFF5AD"/>
+    </linearGradient>
+  </defs>
+  <style>
+  polygon {
+    stroke: black;
+    stroke-width: 1;
+  }
+  polygon.poly_cps {
+    fill: #BFE5FE;
+  }
+  polygon.poly_emb {
+    fill: #FFF5AD;
+  }
+  polygon.poly_per {
+    fill: #FFADAD;
+  }
+  polygon.poly_cps_emb {
+    fill: url(#grad_cps_emb);
+  }
+  polygon.poly_cps_per {
+    fill: url(#grad_cps_per);
+  }
+  polygon.poly_per_emb {
+    fill: url(#grad_per_emb);
+  }
+  polygon.center {
+    fill: white;
+  }
+  text {
+    font-family: Calibri;
+    font-size: 8px;
+    fill: black;
+  }
+  </style>
+  <g transform="">
+  <!-- CPS -->
+  <polygon points="100,10 150,10 175,60 150,110 100,110 75,60 100,10" class="poly_cps" transform="translate(400, 10)"/>
+  <text x="487.5" y="70">Model Transformation</text>
+  <polygon points="100,10 150,10 175,60 150,110 100,110 75,60 100,10" class="poly_cps" transform="translate(320, 65)"/>
+  <text x="407.5" y="105">
+        <tspan x="430" dy="1.2em">Integrated</tspan>
+    <tspan x="422.5" dy="1.2em">Cyber-Physical</tspan>
+    <tspan x="430" dy="1.2em">Simulation</tspan>
+  </text>
+  <polygon points="100,10 150,10 175,60 150,110 100,110 75,60 100,10" class="poly_cps" transform="translate(480, 65)"/>
+  <text x="567.5" y="105">
+        <tspan x="567.5" dy="1.2em">Modeling and Analysis</tspan>
+    <tspan x="600" dy="1.2em">of</tspan>
+    <tspan x="567.5" dy="1.2em">Reliability, Survivability,</tspan>
+    <tspan x="580" dy="1.2em">and Resilience</tspan>
+  </text>
+  <polygon points="100,10 150,10 175,60 150,110 100,110 75,60 100,10" class="poly_cps" transform="translate(400, 120)"/>
+  <polygon points="100,10 150,10 175,60 150,110 100,110 75,60 100,10" class="poly_cps" transform="translate(240, 120)"/>
+  <polygon points="100,10 150,10 175,60 150,110 100,110 75,60 100,10" class="poly_cps" transform="translate(560, 120)"/>
+  <!-- Embedded -->
+  <polygon points="100,10 150,10 175,60 150,110 100,110 75,60 100,10" class="poly_emb" transform="translate(480, 285)"/>
+  <polygon points="100,10 150,10 175,60 150,110 100,110 75,60 100,10" class="poly_emb" transform="translate(480, 395)"/>
+  <polygon points="100,10 150,10 175,60 150,110 100,110 75,60 100,10" class="poly_emb" transform="translate(560, 230)"/>
+  <polygon points="100,10 150,10 175,60 150,110 100,110 75,60 100,10" class="poly_emb" transform="translate(560, 340)"/>
+  <!-- Pervasive -->
+  <polygon points="100,10 150,10 175,60 150,110 100,110 75,60 100,10" class="poly_per" transform="translate(320, 285)"/>
+  <polygon points="100,10 150,10 175,60 150,110 100,110 75,60 100,10" class="poly_per" transform="translate(320, 395)"/>
+  <polygon points="100,10 150,10 175,60 150,110 100,110 75,60 100,10" class="poly_per" transform="translate(240, 230)"/>
+  <polygon points="100,10 150,10 175,60 150,110 100,110 75,60 100,10" class="poly_per" transform="translate(240, 340)"/>
+  <!-- Shared -->
+  <polygon points="100,10 150,10 175,60 150,110 100,110 75,60 100,10" class="poly_cps_emb" transform="translate(480, 175)"/>
+  <polygon points="100,10 150,10 175,60 150,110 100,110 75,60 100,10" class="poly_cps_per" transform="translate(320, 175)"/>
+  <polygon points="100,10 150,10 175,60 150,110 100,110 75,60 100,10" class="poly_per_emb" transform="translate(400, 340)"/>
+  <polygon points="100,10 150,10 175,60 150,110 100,110 75,60 100,10" class="poly_per_emb" transform="translate(400, 450)"/>
+  <!-- Center -->
+  <polygon points="100,10 150,10 175,60 150,110 100,110 75,60 100,10" class="center" transform="translate(400, 230)"/>
+  </g>
+</svg>
