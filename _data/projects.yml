@@ -131,16 +131,6 @@
     - name: Intelligent Systems Center
 
 - name: Distributed Analysis and Prediction of Vehicular Traffic
-  desc:
-  status: Active
-  area: per
-  photo:
-  members:
-    - name: Mike Wisely
-    - name: Dr. Ali Hurson
-    - name: Dr. Sahra Sedigh Sarvestani
-
-- name: Agent-Based Analysis and Mitigation of Failure in Cyber-Physical Systems
   desc: >
     As technology becomes increasingly available to highway travelers,
     an interesting variety of applications has emerged. Communication
@@ -154,7 +144,41 @@
     collaborating to predict traffic conditions based on current and
     historical information, as opposed to only determining current
     traffic conditions or relying on a central server for predictions.
+  status: Active
+  area: per
+  photo:
+  members:
+    - name: Mike Wisely
+    - name: Dr. Ali Hurson
+    - name: Dr. Sahra Sedigh Sarvestani
 
+- name: Agent-Based Analysis and Mitigation of Failure in Cyber-Physical Systems
+  desc: >
+    Interdependencies among the cyber and physical components of a CPS
+    significantly complicate the specification, modeling, and simulation of
+    these systems, as it is difficult to represent both the cyber and the
+    physical infrastructure in one integrated system.
+    The interdependencies among the cyber and physical components and
+    heterogeneity in the notion of "flow" invalidate and complicate
+    traditional reliability models that assume components fail independently.
+    We propose the use of agent-based modeling for qualitative
+    representation of the operation of a CPS, as a precursor to quantitative
+    modeling.
+    Agent-based models can capture various facets of the operation of a CPS
+    within a single agent, while reflecting the distributed nature of and
+    interdependencies within the system through the use of multiple agents.
+    Furthermore, such an abstraction facilitates failure mitigation through
+    the use of software agents, which are autonomous and perceivably
+    intelligent.
+    The overarching objective of this project is to develop an understanding
+    of failure propagation in CPSs, and to utilize the resulting insights to
+    mitigate the effect of failures in cyber and/or physical components.
+    Our focus is on critical infrastructure systems whose main function is
+    the distribution of a tangible commodity, such as water or power.
+    Physical components, e.g., valves, pipes, and reservoirs, of water
+    distribution networks (WDNs), coupled with the hardware and software
+    that support intelligent water allocation, comprise the model CPS that
+    is used as a case study.
   status: Complete
   area: cpci
   photo:
