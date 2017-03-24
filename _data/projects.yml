@@ -131,7 +131,19 @@
     - name: Intelligent Systems Center
 
 - name: Distributed Analysis and Prediction of Vehicular Traffic
-  desc:
+  desc: >
+    As technology becomes increasingly available to highway travelers,
+    an interesting variety of applications has emerged. Communication
+    capability among vehicles, drivers, and other services has opened
+    new doors for research that could improve the safety and
+    efficiency of highway driving. Based on the observation that
+    drivers’ travel habits are frequently repeated and can be
+    accurately modeled, our work proposes that mobile devices
+    collaborate to predict future traffic conditions based on travel
+    habits. Our approach is unique in that mobile devices are
+    collaborating to predict traffic conditions based on current and
+    historical information, as opposed to only determining current
+    traffic conditions or relying on a central server for predictions.
   status: Active
   area: per
   photo:
