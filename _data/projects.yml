@@ -28,18 +28,6 @@
 #                     This is a very very long entry that doesn't fit in a
 #                     single line.
 
-- name: Computing Techniques for Personalized Medicine
-  desc: >
-  status: Active
-  area: cpci
-  photo:
-  members:
-    - name: Isam Alobaidi
-    - name: Dr. Ali Hurson
-    - name: Dr. Sahra Sedigh Sarvestani
-  sponsors:
-    - name: Intelligent Systems Center
-
 - name: >
     Quantitative Dependability Analysis of Cyber-Physical Systems
   desc: >
@@ -372,3 +360,15 @@
     - name: Dr. Sahra Sedigh Sarvestani
   sponsors:
     - name: University Transportation Center
+
+#- name: Computing Techniques for Personalized Medicine
+#  desc: >
+#  status: Active
+#  area: cpci
+#  photo:
+#  members:
+#    - name: Isam Alobaidi
+#    - name: Dr. Ali Hurson
+#    - name: Dr. Sahra Sedigh Sarvestani
+#  sponsors:
+#    - name: Intelligent Systems Center

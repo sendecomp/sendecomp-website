@@ -63,15 +63,6 @@
   website: https://sites.google.com/a/mst.edu/eburgdorf/home
   photo: Burgdorf.jpg
 
-- name: Isam Alobaidi
-  major: Computer Science
-  degree: PhD
-  status: Active
-  grad: 2019 December
-  project: Computing Techniques for Personalized Medicine
-  website: http://web.mst.edu/~iaahgb/
-  photo: Alobaidi.jpg
-
 - name: Tyler Morrow
   major: Computer Science - GAANN Fellow
   degree: MS
@@ -118,6 +109,15 @@
   project: Quantitative Dependability Analysis of Cyber-Physical Systems
   website: http://web.mst.edu/~km89f/
   photo: Marashi.jpg
+
+- name: Isam Alobaidi
+  major: Computer Science
+  degree: MS
+  status: Alumni
+  grad: 2015 December
+  project: Quantitative Dependability Analysis of Cyber-Physical Systems
+  website:
+  photo: Alobaidi.jpg
 
 - name: Pratik Maheshwari
   major: Computer Engineering
