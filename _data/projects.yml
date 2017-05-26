@@ -134,7 +134,7 @@
     traffic conditions or relying on a central server for predictions.
   status: Active
   area: per
-  photo:
+  photo: traffic.png
   members:
     - name: Mike Wisely
     - name: Dr. Ali Hurson
