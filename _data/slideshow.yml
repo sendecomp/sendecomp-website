@@ -1,0 +1,35 @@
+# Slideshow Data File
+# Description
+#     This file contains individual records for each image of the slideshow on
+#     the home page.
+#     Feel free to use an existing record as a starting point for a new entry.
+#     Each individual record is denoted by ONLY ONE dash "-" on the first line.
+#     After that, a list of attributes can be seen.
+#     The name of the attribute is to the left of the colon; the value is to the
+#       right of the colon.
+#     Available attributes are as follows:
+#         title       The title of the image displayed on it
+#         desc        A short Description about the image  displayed below it
+#         image       Just the name and the extension of the image file
+#                     (must exist in the /img/slideshow/ directory)
+#      * Required in order for the website to display
+#    Additional Notes:
+#      - Quotes around the values are optional.
+#      - Non-required attributes with blank values can be omitted completely.
+
+
+- title:
+  desc:
+  image: members1.jpg
+
+- title:
+  desc:
+  image: members2.jpg
+
+- title:
+  desc:
+  image: members3.jpg
+
+- title:
+  desc:
+  image: members4.jpg

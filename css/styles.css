@@ -14,20 +14,6 @@ body {
   padding-bottom:10px;
 }
 
-.full-width-image {
-  background: url('../img/eebuilding.jpg') no-repeat center 35%;
-        background-size: 100%;
-        text-align: center;
-        padding: 75px 0;
-        height:500px;
-}
-.full-width-image-xs {
-  background: url('../img/eebuilding.jpg') no-repeat center 35%;
-        background-size: 100%;
-        text-align: center;
-        padding: 75px 0;
-}
-
 .media-left, .media > .pull-left {
   padding-right: 4px;
 }
