@@ -16,7 +16,7 @@ The website is automatically built and deployed using a continuous integration t
 
 Below is an indicator of the status of compilation and deployment on BuddyWorks.
 
-[![buddy pipeline](https://app.buddy.works/sedighs/sendecomp-website/pipelines/pipeline/54590/badge.svg?token=f5c144ccda9b6bded78619b4ed19b3b8ac00da4a253e63e0f9e7d0a4bf18c5ad "buddy pipeline")](https://app.buddy.works/sedighs/sendecomp-website/pipelines/pipeline/54590)
+[![buddy pipeline](https://app.buddy.works/sendecomp/sendecomp-website/pipelines/pipeline/54590/badge.svg?token=97a57f3597c85391efcf4422870766d9840b706273fde304de12a2eee10770de "buddy pipeline")](https://app.buddy.works/sendecomp/sendecomp-website/pipelines/pipeline/54590)
 
 ### Manual
 
