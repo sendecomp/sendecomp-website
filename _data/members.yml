@@ -10,7 +10,7 @@
 #         name        The full name of the member
 #         major       The name of their major,
 #                         e.g., Computer Engineerin
-#         degree      Enter "BS", "MS", or "PhD" only*
+#         degree      Enter "BS", "MS", "PhD", or "Postdoc" only*
 #         status      Enter "Active" or "Alumni" only*
 #         grad        The year and month the member graduates
 #                         Format: full year followed by the full month,

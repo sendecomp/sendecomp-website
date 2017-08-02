@@ -7,10 +7,12 @@ title: People
 {% assign actives = members | where: 'status', 'Active' %}
 {% assign alumni = members | where: 'status', 'Alumni' %}
 
+{% assign activesPostdoc = actives | where: 'degree', 'Postdoc' %}
 {% assign activesPhD = actives | where: 'degree', 'PhD' %}
 {% assign activesMS = actives | where: 'degree', 'MS' %}
 {% assign activesBS = actives | where: 'degree', 'BS' %}
 
+{% assign alumniPostdoc = alumni | where: 'degree', 'Postdoc' %}
 {% assign alumniPhD = alumni | where: 'degree', 'PhD' %}
 {% assign alumniMS = alumni | where: 'degree', 'MS' %}
 {% assign alumniBS = alumni | where: 'degree', 'BS' %}
@@ -22,6 +24,9 @@ title: People
       <li>
         <a href="#actives">Current Members</a>
         <ul class="nav nav-stacked">
+          {% if activesPostdoc.size > 0 %}
+            <li><a href="#actives-postdoc">Post-doctoral Students</a></li>
+          {% endif %}
           {% if activesPhD.size > 0 %}
             <li><a href="#actives-phd">PhD Students</a></li>
           {% endif %}
@@ -36,6 +41,9 @@ title: People
       <li>
         <a href="#alumni">Past Members</a>
         <ul class="nav nav-stacked">
+          {% if alumniPostdoc.size > 0 %}
+            <li><a href="#actives-postdoc">Post-doctoral Students</a></li>
+          {% endif %}
           {% if alumniPhD.size > 0 %}
             <li><a href="#alumni-phd">PhD Students</a></li>
           {% endif %}
@@ -59,55 +67,87 @@ title: People
     </ul>
 
     <h4 id="actives">Current Members</h4>
-    <h5 id="actives-phd">PhD Students</h5>
-    <ul class="list-group">
-      {% for person in activesPhD %}
-        {% unless person.role %}
-          {% include member.html %}
-        {% endunless %}
-      {% endfor %}
-    </ul>
-    <h5 id="actives-ms">MS Students</h5>
-    <ul class="list-group">
-      {% for person in activesMS %}
-        {% unless person.role %}
-          {% include member.html %}
-        {% endunless %}
-      {% endfor %}
-    </ul>
-    <h5 id="actives-bs">BS Students</h5>
-    <ul class="list-group">
-      {% for person in activesBS %}
-        {% unless person.role %}
-          {% include member.html %}
-        {% endunless %}
-      {% endfor %}
-    </ul>
+    {% if activesPostdoc.size > 0 %}
+      <h5 id="actives-postdoc">Post-doctoral Students</h5>
+      <ul class="list-group">
+        {% for person in activesPostdoc %}
+          {% unless person.role %}
+            {% include member.html %}
+          {% endunless %}
+        {% endfor %}
+      </ul>
+    {% endif %}
+    {% if activesPhD.size > 0 %}
+      <h5 id="actives-phd">PhD Students</h5>
+      <ul class="list-group">
+        {% for person in activesPhD %}
+          {% unless person.role %}
+            {% include member.html %}
+          {% endunless %}
+        {% endfor %}
+      </ul>
+    {% endif %}
+    {% if activesMS.size > 0 %}
+      <h5 id="actives-ms">MS Students</h5>
+      <ul class="list-group">
+        {% for person in activesMS %}
+          {% unless person.role %}
+            {% include member.html %}
+          {% endunless %}
+        {% endfor %}
+      </ul>
+    {% endif %}
+    {% if activesBS.size > 0 %}
+      <h5 id="actives-bs">BS Students</h5>
+      <ul class="list-group">
+        {% for person in activesBS %}
+          {% unless person.role %}
+            {% include member.html %}
+          {% endunless %}
+        {% endfor %}
+      </ul>
+    {% endif %}
 
     <h4 id="alumni">Past Members</h4>
-    <h5 id="alumni-phd">PhD Students</h5>
-    <ul class="list-group">
-      {% for person in alumniPhD reversed %}
-        {% unless person.role %}
-          {% include member.html %}
-        {% endunless %}
-      {% endfor %}
-    </ul>
-    <h5 id="alumni-ms">MS Students</h5>
-    <ul class="list-group">
-      {% for person in alumniMS reversed %}
-        {% unless person.role %}
-          {% include member.html %}
-        {% endunless %}
-      {% endfor %}
-    </ul>
-    <h5 id="alumni-bs">BS Students</h5>
-    <ul class="list-group">
-      {% for person in alumniBS reversed %}
-        {% unless person.role %}
-          {% include member.html %}
-        {% endunless %}
-      {% endfor %}
-    </ul>
+    {% if alumniPostdoc.size > 0 %}
+      <h5 id="actives-postdoc">Post-doctoral Students</h5>
+      <ul class="list-group">
+        {% for person in alumniPostdoc reversed %}
+          {% unless person.role %}
+            {% include member.html %}
+          {% endunless %}
+        {% endfor %}
+      </ul>
+    {% endif %}
+    {% if alumniPhD.size > 0 %}
+      <h5 id="alumni-phd">PhD Students</h5>
+      <ul class="list-group">
+        {% for person in alumniPhD reversed %}
+          {% unless person.role %}
+            {% include member.html %}
+          {% endunless %}
+        {% endfor %}
+      </ul>
+    {% endif %}
+    {% if alumniMS.size > 0 %}
+      <h5 id="alumni-ms">MS Students</h5>
+      <ul class="list-group">
+        {% for person in alumniMS reversed %}
+          {% unless person.role %}
+            {% include member.html %}
+          {% endunless %}
+        {% endfor %}
+      </ul>
+    {% endif %}
+    {% if alumniBS.size > 0 %}
+      <h5 id="alumni-bs">BS Students</h5>
+      <ul class="list-group">
+        {% for person in alumniBS reversed %}
+          {% unless person.role %}
+            {% include member.html %}
+          {% endunless %}
+        {% endfor %}
+      </ul>
+    {% endif %}
   </div>
 </div>
