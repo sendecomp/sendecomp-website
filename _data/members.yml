@@ -63,17 +63,6 @@
   website: https://sites.google.com/a/mst.edu/eburgdorf/home
   photo: Burgdorf.jpg
 
-- name: Tyler Morrow
-  major: Computer Science - GAANN Fellow
-  degree: MS
-  status: Active
-  grad: 2017 May
-  project: |
-    Pervasive Cyberinfrastructure for Personalized eLearning and Instructional
-    Support (PERCEPOLIS)
-  website: http://web.mst.edu/~tjm6f4/
-  photo: Morrow.png
-
 - name: Nathan Jarus
   major: Computer Science - GAANN Fellow
   degree: PhD
@@ -82,15 +71,6 @@
   project: Cyber-Physical System Model Transformation
   website: http://web.mst.edu/~nmjxv3/
   photo: Jarus.png
-
-- name: Mark Woodard
-  major: Computer Engineering - GAANN Fellow, CpE Department Fellow
-  degree: PhD
-  status: Active
-  grad: 2017 May
-  project: Quantitative Dependability Analysis of Cyber-Physical Systems
-  website: http://web.mst.edu/~mjw6y7/
-  photo: Woodard.jpg
 
 - name: Mike Wisely
   major: "Computer Science - GAANN Fellow, Chancellor's Fellow"
@@ -103,19 +83,49 @@
 
 - name: Koosha Marashi
   major: Computer Engineering - UTC Fellow
-  degree: PhD
+  degree: Postdoc
   status: Active
+  project: Quantitative Dependability Analysis of Cyber-Physical Systems
+  website: http://web.mst.edu/~km89f/
+  photo: Marashi.jpg
+
+- name: Koosha Marashi
+  major: Computer Engineering - UTC Fellow
+  degree: PhD
+  status: Alumni
   grad: 2017 May
   project: Quantitative Dependability Analysis of Cyber-Physical Systems
   website: http://web.mst.edu/~km89f/
   photo: Marashi.jpg
 
+- name: Tyler Morrow
+  major: Computer Science - GAANN Fellow
+  degree: MS
+  status: Alumni
+  grad: 2017 May
+  project: |
+    Pervasive Cyberinfrastructure for Personalized eLearning and Instructional
+    Support (PERCEPOLIS)
+  website: http://web.mst.edu/~tjm6f4/
+  photo: Morrow.png
+  emp: Sandia National Labs
+
+- name: Mark Woodard
+  major: Computer Engineering - GAANN Fellow, CpE Department Fellow
+  degree: PhD
+  status: Alumni
+  grad: 2017 May
+  project: Quantitative Dependability Analysis of Cyber-Physical Systems
+  website: http://web.mst.edu/~mjw6y7/
+  photo: Woodard.jpg
+  emp: Sandia National Labs
+
 - name: Isam Alobaidi
   major: Computer Science
-  degree: PhD
-  status: Active
-  grad: 2019 December
-  project: Computing Techniques for Personalized Medicine
+  degree: MS
+  status: Alumni
+  grad: 2016 December
+  project: Dependability Analysis and Recovery Support for Smart Grids
   website:
   photo: Alobaidi.jpg
 
@@ -123,7 +133,7 @@
   major: Computer Engineering
   degree: PhD
   status: Alumni
-  grad: August 2014
+  grad: 2014 August
   project: Software-Based Analysis of the Immunity of Embedded Systems to ESD
   emp: "Apple"
   website:
@@ -138,6 +148,15 @@
   emp:
   website:
   photo: Albasrawi.jpg
+
+- name: Nathan Jarus
+  major: Computer Science
+  degree: BS
+  status: Alumni
+  grad: 2013 December
+  website: http://web.mst.edu/~nmjxv3/
+  project: Software-Based Analysis of the Immunity of Embedded Systems to ESD
+  photo: Jarus.png
 
 - name: Andrea Miller
   major: Computer Engineering
@@ -203,7 +222,7 @@
   major: Computer Engineering
   degree: PhD
   status: Alumni
-  grad: August 2011
+  grad: 2011 August
   project: Agent-Based Analysis and Mitigation of Failure in Cyber-Physical Systems
   emp: "Cisco Systems"
   website:
