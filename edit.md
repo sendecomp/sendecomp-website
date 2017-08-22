@@ -60,13 +60,9 @@ Once you are done making your changes, do the following:
 - Provide a short description of your change(s) in one or both of the textboxes
 - Click on the green **commit changes** button to update the file
 
-### Request Deployment
+### Deployment
 
-Once you have edited the file, you may notice that your changes are not automatically reflected on the website.
-For this to happen, you will need to do one of the following things:
-
-- Request that a member of the team deploy the website with your changes.
-- Deploy them yourself by reviewing the Advanced section below.
+Once you have edited the file, your changes will be automatically deployed to the website.
 
 ## Advanced
 
@@ -109,7 +105,7 @@ Assuming you have the website repository cloned and Jekyll installed, do the fol
 - Navigate to the repository directory via the command line
 - Run the following command: `bundle exec jekyll build`
 
-Jekyll will generate the static website
+Jekyll will generate the static website.
 
 ### Deploy
 
@@ -120,6 +116,11 @@ Before changes are visible on the actual website, the static website generated b
 The `_deploy.rb` script (which requires Ruby and the NetSSH Gem) located in the website's repository will do this for you quickly.
 
 However, it requires that Missouri S&amp;T's IT department has given you permissions to do this.
+
+#### Deployment Automation
+
+The deployment of the website has been automated through a tool called [Buddy](https://buddy.works).
+The pipeline for deployment can be modified [here](https://app.buddy.works/sendecomp/sendecomp-website/pipelines).
 
 [1]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/publications.bib
 [2]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/members.yml
