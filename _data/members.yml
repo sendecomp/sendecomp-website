@@ -45,6 +45,14 @@
   website: http://web.mst.edu/~sedighs/
   photo: Sedigh.jpg
 
+- name: Dr. Ali Hurson
+  role: Advisor
+  status: Active
+  department: Electrical & Computer Engineering
+  position: Professor
+  website: http://hurson.weebly.com/
+  photo: Hurson.jpg
+
 - name: Gabriel Krukowski
   major: Computer Engineering
   degree: BS
