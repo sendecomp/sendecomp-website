@@ -53,6 +53,15 @@
   website: http://hurson.weebly.com/
   photo: Hurson.jpg
 
+- name: Brad Ziegler
+  major: Computer Engineering
+  degree: PhD
+  status: Active
+  grad: 2022 May
+  project:
+  website: https://sites.google.com/mst.edu/bjzce8
+  photo: Ziegler.jpg
+
 - name: Gabriel Krukowski
   major: Computer Engineering
   degree: BS
