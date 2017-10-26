@@ -74,14 +74,14 @@
 - name: Erik Burgdorf
   major: Computer Engineering
   degree: MS
-  status: Active
+  status: Alumni
   grad: 2017 August
   project: Predicting the Impact of Data Corruption on the Operation of Cyber-Physical Systems
   website: https://sites.google.com/a/mst.edu/eburgdorf/home
   photo: Burgdorf.jpg
 
 - name: Nathan Jarus
-  major: Computer Science - GAANN Fellow
+  major: Computer Engineering - GAANN Fellow
   degree: PhD
   status: Active
   grad: 2018 December
@@ -93,7 +93,7 @@
   major: "Computer Science - GAANN Fellow, Chancellor's Fellow"
   degree: PhD
   status: Active
-  grad: 2017 December
+  grad: 2018 May
   project: Distributed Analysis and Prediction of Vehicular Traffic
   website: http://web.mst.edu/~mwwcp2/
   photo: Wisely.jpg
@@ -101,10 +101,11 @@
 - name: Koosha Marashi
   major: Computer Engineering - UTC Fellow
   degree: Postdoc
-  status: Active
+  status: Alumni
   project: Quantitative Dependability Analysis of Cyber-Physical Systems
   website: http://web.mst.edu/~km89f/
   photo: Marashi.jpg
+  emp: Romeo Power
 
 - name: Koosha Marashi
   major: Computer Engineering - UTC Fellow
