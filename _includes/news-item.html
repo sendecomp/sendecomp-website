@@ -1,0 +1,14 @@
+{% if item.url %}
+  <a href="{{item.url}}">
+{% endif %}
+<div class="h6">{{item.title}}
+{% if item.url %}
+  </a>
+{% endif %}
+<small> {{item.date | date: "%B %Y"}} </small>
+</div>
+{% if item.summary %}
+  <p style="padding-left: 10px">
+    {{item.summary}}
+  </p>
+{% endif %}
