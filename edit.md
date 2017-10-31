@@ -38,6 +38,7 @@ The table below tries to direct you to the proper file.
 | Documents               | [docs.yml][5]         |
 | Venues                  | [venues.yml][6]       |
 | Awards                  | [awards.yml][7]       |
+| News                    | [news.yml][8]         |
 {:.table .table-condensed}
 
 Once you know which you want to modify, click on its appropriate link above to go its GitHub page.
@@ -129,3 +130,4 @@ The pipeline for deployment can be modified [here](https://app.buddy.works/sende
 [5]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/docs.yml
 [6]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/venues.yml
 [7]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/awards.yml
+[8]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/news.yml
