@@ -15,7 +15,10 @@
 #           in the entry
 #      - Non-required attributes with blank values can be omitted completely.
 
-
+- title: "Broadcasting journal paper has been accepted"
+  summary: "Dr. Hurson, Dr. Sedigh, and Mike's \"Energy-Efficient Algorithms for Data Retrieval from Indexed Parallel Broadcast Channels\" has been accepted to Sustainable Computing: Informatics and Systems (SUSCOM)."
+  url: http://www.sciencedirect.com/science/article/pii/S2210537917302925
+  date: 2017 Mar
 - title: "New Member: Brad Ziegler"
   date: 2017 Aug
   summary: Brad Ziegler has joined SenDeComp as a Ph. D student!
@@ -23,4 +26,3 @@
 - title: "Dr. Marashi's paper has been accepted"
   summary: "\"Consideration of Cyber-Physical Interdependencies in Reliability Modeling of Smart Grids\" has been accepted to IEEE Transactions on Sustainable Computing."
   date: 2017 Mar
-
