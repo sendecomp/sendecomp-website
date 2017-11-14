@@ -249,13 +249,17 @@
     The objective of this project is to investigate the role of software in
     analyzing and improving the electromagnetic immunity of embedded
     systems.
-    The resulting insights can be used to issue guidelines to software
-    developers, reducing the likelihood of future disruptions to the
-    software by ESD.
+    The resulting insights can be used to guide the development of software
+    that ensures the system continues to operate in a valid and reliable state
+    during and following an ESD event.
+    In addition, it will be able to notify the user when some form of
+    intervention is required to keep the system operating.
+    Information collected by the software will furthermore be used for
+    root-cause analysis of ESD-induced failures.
     Our broader goal is to develop a science that will link the
     traditionally disparate fields of electromagnetic and software
     engineering, by leveraging the body of knowledge in each field.
-  status: Complete
+  status: Active
   area: emb
   photo: esd.svg
   members:
@@ -263,6 +267,8 @@
     - name: Antonio Sabatini
     - name: Tianqi Li
     - name: Nathan Jarus
+    - name: Brad Ziegler
+    - name: Gabriel Krukowski
     - name: Dr. David Pommerenke
     - name: Dr. Sahra Sedigh Sarvestani
   sponsors:
