@@ -51,7 +51,7 @@ GEM
     net-sftp (2.1.2)
       net-ssh (>= 2.6.5)
     net-ssh (4.2.0)
-    nokogiri (1.8.1)
+    nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
     pathutil (0.16.0)
       forwardable-extended (~> 2.6)
@@ -79,4 +79,4 @@ DEPENDENCIES
   nokogiri
 
 BUNDLED WITH
-   1.15.4
+   1.16.1
