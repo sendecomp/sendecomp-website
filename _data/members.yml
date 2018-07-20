@@ -62,7 +62,7 @@
   website: https://sites.google.com/mst.edu/bjzce8
   photo: Ziegler.jpg
   
-  - name: Melanie Bruce
+- name: Melanie Bruce
   major: Computer Engineering
   degree: BS
   status: Active
@@ -71,23 +71,23 @@
   website: http://web.mst.edu/~sendecomp/
   photo: Bruce.jpg
   
-  - name: Robert Maersch
+- name: Robert Maersch
   major: Computer Engineering
   degree: BS
   status: Active
   grad: 2019 December
   project: Software-Based Analysis of the Immunity of Embedded Systems to ESD
   website: http://web.mst.edu/~sendecomp/
-  photo: Krukowski.jpg
+  photo:
   
-  - name: Jaxson Johnson
+- name: Jaxson Johnson
   major: Computer Engineering
   degree: BS
   status: Active
   grad: 2019 December
   project: Cyber-Physical System Model Transformation
   website: http://web.mst.edu/~sendecomp/
-  photo: Krukowski.jpg
+  photo:
   
 - name: Gabriel Krukowski
   major: Computer Engineering
