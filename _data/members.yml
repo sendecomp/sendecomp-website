@@ -68,7 +68,7 @@
   status: Active
   grad: 2019 December
   project: Software-Based Analysis of the Immunity of Embedded Systems to ESD
-  website: https://sites.google.com/mst.edu/gjk7v3/home
+  website: http://web.mst.edu/~sendecomp/
   photo: Bruce.jpg
   
   - name: Robert Maersch
@@ -77,6 +77,8 @@
   status: Active
   grad: 2019 December
   project: Software-Based Analysis of the Immunity of Embedded Systems to ESD
+  website: http://web.mst.edu/~sendecomp/
+  photo: Krukowski.jpg
   
   - name: Jaxson Johnson
   major: Computer Engineering
@@ -84,6 +86,8 @@
   status: Active
   grad: 2019 December
   project: Cyber-Physical System Model Transformation
+  website: http://web.mst.edu/~sendecomp/
+  photo: Krukowski.jpg
   
 - name: Gabriel Krukowski
   major: Computer Engineering
