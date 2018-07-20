@@ -3,7 +3,7 @@ layout: page
 title: News
 ---
 
-{% assign news_by_year = site.data.news | group_by_exp: 'item','item.date | date: "%Y"' | sort: 'name' %}
+{% assign news_by_year = site.data.news | group_by_exp: 'item','item.date | date: "%Y"' | sort: 'name' | reverse %}
 
 <div class="row">
   <nav class="col-sm-3 bs-docs-sidebar hidden-xs no-print">
@@ -17,7 +17,8 @@ title: News
     {% for year in news_by_year %}
       <h4 id="{{ year.name }}">{{ year.name }}</h4>
       <ul class="list-group">
-        {% for item in year.items %}
+        {% assign items = year.items | sort: 'date' | reverse %}
+        {% for item in items %}
           <li class="list-group-item">
             {% include news-item.html %}
           </li>
