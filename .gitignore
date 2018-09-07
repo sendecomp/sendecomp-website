@@ -7,3 +7,7 @@
 _site/
 .sass-cache/
 .jekyll-metadata
+
+# Ignore bundler files
+vendor/
+.bundle/
