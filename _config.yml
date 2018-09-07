@@ -11,7 +11,7 @@ github_username: sendecomp
 markdown: kramdown
 permalink: pretty
 
-gems:
+plugins:
   - jekyll/scholar
 
 # Jekyll-Scholar Settings
