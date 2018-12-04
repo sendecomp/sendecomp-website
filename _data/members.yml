@@ -73,32 +73,32 @@
   website: https://sites.google.com/mst.edu/alex-schriewer
   photo: Schriewer.jpg
 
-- name: Melanie Bruce
-  major: Computer Engineering
-  degree: BS
-  status: Active
-  grad: 2019 December
-  project: Software-Based Analysis of the Immunity of Embedded Systems to ESD
-  website: http://web.mst.edu/~sendecomp/
-  photo: Bruce.jpg
+#- name: Melanie Bruce
+#  major: Computer Engineering
+#  degree: BS
+#  status: Active
+#  grad: 2019 December
+#  project: Software-Based Analysis of the Immunity of Embedded Systems to ESD
+#  website: http://web.mst.edu/~sendecomp/
+#  photo: Bruce.jpg
   
-- name: Riley Maersch
-  major: Computer Engineering
-  degree: BS
-  status: Active
-  grad: 2019 December
-  project: Software-Based Analysis of the Immunity of Embedded Systems to ESD
-  website: http://web.mst.edu/~sendecomp/
-  photo:
+#- name: Riley Maersch
+#  major: Computer Engineering
+#  degree: BS
+#  status: Active
+#  grad: 2019 December
+#  project: Software-Based Analysis of the Immunity of Embedded Systems to ESD
+#  website: http://web.mst.edu/~sendecomp/
+#  photo:
   
-- name: Jaxson Johnson
-  major: Computer Engineering
-  degree: BS
-  status: Active
-  grad: 2019 December
-  project: Cyber-Physical System Model Transformation
-  website: http://web.mst.edu/~sendecomp/
-  photo:
+#- name: Jaxson Johnson
+#  major: Computer Engineering
+#  degree: BS
+#  status: Active
+#  grad: 2019 December
+#  project: Cyber-Physical System Model Transformation
+#  website: http://web.mst.edu/~sendecomp/
+#  photo:
   
 - name: Gabriel Krukowski
   major: Computer Engineering
