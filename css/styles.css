@@ -192,3 +192,12 @@ h6 .small,
 .h6 .small {
     color: #999999
 }
+
+.to-bottom-outer {
+    display: flex;
+}
+.to-bottom-inner {
+    display: inline-block;
+    align-self: flex-end;
+    bottom: 1px;
+}
