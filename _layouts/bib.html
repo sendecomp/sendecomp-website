@@ -26,7 +26,7 @@
           {% if entry.doi contains 'dx.doi.org' %}
             <a class="" href="{{ entry.doi }}" target="_blank">Published</a>
           {% else %}
-            <a class="" href="{{ entry.doi | prepend: 'http://dx.doi.org/' }}" target="_blank">Published</a>
+            <a class="" href="{{ entry.doi | prepend: 'https://dx.doi.org/' }}" target="_blank">Published</a>
           {% endif %}
         {% elsif entry.url %}
           <a class="" href="{{ entry.url }}" target="_blank">Published</a>
