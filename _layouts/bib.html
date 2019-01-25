@@ -18,6 +18,9 @@
       <strong>Status:</strong>
       {% if entry.status %}
         {{ entry.status | capitalize }}
+	{% if entry.url %}
+	&mdash; <a class="" href="{{ entry.url }}" target="_blank">Preprint Available</a>
+	{% endif %}
       {% else %}
         {% if entry.doi %}
           {% if entry.doi contains 'dx.doi.org' %}
