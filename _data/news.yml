@@ -15,8 +15,8 @@
 #           in the entry
 #      - Non-required attributes with blank values can be omitted completely.
 
-- title: "Broadcasting journal paper has been accepted"
-  summary: "Dr. Hurson, Dr. Sedigh, and Mike's \"Energy-Efficient Algorithms for Data Retrieval from Indexed Parallel Broadcast Channels\" has been accepted to Sustainable Computing: Informatics and Systems (SUSCOM)."
+- title: "Michael Wisely's Broadcasting journal paper has been accepted"
+  summary: "Dr. Hurson, Dr. Sedigh, and Michael Wisely's \"Energy-Efficient Algorithms for Data Retrieval from Indexed Parallel Broadcast Channels\" has been accepted to Sustainable Computing: Informatics and Systems (SUSCOM)."
   url: http://www.sciencedirect.com/science/article/pii/S2210537917302925
   date: 2017-03-01
 - title: "New Member: Brad Ziegler"
