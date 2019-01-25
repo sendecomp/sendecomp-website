@@ -23,7 +23,7 @@
 	{% endif %}
       {% else %}
         {% if entry.doi %}
-          {% if entry.doi contains 'dx.doi.org' %}
+          {% if entry.doi contains 'http' %}
             <a class="" href="{{ entry.doi }}" target="_blank">Published</a>
           {% else %}
             <a class="" href="{{ entry.doi | prepend: 'https://dx.doi.org/' }}" target="_blank">Published</a>
