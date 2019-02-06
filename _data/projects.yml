@@ -28,6 +28,29 @@
 #                     This is a very very long entry that doesn't fit in a
 #                     single line.
 
+- name: Cyber-Physical System Model Transformation
+  desc: >
+    Generating models for every aspect of a system is a labor-intensive and
+    error-prone process.
+    This research focuses on defining transformations from one type of system
+    model to a different type of model, allowing developers to derive models
+    of various system aspects easily.
+    For example, one could transform an architectural model of a smart grid into
+    a reliability model of that system.
+    Any model that can be deterministically transformed must be
+    deterministically specified; these deterministic specifications can be
+    converted into abstract mathematical models.
+    In this framework, transformations then become functions mapping one
+    model to another.
+    Formalizing modeling in this fashion allows us to apply a wealth of
+    research on transforming mathematical structures.
+  status: Active
+  area: cpci
+  photo: model-trans.jpg
+  members:
+    - name: Natasha Jarus
+    - name: Dr. Sahra Sedigh Sarvestani
+
 - name: >
     Quantitative Dependability Analysis of Cyber-Physical Systems
   desc: >
@@ -60,29 +83,6 @@
     - name: Intelligent Systems Center
     - name: University Transportation Center
     - name: Department of Education
-
-- name: Cyber-Physical System Model Transformation
-  desc: >
-    Generating models for every aspect of a system is a labor-intensive and
-    error-prone process.
-    This research focuses on defining transformations from one type of system
-    model to a different type of model, allowing developers to derive models
-    of various system aspects easily.
-    For example, one could transform an architectural model of a smart grid into
-    a reliability model of that system.
-    Any model that can be deterministically transformed must be
-    deterministically specified; these deterministic specifications can be
-    converted into abstract mathematical models.
-    In this framework, transformations then become functions mapping one
-    model to another.
-    Formalizing modeling in this fashion allows us to apply a wealth of
-    research on transforming mathematical structures.
-  status: Active
-  area: cpci
-  photo: model-trans.jpg
-  members:
-    - name: Natasha Jarus
-    - name: Dr. Sahra Sedigh Sarvestani
 
 - name: >
     Pervasive Cyberinfrastructure for Personalized eLearning and
