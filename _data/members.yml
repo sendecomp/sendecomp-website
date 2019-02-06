@@ -139,22 +139,13 @@
 
 - name: Koosha Marashi
   major: Computer Engineering - UTC Fellow
-  degree: Postdoc
-  status: Alumni
-  project: Quantitative Dependability Analysis of Cyber-Physical Systems
-  website: http://web.mst.edu/~km89f/
-  photo: Marashi.jpg
-  emp: Romeo Power
-
-- name: Koosha Marashi
-  major: Computer Engineering - UTC Fellow
   degree: PhD
   status: Alumni
   grad: 2017 May
   project: Quantitative Dependability Analysis of Cyber-Physical Systems
   website: http://web.mst.edu/~km89f/
   photo: Marashi.jpg
-  emp: Postdoctorate fellow with the SenDeComp research group
+  emp: Romeo Power
 
 - name: Tyler Morrow
   major: Computer Science - GAANN Fellow
