@@ -153,14 +153,14 @@
   website: http://web.mst.edu/~nmjxv3/
   photo: Jarus.jpg
 
-- name: Mike Wisely
-  major: "Computer Science - GAANN Fellow, Chancellor's Fellow"
-  degree: PhD
-  status: Active
-  grad: 2018 May
-  project: Distributed Analysis and Prediction of Vehicular Traffic
-  website: http://web.mst.edu/~mwwcp2/
-  photo: Wisely.jpg
+  #- name: Mike Wisely
+  #  major: "Computer Science - GAANN Fellow, Chancellor's Fellow"
+  #  degree: PhD
+  #  status: Active
+  #  grad: 2018 May
+  #  project: Distributed Analysis and Prediction of Vehicular Traffic
+  #  website: http://web.mst.edu/~mwwcp2/
+  #  photo: Wisely.jpg
 
 - name: Koosha Marashi
   major: Computer Engineering - UTC Fellow
