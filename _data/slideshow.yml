@@ -17,23 +17,6 @@
 #      - Quotes around the values are optional.
 #      - Non-required attributes with blank values can be omitted completely.
 
-
-- title:
-  desc:
-  image: members1.jpg
-
-- title:
-  desc:
-  image: members2.jpg
-
-- title:
-  desc:
-  image: members3.jpg
-
-- title:
-  desc:
-  image: members4.jpg
-
 - title: At IGSC 2018
   desc:
   image: 2018-IGSC.jpg
