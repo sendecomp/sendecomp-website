@@ -110,8 +110,9 @@
   area: per
   photo: percepolis.jpg
   members:
-    - name: Tyler Morrow
+    - name: Richard Kell
     - name: Alex Schriewer
+    - name: Tyler Morrow
     - name: Shaun Wagner
     - name: Dr. Ali Hurson
     - name: Dr. Sahra Sedigh Sarvestani
@@ -264,12 +265,13 @@
   area: emb
   photo: esd.svg
   members:
-    - name: Pratik Maheshwari
-    - name: Antonio Sabatini
-    - name: Tianqi Li
+    - name: Madison Childress
     - name: Natasha Jarus
     - name: Brad Ziegler
     - name: Gabriel Krukowski
+    - name: Pratik Maheshwari
+    - name: Antonio Sabatini
+    - name: Tianqi Li
     - name: Dr. David Pommerenke
     - name: Dr. Sahra Sedigh Sarvestani
   sponsors:

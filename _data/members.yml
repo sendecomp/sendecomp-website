@@ -56,8 +56,8 @@
 - name: Brad Ziegler
   major: Computer Engineering - GAANN Fellow
   degree: PhD
-  status: Active
-  grad: 2022 May
+  status: Alumni
+  #grad: 2022 May
   project: Software-Based Analysis of the Immunity of Embedded Systems to ESD
   website: https://sites.google.com/mst.edu/bjzce8
   photo: Ziegler.jpg
@@ -73,7 +73,7 @@
 - name: Alex Schriewer
   major: Computer and Electrical Engineering
   degree: BS
-  status: Active
+  status: Alumni
   grad: 2019 May
   project: |
     Pervasive Cyberinfrastructure for Personalized eLearning and Instructional
@@ -148,19 +148,19 @@
   major: Computer Engineering - GAANN Fellow
   degree: PhD
   status: Active
-  grad: 2019 December
+  grad: 2021 May
   project: Cyber-Physical System Model Transformation
   website: http://web.mst.edu/~nmjxv3/
   photo: Jarus.jpg
 
-  #- name: Mike Wisely
-  #  major: "Computer Science - GAANN Fellow, Chancellor's Fellow"
-  #  degree: PhD
-  #  status: Active
-  #  grad: 2018 May
-  #  project: Distributed Analysis and Prediction of Vehicular Traffic
-  #  website: http://web.mst.edu/~mwwcp2/
-  #  photo: Wisely.jpg
+- name: Mike Wisely
+  major: "Computer Science - GAANN Fellow, Chancellor's Fellow"
+  degree: PhD
+  status: Alumni
+  #grad: 2018 May
+  project: Distributed Analysis and Prediction of Vehicular Traffic
+  website: http://web.mst.edu/~mwwcp2/
+  photo: Wisely.jpg
 
 - name: Koosha Marashi
   major: Computer Engineering - UTC Fellow
