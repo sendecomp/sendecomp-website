@@ -10,10 +10,10 @@ title: Publications
   <div class="col-xs-3">
     <ul class="nav nav-tabs pull-right" role="tablist">
       <li role="presentation" class="active">
-        <a href="#by-type" aria-controls="by-type" role="tab" data-toggle="tab">By Type</a>
+        <a href="#by-year" aria-controls="by-year" role="tab" data-toggle="tab">By Year</a>
       </li>
       <li role="presentation">
-        <a href="#by-year" aria-controls="by-year" role="tab" data-toggle="tab">By Year</a>
+        <a href="#by-type" aria-controls="by-type" role="tab" data-toggle="tab">By Type</a>
       </li>
     </ul>
   </div>
@@ -23,7 +23,7 @@ title: Publications
   <!-- Generate 'export to bibtex' dialogs -->
   {% bibliography --template bibtex-modal %}
   <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="by-type">
+    <div role="tabpanel" class="tab-pane" id="by-type">
       <nav class="col-sm-3 bs-docs-sidebar hidden-xs no-print">
         <ul id="by-type-sidebar" class="col-sm-3 nav nav-stacked fixed">
           <li class="col-sm-6 col-md-8" style="margin-left: -15px;">
@@ -54,7 +54,7 @@ title: Publications
         {% bibliography --query @*[groups=old] --group_by type %}
       </div>
     </div>
-    <div role="tabpanel" class="tab-pane" id="by-year">
+    <div role="tabpanel" class="tab-pane active" id="by-year">
       <nav class="col-sm-3 bs-docs-sidebar hidden-xs no-print">
         <ul id="by-year-sidebar" class="col-sm-3 nav nav-stacked fixed">
           <li class="col-sm-6 col-md-8" style="margin-left: -15px;">
