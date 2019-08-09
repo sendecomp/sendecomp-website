@@ -121,7 +121,31 @@ However, it requires that Missouri S&amp;T's IT department has given you permiss
 #### Deployment Automation
 
 The deployment of the website has been automated through a tool called [Buddy](https://buddy.works).
-The pipeline for deployment can be modified [here](https://app.buddy.works/sendecomp/sendecomp-website/pipelines).
+The pipeline for deployment can be modified [here](https://app.buddy.works/sendecomp-1/sendecomp-website/pipelines).
+
+If you would like to be notified when a deployment fails, add yourself to the [recipients list](https://app.buddy.works/sendecomp-1/sendecomp-website/pipelines/pipeline/203887/action/417154/edit).
+
+Pipeline configuration:
+1. Jekyll action:
+    ```
+    chown -R jekyll:jekyll $WORKING_DIR
+    bundle config build.nokogiri --use-system-libraries
+    bundle install
+    bundle exec jekyll build
+    ```
+1. SFTP action:
+  * Source path: `_site/`
+  * Hostname: `minersftp.mst.edu`
+  * Remote path: `/userweb/sendecomp`
+  * Make sure your user has permissions to write to this directory
+1. Email notification on failure:
+    ```
+    Welp, that didn't work. Looks like $BUDDY_FAILED_ACTION_NAME had a problem.
+    
+    Log: $BUDDY_FAILED_ACTION_LOGS
+    
+    Execution: $BUDDY_EXECUTION_URL
+    ```
 
 [1]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/publications.bib
 [2]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/members.yml

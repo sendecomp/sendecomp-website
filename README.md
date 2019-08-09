@@ -1,5 +1,7 @@
 # SeNDeComp Website
 
+[![buddy pipeline](https://app.buddy.works/sendecomp-1/sendecomp-website/pipelines/pipeline/203887/badge.svg?token=cadfd6101940366d5337c2401e3d5ad3567fa3bbac97beef7ca15255c4222fe3 "buddy pipeline")](https://app.buddy.works/sendecomp-1/sendecomp-website/pipelines/pipeline/203887)
+
 Welcome to the SeNDeComp website repository.
 
 Here you will find the source code for [http://web.mst.edu/~sendecomp/](http://web.mst.edu/~sendecomp/).
@@ -13,10 +15,6 @@ This website uses a static website generator called [Jekyll](https://jekyllrb.co
 ### Automatic
 
 The website is automatically built and deployed using a continuous integration tool called [BuddyWorks](https://buddy.works/) whenever a new push is performed (or files are updated directly on GitHub).
-
-Below is an indicator of the status of compilation and deployment on BuddyWorks.
-
-[![buddy pipeline](https://app.buddy.works/sendecomp/sendecomp-website/pipelines/pipeline/54590/badge.svg?token=97a57f3597c85391efcf4422870766d9840b706273fde304de12a2eee10770de "buddy pipeline")](https://app.buddy.works/sendecomp/sendecomp-website/pipelines/pipeline/54590)
 
 ### Manual
 
