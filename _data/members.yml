@@ -101,6 +101,14 @@
   photo: Kell.jpg
   website: https://sites.google.com/mst.edu/sendecomp/
 
+- name: Johnathan Dunker
+  major: Computer Science and Computer Engineering
+  degree: BS
+  status: Active
+  grad: 2019 Dec
+  project: Software-Based Analysis of the Immunity of Embedded Systems to ESD
+  photo: Dunker.jpg
+
 - name: Melanie Bruce
   major: Computer Engineering
   degree: BS
