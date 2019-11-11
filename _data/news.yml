@@ -15,8 +15,24 @@
 #           in the entry
 #      - Non-required attributes with blank values can be omitted completely.
 
+- title: "Natasha Jarus's paper has been accepted"
+  summary: "Natasha Jarus, Dr. Sedigh Sarvestani, and Dr. Hurson's paper \"Towards Refinement and Generalization of Reliability Models Based on Component States\" has been accepted to the Resilience Week Symposium."
+  url: https://arxiv.org/abs/1910.04027
+  date: 2019-11-04
+- title: "Natasha Jarus's paper has been accepted"
+  summary: "Natasha Jarus, Dr. Sedigh Sarvestani, and Dr. Hurson's paper \"Formalizing Cyber–Physical System Model Transformation Via Abstract Interpretation\" has been accepted to the High Assurance Systems Engineering Symposium (HASE)."
+  url: https://dx.doi.org/10.1109/HASE.2019.00025
+  date: 2019-01-03
+- title: "Brad Ziegler's paper has been accepted"
+  summary: "Brad Ziegler, Dr. Sedigh Sarvestani, and Dr. Hurson's paper \"Facilitating Failure Analysis with Software Instrumentation\" has been accepted to the High Assurance Systems Engineering Symposium (HASE)."
+  url: https://dx.doi.org/10.1109/HASE.2019.00029
+  date: 2019-01-03
+- title: "Natasha Jarus's paper has been accepted"
+  summary: "Natasha Jarus, Dr. Sedigh Sarvestani, and Dr. Hurson's paper \"Facilitating Model-Based Design and Evaluation for Sustainability\" has been accepted to the International Green and Sustainable Computing Conference (IGSC)."
+  url: https://dx.doi.org/10.1109/IGCC.2018.8752119
+  date: 2018-10-22
 - title: "Michael Wisely's Broadcasting journal paper has been accepted"
-  summary: "Dr. Hurson, Dr. Sedigh, and Michael Wisely's \"Energy-Efficient Algorithms for Data Retrieval from Indexed Parallel Broadcast Channels\" has been accepted to Sustainable Computing: Informatics and Systems (SUSCOM)."
+  summary: "Dr. Hurson, Dr. Sedigh, and Michael Wisely's paper \"Energy-Efficient Algorithms for Data Retrieval from Indexed Parallel Broadcast Channels\" has been accepted to Sustainable Computing: Informatics and Systems (SUSCOM)."
   url: http://www.sciencedirect.com/science/article/pii/S2210537917302925
   date: 2017-03-01
 - title: "New Member: Brad Ziegler"
