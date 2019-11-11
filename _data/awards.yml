@@ -156,18 +156,25 @@
   bibkey: AlS16
 
 - name: "International Green and Sustainable Computing (IGSC) Travel Award"
+  year: 2019
+  type: Travel Grants
+  people:
+    - name: N. Jarus
+
+- name: "International Green and Sustainable Computing (IGSC) Travel Award"
   year: 2018
   type: Travel Grants
   people:
+    - name: N. Jarus
     - name: "B. Ziegler"
 
-- name: "PerCom 2015 NSF Travel Grant"
+- name: "PerCom NSF Travel Grant"
   year: 2015
   type: Travel Grants
   people:
     - name: "T. Morrow"
 
-- name: "PerCom 2015 IEEE Student Travel Grant"
+- name: "PerCom IEEE Student Travel Grant"
   year: 2015
   type: Travel Grants
   people:
