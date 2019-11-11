@@ -75,10 +75,11 @@
   area: cpci
   photo: dependability.jpg
   members:
-    - name: Mark Woodard
-    - name: Koosha Marashi
     - name: Dr. Ali Hurson
     - name: Dr. Sahra Sedigh Sarvestani
+  inactive-members:
+    - name: Mark Woodard
+    - name: Koosha Marashi
   sponsors:
     - name: Intelligent Systems Center
     - name: University Transportation Center
@@ -110,12 +111,13 @@
   area: per
   photo: percepolis.jpg
   members:
+    - name: Dr. Ali Hurson
+    - name: Dr. Sahra Sedigh Sarvestani
+  inactive-members:
     - name: Richard Kell
     - name: Alex Schriewer
     - name: Tyler Morrow
     - name: Shaun Wagner
-    - name: Dr. Ali Hurson
-    - name: Dr. Sahra Sedigh Sarvestani
   sponsors:
     - name: Intelligent Systems Center
 
@@ -137,9 +139,10 @@
   area: per
   photo: traffic.png
   members:
-    - name: Mike Wisely
     - name: Dr. Ali Hurson
     - name: Dr. Sahra Sedigh Sarvestani
+  inactive-members:
+    - name: Mike Wisely
 
 - name: Agent-Based Analysis and Mitigation of Failure in Cyber-Physical Systems
   desc: >
@@ -266,14 +269,16 @@
   photo: esd.svg
   members:
     - name: Madison Childress
+    - name: Johnathan Dunker
     - name: Natasha Jarus
+    - name: Dr. David Pommerenke
+    - name: Dr. Sahra Sedigh Sarvestani
+  inactive-members:
     - name: Brad Ziegler
     - name: Gabriel Krukowski
     - name: Pratik Maheshwari
     - name: Antonio Sabatini
     - name: Tianqi Li
-    - name: Dr. David Pommerenke
-    - name: Dr. Sahra Sedigh Sarvestani
   sponsors:
     - name: Samsung
     - name: NSF I/UCRC for Electromagnetic Compatibility
