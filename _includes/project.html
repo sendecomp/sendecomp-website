@@ -1,8 +1,14 @@
 <div class="list-group-item">
   <h5 id="{{ proj.name | slugify }}">{{ proj.name }}</h5>
   <div class="row">
+		{% if proj.members and proj.inactive-members and proj.sponsors %}
+		{% assign col_class = "col-sm-4" %}
+		{% else %}
+		{% assign col_class = "col-sm-6" %}
+		{% endif %}
+
     {% if proj.members %}
-    <div class="col-sm-6">
+		<div class={{ col_class }}>
       <h6>Participant{% if proj.members.size > 1 %}s{% endif %}</h6>
       <ul>
         {% for member in proj.members %}
@@ -12,7 +18,7 @@
     </div>
     {% endif %}
     {% if proj.inactive-members %}
-    <div class="col-sm-6">
+		<div class={{ col_class }}>
       <h6>Past Participant{% if proj.inactive-members.size > 1 %}s{% endif %}</h6>
       <ul>
         {% for member in proj.inactive-members %}
@@ -22,7 +28,7 @@
     </div>
     {% endif %}
     {% if proj.sponsors %}
-    <div class="col-sm-6">
+		<div class={{ col_class }}>
       <h6>Sponsor{% if proj.sponsors.size > 1 %}s{% endif %}</h6>
       <ul>
         {% for sponsor in proj.sponsors %}
