@@ -90,6 +90,14 @@
   photo: Childress.jpg
   website: https://sites.google.com/mst.edu/madisonchildress/
 
+- name: Áva Klingbeil
+  major: Computer Science
+  degree: BS
+  status: Active
+  grad: 2019 May
+  project: Software-Based Analysis of the Immunity of Embedded Systems to ESD
+  photo: Klingbeil.jpg
+
 - name: Richard Kell
   major: Computer Science
   degree: BS
