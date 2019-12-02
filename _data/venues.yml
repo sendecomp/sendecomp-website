@@ -228,12 +228,12 @@
   type: Conference
 
 - name: "IEEE International Instrumentation and Measurement Technology Conference (I2MTC)"
-  website: "http://2017.imtc.ieee-ims.org/"
+  website: "http://imtc.ieee-ims.org/"
   area: emb
   type: Conference
 
 - name: "International Symposium on Engineering Secure Software and Systems"
-  website: "https://distrinet.cs.kuleuven.be/events/essos/2017/calls-papers.html"
+  website: "https://distrinet.cs.kuleuven.be/events/essos/"
   area: emb
   type: conference
 
@@ -243,11 +243,51 @@
   type: conference
 
 - name: "Hardware and Architectural Support for Security and Privacy (HASP)"
-  website: "http://caslab.csl.yale.edu/workshops/hasp2017/"
+  website: "http://caslab.csl.yale.edu/workshops/hasp2020/"
   area: emb
   type: conference
 
 - name: "The ACM Conference on Computer and Communications Security (CCS)"
-  website: "http://www.sigsac.org/ccs/CCS2017/"
+  website: "http://www.sigsac.org/ccs.html"
   area: emb
   type: conference
+
+- name: "Electrical Overstress/Electrostatic Discharge Symposium (EOS/ESD)"
+  website: https://www.esda.org/events/
+  area: emb
+  type: conference
+
+- name: "International ESD Workshop (IEW)"
+  website: https://www.esda.org/events/
+  area: emb
+  type: conference
+
+- name: "Conference on Availability, Reliability and Security (ARES)"
+  website: https://www.ares-conference.eu/
+  area: emb
+  type: conference
+
+- name: "IEEE International Symposium on Electromagnetic Compatibility, Signal and Power Integrity (EMC+SIPI)"
+  website: http://www.emcss.org/
+  area: emb
+  type: conference
+
+- name: "ACM SIGMETRICS"
+  website: http://www.sigmetrics.org/sigmetrics2020/
+  area: emb
+  type: conference
+
+- name: "IEEE Transactions on Electromagnetic Compatibility"
+  website: https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=15
+  area: emb
+  type: journal
+
+- name: "IEEE Transactions on Instrumentation and Measurement"
+  website: https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=19
+  area: emb
+  type: journal
+
+- name: "IEEE Transactions on Device and Materials Reliability"
+  website: https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=7298
+  area: emb
+  type: journal
