@@ -120,32 +120,15 @@ However, it requires that Missouri S&amp;T's IT department has given you permiss
 
 #### Deployment Automation
 
-The deployment of the website has been automated through a tool called [Buddy](https://buddy.works).
-The pipeline for deployment can be modified [here](https://app.buddy.works/sendecomp-1/sendecomp-website/pipelines).
+The deployment of the website is automated through [GitHub Actions](https://help.github.com/en/actions).
+The script can be found at `.github/workflows/jekyll.yml`.
 
-If you would like to be notified when a deployment fails, add yourself to the [recipients list](https://app.buddy.works/sendecomp-1/sendecomp-website/pipelines/pipeline/203887/action/417154/edit).
+It uses two [secrets](https://github.com/sendecomp/sendecomp-website/settings/secrets), `SFTP_USER` and `SFTP_PASSWORD`.
+Make sure this user has permissions to write to the `/userweb/sendecomp/` directory.[^9]
 
-Pipeline configuration:
-1. Jekyll action:
-    ```
-    chown -R jekyll:jekyll $WORKING_DIR
-    bundle config build.nokogiri --use-system-libraries
-    bundle install
-    bundle exec jekyll build
-    ```
-1. SFTP action:
-  * Source path: `_site/`
-  * Hostname: `minersftp.mst.edu`
-  * Remote path: `/userweb/sendecomp`
-  * Make sure your user has permissions to write to this directory
-1. Email notification on failure:
-    ```
-    Welp, that didn't work. Looks like $BUDDY_FAILED_ACTION_NAME had a problem.
-    
-    Log: $BUDDY_FAILED_ACTION_LOGS
-    
-    Execution: $BUDDY_EXECUTION_URL
-    ```
+We could speed the deployment up with caching; however, GitHub's actions cache only lasts 7 days which is not long enough for it to be useful to us.
+That leaves us with creating our own docker image and updating it when we change versions in the `Gemfile`.
+If you want to do this, go right ahead!
 
 [1]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/publications.bib
 [2]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/members.yml
@@ -155,3 +138,4 @@ Pipeline configuration:
 [6]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/venues.yml
 [7]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/awards.yml
 [8]: https://github.com/sendecomp/sendecomp-website/blob/master/_data/news.yml
+[9]: Yes, there is technically a way to get the username and password out of the secret store. Don't do it.

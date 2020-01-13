@@ -1,6 +1,6 @@
 # SeNDeComp Website
 
-[![buddy pipeline](https://app.buddy.works/sendecomp-1/sendecomp-website/pipelines/pipeline/203887/badge.svg?token=cadfd6101940366d5337c2401e3d5ad3567fa3bbac97beef7ca15255c4222fe3 "buddy pipeline")](https://app.buddy.works/sendecomp-1/sendecomp-website/pipelines/pipeline/203887)
+![deploy status](https://github.com/sendecomp/sendecomp-website/workflows/Jekyll%20site%20CI/badge.svg)
 
 Welcome to the SeNDeComp website repository.
 
@@ -14,7 +14,7 @@ This website uses a static website generator called [Jekyll](https://jekyllrb.co
 
 ### Automatic
 
-The website is automatically built and deployed using a continuous integration tool called [BuddyWorks](https://buddy.works/) whenever a new push is performed (or files are updated directly on GitHub).
+The website is automatically built and deployed using [GitHub Actions](https://help.github.com/en/actions).
 
 ### Manual
 
