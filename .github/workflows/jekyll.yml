@@ -31,4 +31,3 @@ jobs:
         METHOD: sftp
         LOCAL_DIR: ${{ github.workspace }}/_site
         REMOTE_DIR: /userweb/sendecomp
-        ARGS: --dry-run
