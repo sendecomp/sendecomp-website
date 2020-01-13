@@ -1,6 +1,6 @@
 # SeNDeComp Website
 
-![deploy status](https://github.com/sendecomp/sendecomp-website/workflows/Jekyll%20site%20CI/badge.svg)
+[![deploy status](https://github.com/sendecomp/sendecomp-website/workflows/Jekyll%20site%20CI/badge.svg)](https://github.com/sendecomp/sendecomp-website/actions)
 
 Welcome to the SeNDeComp website repository.
 
