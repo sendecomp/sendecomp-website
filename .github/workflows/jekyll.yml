@@ -12,6 +12,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
+    - name: Cache bundle dependencies
+      uses: actions/cache@v1
+      with:
+        path: ${{ github.workspace }}/vendor
+        key: ${{ runner.os }}-bundle-${{ hashFiles('Gemfile') }}
     - name: Build the site in the jekyll/builder container
       run: |
         docker run \
