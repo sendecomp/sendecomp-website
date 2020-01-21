@@ -19,13 +19,14 @@ scholar:
   source: ./_data
   bibliography: publications.bib
   style: _csl/ieee.csl
+  bibtex_filters: [smallcaps,superscript]
   bibliography_template: bib
   bibliography_list_tag: 'ul
                           style="list-style-type: none;
                           list-style-position:inside;
                           margin:0;
                           padding:0;"'
-  locale: en
+  locale: _csl/locales-en-US.xml
   sort_by: year
   order: descending
   group_order: ascending

@@ -1,3 +1,6 @@
+---
+---
+
 <div class="list-group-item pub">
   <div class="media">
     {% if entry.badge  %}
@@ -13,7 +16,9 @@
     {% endif %}
     <div class="media-body">
       <h6 id="citation" class="media-heading">
-        {{ reference | replace: '“', '"' | replace: '”', '"' | replace: '–', '-' | replace: "’", "'" }}
+        {%- assign close-curly = '}' -%}
+        {%- assign eacute = "{\'e}" -%}
+        {{ reference | replace: "--", "&ndash;" | replace: eacute, "&eacute;" | replace: "\&", "&" | replace: '{', '' | replace: close-curly, '' }}
       </h6>
       <strong>Status:</strong>
       {% if entry.status %}
