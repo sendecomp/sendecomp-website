@@ -53,6 +53,16 @@
   website: http://hurson.weebly.com/
   photo: Hurson.jpg
 
+- name: Sanfan Liu
+  major: Computer Engineering
+  degree: BS
+  status: Active
+  grad: May 2021
+  photo: Liu.jpg
+  project: |
+    Pervasive Cyberinfrastructure for Personalized eLearning and Instructional
+    Support (PERCEPOLIS)  
+
 - name: Brad Ziegler
   major: Computer Engineering - GAANN Fellow
   degree: PhD
