@@ -130,8 +130,16 @@
 
 - name: Johnathan Dunker
   major: Computer Engineering
-  degree: BS
+  degree: PhD
   status: Active
+  grad: 2024 Dec
+  project: Software-Based Analysis of the Immunity of Embedded Systems to ESD
+  photo: Dunker.jpg
+
+- name: Johnathan Dunker
+  major: Computer Engineering
+  degree: BS
+  status: Alumni
   grad: 2019 Dec
   project: Software-Based Analysis of the Immunity of Embedded Systems to ESD
   photo: Dunker.jpg
