@@ -16,8 +16,12 @@
 #      - Non-required attributes with blank values can be omitted completely.
 
 - title: "Natasha Jarus's paper has been accepted"
+  summary: "Natasha Jarus, Antonio Sabatini, Pratik Maheshwari, and Dr. Sedigh Sarvestani's paper \"Software-Based Monitoring and Analysis of a USB Host Controller Subject to Electrostatic Discharge\" has been accepted to the International Symposium on Real-Time and Embedded Systems and Technologies (RTEST)."
+  url: https://doi.org/10.1109/RTEST49666.2020.9140117
+  date: 2020-03-02
+- title: "Natasha Jarus's paper has been accepted"
   summary: "Natasha Jarus, Dr. Sedigh Sarvestani, and Dr. Hurson's paper \"Towards Refinement and Generalization of Reliability Models Based on Component States\" has been accepted to the Resilience Week Symposium."
-  url: https://arxiv.org/abs/1910.04027
+  url: https://doi.org/10.1109/RWS47064.2019.8971824
   date: 2019-11-04
 - title: "New Member: Evan Hite"
   summary: "Evan Hite has joined SeNDeComp as a B. S. student!"
