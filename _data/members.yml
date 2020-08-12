@@ -94,7 +94,7 @@
 - name: Madison Childress
   major: Computer and Electrical Engineering
   degree: BS
-  status: Active
+  status: Alumni
   grad: 2019 May
   project: Software-Based Analysis of the Immunity of Embedded Systems to ESD
   photo: Childress.jpg
@@ -103,7 +103,7 @@
 - name: "&Aacute;va Klingbeil"
   major: Computer Science
   degree: BS
-  status: Active
+  status: Alumni
   grad: 2019 May
   project: Software-Based Analysis of the Immunity of Embedded Systems to ESD
   photo: Klingbeil.jpg
@@ -127,14 +127,6 @@
     Support (PERCEPOLIS)  
   photo: Kell.jpg
   website: https://sites.google.com/mst.edu/sendecomp/
-
-- name: Johnathan Dunker
-  major: Computer Engineering
-  degree: PhD
-  status: Active
-  grad: 2024 Dec
-  project: Software-Based Analysis of the Immunity of Embedded Systems to ESD
-  photo: Dunker.jpg
 
 - name: Johnathan Dunker
   major: Computer Engineering
