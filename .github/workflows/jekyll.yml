@@ -1,9 +1,6 @@
 name: Jekyll site CI
 
-on:
-  push:
-    branches:
-      - master
+on: [push, pull_request]
 
 jobs:
   build:
@@ -26,6 +23,7 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/master' # only deploy on master
     steps:
       - name: Download built site
         uses: actions/download-artifact@v2
