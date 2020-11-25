@@ -1,14 +1,13 @@
 name: Jekyll site CI
 
-on: [push, pull_request]
+on: [ push, pull_request ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Setup ruby
-        uses: ruby/setup-ruby@v1.52.0
+      - uses: ruby/setup-ruby@v1.52.0
         with:
           ruby-version: 2.7
       - name: Install dependencies & build site
@@ -20,6 +19,24 @@ jobs:
         with:
           name: site-build
           path: _site
+  lint:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ruby/setup-ruby@v1.52.0
+        with:
+          ruby-version: 2.7
+      - name: Download built site
+        uses: actions/download-artifact@v2
+        with:
+          name: site-build
+      - name: Install dependencies & build site
+        uses: limjh16/jekyll-action-ts@v2
+        with:
+          enable_cache: true
+      - name: Lint code
+        run: bundle exec rubocop --fail-level error
   deploy:
     needs: build
     runs-on: ubuntu-latest
