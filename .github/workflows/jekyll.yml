@@ -36,7 +36,7 @@ jobs:
         with:
           enable_cache: true
       - name: Lint code
-        run: bundle exec rubocop --fail-level error
+        run: bundle exec rubocop --fail-level warning
   deploy:
     needs: build
     runs-on: ubuntu-latest
