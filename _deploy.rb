@@ -39,11 +39,10 @@ def delete_directory_contents(directory, sftp, level)
     begin
       sftp.remove!("#{directory}/#{file.name}")
       level_print("Deleted File: #{file.name}", level + 1)
-    rescue Net::SFTP::StatusException => e
+    rescue Net::SFTP::StatusException
       delete_directory_contents("#{directory}/#{file.name}", sftp, level + 1)
       sftp.rmdir("#{directory}/#{file.name}")
       level_print("Deleted Directory: #{file.name}", level + 1)
-      # puts "Error: " + e.description
     end
   end
 end
