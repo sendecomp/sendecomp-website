@@ -11,3 +11,6 @@ _site/
 # Ignore bundler files
 vendor/
 .bundle/
+
+.jekyll-cache/
+.idea/
