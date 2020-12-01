@@ -52,6 +52,6 @@ jobs:
           server: minersftp.mst.edu
           username: ${{ secrets.SFTP_USER }}
           password: ${{ secrets.SFTP_PASSWORD }}
-          protocol: sftp
+          protocol: ftps
           local-dir: _site/
           server-dir: /userweb/sendecomp/
