@@ -48,11 +48,9 @@ jobs:
           name: site-build
           path: ~/sendecomp-website/
       - name: Deploy the site to web.mst.edu
-        uses: SamKirkland/FTP-Deploy-Action@4.0.0
+        uses: SamKirkland/FTP-Deploy-Action@3.1.1
         with:
-          server: minersftp.mst.edu
-          username: ${{ secrets.SFTP_USER }}
-          password: ${{ secrets.SFTP_PASSWORD }}
-          protocol: ftps
+          ftp-server: sftp://minersftp.mst.edu/userweb/sendecomp
+          ftp-username: ${{ secrets.SFTP_USER }}
+          ftp-password: ${{ secrets.SFTP_PASSWORD }}
           local-dir: /home/runner/sendecomp-website/
-          server-dir: /userweb/sendecomp/
