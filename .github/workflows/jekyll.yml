@@ -46,6 +46,7 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: site-build
+          path: ~/sendecomp-website/
       - name: Deploy the site to web.mst.edu
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
@@ -53,5 +54,5 @@ jobs:
           username: ${{ secrets.SFTP_USER }}
           password: ${{ secrets.SFTP_PASSWORD }}
           protocol: ftps
-          local-dir: _site/
+          local-dir: /home/runner/sendecomp-website/
           server-dir: /userweb/sendecomp/
