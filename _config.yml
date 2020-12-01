@@ -19,7 +19,7 @@ scholar:
   source: ./_data
   bibliography: publications.bib
   style: _csl/ieee.csl
-  bibtex_filters: [smallcaps,superscript]
+  bibtex_filters: [latex,smallcaps,superscript,Unicode_to_HTML]
   bibliography_template: bib
   bibliography_list_tag: 'ul
                           style="list-style-type: none;
