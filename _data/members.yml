@@ -107,6 +107,7 @@
   degree: BS
   status: Active
   grad: May 2021
+  photo: Gleiforst.jpg
   project: |
     Pervasive Cyberinfrastructure for Personalized eLearning and Instructional
     Support (PERCEPOLIS)
@@ -125,7 +126,7 @@
   major: Computer Engineering
   degree: BS
   status: Active
-  grad: May 2021
+  grad: May 2023
   photo: Chaves.jpg
   project: |
     Pervasive Cyberinfrastructure for Personalized eLearning and Instructional
@@ -175,6 +176,15 @@
   photo: Muecke.jpg
   project: | 
     Cybersecurity and Survivability Analysis of Autonomous Vehicles Under Cyber Attack
+
+- name: Bikis Muhammed
+  major: Computer Science
+  degree: BS
+  status: Active
+  grad: December 2021
+  photo: Muhammed.jpg
+  project: | 
+    Distributed Analysis and Prediction of Vehicular Traffic
 
 - name: Brad Ziegler
   major: Computer Engineering - GAANN Fellow
