@@ -9,7 +9,7 @@
 #     The attributes available for STUDENT MEMBER records are as follows:
 #         name        The full name of the member
 #         major       The name of their major,
-#                         e.g., Computer Engineerin
+#                         e.g., Computer Engineering
 #         degree      Enter "BS", "MS", "PhD", or "Postdoc" only*
 #         status      Enter "Active" or "Alumni" only*
 #         grad        The year and month the member graduates
@@ -53,15 +53,138 @@
   website: http://hurson.weebly.com/
   photo: Hurson.jpg
 
-- name: Sanfan Liu
+- name: Nicolas Dobbins
   major: Computer Engineering
   degree: BS
   status: Active
   grad: May 2021
+  photo: Dobbins.jpg
+  project: |
+    Pervasive Cyberinfrastructure for Personalized eLearning and Instructional
+    Support (PERCEPOLIS)  
+
+- name: Sanfan Liu
+  major: Computer Engineering
+  degree: BS
+  status: Active
+  grad: December 2021
   photo: Liu.jpg
   project: |
     Pervasive Cyberinfrastructure for Personalized eLearning and Instructional
     Support (PERCEPOLIS)  
+
+- name: Hayden Dixon
+  major: Computer Engineering and Computer Science
+  degree: BS
+  status: Active
+  grad: May 2021
+  photo: Dixon.jpg
+  project: |
+    Pervasive Cyberinfrastructure for Personalized eLearning and Instructional
+    Support (PERCEPOLIS)
+  website: https://sites.google.com/umsystem.edu/haydentdixon/home
+  
+- name: Mitchell Skaggs
+  major: Computer Engineering
+  degree: BS
+  status: Active
+  grad: December 2021
+  project: |
+    Pervasive Cyberinfrastructure for Personalized eLearning and Instructional
+    Support (PERCEPOLIS) 
+
+- name: Hans Hernandez
+  major: Computer Engineering
+  degree: BS
+  status: Active
+  grad: May 2021
+  project: |
+    Pervasive Cyberinfrastructure for Personalized eLearning and Instructional
+    Support (PERCEPOLIS)
+    
+- name: Thomas Gleiforst
+  major: Computer Engineering
+  degree: BS
+  status: Active
+  grad: May 2021
+  photo: Gleiforst.jpg
+  project: |
+    Pervasive Cyberinfrastructure for Personalized eLearning and Instructional
+    Support (PERCEPOLIS)
+
+- name: Colton Walker
+  major: Computer Engineering and Computer Science
+  degree: BS
+  status: Active
+  grad: May 2023
+  photo: Walker.jpg
+  project: |
+    Pervasive Cyberinfrastructure for Personalized eLearning and Instructional
+    Support (PERCEPOLIS)
+
+- name: Arianna Chaves
+  major: Computer Engineering
+  degree: BS
+  status: Active
+  grad: May 2023
+  photo: Chaves.jpg
+  project: |
+    Pervasive Cyberinfrastructure for Personalized eLearning and Instructional
+    Support (PERCEPOLIS) 
+    
+- name: Connor Jones
+  major: Computer Engineering
+  degree: BS
+  status: Active
+  grad: December 2021
+  photo: Jones.jpg
+  project: | 
+    Distributed Analysis and Prediction of Vehicular Traffic
+
+- name: Karl Frank
+  major: Computer Science
+  degree: BS
+  status: Active
+  grad: December 2021
+  photo: Frank.jpg
+  project: | 
+    Distributed Analysis and Prediction of Vehicular Traffic
+
+- name: Curtis Brinker
+  major: Computer Science
+  degree: BS
+  status: Active
+  grad: May 2022
+  photo: Brinker.jpg
+  project: | 
+    Cybersecurity and Survivability Analysis of Autonomous Vehicles Under Cyber Attack
+    
+- name: Elanor Jackson
+  major: Computer Engineering
+  degree: BS
+  status: Active
+  grad: May 2022
+  photo: Jackson.jpg
+  project: | 
+    Cybersecurity and Survivability Analysis of Autonomous Vehicles Under Cyber Attack
+    
+- name: Anna Muecke
+  major: Computer Science
+  degree: BS
+  status: Active
+  grad: May 2023
+  photo: Muecke.jpg
+  project: | 
+    Cybersecurity and Survivability Analysis of Autonomous Vehicles Under Cyber Attack
+
+- name: Bikis Muhammed
+  major: Computer Science
+  degree: BS
+  status: Active
+  grad: December 2021
+  photo: Muhammed.jpg
+  project: | 
+    Distributed Analysis and Prediction of Vehicular Traffic
 
 - name: Brad Ziegler
   major: Computer Engineering - GAANN Fellow

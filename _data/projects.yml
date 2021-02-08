@@ -111,6 +111,14 @@
   area: per
   photo: percepolis.jpg
   members:
+    - name: Nic Dobbins
+    - name: Sanfan Liu
+    - name: Mitchell Skaggs
+    - name: Hayden Dixon
+    - name: Hans Hernandez
+    - name: Thomas Gleiforst
+    - name: Colton Walker
+    - name: Arianna Chaves
     - name: Dr. Ali Hurson
     - name: Dr. Sahra Sedigh Sarvestani
   inactive-members:
@@ -139,6 +147,8 @@
   area: per
   photo: traffic.png
   members:
+    - name: Connor Jones
+    - name: Karl Frank
     - name: Dr. Ali Hurson
     - name: Dr. Sahra Sedigh Sarvestani
   inactive-members:
@@ -387,3 +397,14 @@
     - name: Dr. Sahra Sedigh Sarvestani
   sponsors:
     - name: Intelligent Systems Center
+  
+- name: Cybersecurity and Survivability Analysis of Autonomous Vehicles Under Cyber Attack
+  desc: >
+  status: Active
+  area: cpci
+  photo:
+  members:
+    - name: Curtis Brinker
+    - name: Elanor Jackson
+    - name: Anna Muecke
+    - name: Dr. Sahra Sedigh Sarvestani
