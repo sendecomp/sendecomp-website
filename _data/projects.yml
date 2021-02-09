@@ -278,14 +278,12 @@
   area: emb
   photo: esd.svg
   members:
-    - name: Madison Childress
-    - name: Johnathan Dunker
     - name: Natasha Jarus
-    - name: "&Aacute;va Klingbeil"
+    - name: Joel Schott
     - name: Evan Hite
-    - name: Dr. David Pommerenke
     - name: Dr. Sahra Sedigh Sarvestani
   inactive-members:
+    - name: Ava Klingbeil
     - name: Brad Ziegler
     - name: Gabriel Krukowski
     - name: Pratik Maheshwari
