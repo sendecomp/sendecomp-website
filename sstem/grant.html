@@ -1,0 +1,38 @@
+---
+layout: page
+title: S-STEM Grant
+---
+
+{% assign news = site.data.news | sort: 'date' | reverse %}
+
+<div class="row" style="margin: 25px 0px;" id="contacts">
+  <div class="col-sm-4 col-md-3">
+    <h4>Primary Contact</h4>
+    <h6>
+      Dr. Sahra Sedigh Sarvestani <br/>
+      <a href="mailto:sedighs@mst.edu">sedighs@mst.edu</a>
+    </h6>
+    <p>
+      135 Emerson Electric Co. Hall<br>
+      301 W. 16<sup>th</sup> Street<br>
+      Rolla, MO 65409<br>
+      <abbr title="Phone Number">P</abbr>: +1 (573) 341-7505<br>
+      <abbr title="Fax Number">F</abbr>: +1 (573) 341-4532
+    </p>
+  </div>
+  <div class="col-sm-4 col-md-3">
+    <h4>Lab Location</h3>
+    <h6>212 West - Emerson Hall (Electrical Engineering building)</h4>
+    <p>
+        301 W. 16<sup>th</sup> Street<br>
+        Rolla, MO 65409-0040<br>
+        <abbr title="Phone Number">P</abbr>: +1 (573) 341-6841
+    </p>
+  </div>
+  <div class="col-sm-4 col-md-6">
+    <h4>News</h4>
+    {% for item in news limit:3 %}
+      {% include news-item.html %}
+    {% endfor %}
+  </div>
+</div>
