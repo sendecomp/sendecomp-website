@@ -5,34 +5,60 @@ title: Apply
 
 {% assign news = site.data.news | sort: 'date' | reverse %}
 
-<div class="row" style="margin: 25px 0px;" id="contacts">
-  <div class="col-sm-4 col-md-3">
-    <h4>Primary Contact</h4>
+<div class="row" style="margin: 25px 0px;" id="description">
+	<div class="col-sm-4 col-md-12">
+    <h4>S-STEM Scholarship</h4>
     <h6>
-      Dr. Sahra Sedigh Sarvestani <br/>
-      <a href="mailto:sedighs@mst.edu">sedighs@mst.edu</a>
+      The S-STEM scholarship program is designed to provide financial assistance and experiential learning opportunities to academically-talented
+			students. The program offers students the opportunity to engage in enlightening research that enables them to learn about the research process, 
+			expand their knowledge in an area they're interested in, and explore the possibilities of graduate school. Additionally, the program assists scholars 
+			with obtaining internships and full-time employment. For more details about the program, contact Dr. Sedigh Sarvestani at 
+			<a href="mailto:sedighs@mst.edu">sedighs@mst.edu</a>.
     </h6>
-    <p>
-      135 Emerson Electric Co. Hall<br>
-      301 W. 16<sup>th</sup> Street<br>
-      Rolla, MO 65409<br>
-      <abbr title="Phone Number">P</abbr>: +1 (573) 341-7505<br>
-      <abbr title="Fax Number">F</abbr>: +1 (573) 341-4532
-    </p>
   </div>
-  <div class="col-sm-4 col-md-3">
-    <h4>Lab Location</h3>
-    <h6>212 West - Emerson Hall (Electrical Engineering building)</h4>
-    <p>
-        301 W. 16<sup>th</sup> Street<br>
-        Rolla, MO 65409-0040<br>
-        <abbr title="Phone Number">P</abbr>: +1 (573) 341-6841
-    </p>
+</div>
+
+<div class="row" style="margin: 25px 0px;" id="program-info">
+  <div class="col-sm-4 col-md-6">
+    <h4>Award</h4>
+    <ul>
+      <li>Several scholarships will be awarded</li>
+			<li>Scholarship receipients will receive up to $10,000 per year:
+				<ul>
+					<li>Spring: $4,000</li>
+					<li>Summer: $2,000*</li>
+					<li>Fall: $4,000</li>
+					<li>*Contingent upon enrollment in at least one summer class or one hour of research
+				</ul>
+			</li>
+    </ul>
   </div>
   <div class="col-sm-4 col-md-6">
-    <h4>News</h4>
-    {% for item in news limit:3 %}
-      {% include news-item.html %}
-    {% endfor %}
-  </div>
+    <h4>Program Activities</h4>
+		<ul>
+      <li>Creation of a portfolio for each student</li>
+			<li>Mentorship by faculty members and scholars from previous cohorts</li>
+			<li>Two-day boot camp in August</li>
+			<li>Engagement in multidisciplinary research</li>
+			<li>Attendance and participation in weekly meetings</li>
+			<li>Participation in a summer internship after first year</li>
+    </ul>
+	</div>
+</div>
+
+<div class="row" style="margin: 25px 0px;" id="application">
+	<div class="col-sm-4 col-md-6">
+		<h4>Eligibility</h4>
+    <ul>
+      <li>Must be a U.S. citizen or U.S. permanent resident</li>
+			<li>Demonstrated financial need as determined by FAFSA</li>
+			<li>Must have completed at least 30 hours towards degree program</li>
+			<li>Must have a cumulative GPA of 3.0 or higher</li>
+			<li>Enrollment as a full-time student persuing a degree in Computer Engineering or Computer Science</li>
+			<li>Must agree to participate in all program activities, including post-graduation surveys</li>
+    </ul>
+	</div>
+  <div class="col-sm-4 col-md-6">
+		<button type="button">Apply Now</button>
+	</div>
 </div>
