@@ -1,0 +1,28 @@
+---
+layout: base
+---
+{% assign slideshowitems = site.data.slideshow %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="media">
+        <img class="img-thumbnail media-object pull-left hidden-xs" width="75px"
+             src="{{ site.baseurl }}/img/nsf-logo.png" alt="Missouri S&amp;T"
+             style="margin-right: 25px"></img>
+        <div class="media-body">
+          <h3>{{ page.title }}</h1>
+          <em>Scholarships in Science, Technology, Engineering, and Mathematics</em>
+        </div>
+      </div><br>
+    </div>
+  </div>
+</div>
+<div class="container">
+  {{ content }}
+</div>
+<script type="text/javascript">
+    $('body').scrollspy({
+        target: '.bs-docs-sidebar'
+    });
+</script>
