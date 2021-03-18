@@ -1,38 +1,108 @@
 ---
-layout: page
+layout: sstempage
 title: Percepolis
 ---
 
 {% assign news = site.data.news | sort: 'date' | reverse %}
 
+<style>
+.center {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+	background-color: #4CAF50;
+	color: white;
+}
+</style>
+
 <div class="row" style="margin: 25px 0px;" id="contacts">
-  <div class="col-sm-4 col-md-3">
-    <h4>Primary Contact</h4>
+	<div class="col-sm-4 col-md-12">
+    <h4>Our Goal</h4>
     <h6>
-      Dr. Sahra Sedigh Sarvestani <br/>
-      <a href="mailto:sedighs@mst.edu">sedighs@mst.edu</a>
+      The Percepolis project aims to design and create a web application that employs a set of algorithms to personalize and optimize a student's path
+			to graduation. The algorithms automate and streamline the academic advising process, an area that has largely gone untouched through the rise
+			of technology over the past two decades. The algorithms are designed to help the student tailor their college career and degree to their interests
+			while also ensuring that they complete their degree quickly, but at a pace right for them. The application consists of four algorithms, each
+			enumerated below. The repositories for the project can be found below, however access is required for viewing.
     </h6>
-    <p>
-      135 Emerson Electric Co. Hall<br>
-      301 W. 16<sup>th</sup> Street<br>
-      Rolla, MO 65409<br>
-      <abbr title="Phone Number">P</abbr>: +1 (573) 341-7505<br>
-      <abbr title="Fax Number">F</abbr>: +1 (573) 341-4532
-    </p>
   </div>
-  <div class="col-sm-4 col-md-3">
-    <h4>Lab Location</h3>
-    <h6>212 West - Emerson Hall (Electrical Engineering building)</h4>
-    <p>
-        301 W. 16<sup>th</sup> Street<br>
-        Rolla, MO 65409-0040<br>
-        <abbr title="Phone Number">P</abbr>: +1 (573) 341-6841
-    </p>
+  <div class="col-sm-4 col-md-8">
+    <h4>Algorithms</h4>
+		<ul>
+			<li>Student Performance Evaluation</li>
+				<ul>
+					<li>Evaluates a student's past performance and calculates a suggested credit hour limit</li>
+				</ul>
+			<li>Course Selection and Optimization</li>
+				<ul>
+					<li>
+						Selects courses based upon the student's degree requirements, career interests, and course availability. Once all courses in the
+						path to graduation have been selected, the algorithm puts the courses into semesters in an optimized ordering that represents the
+						fastest path to graduation.
+					</li>
+				</ul>
+			<li>Course Scheduling</li>
+				<ul>
+					<li>
+						Finds all possible schedules for a student for the upcoming semester. Once a schedule has been selected, the student is auto-enrolled,
+						eliminating the need for the student to stress about enrollment times.
+					</li>
+				</ul>
+			<li>Course Difficulty</li>
+				<ul>
+					<li>Evaluates a student's past performance and that of similar students to determine the probability that the student will pass a given course.</li>
+				</ul>
+		</ul>
   </div>
-  <div class="col-sm-4 col-md-6">
-    <h4>News</h4>
-    {% for item in news limit:3 %}
-      {% include news-item.html %}
-    {% endfor %}
+  <div class="col-sm-4 col-md-4">
+    <h4>Scholars</h4>
+		<ul>
+			<li>Nic Dobbins - Master's Student/Server-side Lead</li>
+			<li>Sanfan Liu - Master's Student/Server-side Developer</li>
+			<li>Arianna Chaves - Client-side Lead</li>
+			<li>Mitchell Skaggs - Server-side Developer</li>
+			<li>Hans Hernandez - Server-side Developer</li>
+			<li>Hayden Dixon - Client-side Developer</li>
+			<li>Thomas Gleiforst - Client-side Developer</li>
+			<li>Colton Walker - Client-side Developer</li>
+		</ul>
   </div>
+	<div class="col-sm-4 col-md-12">
+		<h4>Repositories</h4>
+	</div>
+	<div class="col-sm-4 col-md-4">
+		<h5>Documentation</h5>
+		<h6>This repository houses all documentation related to the project.</h6>
+		<div class="center">
+			<a href="https://github.com/sendecomp/percepolis-documentation"
+         class="btn btn-success btn-sm">
+        <i class="fa fa-file-pdf-o"></i>
+        percepolis-documentation
+      </a>
+		</div>
+	</div>
+	<div class="col-sm-4 col-md-4">
+		<h5>Client</h5>
+		<h6>This repository houses the code for the application webpages. The application is not published yet.</h6>
+		<div class="center">
+			<a href="https://github.com/sendecomp/percepolis-client"
+         class="btn btn-success btn-sm">
+        <i class="fa fa-file-pdf-o"></i>
+        percepolis-client
+      </a>
+		</div>
+	</div>
+	<div class="col-sm-4 col-md-4">
+		<h5>Server</h5>
+		<h6>This repository houses the code for the application algorithm and data operations. The application is not published yet.</h6>
+		<div class="center">
+			<a href="https://github.com/sendecomp/percepolis-server"
+         class="btn btn-success btn-sm">
+        <i class="fa fa-file-pdf-o"></i>
+        percepolis-server
+      </a>
+		</div>
+	</div>
 </div>
