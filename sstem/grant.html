@@ -1,0 +1,70 @@
+---
+layout: sstemmain
+title: S-STEM Program
+---
+
+{% assign news = site.data.news | sort: 'date' | reverse %}
+
+<style>
+.center {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+	background-color: #4CAF50;
+	color: white;
+}
+</style>
+
+<div class="row" style="margin: 25px 0px;" id="contacts">
+  <div class="col-sm-4 col-md-12">
+    <h4>About the Program</h4>
+    <h6>
+      The S-STEM program is designed to provide participating scholars with an opportunity to engage in research at Missouri S&amp;T. The program is funded by a grant from the National Science Foundation
+			The program first started in 2019 with one project and has since grown to include three projects, each contributing to different research areas. There are now two cohorts of scholars, the first
+			with six scholars and the second with eight scholars. Each of the three projects are listed with a brief description below, along with links to the project's page and the members of the project.
+    </h6>
+  </div>
+	<div class="col-sm-4 col-md-12">
+		<h4>Projects</h4>
+	</div>
+  <div class="col-sm-4 col-md-4">
+    <h5>PERCEPOLIS</h5>
+    <h6>
+			The PERCEPOLIS project is focused on creating a production-ready application that utilizes a set of algorithms to optimize and personalize a student's path to graduation.
+		</h6>
+		<div class="center">
+			<a href="{{ site.baseurl }}/sstem/percepolis"
+         class="btn btn-success btn-sm">
+        <i class="fa fa-file-pdf-o"></i>
+        Percepolis Page
+      </a>
+		</div>
+  </div>
+  <div class="col-sm-4 col-md-4">
+    <h5>Traffic Prediction</h5>
+    <h6>The Traffic Prediction project aims to create an application that predicts dense road segments in both rural and urban areas using information gained from cell phones or other routing devices.</h6>
+		<div class="center">
+			<a href="{{ site.baseurl }}/sstem/trafficprediction"
+         class="btn btn-success btn-sm">
+        <i class="fa fa-file-pdf-o"></i>
+        Traffic Prediction Page
+      </a>
+		</div>
+  </div>
+	<div class="col-sm-4 col-md-4">
+    <h4>Survivability of Autonomous Vehicles</h3>
+    <h6>
+			The Survivability project simulates cyber-attacks on the digital systems of autonomous vehicles through the use of an autonomous vehicle simulator. The simulations are
+			designed to expose cyber vulnerabilities in these newly developed, high-risk systems.
+		</h6>
+		<div class="center">
+			<a href="{{ site.baseurl }}/sstem/survivability"
+         class="btn btn-success btn-sm">
+        <i class="fa fa-file-pdf-o"></i>
+        Survivability Page
+      </a>
+		</div>
+  </div>
+</div>
